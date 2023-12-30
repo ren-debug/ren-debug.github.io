@@ -1,0 +1,286 @@
+@import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-straight/css/uicons-regular-straight.css');
+@import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url("https://fonts.googleapis.com/css2?family=Orbit&display=swap");
+@import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-brands/css/uicons-brands.css');
+@import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css');
+@import url('https://db.onlinewebfonts.com/c/fedc4d4a8801488c6c47b5521bbba331?family=Mrs+Eaves+Lining+OT');
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+#CG_p {
+   
+    position: sticky;
+    height: 100vh;
+}
+
+
+
+
+#CG_p {
+    display:none;
+} 
+
+
+
+#CG_p:target{
+    display: grid;
+
+} 
+
+
+
+
+#CG  {
+    display: grid;
+    grid-template-columns: repeat(12, [col] 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    margin: 80px 45px 0px 100px;
+    scroll-behavior: smooth;    /* <----- THE SECRET ---- */
+  
+  }
+  
+  #CG .text {
+    grid-column: col 1 / span 5;
+    grid-row: row 12;
+  
+  }
+  
+  
+  
+  .CG_1 {
+    grid-column: col 9 / span 4;
+    grid-row: row 2;
+  
+  }
+  
+  .CG_2 {
+    grid-column: col 1 / span 6;
+    grid-row: row 6;
+  
+  }
+  
+  .CG_3 {
+    grid-column: col 8 / span 4;
+    grid-row: row 14;
+  
+  }
+
+  .CG_4 {
+    grid-column: col 1 / span 6;
+    grid-row: row 17;
+  
+  }
+  
+  .CG_5 {
+    grid-column: col 10 / span 3;
+    grid-row: row 19;
+  
+  }
+  
+  .CG_6 {
+    grid-column: col 1 / span 4;
+    grid-row: row 22;
+  
+  }
+
+  #calder  {
+    display: grid;
+    grid-template-columns: repeat(12, [col] 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    margin: 80px 45px 0px 100px;
+    scroll-behavior: smooth;    /* <----- THE SECRET ---- */
+  
+  }
+
+
+  
+#calder_p {
+   
+  position: sticky;
+  height: 100vh;
+}
+
+
+
+
+#calder_p {
+  display:none;
+} 
+
+
+
+#calder_p:target{
+  display: grid;
+
+
+} 
+  
+
+  #calder .text {
+    grid-column: col 6 / span 8;
+    grid-row: row 24;
+  
+  } 
+  
+  
+  
+ .calder_1  {
+    grid-column: col 3 / span 5;
+    grid-row: row 26;
+  
+  
+  }  
+  
+
+
+  .calder_2  {
+    grid-column: col 10 / span 2;
+    grid-row: row 29;
+  
+  
+  }  
+  
+
+  .calder_3  {
+    grid-column: col 1 / span 3;
+    grid-row: row 32;
+  
+  
+  }  
+  
+
+
+
+  #krugier  {
+    display: grid;
+    grid-template-columns: repeat(12, [col] 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    margin: 80px 45px 0px 100px;
+    scroll-behavior: smooth;    /* <----- THE SECRET ---- */
+  
+  }
+
+
+#krugier_p {
+   
+  position: sticky;
+  height: 100vh;
+}
+
+
+
+
+#krugier_p {
+  display:none;
+} 
+
+
+
+#krugier_p:target{
+  display: grid;
+
+
+} 
+
+  
+
+#krugier .text {
+  grid-column: col 6 / span 5;
+  grid-row: row 2;
+  
+}
+  
+   
+.krugier_1 {
+  grid-column: col 1 / span 5;
+  grid-row: row 1;
+  
+  
+}  
+  
+
+.krugier_2 {
+  grid-column: col 1 / span 5;
+  grid-row: row 1;
+    
+    
+}
+
+
+
+
+#KS  {
+  display: grid;
+  grid-template-columns: repeat(12, [col] 1fr);
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  margin: 80px 45px 0px 100px;
+  scroll-behavior: smooth;    /* <----- THE SECRET ---- */
+
+}
+
+
+#KS_p {
+ 
+position: sticky;
+height: 100vh;
+}
+
+
+
+
+#KS_p {
+display:none;
+} 
+
+
+
+#KS_p:target{
+display: grid;
+
+
+} 
+
+
+
+#KS .text {
+grid-column: col 6 / span 5;
+grid-row: row 2;
+
+}
+
+ 
+.ks_1 {
+grid-column: col 1 / span 5;
+grid-row: row 1;
+
+
+}  
+
+
+.ks_2 {
+grid-column: col 1 / span 5;
+grid-row: row 1;
+  
+  
+}
+
+ 
+  
+.ks_3 {
+  grid-column: col 1 / span 5;
+  grid-row: row 1;
+    
+    
+  }
+  
+  
+  

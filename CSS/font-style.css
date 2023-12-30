@@ -29,7 +29,7 @@
 .icon-botany:before {
   content: "\e90b";
   color: #a6a5a5;
-  padding-right: 6px;
+  padding-right: 12px;
 }
 .icon-meditation:before {
   content: "\e90d";
@@ -100,7 +100,7 @@
 }
 #about .fi-rs-physics{
   font-size: 1.3rem;
-  padding-right: 8px;
+  padding-right: 16px;
 }
 
 
