@@ -193,23 +193,23 @@ html {
   
 
 #krugier .text {
-  grid-column: col 6 / span 5;
-  grid-row: row 2;
+  grid-column: col 6 / span 8;
+  grid-row: row 34;
   
 }
   
    
 .krugier_1 {
-  grid-column: col 1 / span 5;
-  grid-row: row 1;
+  grid-column: col 1 / span 4;
+  grid-row: row 36;
   
   
 }  
   
 
 .krugier_2 {
-  grid-column: col 1 / span 5;
-  grid-row: row 1;
+  grid-column: col 7 / span 7;
+  grid-row: row 39;
     
     
 }
@@ -252,23 +252,23 @@ display: grid;
 
 
 #KS .text {
-grid-column: col 6 / span 5;
-grid-row: row 2;
+grid-column: col 6 / span 8;
+grid-row: row 40;
 
 }
 
  
 .ks_1 {
 grid-column: col 1 / span 5;
-grid-row: row 1;
+grid-row: row 41;
 
 
 }  
 
 
 .ks_2 {
-grid-column: col 1 / span 5;
-grid-row: row 1;
+grid-column: col 11 / span 3;
+grid-row: row 44;
   
   
 }
@@ -277,7 +277,7 @@ grid-row: row 1;
   
 .ks_3 {
   grid-column: col 1 / span 5;
-  grid-row: row 1;
+  grid-row: row 46;
     
     
   }
