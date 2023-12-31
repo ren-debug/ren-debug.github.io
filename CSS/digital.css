@@ -144,7 +144,7 @@ p {
   
   }
   
-  .YSL_NL {
+  video {
     grid-column: col 6 / span 8;
     grid-row: row 8;
   
