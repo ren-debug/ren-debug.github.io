@@ -34,30 +34,66 @@
 #ps {
   display: grid;
   grid-template-columns: repeat(12, [col] 1fr);
-  grid-column-gap: 1em;
-  grid-row-gap: 1em;
+  grid-column-gap: 1rem;
+  grid-row-gap: 0px;
   margin: 80px 45px 0px 100px;
   scroll-behavior: smooth;    /* <----- THE SECRET ---- */
 
 }
 
+
+
 #ps .text {
   grid-column: col 7 / span 5;
-  grid-row: row 4;
+  grid-row: row 1;
+  padding-bottom: 60px;
 }
 
 
-/* .ps_1 {
+.ps_1 {
   grid-column: col 1 / span 5;
   grid-row: row 1;
 }
 
 
-.ps_2 {
-  grid-column: col 7 / span 6;
-  grid-row: row 2;
-} */
+.css-slider {
+  /* height: 100%;  */
+ position: relative;
+ display: grid;
+ grid-column: col 7 / span 7;
+grid-row: row 2;
 
+
+}
+
+
+
+#ps_1 {
+ 
+  position: sticky;
+  height: 100vh;
+}
+
+
+
+
+#ps_1 {
+  display:none;
+} 
+
+
+
+#ps_1:target{
+  display: grid;
+  grid-column: col 1 / span 12;
+  grid-row: row 1;
+  
+  /* padding-left: 45px;
+  padding-right: 45px;
+  grid-row-gap: 80px;
+  grid-column-gap: 60px; */
+
+} 
 
 
 
@@ -124,15 +160,7 @@
 
   
 }
-.css-slider {
-   /* height: 100%;  */
-  position: relative;
-  display: grid;
-  grid-column: col 1 / span 5;
 
-
-
-}
 
 .css-slider > *:nth-child(1) {
   animation-delay: 0s;
