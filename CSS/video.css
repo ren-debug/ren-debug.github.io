@@ -1,25 +1,31 @@
 
 h2 {
-  font-size: 2.5em;
-  letter-spacing: 0px;
+  font-size: 2.25em;
+  letter-spacing: -0.5px;
+  font-weight: 100;
 }
 
+h4 {
+  font-size: 1.25em;
+  letter-spacing: 0px;
 
+}
 
 
 #yves {
   display: grid;
   grid-template-columns: repeat(12, [col] 1fr);
-  grid-column-gap: 1em;
-  grid-row-gap: 1em;
-  margin: 80px 45px 0px 100px;
+  grid-column-gap: 2em;
+  grid-row-gap: 45px;
+  margin: 0px 45px 0px 100px;
   scroll-behavior: smooth;    /* <----- THE SECRET ---- */
 
 }
 
 #yves .text {
-  grid-column: col 1 / span 3;
-  grid-row: row 3;
+  grid-column: col 1 / span 4;
+  grid-row: row 2;
+  padding-top: 120px;
 }
 
 
@@ -41,9 +47,9 @@ h2 {
 #ps {
   display: grid;
   grid-template-columns: repeat(12, [col] 1fr);
-  grid-column-gap: 1rem;
-  grid-row-gap: 60px;
-  margin: 80px 45px 0px 100px;
+  grid-column-gap: 2rem;
+ grid-row-gap: 45px;
+  margin: 0px 45px 0px 100px;
   scroll-behavior: smooth;    /* <----- THE SECRET ---- */
 
 }
@@ -52,8 +58,7 @@ h2 {
 
 #ps .text {
   grid-column: col 7 / span 5;
-  grid-row: row 1;
-  padding-bottom: 60px;
+  grid-row: row 2;
 }
 
 
@@ -63,12 +68,15 @@ h2 {
 }
 
 
+#ps_1 {
+  display: grid;
+}
+
 .css-slider {
-  /* height: 100%;  */
  position: relative;
- display: grid;
  grid-column: col 7 / span 7;
-grid-row: row 1;
+ grid-row: row 3;
+
 
 
 }
@@ -76,9 +84,8 @@ grid-row: row 1;
 
 
 #ps_1 {
- 
   position: sticky;
-  height: 100vh;
+  height: 80vh;
 }
 
 
@@ -92,13 +99,6 @@ grid-row: row 1;
 
 #ps_1:target{
   display: grid;
-  grid-column: col 1 / span 12;
-  grid-row: row 1;
-
-  /* padding-left: 45px;
-  padding-right: 45px;
-  grid-row-gap: 80px;
-  grid-column-gap: 60px; */
 
 } 
 
@@ -106,9 +106,9 @@ grid-row: row 1;
 #mag {
   display: grid;
   grid-template-columns: repeat(12, [col] 1fr);
-  grid-column-gap: 1rem;
-  grid-row-gap: 60px;
-  margin: 80px 45px 0px 100px;
+  grid-column-gap: 2rem;
+  grid-row-gap: 45px;
+  margin: 0px 45px 0px 100px;
   scroll-behavior: smooth;    /* <----- THE SECRET ---- */
 
 }
@@ -116,13 +116,13 @@ grid-row: row 1;
 
 
 #mag .text {
-  grid-column: col 1 / span 4;
-  grid-row: row 1;
+  grid-column: col 7 / span 5;
+  grid-row: row 3;
  }
 
 
 .mag_video {
-  grid-column: col 7 / span 6;
+  grid-column: col 1 / span 5;
   grid-row: row 2;
 }
 
@@ -145,9 +145,9 @@ grid-row: row 1;
 
 #mag_p:target{
   display: grid;
-  grid-column: col 1 / span 4;
-  grid-row: row 2;
-  padding-top: 80px;
+  grid-column: col 7 / span 5;
+  grid-row: row 4;
+  padding-top: 100px;
 
   /* padding-left: 45px;
   padding-right: 45px;
@@ -161,19 +161,14 @@ grid-row: row 1;
 #rugby_rfu {
   display: grid;
   grid-template-columns: repeat(12, [col] 1fr);
-  grid-column-gap: 1em;
-  grid-row-gap: 1em;
-  margin: 80px 45px 0px 100px;
+  grid-column-gap: 2rem;
+  grid-row-gap: 45px;
+  margin: 0px 45px 0px 100px;
   scroll-behavior: smooth;    /* <----- THE SECRET ---- */
 
 }
 
-#rugby_rfu .text {
-  grid-column: col 1 / span 5;
-  grid-row: row 2;
-padding-top: 120px; 
 
-}
 
 .video_1 {
   grid-column: col 1 / span 5;
@@ -184,16 +179,23 @@ padding-top: 120px;
 .video_2 {
   grid-column: col 6 / span 7;
   grid-row: row 2;
-  padding-top: 120px; 
+  padding-top: 60px; 
 
 }
 
+#rugby_rfu .text {
+  grid-column: col 1 / span 4;
+  grid-row: row 2;
+  padding-top: 160px;
+
+}
 
 .video_3 {
   grid-column: col 1 / span 4;
   grid-row: row 3;
-  padding-top: 80px; 
-  padding-bottom: 80px; 
+  padding-top: 60px;
+  padding-bottom: 80px;
+
 
 }
 
@@ -227,7 +229,7 @@ padding-top: 120px;
 .css-slider > * {
   animation: 12s autoplay6 infinite linear;
   position: absolute;
-  top: 0;
+  top: 120px;
   left: 0;
   opacity: 0;
   /* height: 100%; */
@@ -240,7 +242,7 @@ padding-top: 120px;
 .css-slider > *:nth-child(1) {
   animation-delay: 0s;
   /* background: #f00; */
-   width: 100%; 
+   /* width: 100%;  */
 
 }
 .css-slider > *:nth-child(2) {
