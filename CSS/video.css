@@ -102,6 +102,51 @@ h4 {
 
 } 
 
+#ads {
+  display: grid;
+  grid-template-columns: repeat(12, [col] 1fr);
+  grid-column-gap: 2rem;
+  grid-row-gap: 45px;
+  margin: 0px 45px 0px 100px;
+  padding: 0px;
+  scroll-behavior: smooth;    /* <----- THE SECRET ---- */
+
+}
+
+
+
+/* 
+.ads_1 {
+  grid-column: col 1 / span 5;
+  grid-row: row 1;
+} */
+
+
+/* .ads_2 {
+  grid-column: col 1 / span 7;
+  grid-row: row 1;
+  padding-top: 0px; 
+
+} */
+
+#ads .text {
+  grid-column: col 7 / span 4;
+  grid-row: row 1;
+  padding-top: 0px;
+
+} 
+
+.ads_1 {
+  grid-column: col 1 / span 5;
+  grid-row: row 1;
+
+
+
+}
+
+
+
+
 
 #mag {
   display: grid;
