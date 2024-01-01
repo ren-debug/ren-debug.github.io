@@ -1,0 +1,153 @@
+
+
+#yves {
+  display: grid;
+  grid-template-columns: repeat(12, [col] 1fr);
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  margin: 80px 45px 0px 100px;
+  scroll-behavior: smooth;    /* <----- THE SECRET ---- */
+
+}
+
+#yves .text {
+  grid-column: col 1 / span 3;
+  grid-row: row 3;
+}
+
+
+.yves_insta {
+  grid-column: col 1 / span 3;
+  grid-row: row 1;
+}
+
+
+.ysl_video {
+  grid-column: col 7 / span 6;
+  grid-row: row 2;
+}
+
+
+
+
+
+#ps {
+  display: grid;
+  grid-template-columns: repeat(12, [col] 1fr);
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  margin: 80px 45px 0px 100px;
+  scroll-behavior: smooth;    /* <----- THE SECRET ---- */
+
+}
+
+#ps .text {
+  grid-column: col 7 / span 5;
+  grid-row: row 4;
+}
+
+
+/* .ps_1 {
+  grid-column: col 1 / span 5;
+  grid-row: row 1;
+}
+
+
+.ps_2 {
+  grid-column: col 7 / span 6;
+  grid-row: row 2;
+} */
+
+
+
+
+
+
+
+
+#rugby_rfu {
+  display: grid;
+  grid-template-columns: repeat(12, [col] 1fr);
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  margin: 80px 45px 0px 100px;
+  scroll-behavior: smooth;    /* <----- THE SECRET ---- */
+
+}
+
+.video_1 {
+  grid-column: col 1 / span 5;
+  grid-row: row 4;
+}
+
+
+.video_2 {
+  grid-column: col 8 / span 5;
+  grid-row: row 3;
+}
+
+
+.video_3 {
+  grid-column: col 3 / span 3;
+  grid-row: row 6;
+}
+
+
+@keyframes autoplay6 {
+  0% {
+    opacity: 0;
+  }
+  4% {
+    opacity: 1;
+  }
+  33.33% {
+    opacity: 1;
+  }
+  37.33% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+
+.css-slider > * {
+  animation: 12s autoplay6 infinite linear;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  /* height: 100%; */
+  /* width: 100%; */
+
+  
+}
+.css-slider {
+   /* height: 100%;  */
+  position: relative;
+  display: grid;
+  grid-column: col 1 / span 5;
+
+
+
+}
+
+.css-slider > *:nth-child(1) {
+  animation-delay: 0s;
+  /* background: #f00; */
+   width: 100%; 
+
+}
+.css-slider > *:nth-child(2) {
+  animation-delay: 4s;
+  /* background: #000; */
+}
+.css-slider > *:nth-child(3) {
+  animation-delay: 8s;
+  /* background: #ff0; */
+}
+
+
+

@@ -232,6 +232,46 @@ p {
 
 
 
+  
+#rfu  {
+    display: grid;
+    grid-template-columns: repeat(12, [col] 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    margin: 80px 45px 0px 100px;
+    scroll-behavior: smooth;    /* <----- THE SECRET ---- */
+  
+  }
+  
+  #rfu .text {
+    grid-column: col 6 / span 5;
+    grid-row: row 2;
+  
+  }
+  
+   
+ video .RFU_1 {
+    display: grid;
+    grid-column: col 1 / span 5;
+    grid-row: row 5;
+    padding-bottom: 0px;
+  
+  
+  }  
+  
+
+  
+  #rfu video .RFU_3 {
+    display: grid;
+    grid-column: col 8 / span 4;
+    grid-row: row 8;
+    padding-bottom: 0px;
+  
+  
+  }  
+  
+
+
 
   #rugby  {
     display: grid;
@@ -264,53 +304,6 @@ p {
 
 
 } 
-
-  
-#rfu  {
-    display: grid;
-    grid-template-columns: repeat(12, [col] 1fr);
-    grid-column-gap: 1em;
-    grid-row-gap: 1em;
-    margin: 80px 45px 0px 100px;
-    scroll-behavior: smooth;    /* <----- THE SECRET ---- */
-  
-  }
-  
-  #rfu .text {
-    grid-column: col 6 / span 5;
-    grid-row: row 2;
-  
-  }
-  
-   
-  .RFU_1 {
-    display: grid;
-    grid-column: col 1 / span 5;
-    grid-row: row 1;
-    padding-bottom: 0px;
-  
-  
-  }  
-  
-  .RFU_2 {
-    display: grid;
-    grid-column: col 6 / span 8;
-    grid-row: row 7;
-    padding-bottom: 0px;
-  
-  
-  }  
-  
-  .RFU_3 {
-    display: grid;
-    grid-column: col 1 / span 4;
-    grid-row: row 10;
-    padding-bottom: 0px;
-  
-  
-  }  
-  
-
 
 
 /*   
