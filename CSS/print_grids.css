@@ -41,9 +41,9 @@ ul {
   display: flex;
   flex-direction: column;
   align-content: flex-end;
-  position: fixed;
-  right: 38px;
-  top: 16%;
+  position: fixed; 
+  left: 40px;
+  top: 41.5%;
  
  
  }
@@ -53,6 +53,7 @@ ul {
   position: relative;
   width: 120px;
   height: 42px;
+  top: 32px;
   left: 0px;
   right: 0px;
   border-radius: 0px;
@@ -139,7 +140,7 @@ h4 {
 }
 
 h5 {
-  font-size: 1.25em;
+  font-size: 1.15em;
   letter-spacing: 0px;
 
 }
@@ -290,7 +291,7 @@ h6 {
   }
 
   #fourth div:nth-child(3) {
-    grid-column: col 8 / span 6;
+    grid-column: col 7 / span 7;
     grid-row: 4;
     padding-bottom: 0px;  
 
@@ -308,47 +309,6 @@ h6 {
     grid-row: 3;
     
   } 
-
-
-
-  #fifth div:nth-child(1) {
-    grid-column: col 1 / span 5;
-    grid-row: 2;
-  }
-
-
-
-
- 
-
-/* 
-  #fifth div:nth-child(2) {
-    grid-column: col 1 / span 7;
-    grid-row: 3;
-    padding-top: 240px;
-
-  } */
-
-  #fifth div:nth-child(3) {
-    grid-column: col 8 / span 5;
-    grid-row: 4;
-
-  }
-
-
-  #fifth div:nth-child(4) {
-    grid-column: col 6 / span 7;
-    grid-row: 2;
-    padding-top: 0px;
-
-  }
-
-
-  #fifth div:nth-child(5) {
-    grid-column: col 1 / span 5;
-    grid-row: 5;
-
-  }
 
 
 

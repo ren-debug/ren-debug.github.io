@@ -89,9 +89,9 @@ h6 {
 
 
 p {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     line-height: 1.4rem;
-    letter-spacing: 0.1px;
+    letter-spacing: 0.8px;
     font-weight: 200;
     padding: 0%;
     margin: 0%;
@@ -134,15 +134,16 @@ hr {
 
 /* SCROLLBAR */
 .view {
-text-decoration: underline;
-font-weight: 400;
+text-decoration: none;
+font-weight: 200;
 letter-spacing: .1px;
+font-size: .8rem;
 
 }
  
 
 .scrollbar h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 100;
     letter-spacing: .1px;
 
@@ -151,16 +152,16 @@ letter-spacing: .1px;
 
 
 .scrollbar h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.5rem;
-    font-weight: 400;
-    letter-spacing: .5px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
 }
   
 .scrollbar h4 {
-    font-size: 1rem;
-    font-weight: 200;
-    letter-spacing: .5px;
+    font-size: .9rem;
+    font-weight: 300;
+    letter-spacing: 0.5px;
     padding-bottom: 1px;
     margin-bottom: 0%;
     padding-bottom: 0%;

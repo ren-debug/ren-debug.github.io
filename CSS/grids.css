@@ -97,8 +97,8 @@
 
 #cv .cv {
   grid-column: span 3; 
-  grid-row: row 2;
-  margin: 0px 0px;
+  grid-row: row 1;
+  padding-top: 90%;
 
 }
 
