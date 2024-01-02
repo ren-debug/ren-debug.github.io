@@ -221,7 +221,7 @@ h6 {
 #second .copy {
   grid-column: col 7 / span 5;
   grid-row: 1; 
-  padding-top: 0px;
+  padding-top: 32px;
 
 }
 
@@ -268,15 +268,15 @@ h6 {
 
  #third .copy {
     grid-column: col 7 / span 5;
-    grid-row: 1;
-    padding-top: 32px;
+    grid-row: 2;
+    padding-top: 0px;
 
   }
 
 
   #third div:nth-child(3) {
     grid-column: col 7 / span 5;
-    grid-row: 3;
+    grid-row: 2;
     
   } 
 
@@ -317,29 +317,24 @@ h6 {
 
   #fifth .copy {
     grid-column: col 1 / span 5;
-    grid-row: 2;
-    padding-top: 80px;
+    grid-row: 3;
+    padding-top: 0px;
   }
 
 
  
-  #fifth div:nth-child(3) {
-    grid-column: col 1 / span 5;
-    grid-row: 3;
 
-    
-  }  
 
   #fifth div:nth-child(4) {
     grid-column: col 6 / span 7;
-    grid-row: 2;
-    padding-top: 320px;
+    grid-row: 3;
+    padding-top: 240px;
 
   }
 
   #fifth div:nth-child(5) {
     grid-column: col 1 / span 4;
-    grid-row: 5;
+    grid-row: 4;
 
   }
 
