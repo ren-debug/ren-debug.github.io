@@ -1,40 +1,4 @@
-img {
-  width: 100%;
-}
 
-button {
-  margin-top: 3rem;
-  padding: 12px 0px;
-  width: 120px;
-  height: 44px;
-  border-radius: 0px;
-  border: 1px solid #a6a6a6;
-  color: #a6a6a6;
-  font-weight: 300;
-background-color: transparent;
-  opacity: .8;
-}
-
-button:hover {
-  opacity: 1;
-  background-color: #a6a6a6;
-  color: white;
-}
-.nav {
-  display: flex;
-  flex-direction: column;
-  align-content: flex-end;
-  position: fixed;
-  right: 38px;
-  top: 16%;
- 
- 
- }
- 
-
-
- 
- 
 main {
   display: flex;
   flex-direction: column;
@@ -50,9 +14,10 @@ main > section {
   grid-template-columns: repeat(12, [col] 1fr);
   grid-template-rows: repeat(auto [row] auto);
   grid-column-gap: 60px;
-  grid-row-gap: 80px;
+  grid-row-gap: 60px;
   margin: 0px 60px;
-  padding: 60px 0;
+  padding-top: 60px;
+  padding-bottom: 46px;
   /* grid-row-gap: 1rem; */
 
 
@@ -62,39 +27,155 @@ section {
   min-height: 100vh;
 }
 
+img {
+  width: 100%;
+}
+
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  position: fixed;
+  right: 38px;
+  top: 16%;
+ 
+ 
+ }
+ 
+
+ button {
+  position: relative;
+  width: 120px;
+  height: 42px;
+  left: 0px;
+  right: 0px;
+  border-radius: 0px;
+  border: 1px solid #a6a6a6;
+  color: #a6a6a6;
+  font-weight: 300;
+  background-color: transparent;
+  opacity: .8;
+}
+
+button:hover {
+  opacity: 1;
+  background-color: #a6a6a6;
+  color: white;
+}
+
+
+
+
+.copy div:nth-child(2) {
+    display: flex; 
+    justify-content: space-between;
+    padding: 16px 0px;
+} 
+
+
+
+#expand, #expand_1, #expand_2, #expand_3, #expand_4, #expand_5 {
+  position: sticky;
+}
+
+
+
+#expand, #expand_1, #expand_2, #expand_3, #expand_4, #expand_5 {
+  display:none;
+} 
+
+
+
+
+#expand:target, #expand_1:target, #expand_2:target, #expand_3:target, #expand_4:target, #expand_5:target {
+display: grid;
+
+} 
+
+
+
+#expand_1 {
+  padding-top: 60px;
+}
+
+#expand_2 {
+  padding-top: 60px;
+}
+
+#expand_3 {
+  padding-top: 60px;
+}
+
+#expand_4 {
+  padding-top: 60px;
+}
+
+#expand_5 {
+  padding-top: 60px;
+}
 
 #first div:nth-child(1) {
-  
     grid-column: col 1 / span 3;
     grid-row: 1;
-  }
 
-#first div:nth-child(3) {
-    grid-column: col 7 / span 6;
-    grid-row: 2;
-    
-  } 
+}
 
 
 #first .copy {
-  grid-column: col 1 / span 5;
-  grid-row: 2;
-  }
+    grid-column: col 1 / span 5;
+    grid-row: 3;
+    padding-top: 0px;
+
+    
+} 
+
+
+#first div:nth-child(3) {
+  grid-column: col 7 / span 6;
+  grid-row: 3;
+
+  
+} 
+
+
+/* #first div:nth-child(3) {
+    grid-column: col 1 / span 5;
+    grid-row: 4;
+    
+}  */
+
+
+
+
+
+
 
 
   
 #second div:nth-child(1) {
     grid-column: col 1 / span 6;
     grid-row: 1;
+    
   }
 
 #second .copy {
   grid-column: col 8 / span 5;
-  grid-row: 2;
+  grid-row: 1; 
+  padding-top: 32px;
 
 }
 
- 
+#second div:nth-child(3) {
+  grid-column: col 8 / span 5;
+  grid-row: 3;
+  
+} 
 
 
 
@@ -106,13 +187,21 @@ section {
 
  #third .copy {
     grid-column: col 7 / span 5;
-    grid-row: 3;
+    grid-row: 1;
+    padding-top: 32px;
+
   }
 
 
   #third div:nth-child(3) {
+    grid-column: col 7 / span 5;
+    grid-row: 3;
+    
+  } 
+
+  #third div:nth-child(4) {
     grid-column: col 1 / span 6;
-    grid-row: 5;
+    grid-row: 4;
   }
 
 
@@ -122,17 +211,21 @@ section {
 
   #fourth div:nth-child(1) {
     grid-column: col 7 / span 6;
-    grid-row: 2;
-    padding-bottom: 32px;  
+    grid-row: 1;
 }
 
   #fourth .copy {
     grid-column: col 1 / span 5;
-    grid-row: 1;
-    align-self: end;
+    grid-row: 2;
+    padding-bottom: 100px;  
+
   }
 
-
+  #fourth div:nth-child(3) {
+    grid-column: col 1 / span 5;
+    grid-row: 3;
+    
+  } 
 
 
 
@@ -144,18 +237,29 @@ section {
   #fifth .copy {
     grid-column: col 1 / span 5;
     grid-row: 2;
-    align-self: center;
+    padding-top: 80px;
   }
 
+
+ 
+  #fifth div:nth-child(3) {
+    grid-column: col 1 / span 5;
+    grid-row: 3;
+
+    
+  }  
 
   #fifth div:nth-child(4) {
-    grid-column: col 6 / span 8;
-    grid-row: 3;
+    grid-column: col 6 / span 7;
+    grid-row: 2;
+    padding-top: 320px;
+
   }
 
-  #fifth div:nth-child(3) {
+  #fifth div:nth-child(5) {
     grid-column: col 1 / span 4;
-    grid-row: 4;
+    grid-row: 5;
+
   }
 
 
@@ -185,6 +289,12 @@ h4 {
 
 }
 
+h5 {
+  font-size: 1.25em;
+  letter-spacing: 0px;
+
+}
+
 
 h6 {
   font-size: 0.8rem;
@@ -193,6 +303,8 @@ h6 {
   text-align: right;
 
 }
+
+
 
 
 
