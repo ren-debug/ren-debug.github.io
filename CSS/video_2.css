@@ -2,15 +2,31 @@ img {
   width: 100%;
 }
 
+button {
+  margin-top: 3rem;
+  padding: 12px 0px;
+  width: 120px;
+  height: 44px;
+  border-radius: 0px;
+  border: 1px solid #a6a6a6;
+  color: #a6a6a6;
+  font-weight: 300;
+background-color: transparent;
+  opacity: .8;
+}
 
-
+button:hover {
+  opacity: 1;
+  background-color: #a6a6a6;
+  color: white;
+}
 .nav {
   display: flex;
   flex-direction: column;
   align-content: flex-end;
   position: fixed;
   right: 38px;
-  top: 12%;
+  top: 16%;
  
  
  }
@@ -171,15 +187,13 @@ h4 {
 
 
 h6 {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   letter-spacing: 0.5px;
   font-weight: 200;
   text-align: right;
+
 }
 
-h6 a {
-  font-size: 1rem;
-}
 
 
 
