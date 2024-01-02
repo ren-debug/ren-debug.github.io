@@ -52,12 +52,11 @@ header * {
 
 .nav a,
 .nav_2 a {
-  padding-top: 10px;
+  padding-top: 100%;
   justify-content: space-between;
-  font-size: .76rem;
-  letter-spacing: 0.2px;
   z-index: 1;
   opacity: 1;
+  text-align: right;
 
 }
 

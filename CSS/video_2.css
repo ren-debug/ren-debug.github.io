@@ -1,3 +1,157 @@
+img {
+  width: 100%;
+}
+
+
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  position: fixed;
+  right: 38px;
+  top: 12%;
+ 
+ 
+ }
+ 
+
+
+ 
+ 
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 40px 0px 40px;
+
+}
+
+ 
+
+
+main > section {
+  display: grid;
+  grid-template-columns: repeat(12, [col] 1fr);
+  grid-template-rows: repeat(auto [row] auto);
+  grid-column-gap: 60px;
+  grid-row-gap: 80px;
+  margin: 0px 60px;
+  padding: 60px 0;
+  /* grid-row-gap: 1rem; */
+
+
+}
+
+section {
+  min-height: 100vh;
+}
+
+
+#first div:nth-child(1) {
+  
+    grid-column: col 1 / span 3;
+    grid-row: 1;
+  }
+
+#first div:nth-child(3) {
+    grid-column: col 7 / span 6;
+    grid-row: 2;
+    
+  } 
+
+
+#first .copy {
+  grid-column: col 1 / span 5;
+  grid-row: 2;
+  }
+
+
+  
+#second div:nth-child(1) {
+    grid-column: col 1 / span 6;
+    grid-row: 1;
+  }
+
+#second .copy {
+  grid-column: col 8 / span 5;
+  grid-row: 2;
+
+}
+
+ 
+
+
+
+
+  #third div:nth-child(1) {
+    grid-column: col 1 / span 3;
+    grid-row: 1;
+  }
+
+ #third .copy {
+    grid-column: col 7 / span 5;
+    grid-row: 3;
+  }
+
+
+  #third div:nth-child(3) {
+    grid-column: col 1 / span 6;
+    grid-row: 5;
+  }
+
+
+
+
+
+
+  #fourth div:nth-child(1) {
+    grid-column: col 7 / span 6;
+    grid-row: 2;
+    padding-bottom: 32px;  
+}
+
+  #fourth .copy {
+    grid-column: col 1 / span 5;
+    grid-row: 1;
+    align-self: end;
+  }
+
+
+
+
+
+  #fifth div:nth-child(1) {
+    grid-column: col 1 / span 5;
+    grid-row: 1;
+  }
+
+  #fifth .copy {
+    grid-column: col 1 / span 5;
+    grid-row: 2;
+    align-self: center;
+  }
+
+
+  #fifth div:nth-child(4) {
+    grid-column: col 6 / span 8;
+    grid-row: 3;
+  }
+
+  #fifth div:nth-child(3) {
+    grid-column: col 1 / span 4;
+    grid-row: 4;
+  }
+
+
+  /* #sixth div:nth-child(1) {
+    grid-column: col 7 / span 6;
+    grid-row: 1;
+  }
+
+  #sixth div:nth-child(2) {
+    grid-column: col 7 / span 6;
+    grid-row: 1;
+  } */
 
 h2 {
   font-size: 2.25em;
@@ -5,11 +159,28 @@ h2 {
   font-weight: 100;
 }
 
+
+
+
+
 h4 {
   font-size: 1.25em;
   letter-spacing: 0px;
 
 }
+
+
+h6 {
+  font-size: 0.7rem;
+  letter-spacing: 0.5px;
+  font-weight: 200;
+  text-align: right;
+}
+
+h6 a {
+  font-size: 1rem;
+}
+
 
 
 #yves {
@@ -121,14 +292,14 @@ h4 {
 
 
 #ads .text {
-  grid-column: col 7 / span 4;
+  grid-column: col 1 / span 4;
   grid-row: row 1;
   padding-top: 0px;
 
 } 
 
 .ads_1 {
-  grid-column: col 1 / span 5;
+  grid-column: col 6 / span 5;
   grid-row: row 1;
 
 
@@ -159,17 +330,13 @@ h4 {
 
 #mag .text {
   grid-column: col 7 / span 5;
-  grid-row: row 2;
-  padding-top: 120px;
-  padding-bottom: 120px;
-
+  grid-row: row 3;
  }
 
 
 .mag_video {
-  grid-column: col 7 / span 5;
-  grid-row: row 1;
-
+  grid-column: col 1 / span 5;
+  grid-row: row 2;
 }
 
 
