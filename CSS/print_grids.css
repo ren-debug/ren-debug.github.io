@@ -300,34 +300,35 @@ h6 {
 
 
   #fourth div:nth-child(1) {
-    grid-column: col 1 / span 7;
-    grid-row: 2;
+    grid-column: col 1 / span 9;
+    grid-row: 1;
+    padding-top: 50px;
 }
 
   #fourth .copy {
     grid-column: col 1 / span 5;
     grid-row: 3;
-    padding-top: 40px;  
+    padding-top: 0px;  
 
   }
 
   #fourth div:nth-child(3) {
-    grid-column: col 1 / span 5;
+    grid-column: col 8 / span 6;
     grid-row: 4;
-    padding-bottom: 24px;  
+    padding-bottom: 0px;  
 
     
   } 
 
   #fourth div:nth-child(4) {
-    grid-column: col 8 / span 5;
+    grid-column: col 1 / span 5;
     grid-row: 4;
     
   } 
 
   #fourth div:nth-child(5) {
-    grid-column: col 10 / span 3;
-    grid-row: 1;
+    grid-column: col 11 / span 3;
+    grid-row: 3;
     
   } 
 
@@ -335,7 +336,7 @@ h6 {
 
   #fifth div:nth-child(1) {
     grid-column: col 1 / span 5;
-    grid-row: 1;
+    grid-row: 2;
   }
 
 

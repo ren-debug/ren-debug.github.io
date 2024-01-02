@@ -218,12 +218,12 @@ h6 {
 
 
  #third div:nth-child(1) {
-    grid-column: col 1 / span 3;
+    grid-column: col 1 / span 4;
     grid-row: 1;
   } 
 
  #third .copy {
-    grid-column: col 7 / span 5;
+    grid-column: col 8 / span 5;
     grid-row: 2;
     padding-top: 0px;
 
@@ -231,13 +231,13 @@ h6 {
 
 
   #third div:nth-child(3) {
-    grid-column: col 1 / span 6;
+    grid-column: col 1 / span 7;
     grid-row: 4;
     
   } 
 
   #third div:nth-child(4) {
-    grid-column: col 7 / span 5;
+    grid-column: col 8 / span 5;
     grid-row: 3;
   }
 
