@@ -4,177 +4,354 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>project page</title>
-    <!--include these script in head section or wherever you want-->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>print design</title>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="./CSS/styles.css">
     <link rel="stylesheet" href="./CSS/typography.css">
-    <link rel="stylesheet" href="./CSS/grids.css">
-    <link rel="stylesheet" href="./CSS/print.css">
-
-    <link rel="stylesheet" href="./CSS/project.css">
-    <link rel="stylesheet" href="./CSS/digital.css">
-
-
-    <!-- <link rel="stylesheet" href="./assets/fonts/stylesheet.css"> -->
+    <link rel="stylesheet" href="./CSS/portfolio_grids.css">
 
     <link href="https://fonts.cdnfonts.com/css/switzer" rel="stylesheet" />
-    <!-- <link href="https://db.onlinewebfonts.com/c/fedc4d4a8801488c6c47b5521bbba331?family=Mrs+Eaves+Lining+OT" 
-       rel="stylesheet"> -->
-    <style>
-
-    </style>
-
 </head>
 
 <body>
-
 
     <header>
         <div class="nav_left">
             <ul>
                 <li><a href="./index.html" class="home"><i class="fi fi-rr-home"></i></a></li>
-                <li><a style="padding-right: 40px;" href="./about.html" class="about">about</a></li>
-                <li><a style="padding-right: 40px;" href="./work.html">work</a></li>
-                <li><a href="./cv.html" class="exp">experience</a></li>
+                <li><a style="padding-right: 40px;" href="/about.html" class="about">about</a></li>
+                <li><a style="padding-right: 40px;" href="/work.html">work</a></li>
+                <li><a href="/cv.html" class="exp">experience</a></li>
             </ul>
         </div>
 
         <div class="nav_right">
             <ul>
-                <li><a style="padding-left: 40px;" href="/digital.html">01. digital design</a></li>
+                <li><a style="padding-left: 40px;" href="/digital.html">01. marketing & advertising</a></li>
                 <li><a style="padding-left: 40px;" href="/print.html">02. print design</a></li>
                 <li><a style="padding-left: 40px;" href="#">03. web design</a></li>
                 <li><a href="./contact.html" class="email"><i class="fi fi-rr-envelope"></i></a></li>
             </ul>
         </div>
     </header>
-        </div>
-    </header>
 
-    <div class="tag">
-        <a href="#">01</a>
-        <a href="#">02</a>
-        <a href="#">03</a>
-        <a href="#">04</a>
-        <a href="#">05</a>
+    <div class="nav">
+        <h6>
+            <a href="#first">01</a><br><br>
+
+            <a href="#second">02</a><br><br>
+
+            <a href="#third">03</a><br><br>
+
+            <a href="#fourth">04</a><br><br>
+
+            <a href="#fifth">05</a><br><br>
+
+        </h6>
     </div>
 
-    <div class="print">
+    <main>
+        <section id="first">
+            <div><img src="/img/ysl_insta.png" alt="ysl_insta"></div>
 
-        <div id="CG">
+            <div style="height: fit-content;" class="copy">
 
-            <div style="text-align: left;" class="text">
-                <h4>Company Rebranding, Art Direction</h4>
-                <h2>Capital Gardens</h2>
-            <div style="text-align: left;" class="text">
-                <h4>Company Rebranding, Art Direction</h4>
-                <h2>Capital Gardens</h2>
+                <div>
+                    <h5>keyword&nbsp;&nbsp;/&nbsp;&nbsp;
+                        keyword&nbsp;&nbsp;/&nbsp;&nbsp;
+                        keyword</h5>
+                    <h2>Client: Yves Saint Laurent</h2>
+                </div>
 
-                <br>short paragraph intro project
-                <br><br> <a href="#CG_p">read more</a>
+                <div>
+                    <ul>
+                        <li>Project Name</li>
+                        <li>Role</li>
+                        <li>3</li>
+                    </ul>
+
+                    <ul>
+                        <li>Project Name</li>
+                        <li>Role</li>
+                        <li>3</li>
+                    </ul>
+
+                    <ul>
+                        <li>Project Name</li>
+                        <li>Role</li>
+                        <li>3</li>
+                    </ul>
+
+                </div>
+
+                <div>
+                    <button><a href="#expand_1">read more</a></button>
+                </div>
+
+                <div style="height: fit-content;" id="expand_1" class="expand">
+                    <p><br>
+                        During my time working with L’Oréal, I was in charge of designing and developing newsletters that
+                        showcased Lancôme and Yves Saint Laurents products and that would keep subscribers engaged.
+                        Each newsletter was fully responsive and optimized for different mail clients and devices,
+                        and tested on Litmus before deployment.
+                    </p>
+                </div>
             </div>
 
-            <img src="./assets/images/capital_gardens_plants.jpg" class="CG_1" alt="capital_gardens_plants" width="100%">
-            <img src="./assets/images/capital_gardens_logo.png" class="CG_2" alt="capital_gardens_logo" width="100%">
+        
 
-        </div>
+            <div>
+                <video width="100%" autoplay muted>
+                    <source src="./assets/mp4/YSL.mp4" type="video/mp4">
 
-        <div style="height: fit-content;" id="CG_p" class="CG_p">
-            <p>As the appointed Art Director of the rebranding for Capital Gardens, I was responsible for establishing a
-                consistent and coherent brand identity across all eight garden centres. The brand incorporates the
-                materiality of plants and home goods into its visual identity, with a focus on engaging the customer
-                through the use of tactile materials, and printing methods such as foiling and embossing.</p>
-
-            <div class="arrows">
-
-                <a href="#"><i class="fi fi-sr-angle-square-up"></i></a>
-                <br><a href="#"><i class="fi fi-sr-angle-square-down"></i></a>
+                </video>
             </div>
 
-            <img src="./assets/images/capital_gardens_billboard.jpg" class="CG_3" alt="capital_gardens_billboard" width="100%">
-            <img src="./assets/images/capital_gardens_signage_logo.jpg" class="CG_4" alt="capital_gardens_signage_logo" width="100%">
-            
-            <div class="text_2">    <p>As the appointed Art Director of the rebranding for Capital Gardens, I was responsible for establishing a
-                consistent and coherent brand identity across all eight garden centres. The brand incorporates the
-                materiality of plants and home goods into its visual identity, with a focus on engaging the customer
-                through the use of tactile materials, and printing methods such as foiling and embossing.</p></div>
-            
-            <img src="./assets/images/capital_gardens_signage_bathrooms.jpg" class="CG_5" alt="capital_gardens_signage" width="100%">
-            <img src="./assets/images/capital_gardens_signage_tills.jpg" class="CG_6" alt="capital_gardens_signage_tills" width="100%">
+        </section>
 
-        </div>
+        <section id="second">
+            <div><img src="/img/pokerstars.png" alt="pokerstars"></div>
 
-    </div>
+            <div style="margin-top: 400px;" class="copy">
 
-    <div id="calder">
+                <div>
+                    <h5>keyword&nbsp;&nbsp;/&nbsp;&nbsp;
+                        keyword&nbsp;&nbsp;/&nbsp;&nbsp;
+                        keyword</h5>
+                    <h2>Client: Pokerstars</h2>
+                </div>
 
-        <div style="text-align: left;" class="text">
-            <h4>Alexander Calder, New York</h4>
-            <h2>Christie’s</h2>
+                <div>
+                    <ul>
+                        <li>Project Name</li>
+                        <li>Role</li>
+                        <li>3</li>
+                    </ul>
 
-            <br>short paragraph intro project
-            <br><br> <a href="#calder_p">read more</a>
-        </div>
+                    <ul>
+                        <li>Project Name</li>
+                        <li>Role</li>
+                        <li>3</li>
+                    </ul>
 
-        <img src="./assets/images/calder.jpg" alt="calder" width="100%" class="calder_1">
-        <img src="./assets/images/calder_christies.jpg" alt="calder_christies" width="100%" class="calder_2">
+                    <ul>
+                        <li>Project Name</li>
+                        <li>Role</li>
+                        <li>3</li>
+                    </ul>
 
-    </div>
+                </div>
 
-    <div style="height: 600px; background-color: beige;" id="calder_p" class="calder_p">
-        <p>During my time working with L’Oréal, I was in charge of designing and developing newsletters that
-            showcased Lancôme and Yves Saint Laurents products and that would keep subscribers engaged.
+                <div>
+                    <button><a href="#expand_2">read more</a></button>
+                </div>
 
-            Each newsletter was fully responsive and optimized for different mail clients and devices, and tested on
-            Litmus before deployment.</p>
+            </div>
 
-        <div class="arrows">
+            <div style="height: fit-content;" id="expand_2" class="expand">
+                <p><br>
+                    Designing for across their three market leading brands: PokerStars, BetStars and PokerStars Casino,
+                    I was creating digital assets to support product launches, promotions and visual identities for
+                    multiple territories, in line with each brands unique look and feel. I was in charge of designing
+                    all visual identities and digital assets for The Stars Group, dealing directly with stakeholders to
+                    meet tight deadlines and understand their business needs with each project.
+                </p>
+            </div>
+        </section>
 
-            <a href="#"><i class="fi fi-sr-angle-square-up"></i></a>
-            <br><a href="#"><i class="fi fi-sr-angle-square-down"></i></a>
-        </div>
+        <section id="third">
+            <div><img src="/img/hand_chemistry_ads.jpg" alt="hand_chemistry_ads"></div>
 
-    </div>
+            <div style="margin-top: 400px;"  class="copy">
 
-    </div>
+                <div>
+                    <h5>keyword&nbsp;&nbsp;/&nbsp;&nbsp;
+                        keyword&nbsp;&nbsp;/&nbsp;&nbsp;
+                        keyword</h5>
+                    <h2>Client: Boots</h2>
+                </div>
 
-    <div id="rfu">
+                <div>
+                    <ul>
+                        <li>Project Name</li>
+                        <li>Role</li>
+                        <li>3</li>
+                    </ul>
 
-        <div style="text-align: right;" class="text">
-            <h4>Marketing & Advertising Campaigns</h4>
-            <h2>Yves Saint Laurent</h2>
+                    <ul>
+                        <li>Project Name</li>
+                        <li>Role</li>
+                        <li>3</li>
+                    </ul>
 
-            <br>short paragraph intro project
-            <br><br> <a href="#rugby">read more</a>
-        </div>
+                    <ul>
+                        <li>Project Name</li>
+                        <li>Role</li>
+                        <li>3</li>
+                    </ul>
 
-        <img src="./assets/img/MASTER_RR.png" alt="RFU_1" width="100%" class="RFU_1">
-        <img src="./assets/img/MASTER_CORE.png" alt="RFU_2" width="100%" class="RFU_2">
-        <img src="./assets/img/MASTER_men.png" alt="RFU_3" width="100%" class="RFU_3">
+                </div>
 
-    </div>
+                <div>
+                    <button><a href="#expand_3">read more</a></button>
+                </div>
 
-    <div style="height: 600px; background-color: beige;" id="rugby" class="rugby">
-        <p>During my time working with L’Oréal, I was in charge of designing and developing newsletters that
-            showcased Lancôme and Yves Saint Laurents products and that would keep subscribers engaged.
+            </div>
 
-            Each newsletter was fully responsive and optimized for different mail clients and devices, and tested on
-            Litmus before deployment.</p>
+            <div style="height: fit-content;" id="expand_3" class="expand">
+                <p><br>
+                    Ovidenim pellaborrum apid molorae aut harum sam hilleni odit quibuscipic tendaes et et alibus,
+                    quodiandae idero omnim evelibus, si si aut reces sitibus eium hil erum elici blab ipsa apitas
+                    doloreium laboribus. Et quidunt. Pa volupta il illest, sit que si ullaborectem hillenit aut quae res
+                    simagni hiciis debitatus.
+                </p>
+            </div>
+            <div>
+                <img src="/img/fountain_ads.jpg" alt="fountain_ads">
+            </div>
+        </section>
 
-        <div class="arrows">
+        <section id="fourth">
+            <div>
+                <video width="100%" autoplay muted>
+                    <source src="./assets/mp4/mag_black_friday.mp4" type="video/mp4">
 
-            <a href="#"><i class="fi fi-sr-angle-square-up"></i></a>
-            <br><a href="#"><i class="fi fi-sr-angle-square-down"></i></a>
-        </div>
+                </video>
+            </div>
+            <div class="copy">
 
-    </div>
+                <div>
+                    <h5>keyword&nbsp;&nbsp;/&nbsp;&nbsp;
+                        keyword&nbsp;&nbsp;/&nbsp;&nbsp;
+                        keyword</h5>
+                    <h2>Client: McArthurGlen</h2>
+                </div>
 
-    </div>
+                <div>
+                    <ul>
+                        <li>Project Name</li>
+                        <li>Role</li>
+                        <li>3</li>
+                    </ul>
 
-    </div>
+                    <ul>
+                        <li>Project Name</li>
+                        <li>Role</li>
+                        <li>3</li>
+                    </ul>
+
+                    <ul>
+                        <li>Project Name</li>
+                        <li>Role</li>
+                        <li>3</li>
+                    </ul>
+
+                </div>
+
+                <div>
+                    <button><a href="#expand_4">read more</a></button>
+                </div>
+
+            </div>
+
+            <div style="height: fit-content;" id="expand_4" class="expand">
+                <p><br>
+                    One of the most exciting projects I worked on for McArthurGlen involved me leading the
+                    implementation of Salesforce and Content Builder. Salesforce is an innovating online tool that
+                    revolutionized the way work was distributed within our department.
+
+                    With this tool, the CRM team was able to take over the design of newsletters through templates
+                    combining various modules. I created a large number of modules based on a fully responsive 9 x 9
+                    grid, tested the result on Litmus and converted it on Salesforce through Content Builder. Throughout
+                    the entire process, I worked closely with the CRM team to ensure a consistent and seamless customer
+                    journey between CRM and Paid Media. This included everything from the campaign, opt-in and opt-out
+                    processes, segmentation, and re targeting.
+                </p>
+            </div>
+        </section>
+
+        <section id="fifth">
+            <div>
+                <video width="100%" controls muted>
+                    <source src="./assets/mp4/rfu_red_roses.mp4" type="video/mp4">
+
+                </video>
+            </div>
+            <div class="copy">
+
+                <div>
+                    <h5>keyword&nbsp;&nbsp;/&nbsp;&nbsp;
+                        keyword&nbsp;&nbsp;/&nbsp;&nbsp;
+                        keyword</h5>
+                    <h2>Client: RFU</h2>
+                </div>
+
+                <div>
+                    <ul>
+                        <li>Project Name</li>
+                        <li>Role</li>
+                        <li>3</li>
+                    </ul>
+
+                    <ul>
+                        <li>Project Name</li>
+                        <li>Role</li>
+                        <li>3</li>
+                    </ul>
+
+                    <ul>
+                        <li>Project Name</li>
+                        <li>Role</li>
+                        <li>3</li>
+                    </ul>
+
+                </div>
+
+                <div>
+                    <button><a href="#expand_5">read more</a></button>
+                </div>
+
+            </div>
+
+            <div style="height: fit-content;" id="expand_5" class="expand">
+                <p><br>
+                    During my time working with L’Oréal, I was in charge of designing and developing newsletters that
+                    showcased Lancôme and Yves Saint Laurents products and that would keep subscribers engaged.
+                    Each newsletter was fully responsive and optimized for different mail clients and devices,
+                    and tested on Litmus before deployment.
+                </p>
+            </div>
+
+            <div>
+                <video width="100%" controls muted>
+                    <source src="./assets/mp4/rfu_core.mp4" type="video/mp4">
+
+                </video>
+
+            </div>
+            <div>
+                <video width="100%" controls muted>
+                    <source src="./assets/mp4/rfu_men.mp4" type="video/mp4">
+
+                </video>
+            </div>
+        </section>
+
+        <!-- <section id="sixth">
+            <div>
+                <video width="100%" controls muted>
+                    <source src="./assets/mp4/rfu_men.mp4" type="video/mp4">
+    
+                </video>
+            </div>
+            <div>
+                <video width="100%" controls muted>
+                    <source src="./assets/mp4/rfu_core.mp4" type="video/mp4">
+    
+                </video>
+            </div>         
+        </section> -->
+    </main>
 
     <footer>
         <div class="footer">
