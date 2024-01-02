@@ -192,6 +192,24 @@ h6 {
 
 
 
+#ps_1 {
+  position: sticky;
+  height: 100vh;
+}
+
+
+
+
+#ps_1 {
+  display:none;
+} 
+
+
+
+#ps_1:target{
+  display: grid;
+
+} 
 
   
 #second div:nth-child(1) {
@@ -201,25 +219,52 @@ h6 {
   }
 
 #second .copy {
-  grid-column: col 8 / span 5;
+  grid-column: col 7 / span 5;
   grid-row: 1; 
-  padding-top: 32px;
+  padding-top: 0px;
 
 }
 
-#second div:nth-child(3) {
-  grid-column: col 8 / span 5;
+
+
+
+/* 
+#expand_2 .css-slider {
+  display: grid;
+  grid-column: col 1 / span 6;
   grid-row: 3;
   
-} 
+}  */
 
 
 
 
-  #third div:nth-child(1) {
+
+
+
+
+
+#expand_2  {
+  position: relative;
+  display: grid;
+  grid-column: col 7 / span 6;
+  grid-row: row 2;
+  margin-top: 60px;
+
+ 
+ 
+ 
+ } 
+ 
+ 
+ 
+
+
+
+ #third div:nth-child(1) {
     grid-column: col 1 / span 3;
     grid-row: 1;
-  }
+  } 
 
  #third .copy {
     grid-column: col 7 / span 5;
@@ -305,7 +350,7 @@ h6 {
 
 
 
-@keyframes autoplay6 {
+@keyframes autoplays {
   0% {
     opacity: 0;
   }
@@ -326,13 +371,11 @@ h6 {
 
 
 .css-slider > * {
-  animation: 12s autoplay6 infinite linear;
+  animation: 12s autoplays infinite linear;
   position: absolute;
-  top: 120px;
+  top: 320px;
   left: 0;
   opacity: 0;
-  /* height: 100%; */
-  /* width: 100%; */
 
   
 }
@@ -340,17 +383,17 @@ h6 {
 
 .css-slider > *:nth-child(1) {
   animation-delay: 0s;
-  /* background: #f00; */
+  background: #f00;
    /* width: 100%;  */
 
 }
 .css-slider > *:nth-child(2) {
   animation-delay: 4s;
-  /* background: #000; */
+  background: #000;
 }
 .css-slider > *:nth-child(3) {
   animation-delay: 8s;
-  /* background: #ff0; */
+  background: #ff0;
 }
 
 
