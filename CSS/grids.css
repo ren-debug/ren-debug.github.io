@@ -20,11 +20,26 @@
 
 }
 
+.col_1 {
+  grid-column: col 1 / span 3;
+  grid-row: row 2;
+  padding-bottom: 72px;
+
+}
+
+
+.col_2 {
+  grid-column: col 4 / span 3;
+  grid-row: row 2;
+  padding-bottom: 72px;
+
+}
+
 
 .grid {
   display: grid;
   height: 100vh;
-  grid-template-columns: repeat(12, [col] 1fr);
+  grid-template-columns: repeat(6, [col] 1fr);
   grid-column-gap: 3em;
   padding: 0px 0px 0px 0px;
   margin: 0;
@@ -35,30 +50,31 @@
 
 #about,
 #cv {
-  margin: 40px 88px 40px 40px;
+  margin: 0px 92px 0px 40px;
 }
+
 
 
 #about .col_1 {
   grid-column: col 1 / span 3;
-  grid-row: row 8;
-  padding-top: 40px;
+  grid-row: row 7;
+  padding-top: 52px;
 
 }
 
 
 #about .col_2 {
   grid-column: col 4 / span 3;
-  grid-row: row 8;
-  padding-top: 40px;
+  grid-row: row 7;
+  padding-top: 52px;
 
 }
 
 
 #about .col_3 {
-  grid-column: col 7 / span 5;
+  grid-column: col 7 / span 6;
   grid-row: row 1;
-  padding-top: 120px;
+  padding-top: 140px;
 
 }
 
@@ -73,7 +89,7 @@
 #cv .col_1 {
   grid-column: col 1 / span 3;
   grid-row: row 2;
-  padding-top: 0px;
+  padding-top: 60px;
 
 }
 
@@ -81,27 +97,36 @@
 #cv .col_2 {
   grid-column: col 4 / span 3;
   grid-row: row 2;
-  padding-top: 0px;
+  padding-top: 60px;
 
 }
 
 
 #cv .scrollbar {
   grid-column: col 7 / span 6;
-  grid-row: row 1;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  grid-row: row 2;
+  padding-top: 0px;
+  padding-bottom: 0px;
 
 }
 
 
 #cv .cv {
-  grid-column: span 3; 
-  grid-row: row 1;
-  padding-top: 90%;
+  grid-column: col 10 / span 3; 
+  grid-row: row 2;
+  padding-top: 196px;
+  padding-left: 136px;
+ 
 
 }
 
+#cv .clients_title {
+  background-color: #212121;
+  grid-column: col 7 / span 6; 
+  grid-row: row 1;
+  padding-top: 120px;
+
+}
 
 
 /* CV STYLING */
@@ -141,15 +166,15 @@
 
 .container .col_1 {
   grid-column: col 1 / span 4;
-  grid-row: row 4;
-padding-top: 8px;
+  grid-row: row 6;
+padding-top: 24px;
 }
 
 
 .container .col_2 {
   grid-column: col 5 / span 4;
-  grid-row: row 4;
-  padding-top: 8px;
+  grid-row: row 6;
+padding-top: 24px;
 
 
 }
@@ -157,11 +182,8 @@ padding-top: 8px;
 
 .container .col_3 {
   grid-column: col 9 / span 4;
-  grid-row: row 4;
-  padding-top: 8px;
-
-
- 
+  grid-row: row 6;
+padding-top: 24px;
 
 
 }

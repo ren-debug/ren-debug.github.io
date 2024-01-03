@@ -2,6 +2,7 @@ html {
     font-family: 'Switzer';
     text-align: justify;
     scroll-behavior: smooth;
+
     
 }
 
@@ -14,9 +15,9 @@ header {
     position: fixed;
     z-index: 1;
     height: 60px;
-    top: 0;
-    right: 0;
-    left: 0;
+    top: 0px;
+    right: 8px;
+    left: 8px;
     background-color: transparent; 
     border-bottom: 0.5px solid #b3b3b35d;  
    backdrop-filter: blur(5px); 
@@ -72,7 +73,7 @@ header * {
 
 .email i {
     font-size: 1.2rem;
-    padding: 0px 32px 0px 40px;
+    padding: 0px 40px 0px 40px;
 
 }
 
@@ -84,9 +85,9 @@ footer {
     position: fixed;
     height: 36px;
     padding: 0px 0px 12px 0px;
-    bottom: 0;
-    right: 0;
-    left: 0;
+    bottom: 0px;
+    right: 8px;
+    left: 8px;
     border-top: 0.5px solid #b3b3b35d; 
     backdrop-filter: blur(5px);
 
@@ -216,12 +217,12 @@ footer * {
 
 
 
-
+ 
 /* SCROLLBAR */
 
   
   .scrollbar ul {
-    list-style: none;
+    list-style: circle;
     padding-left: 0%;
     margin-left: 0%;
   
@@ -359,25 +360,50 @@ footer * {
 
 
 
-/* 
-.gradient {
+/* HIDE SECTION */
 
-    background-image: linear-gradient(180deg, rgb(255, 255, 255), rgba(255, 255, 255, 0.151));
-    background-size: 100%;
-    -webkit-background-clip: text;
-    background-clip: text;
-    background-clip: text;
-  -webkit-text-fill-color: transparent;
-    
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 19.2%;
+    margin: 0px 0px 0px 0px;
+    background-color: transparent;
+    z-index: 1;
+}
 
-} */
+
+h1 .sticky  {
+    margin-left: 0px;
+    padding-left: 0%;
+    list-style: none;
+}
+
+
+#work {
+    position: sticky;
+    height: 100vh;
+  }
+
+  
+
+#work{ 
+    display:none;
+}
+
+
+
+
+
+#work:target{
+    display: grid;
+}
 
 
 
 
 .parallax {
     /* The image used */
-    background-image: url("../assets/img/bg.jpg");
+    background-image: url("/img/bg.jpg");
 
     /* Set a specific height */
     min-height: 1440px;
