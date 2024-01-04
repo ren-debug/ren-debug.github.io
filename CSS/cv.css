@@ -3,7 +3,7 @@
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border: 0.2px solid white;
+    /* border: 0.2px solid white; */
     grid-column: col 6 / span 7; 
     margin-right: 40px;
     margin-top: 120px;
@@ -17,7 +17,7 @@
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border: 0.2px solid white;
+    /* border: 0.2px solid white; */
     grid-column: col 11 / span 2;
     margin-right:40px;
     margin-top: 240px;
@@ -33,7 +33,7 @@
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border: 0.2px solid white;
+    /* border: 0.2px solid white; */
     grid-column: col 6 / span 5;
     grid-row: row 12;
     margin-right: 0px;
@@ -46,7 +46,7 @@
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border: 0.2px solid white;
+    /* border: 0.2px solid white; */
      grid-column: col 1 / span 4;
     grid-row: row 12;  
     margin-right: 0px;
@@ -88,7 +88,7 @@ button {
     float: left;
     border: none;
     outline: none;
-    width: 112px;
+    width: 120px;
     height: 40px;
     cursor: pointer;
     transition: 0.3s;
@@ -137,6 +137,7 @@ button {
     background-size: 100%;
     color: transparent;
     background-clip: text;
+
   }
 
 
