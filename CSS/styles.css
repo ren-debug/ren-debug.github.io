@@ -16,8 +16,8 @@ header {
     z-index: 1;
     height: 60px;
     top: 0px;
-    right: 8px;
-    left: 8px;
+    right: 0px;
+    left: 0px;
     background-color: transparent; 
     border-bottom: 0.5px solid #b3b3b35d;  
    backdrop-filter: blur(5px); 
@@ -29,7 +29,7 @@ header * {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0 0;
+    padding-top: 7px;
     width: fit-content;
 
 }
@@ -222,15 +222,15 @@ footer * {
 
   
   .scrollbar ul {
-    list-style: circle;
+    list-style: none;
     padding-left: 0%;
     margin-left: 0%;
   
   }
   
   .scrollbar div {
-    height: 45vh;
-    overflow-x: hidden;
+    height: 40vh;
+    overflow-x: scroll;
     overflow-y: auto;
   
   
@@ -238,28 +238,28 @@ footer * {
   
   
   /* width */
-  ::-webkit-scrollbar {
+  /* ::-webkit-scrollbar {
     width: 6px;
   
-  }
+  } */
   
   /* Track */
-  ::-webkit-scrollbar-track {
+  /* ::-webkit-scrollbar-track {
     background: #212121;
   
-  }
+  } */
   
   /* Handle */
-  ::-webkit-scrollbar-thumb {
+  /* ::-webkit-scrollbar-thumb {
     background: rgba(255, 255, 255, 0.426);
     border-radius: 50px;
   
-  }
+  } */
   
   /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+  /* ::-webkit-scrollbar-thumb:hover {
     background: #555;
-  }
+  } */
   
 
 
@@ -322,7 +322,7 @@ footer * {
     color: #a6a6a6;
     border: none;
     position: fixed;
-    right: 40px;
+    right: 8px;
     top: 20px;
 }
 
