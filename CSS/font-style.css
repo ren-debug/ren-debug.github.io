@@ -14,7 +14,7 @@
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   /* speak: never; */
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -42,6 +42,7 @@
   color: #a6a5a5;
 }
 .icon-balsamiq:before {
+  font-size: 1.35rem;
   content: "\e900";
 }
 .icon-css:before {
@@ -85,14 +86,14 @@
 
 }
 
-#cv .col_2 .fi-brands-github {
+/* #cv .col_2 .fi-brands-github {
   font-size: 1.3rem;
   padding-left: 4px;
 }
 
 #cv .fi-brands-sketch {
   padding-left: 2px;
-}
+} */
 
 #about .fi-sr-guitar {
   font-size: 1.3rem;
@@ -107,7 +108,7 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-  .icon-css:before {
+  /* .icon-css:before {
     content: "\e901";
     padding-left: 14px;
   }
@@ -115,7 +116,7 @@
   #cv .col_2 .fi-brands-github {
     font-size: 1.3rem;
     padding-left: 14px;
-  }
+  } */
 
 
   .icon-botany:before {

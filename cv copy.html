@@ -40,7 +40,6 @@ html {
 
 body {
 background-color: #212121;
-color: #a6a6a6;
 overflow: hidden; /* Hide scrollbars */
 
 } 
@@ -126,15 +125,11 @@ footer {
 
 
 
-    <div id="cv" class="grid page">
+    
 
-        <div class="cv">
-         
-    <h4><a href="./pdf/irene.spalletti_CV_print.pdf" download>download full cv&nbsp;&nbsp;&nbsp;<i class="fi fi-br-download"></i></a></h4>
+  
 
-        </div>
-
-
+<!-- 
         <div class="col_1">
             <h4>languages<hr></h4>
 
@@ -145,10 +140,10 @@ footer {
             <li>Spanish</li>
             </ul>
 
-        </div>
+        </div> -->
 
                 
-        <div class="col_2">
+        <!-- <div class="col_2">
             <h4>technical tools<hr></h4>
 
             <ul> 
@@ -220,55 +215,183 @@ footer {
 
             </ul>
         
-        </div>
+        </div> -->
 
-        <div class="clients_title">
+        <!-- <div class="clients_title">
             <h4>2015 – now<br>selected clients & industry experience</h4>
 
-        </div>
-
-
+        </div> -->
+    <div id="cv" class="grid page">
+        
         <div class="tab">
+            <h4>2015 – now<br>selected clients & industry experience</h4>
+
+            <button class="tablinks" onclick="openCity(event, 'all')">all</button>
             <button class="tablinks" onclick="openCity(event, 'beauty')">beauty</button>
             <button class="tablinks" onclick="openCity(event, 'finance')">finance</button>
             <button class="tablinks" onclick="openCity(event, 'retail')">retail</button>
             <button class="tablinks" onclick="openCity(event, 'luxury')">luxury</button>
             <button class="tablinks" onclick="openCity(event, 'media')">media</button>
-            <button class="tablinks" onclick="openCity(event, 'sport')">sport</button>
-          </div>
+            <!-- <button class="tablinks" onclick="openCity(event, 'sport')">sport</button> -->
+        </div>
           
-          <div id="beauty" class="tabcontent">
-            <h3>London</h3>
-            <p>London is the capital city of England.</p>
-          </div>
-          
-          <div id="finance" class="tabcontent">
-            <h3>Paris</h3>
-            <p>Paris is the capital of France.</p> 
-          </div>
-          
-          <div id="retail" class="tabcontent">
-            <h3>Tokyo</h3>
-            <p>Tokyo is the capital of Japan.</p>
-          </div>
+        <div class="opentab">
 
-          <div id="luxury" class="tabcontent">
-            <h3>London</h3>
-            <p>London is the capital city of England.</p>
-          </div>
+            <div id="all" class="tabcontent">
+                <p>
+                    <ul>
+                        <li>
+                            <h4>Boots</h4>
+                            <h5>description - role<hr></h5>
+                            <button>view</button>
+                        </li>
+                    </ul>
+                </p>
+            </div>
+
+            <div id="beauty" class="tabcontent">
+                <p>
+                    <ul>
+                        <li>
+                            <h4>Boots</h4>
+                            <h5>description - role<hr></h5>
+                        </li>
+
+                        <li>
+                            <h4>Boots</h4>
+                            <h5>description - role
+                            <div class="view">view</div>
+                            <hr></h5>
+                           
+                        </li>
+
+                    
+
+                      
+                    </ul>
+                </p>
+
+            </div>
+            
+            <div id="finance" class="tabcontent">
+                    <h3>Paris</h3>
+                    <p>Paris is the capital of France.</p> 
+            </div>
+            
+            <div id="retail" class="tabcontent">
+                <h3>Tokyo</h3>
+                <p>Tokyo is the capital of Japan.</p>
+            </div>
+
+            <div id="luxury" class="tabcontent">
+                <h3>London</h3>
+                <p>London is the capital city of England.</p>
+            </div>
+            
+            <div id="media" class="tabcontent">
+                <h3>Paris</h3>
+                <p>Paris is the capital of France.</p> 
+            </div>
+            
+            <div id="sport" class="tabcontent">
+                <h3>Tokyo</h3>
+                <p>Tokyo is the capital of Japan.</p>
+            </div>
+        </div>
+        
+        <div class="cv">
+            <h4>download</h4>
+
+            <button class="tablinks" onclick="openCity(event, 'all')">my cv</button>
           
-          <div id="media" class="tabcontent">
-            <h3>Paris</h3>
-            <p>Paris is the capital of France.</p> 
-          </div>
-          
-          <div id="sport" class="tabcontent">
-            <h3>Tokyo</h3>
-            <p>Tokyo is the capital of Japan.</p>
-          </div>
+            <!-- <button class="tablinks" onclick="openCity(event, 'sport')">sport</button> -->
+        </div>
+    
+
+<!-- 
+        <div class="cv">
+            <h4>download</h4>
+            <button class="tablinks"><a href="./pdf/irene.spalletti_CV_print.pdf" download><i class="fi fi-br-download"></i>&nbsp;&nbsp;&nbsp;my cv</a>
+            </button>
+        </div> -->
+
+        <div class="languages">
+            <h4>languages</h4>
+
+            <button class="tablinks">italian</button>
+            <button class="tablinks">french</button>
+            <button class="tablinks">english</button>
+            <button class="tablinks">spanish</button>
+        </div>
+
+        <div class="skills">
+            <h4>skills</h4>
+
+            
+            <sbutton class="tablinks tooltip"><li><i class="fi fi-brands-photoshop"></i></li>
+                <span class="tooltiptext">photoshop</span>
+            </sbutton>
+
+            <sbutton class="tablinks tooltip"><li><i class="fi fi-brands-illustrator"></i></li>
+                <span class="tooltiptext">illustrator</span>
+            </sbutton>
+
+            <sbutton class="tablinks tooltip"><li><i class="fi fi-brands-indesign"></i></li>
+                <span class="tooltiptext">inDesign</span>
+            </sbutton>
+
+            <sbutton class="tablinks tooltip"><li><i class="fi fi-brands-xd"></i></li>
+                <span class="tooltiptext">xd</span>
+            </sbutton>
+
+            <sbutton class="tablinks tooltip"><li><i class="fi fi-brands-after-effects"></i></li>
+                <span class="tooltiptext">after effects</span>
+            </sbutton>
+
+         
+
+            <br>
+            <sbutton class="tablinks tooltip"><li><i class="fi fi-brands-figma"></i></li>
+                <span class="tooltiptext">figma</span>
+            </sbutton>
+
+            <sbutton class="tablinks tooltip"><li><i class="fi fi-brands-sketch"></i></li>
+                <span class="tooltiptext">sketch</span>
+            </sbutton>
+
+            <sbutton class="tablinks tooltip"><li><i class="fi fi-brands-invision"></i></li>
+                <span class="tooltiptext">inVision</span>
+            </sbutton>
+
+            <!-- <sbutton class="tablinks tooltip"><li><span class="icon-mural"></span></li>
+                <span class="tooltiptext">mural</span>
+            </sbutton> -->
+
+            <sbutton class="tablinks tooltip"><span class="icon-balsamiq"></span></li>
+                <span class="tooltiptext">balsamiq</span> 
+            </sbutton>
+
+
+<br>
+             <sbutton class="tablinks tooltip"><li><span class="icon-html"></span></li>
+                <span class="tooltiptext">html</span>
+            </sbutton>
+
+            <sbutton class="tablinks tooltip"><li><span class="icon-css"></span></li>
+                <span class="tooltiptext">css</span>
+            </sbutton> 
+
+            <sbutton class="tablinks tooltip"><li><i class="fi fi-brands-github"></i></li>
+                <span class="tooltiptext">gitHub</span>
+            </sbutton>
 
 
 
+
+        </div>
+
+        
+        
     </div>
 
 
@@ -288,6 +411,9 @@ footer {
       evt.currentTarget.className += " active";
     }
     </script>
+
+
+
 <!-- 
         <div class="scrollbar"> 
             
