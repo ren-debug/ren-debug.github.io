@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./CSS/typography.css">
     <link rel="stylesheet" href="./CSS/grids.css">
     <link rel="stylesheet" href="./CSS/font-style.css">
+    <link rel="stylesheet" href="./CSS/cv.css">
+
 
     <!-- <link rel="stylesheet" href="./CSS/experience.css">  -->
 
@@ -222,12 +224,70 @@ footer {
 
         <div class="clients_title">
             <h4>2015 – now<br>selected clients & industry experience</h4>
+
         </div>
 
+
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'beauty')">beauty</button>
+            <button class="tablinks" onclick="openCity(event, 'finance')">finance</button>
+            <button class="tablinks" onclick="openCity(event, 'retail')">retail</button>
+            <button class="tablinks" onclick="openCity(event, 'luxury')">luxury</button>
+            <button class="tablinks" onclick="openCity(event, 'media')">media</button>
+            <button class="tablinks" onclick="openCity(event, 'sport')">sport</button>
+          </div>
+          
+          <div id="beauty" class="tabcontent">
+            <h3>London</h3>
+            <p>London is the capital city of England.</p>
+          </div>
+          
+          <div id="finance" class="tabcontent">
+            <h3>Paris</h3>
+            <p>Paris is the capital of France.</p> 
+          </div>
+          
+          <div id="retail" class="tabcontent">
+            <h3>Tokyo</h3>
+            <p>Tokyo is the capital of Japan.</p>
+          </div>
+
+          <div id="luxury" class="tabcontent">
+            <h3>London</h3>
+            <p>London is the capital city of England.</p>
+          </div>
+          
+          <div id="media" class="tabcontent">
+            <h3>Paris</h3>
+            <p>Paris is the capital of France.</p> 
+          </div>
+          
+          <div id="sport" class="tabcontent">
+            <h3>Tokyo</h3>
+            <p>Tokyo is the capital of Japan.</p>
+          </div>
 
 
 
     </div>
+
+
+
+<script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    </script>
 <!-- 
         <div class="scrollbar"> 
             

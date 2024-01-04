@@ -73,7 +73,7 @@ header * {
 
 .email i {
     font-size: 1.2rem;
-    padding: 0px 40px 0px 40px;
+    padding: 0px 88px 0px 60px;
 
 }
 
@@ -322,8 +322,8 @@ footer * {
     color: #a6a6a6;
     border: none;
     position: fixed;
-    right: 36px;
-    top: 43vh;
+    right: 40px;
+    top: 20px;
 }
 
 .sidebar button {

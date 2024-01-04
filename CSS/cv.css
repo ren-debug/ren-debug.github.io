@@ -1,0 +1,64 @@
+
+/* Style the buttons inside the tab */
+.tab button {
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 4px 32px;
+    margin-right: 2px;
+    transition: 0.3s;
+    font-size: 11px;
+    color: #212121;
+    background-color:#ccc;
+
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    opacity: .6;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #212121;
+    border-top: none;
+  }
+
+  .clients_title {
+    grid-column: col 7 / span 6; 
+    grid-row: row 1;
+    padding-top: 120px;
+  
+  }
+
+  .tab {
+    grid-column: col 7 / span 6; 
+    grid-row: row 1;
+    padding-top: 200px;
+  
+  }
+
+  /* CV */
+
+#cv .col_1 {
+    grid-column: col 1 / span 3;
+    grid-row: row 5;
+    padding-top: 60px;
+  
+  }
+  
+  
+  #cv .col_2 {
+    grid-column: col 4 / span 3;
+    grid-row: row 5;
+    padding-top: 60px;
+  
+  }
