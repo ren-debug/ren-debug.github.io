@@ -131,6 +131,21 @@ body {
 
   }
 
+  #about .col_1  {
+    grid-column: col 1 / span 4;
+    grid-row: row 4;
+    padding-top: 213px;
+
+  }
+
+  #about .col_3  {
+    grid-column: col 6 / span 6; 
+    grid-row: row 3;
+    padding-top: 180px;
+
+  }
+
+
  /* #work .tabcontent{
    display: none;
   } */

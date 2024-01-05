@@ -8,217 +8,409 @@
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="./CSS/styles.css">
     <link rel="stylesheet" href="./CSS/typography.css">
-    <link rel="stylesheet" href="./CSS/grids.css">
+    <!-- <link rel="stylesheet" href="./CSS/grids.css"> -->
     <link rel="stylesheet" href="./CSS/font-style.css">
+    <!-- <link rel="stylesheet" href="./CSS/cv.css"> -->
+    <link rel="stylesheet" href="./CSS/info.css">
 
-   <!-- <link rel="stylesheet" href="./CSS/about.css">  -->
+    <!-- <link rel="stylesheet" href="./CSS/experience.css">  -->
 
     <!-- <link rel="stylesheet" href="./CSS/styles_2.css"> -->
     <!-- <link rel="stylesheet" href="./CSS/scroll.css"> -->
 
+    <link href="https://fonts.cdnfonts.com/css/switzer" rel="stylesheet" />
 
-    <!-- <link rel="stylesheet" href="./CSS/experience.css"> -->
-    <link href="https://fonts.cdnfonts.com/css/switzer" rel="stylesheet"/>
+    <style>
+        html {
+            box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            border-right: 8px solid white;
+            border-left: 8px solid white;
+            margin: 0px;
+            height: 100vh;
+        }
 
+        body {
+            background-color: #212121;
+            color: #a6a6a6;
+            overflow: hidden;
+            /* Hide scrollbars */
 
-<style>
-
-
-html {
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    border-right: 8px solid white;
-    border-left: 8px solid white;
-    margin: 0px;
-    height: 100vh;
-} 
-
-body {
-background-color: #212121;
-color: #a6a6a6;
-} 
-
-header {
-    border-top: 8px solid white;
-    right: 8px;
-    left: 8px;
-}
-
-footer {
-    border-bottom: 8px solid white;
-    right: 8px;
-    left: 8px;
-}
-
-.openbtn {
-    margin-right: 36px;
-    margin-top: 1.5px;
+        }
 
 
-}
-</style>
+        footer {
+            border-bottom: 8px solid white;
+            right: 8px;
+            left: 8px;
+        }
+    </style>
+
 </head>
 
-
 <body>
-    
+
     <header>
-        <div class="nav_left">
+        <div class="nav">
+            <a href="./index.html" class="home"><i class="fi fi-rr-home"></i></a>
+
             <ul>
-                <li><a href="./index.html" class="home"><i class="fi fi-rr-home"></i></a></li>
-                <li><a style="padding-right: 40px;" href="./about.html" class="about">about</a></li>
-                <li><a style="padding-right: 40px;" href="./work.html">work</a></li>
+                <li><a href="./about.html" class="about">about</a></li>
+                <li><a href="./work.html">work</a></li>
+                <li><a href="/digital.html">01. digital design</a></li>
+                <li><a href="/print.html">02. print design</a></li>
                 <li><a href="./cv.html" class="exp">experience</a></li>
             </ul>
         </div>
 
-        <div class="nav_right">
-            <ul>
-                <li><a style="padding-left: 40px;" href="/digital.html">01. digital design</a></li>
-                <li><a style="padding-left: 40px;" href="/print.html">02. print design</a></li>
-                <li><a style="padding-left: 40px;" href="#">03. web design</a></li>
-                <li><a href="./contact.html" class="email"><i class="fi fi-rr-envelope"></i></a></li>
-            </ul>
-        </div> 
-    </header> 
+    </header>
 
-
-    <menu class="links">
+    <!-- <menu class="links">
         <ul><h1>
-            <li>about</li>
+            <li><a href="./about.html">about</a></li> 
             <li><a href="./work.html">work</a></li>
-            <li><a href="./cv.html">experience</a></li>  
+            <li>experience</li> 
         </h1></ul>
-    </menu>
-
+    </menu> -->
 
     <aside>
-    <div id="mySidebar" class="sidebar">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <div><a href="./print.html">01. print design</a></div>
-        <div><a href="./web.html">02. web design</a></div>
-        <div><a href="./digital.html">03. digital design</a></div>
-        
-        <button><a href="mailto:irene.spalletti@gmail.com">get in touch!</a></button>
-    </div>
-        <button class="openbtn" onclick="openNav()">☰</button>
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <div><a href="./print.html">01. print design</a></div>
+            <div><a href="./web.html">02. web design</a></div>
+            <div><a href="./digital.html">03. digital design</a></div>
+
+            <button><a href="mailto:irene.spalletti@gmail.com">get in touch!</a></button>
+        </div>
+        <button class="openbtn" onclick="openNav()"><i class="fi fi-br-menu-burger"></i></button>
         <div id="main"></div>
     </aside>
-        
+
     <script>
-    function openNav() {
-    document.getElementById("mySidebar").style.width = "100%";
-    document.getElementById("main").style.marginLeft = "250px";
-    }
-        
-    function closeNav() {
-    document.getElementById("mySidebar").style.width = "0";
-    document.getElementById("main").style.marginLeft = "0";
-    }
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "100%";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
     </script>
-        
+
     <div id="main"></div>
 
-
-
-
-  
-    <div id="about" class="grid page">
+    <div id="about" class="container page">
 
         <div class="col_1">
-            <h4>contact<hr></h4>
+            <h3>skills
+                <hr>
+            </h3>
 
-            Irene Spalletti<br>
-            <a href="mailto:irene.spalletti@gmail.com">irene.spalletti@gmail.com</a><br>
-            <a href="tel:00447412604767">+44 (0) 7412 604 767</a>
+            <div class="tablinks tooltip">
+                <li><i class="fi fi-brands-photoshop"></i></li>
+                <span class="tooltiptext">photoshop</span>
+            </div>
+
+            <div class="tablinks tooltip">
+                <li><i class="fi fi-brands-illustrator"></i></li>
+                <span class="tooltiptext">illustrator</span>
+            </div>
+
+            <div class="tablinks tooltip">
+                <li><i class="fi fi-brands-indesign"></i></li>
+                <span class="tooltiptext">inDesign</span>
+            </div>
+
+            <div class="tablinks tooltip">
+                <li><i class="fi fi-brands-xd"></i></li>
+                <span class="tooltiptext">xd</span>
+            </div>
+
+            <div class="tablinks tooltip">
+                <li><i class="fi fi-brands-after-effects"></i></li>
+                <span class="tooltiptext">after effects</span>
+            </div>
+
+            <br>
+            <div class="tablinks tooltip">
+                <li><i class="fi fi-brands-figma"></i></li>
+                <span class="tooltiptext">figma</span>
+            </div>
+
+            <div class="tablinks tooltip">
+                <li><i class="fi fi-brands-sketch"></i></li>
+                <span class="tooltiptext">sketch</span>
+            </div>
+
+            <div class="tablinks tooltip">
+                <li><i class="fi fi-brands-invision"></i></li>
+                <span class="tooltiptext">inVision</span>
+            </div>
+
+            <!-- <sbutton class="tablinks tooltip"><li><span class="icon-mural"></span></li>
+                <span class="tooltiptext">mural</span>
+            </sbutton> -->
+
+            <div class="tablinks tooltip"><span class="icon-balsamiq"></span></li>
+                <span class="tooltiptext">balsamiq</span>
+            </div>
+
+            <div class="tablinks tooltip">
+                <li><span class="icon-html"></span></li>
+                <span class="tooltiptext">html</span>
+            </div>
+
+            <div class="tablinks tooltip">
+                <li><span class="icon-css"></span></li>
+                <span class="tooltiptext">css</span>
+            </div>
+
+            <div class="tablinks tooltip">
+                <li><i class="fi fi-brands-github"></i></li>
+                <span class="tooltiptext">gitHub</span>
+            </div>
 
         </div>
 
-<!--                 
-        <div class="col_2">
-            <h4>about me<hr></h4>
 
-            <ul> 
-
-                <div class="tooltip"><li><span class="icon-saddle"></span></li>
-                    <span class="tooltiptext">horse riding</span>
-                </div>
-
-                <div class="tooltip"><li><span class="icon-boxing"></span></li>
-                    <span class="tooltiptext">boxing</span>
-                </div>
-
-                <div class="tooltip"><li><span class="icon-mat"></span></li>
-                    <span class="tooltiptext">yoga</span>
-                </div>
-
-                <div class="tooltip"><li><span class="icon-swim"></span></li>
-                    <span class="tooltiptext">swimming</span>
-                </div>
-
-                <div class="tooltip"><li><i class="fi fi-sr-guitar"></i></li>
-                    <span class="tooltiptext">guitar</span>
-                </div>
-
-            </ul>
-            
-                
-            <ul> 
-
-                <div class="tooltip"><li><span class="icon-saturn"></span></li>
-                    <span class="tooltiptext">space</span>
-                </div>
-
-                <div class="tooltip"><li><span class="icon-meditation"></span></li>
-                    <span class="tooltiptext">spirituality</span>
-                </div>
-
-                <div class="tooltip"><li><span class="icon-botany"></span></li>
-                    <span class="tooltiptext">botany</span>
-                </div>
-
-                <div class="tooltip"><li><i class="fi fi-rr-physics"></i></li>
-                    <span class="tooltiptext">physics</span>
-                </div>
-
-                <div class="tooltip"><li><i class="fi fi-rr-square-code"></i></li>
-                    <span class="tooltiptext">coding</span>
-                </div>
-  
-            </ul>   
-        </div>  -->
-          
-        <div class="col_3"> 
-            <p>I am a freelance UX / UI Designer and Front-end Developer, Senior Visuao and Digital Designer
-                with
-                over eleven years of experience in my field. My work in Visual Communication expressed through
-                both
-                the printed and digital media has given me a deep respect for the physical properties and
-                tactile
-                elements of materials and provided me with a distinctive advantage in creating designs for the
-                digital world, an area that continually inspires me through its innovation and expressive
-                potential.
-
-                <br><br>This has allowed me to cultivate a foundational understanding of traditional design
-                principles,
-                enabling the translation of ideas and execution across diverse channels seamlessly. My body of
-                work
-                is characterised by a careful attention to detail, with a focus on a clean and classic aesthetic
-                whilst placing emphasis on typography-driven design and merges elegance with functional.
-            </p>    
+        <div style="padding-left: 68px;" class="col_3">
+            <p>My work in Visual Communication expressed through both the printed and digital media has given me a deep
+                respect for the physical properties and tactile elements of materials and provided me with a distinctive
+                advantage in creating designs for the digital world, an area that continually inspires me through its
+                innovation and expressive potential.
+                This has allowed me to cultivate a foundational understanding of traditional design principles, enabling
+                the translation of ideas and execution across diverse channels seamlessly. My body of work is
+                characterised by a careful attention to detail, with a focus on a clean and classic aesthetic whilst
+                placing emphasis on typography-driven design and merges elegance with functional.
+            </p>
         </div>
+
 
     </div>
 
+  
+
+
+    <!-- 
+        <div class="scrollbar"> 
+            
+            <div>
+            
+            <ul>
+           
+
+            
+
+                <h3>beauty & healthcare<hr></h3>
+
+                
+                <li>
+                    <h4>Boots</h4>
+                   
+                    <p>description / role / project               
+                    </p><br><li><a href="#" class="view">view project</a><hr></li>
+
+            
+                <li><h4>The Body Shop</h4>
+                    <p>description / role / project               
+                    </p><br>beauty & healthcare<hr></li>
+
+
+                <li><h4>Elemis (Frontroom)</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+
+                <li><h4>Bausch & Lomb (AS&K)</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+        
+                
+                <li><h4>Lancôme</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+        
+        
+        
+                <li><h4>L’Orēal</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+
+                <li><h4>Yves Saint Laurent</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr>
+                </li>
+
+
+            </ul>
+
+            <ul>
+           
+                <br><br><h3>economics & finance</h3><br>
+
+                <li><h4>ADA Economics</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+            
+                <li><h4>Blocksize Unlimited</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+
+                <li><h4>FT Financial Times</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+
+                <li><h4>Greenfinch app</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+            </ul>
+
+            <ul>
+           
+                <br><br><h3>fashion & retail</h3><br>
+
+                <li><h4>Blank</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+            
+                <li><h4>McArthurGlen</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+
+                <li><h4>Mike Koedinger</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+
+            </ul>
+
+            <ul>
+           
+                <br><br><h3>food & hospitality</h3><br>
+
+                <li><h4>Belvedere Vodka (Hue & Cry)</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+            
+                <li><h4>Ella</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+
+                <li><h4>Karolina Manns</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+
+                <li><h4>The East India Company</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+            </ul>
+
+
+            <ul>
+           
+                <br><br><h3>luxury</h3><br>
+
+                <li><h4>Burberry</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+            
+                <li><h4>Christie’s</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+
+                <li><h4>Lancôme</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+
+                <li><h4>The East India Company</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+
+                <li><h4>Yves Saint Laurent</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+            </ul>
+
+
+
+ 
+            
+            <ul>
+           
+                <br><br><h3>real estate</h3><br>
+
+                <li><h4><strong>Babylon</strong> (Socrates)</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+
+                <li><h4>Christie’s Real Estate</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+            </ul>
+
+
+            <ul>
+           
+                <br><br><h3>sport & well-being</h3><br>
+
+                <li><h4>Atma Yoga</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+            
+                <li><h4>LP Workouts</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+
+                <li><h4>Karolina Manns</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+
+                <li><h4><strong>England Rugby Football Union</strong> (RFU)</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+
+
+            </ul>
+
+        
+        </div>
+
+
+    -->
+
+    <!-- <div class="cv"><h4><a href="./pdf/irene.spalletti_CV_print.pdf" download>download full cv&nbsp;&nbsp;&nbsp;<i class="fi fi-br-download"></i></a></h4></div> -->
 
     <footer>
         <div class="footer">
-        <ul>
-            <li>© 2023 — Irene Spalletti</li>
-            <li><a href="#">privacy</a></li>
-            <li><a href="#">terms</a></li>
-        </ul>
+            <ul>
+                <li>© 2023 — Irene Spalletti</li>
+                <li><a href="#">privacy</a></li>
+                <li><a href="#">terms</a></li>
+            </ul>
         </div>
 
         <div class="footer_contact">
@@ -228,8 +420,9 @@ footer {
                 <li><a href="#"><i class="fi fi-brands-linkedin"></i></a></li>
                 <li> <a href="#"><i class="fi fi-rr-envelope"></i></a></li>
             </ul>
-        </div>   
-    </footer> 
+        </div>
+    </footer>
 
 </body>
+
 </html>
