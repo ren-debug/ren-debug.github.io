@@ -63,10 +63,10 @@ h3 {
 
 
 h4 {
-    font-size: 1rem;
-    letter-spacing: 0px;
+    font-size: .9rem;
+    letter-spacing: 0.5px;
     font-weight: 400;
-    padding: 0%;
+    padding-bottom: 0%;
     margin: 0%;
 }
 
@@ -136,13 +136,13 @@ li {
 hr {
     border: 0.4px solid rgba(100, 100, 100, 0.24);
     margin-bottom: 4px;
-}
+} 
 
 
 
 /* SCROLLBAR */
 
- 
+/*  
 
 .scrollbar h2 {
     font-size: 1rem;
@@ -167,4 +167,4 @@ hr {
     padding-bottom: 1px;
     margin-bottom: 0%;
     padding-bottom: 0%;
-  }
+  } */

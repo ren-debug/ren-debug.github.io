@@ -10,16 +10,23 @@
     <link rel="stylesheet" href="./CSS/typography.css">
     <link rel="stylesheet" href="./CSS/grids.css">
     <link rel="stylesheet" href="./CSS/font-style.css">
+    <link rel="stylesheet" href="./CSS/cv.css">
 
-    <!-- <link rel="stylesheet" href="./CSS/scroll.css"> -->
+
+    <!-- <link rel="stylesheet" href="./CSS/experience.css">  -->
 
 
     <!-- <link rel="stylesheet" href="./CSS/styles_2.css"> -->
+    <!-- <link rel="stylesheet" href="./CSS/scroll.css"> -->
+
+
     <link href="https://fonts.cdnfonts.com/css/switzer" rel="stylesheet"/>
 
 
 
+
 <style>
+
 
 html {
     box-sizing: border-box;
@@ -28,12 +35,13 @@ html {
     border-right: 8px solid white;
     border-left: 8px solid white;
     margin: 0px;
-    height: auto;
+    height: 100vh;
 } 
 
 body {
 background-color: #212121;
-color: #a6a6a6;
+overflow: hidden; /* Hide scrollbars */
+
 } 
 
 header {
@@ -69,22 +77,24 @@ footer {
 
         <div class="nav_right">
             <ul>
-                <li><a style="padding-left: 40px;" href="./project.html">01. print design</a></li>
-                <li><a style="padding-left: 40px;" href="./project.html">02. web design</a></li>
-                <li><a style="padding-left: 40px;" href="./project.html">03. digital design</a></li>
+                <li><a style="padding-left: 40px;" href="/digital.html">01. digital design</a></li>
+                <li><a style="padding-left: 40px;" href="/print.html">02. print design</a></li>
+                <li><a style="padding-left: 40px;" href="#">03. web design</a></li>
                 <li><a href="./contact.html" class="email"><i class="fi fi-rr-envelope"></i></a></li>
             </ul>
         </div> 
-    </header> 
-
+    </header>  
+    
+    
     <menu class="links">
         <ul><h1>
-            <li><a href="./about.html">about</a></li>
+            <li><a href="./about.html">about</a></li> 
             <li>work</li>
-            <li><a href="./cv.html">experience</a></li>  
+            <li><a href="./cv.html">experience</a></li> 
         </h1></ul>
     </menu>
-
+    
+    
     <aside>
         <div id="mySidebar" class="sidebar">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
@@ -113,60 +123,400 @@ footer {
     <div id="main"></div>
 
 
+    <div id="work" class="grid page">
+        
+        <div class="tab"><br>
+            <h4>index of work</h4>
 
-
-    <div class="container page">
-
-        <div class="col_1">
-            <h4><a href="./print/html">print design</a>
-                <hr>
-            </h4>
-            <div class="numbers">
-                <a href="#">
-                    <h6>Projects</h6>
-                </a>
-                <a href="#">01</a>
-                <a href="#">02</a>
-                <a href="#">03</a>
-                <a href="#">04</a>
-                <a href="#">05</a>
-            </div>
-
-        </div>
-        <div class="col_2">
-            <h4><a href="./web/html">web design</a>
-                <hr>
-            </h4>
-            <div class="numbers">
-                <a href="#">
-                    <h6>Projects</h6>
-                </a>
-                <a href="#">01</a>
-                <a href="#">02</a>
-                <a href="#">03</a>
-                <a href="#">04</a>
-                <a href="#">05</a>
-            </div>
-        </div>
-
-        <div class="col_3">
-            <h4><a href="./digital/html">digital design</a>
-                <hr>
-            </h4>
-            <div class="numbers">
-                <a href="#">
-                    <h6>Projects</h6>
-                </a>
-                <a href="#">01</a>
-                <a href="#">02</a>
-                <a href="#">03</a>
-                <a href="#">04</a>
-                <a href="#">05</a>
-            </div>
-
-        </div>
-    </div>
+            <!-- <button class="tablinks" onclick="openCity(event, 'all')">all</button> -->
+            <button class="tablinks" onclick="openCity(event, 'marketing')">marketing</button>
+            <button class="tablinks" onclick="openCity(event, 'print')">print</button>
+            <button class="tablinks" onclick="openCity(event, 'web')">web</button>
     
+            <!-- <button class="tablinks" onclick="openCity(event, 'sport')">sport</button> -->
+        </div>
+          
+        <div class="opentab">
+
+            <!-- <div id="all" class="tabcontent gradient">
+                <p>
+                    <ul>
+                        <li>
+                            <h4><br>Yves Saint Laurent</h4>
+                            <p>digital marketing - freelance<hr></p>
+                        </li>
+
+                        <li>
+                            <h4><br>Pokerstars</h4>
+                            <h5>digital design - freelance
+                            <div class="view">view</div>
+                            <hr></h5>
+                            
+                        </li>
+
+                        <li>
+                            <h4><br>Boots</h4>
+                            <h5>digital / print design - freelance<hr></h5>
+                        </li>
+
+                        <li>
+                            <h4><br>Rugby Football Union</h4>
+                            <h5>branding / digital design - freelance
+                            <div class="view">view</div>
+                            <hr></h5>
+                            
+                        </li>
+                    </ul>
+                </p>
+            </div> -->
+
+        
+
+            <div style="margin-top: 6px;"  id="marketing" class="tabcontent gradient">
+                <p>
+                    <ul>
+                        <li>
+                            <h4><br>Yves Saint Laurent</h4>
+                            <h5>digital marketing - freelance<hr></h5>
+                        </li>
+
+                        <li>
+                            <h4><br>Pokerstars</h4>
+                            <h5>digital design - freelance
+                            <div class="view">view</div>
+                            <hr></h5>
+                            
+                        </li>
+
+                        <li>
+                            <h4><br>Boots</h4>
+                            <h5>digital / print design - freelance<hr></h5>
+                        </li>
+
+                        <li>
+                            <h4><br>McArthurGlen</h4>
+                            <h5>marketing & digital design - freelance
+                            <div class="view">view</div>
+                            <hr></h5>
+                            
+                        </li>
+
+
+                        <li>
+                            <h4><br>Rugby Football Union</h4>
+                            <h5>branding / digital design - freelance
+                            <div class="view">view</div>
+                            </h5>
+                            
+                        </li>
+                    </ul>
+                </p>
+
+            </div>
+            
+            <div id="print" class="tabcontent gradient">
+                <p>
+                    <ul>
+                        <li>
+                            <h4><br>Capital Gardens</h4>
+                            <h5>company rebranding - art director<hr></h5>
+                        </li>
+
+                        <li>
+                            <h4><br>Christie's - Alexander Calder</h4>
+                            <h5>visual identity - print designer
+                            <div class="view">view</div>
+                            <hr></h5>
+                            
+                        </li>
+
+                        <li>
+                            <h4><br>Christie's - Jan Krugier</h4>
+                            <h5>digital / print design - freelance<hr></h5>
+                        </li>
+
+                        <li>
+                            <h4><br>Karolina Manns</h4>
+                            <h5>branding & packaging - freelance
+                            <div class="view">view</div>
+                            <hr></h5>
+                            
+                        </li>
+                    </ul>
+                </p>
+            </div>
+            
+            <div id="web" class="tabcontent gradient">
+                <p>
+                    <ul>
+                        <li>
+                            <h4><br>Yves Saint Laurent</h4>
+                            <h5>digital marketing - freelance<hr></h5>
+                        </li>
+
+                        <li>
+                            <h4><br>Pokerstars</h4>
+                            <h5>digital design - freelance
+                            <div class="view">view</div>
+                            <hr></h5>
+                            
+                        </li>
+
+                        <li>
+                            <h4><br>Boots</h4>
+                            <h5>digital / print design - freelance<hr></h5>
+                        </li>
+
+                        <li>
+                            <h4><br>Rugby Football Union</h4>
+                            <h5>branding / digital design - freelance
+                            <div class="view">view</div>
+                            <hr></h5>
+                            
+                        </li>
+                    </ul>
+                </p>
+            </div>
+
+     
+        </div>
+  
+     
+    </div>
+
+
+
+<script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+</script>
+
+
+
+<!-- 
+        <div class="scrollbar"> 
+            
+            <div>
+            
+            <ul>
+           
+
+            
+
+                <h3>beauty & healthcare<hr></h3>
+
+                
+                <li>
+                    <h4>Boots</h4>
+                   
+                    <p>description / role / project               
+                    </p><br><li><a href="#" class="view">view project</a><hr></li>
+
+            
+                <li><h4>The Body Shop</h4>
+                    <p>description / role / project               
+                    </p><br>beauty & healthcare<hr></li>
+
+
+                <li><h4>Elemis (Frontroom)</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+
+                <li><h4>Bausch & Lomb (AS&K)</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+        
+                
+                <li><h4>Lancôme</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+        
+        
+        
+                <li><h4>L’Orēal</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+
+                <li><h4>Yves Saint Laurent</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr>
+                </li>
+
+
+            </ul>
+
+            <ul>
+           
+                <br><br><h3>economics & finance</h3><br>
+
+                <li><h4>ADA Economics</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+            
+                <li><h4>Blocksize Unlimited</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+
+                <li><h4>FT Financial Times</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+
+                <li><h4>Greenfinch app</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+            </ul>
+
+            <ul>
+           
+                <br><br><h3>fashion & retail</h3><br>
+
+                <li><h4>Blank</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+            
+                <li><h4>McArthurGlen</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+
+                <li><h4>Mike Koedinger</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+
+            </ul>
+
+            <ul>
+           
+                <br><br><h3>food & hospitality</h3><br>
+
+                <li><h4>Belvedere Vodka (Hue & Cry)</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+            
+                <li><h4>Ella</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+
+                <li><h4>Karolina Manns</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+
+                <li><h4>The East India Company</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+            </ul>
+
+
+            <ul>
+           
+                <br><br><h3>luxury</h3><br>
+
+                <li><h4>Burberry</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+            
+                <li><h4>Christie’s</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+
+                <li><h4>Lancôme</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+
+                <li><h4>The East India Company</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+
+                <li><h4>Yves Saint Laurent</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+            </ul>
+
+
+
+ 
+            
+            <ul>
+           
+                <br><br><h3>real estate</h3><br>
+
+                <li><h4><strong>Babylon</strong> (Socrates)</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+
+                <li><h4>Christie’s Real Estate</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+            </ul>
+
+
+            <ul>
+           
+                <br><br><h3>sport & well-being</h3><br>
+
+                <li><h4>Atma Yoga</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+            
+                <li><h4>LP Workouts</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+
+                <li><h4>Karolina Manns</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+
+                <li><h4><strong>England Rugby Football Union</strong> (RFU)</h4>
+                    <p>description / role / project               
+                    </p><br><a href="#" class="view">view project</a><hr></li>
+
+
+
+            </ul>
+
+        
+        </div>
+
+
+    -->
+
+
+    <!-- <div class="cv"><h4><a href="./pdf/irene.spalletti_CV_print.pdf" download>download full cv&nbsp;&nbsp;&nbsp;<i class="fi fi-br-download"></i></a></h4></div> -->
+
+
 
     <footer>
         <div class="footer">
@@ -176,7 +526,7 @@ footer {
             <li><a href="#">terms</a></li>
         </ul>
         </div>
-
+    
         <div class="footer_contact">
         <ul>
             <li><a href="#"><i class="fi fi-brands-instagram"></i></a></li>
@@ -185,7 +535,7 @@ footer {
             <li> <a href="#"><i class="fi fi-rr-envelope"></i></a></li>
         </ul>
         </div>   
-    </footer> 
+    </footer>
 
 </body>
 </html>

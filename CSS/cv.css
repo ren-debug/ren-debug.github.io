@@ -79,20 +79,19 @@ body {
   }
 
 
-  .tablinks {
-    margin-top: 24px;
-  }
 
 /* Style the buttons inside the tab */
 button {
     border: none;
     outline: none;
+    margin-top: 12px;
     width: 100px;
     height: 40px;
+    margin-right: 8px;
     border-radius: 50px;
     cursor: pointer;
     transition: 0.3s;
-    font-size: 11px;
+    font-size: 12px;
     color: #cccccc88;
     background-color: #3838386b;
     font-weight: 200;
@@ -143,30 +142,33 @@ button {
     overflow-x: scroll;
     overflow-y: scroll;
     color: #a6a6a6;
-    background-image: linear-gradient(180deg, #a6a6a6, #ffffff36);
-    background-size: 100%;
-    color: transparent;
-    background-clip: text;
+    /* background-image: linear-gradient(180deg, #a6a6a6, #ffffff36);
+    /* background-size: 100%; */
+    /* color: transparent;
+    background-clip: text;   */
 
 }
 
 
+
     /* width */
-    /* .tabcontent::-webkit-scrollbar {
+ .tabcontent::-webkit-scrollbar {
     width: 6px;
-  } */
+    color: #212121;
+  } 
   
   /* Track */
-  /* .tabcontent::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey;
+   .tabcontent::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px grey; */
     border-radius: 0px;
-  } */
+    background-color: #212121;
+  } 
   
-  Handle
+  /* Handle */
   .tabcontent::-webkit-scrollbar-thumb {
     background: #a6a6a6;
-    border-radius: 6px;
-  }
+    border-radius: 0px;
+  }  
 
 
  
@@ -186,10 +188,38 @@ button {
 
 
 
+#work .opentab {
+    background-image: linear-gradient(180deg, #a6a6a6, #ffffff36);
+    background-size: 100%;
+    color: transparent;
+    background-clip: text;
+    overflow: hidden; /* Hide scrollbars */
 
+} 
 
+#work .opentab .tabcontent, .gradient {
+    background-image: linear-gradient(180deg, #a6a6a6, #ffffff36);
+    background-size: 100%;
+    color: transparent;
+    background-clip: text;
+    overflow: hidden; /* Hide scrollbars */
 
+} 
 
+#work .opentab .tabcontent {
+    display: none;
+    /* border: 0.2px solid white; */
+    grid-column: col 9 / span 5; 
+   margin-right: 0px;
+    margin-top: 0px;
+    height: 100%;
+grid-row: span 12;
+    /* background-image: linear-gradient(180deg, #a6a6a6, #ffffff36);
+    /* background-size: 100%; */
+    /* color: transparent;
+    background-clip: text;   */
+
+}
 
   /* CV */
 

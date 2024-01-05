@@ -84,7 +84,7 @@ header * {
 footer {
     position: fixed;
     height: 36px;
-    padding: 0px 0px 12px 0px;
+    padding: 12px 0px 6px 0px;
     bottom: 0px;
     right: 8px;
     left: 8px;
@@ -228,38 +228,38 @@ footer * {
   
   }
   
-  .scrollbar div {
+  /* .scrollbar div {
     height: 40vh;
     overflow-x: scroll;
     overflow-y: auto;
   
   
-  }
+  } */
   
   
   /* width */
-  /* ::-webkit-scrollbar {
+   /* ::-webkit-scrollbar {
     width: 6px;
   
-  } */
+  }  */
   
   /* Track */
   /* ::-webkit-scrollbar-track {
     background: #212121;
   
-  } */
+  }  */
   
   /* Handle */
-  /* ::-webkit-scrollbar-thumb {
+   /* ::-webkit-scrollbar-thumb {
     background: rgba(255, 255, 255, 0.426);
     border-radius: 50px;
   
-  } */
+  }  */
   
-  /* Handle on hover */
-  /* ::-webkit-scrollbar-thumb:hover {
+  /* Handle on hover
+   ::-webkit-scrollbar-thumb:hover {
     background: #555;
-  } */
+  }  
   
 
 
@@ -379,7 +379,7 @@ h1 .sticky  {
 }
 
 
-#work {
+/* #work {
     position: sticky;
     height: 100vh;
   }
@@ -396,7 +396,7 @@ h1 .sticky  {
 
 #work:target{
     display: grid;
-}
+} */
 
 
 
