@@ -1,0 +1,140 @@
+body {
+    color: #cccccc88;
+}
+/* WORK */
+
+.container {
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(12, [col] 1fr);
+    grid-column-gap: 3em;
+    padding: 0px 40px 60px 40px;
+    margin: 0px 0px;
+  }
+  
+  
+  .container .col_1 {
+    grid-column: col 1 / span 4;
+    grid-row: row 4;
+    margin-top: 32px;
+    
+  }
+  
+  
+  .container .col_2 {
+    grid-column: col 7 / span 6;
+    grid-row: row 4;
+    padding-top: 80px;
+  
+  
+  }
+  
+  
+  .container .col_3 {
+    grid-column: col 7 / span 6;    
+    grid-row: row 2;
+    padding-top: 120px;
+
+  
+  
+  }
+
+    
+.opentab {
+    grid-column: col 7 / span 6;  
+    margin-top: 32px;
+    height: 32vh;
+
+    grid-row: row 3;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    padding-right: 40px;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+
+    
+
+    
+}
+
+
+
+
+   /* width */
+   .opentab::-webkit-scrollbar {
+    width: 6px;
+    
+    /* color: #212121; */
+  } 
+  
+
+  /* Handle */
+  .opentab::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 50px;
+    
+  } 
+
+
+
+/* Style the buttons inside the tab */
+button {
+    border: none;
+    outline: none;
+    margin-top: 16px;
+    width: 100px;
+    height: 40px;
+    margin-right: 4px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 12px;
+    color: #cccccc88;
+    background-color: #3838386b;
+    font-weight: 200;
+    transition: transform .2s; /* Animation */
+
+   
+
+  }
+  
+  /* Change background color of buttons on hover */
+  button:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    color: #eaeaea;
+    background-color: transparent;
+    
+  }
+  
+  /* Create an active/current tablink class */
+  button.active {
+    background-color: #a3a3a36e;
+    color:#ccc;
+  }
+
+
+  .tablinks li {
+    border: none;
+    outline: none;
+    margin-top: 16px;
+    width: 32px;
+    height: 32px;
+    margin-right: 4px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 20px;
+    text-align: center;
+    color: #cccccc88;
+
+    font-weight: 200;
+    transition: transform .2s; /* Animation */
+
+   
+
+  }
+
+
+
+  .view {
+    float: right;
+  }

@@ -42,8 +42,12 @@
   color: #a6a5a5;
 }
 .icon-balsamiq:before {
-  font-size: 1.35rem;
+  font-size: 1.45rem;
   content: "\e900";
+  color: #cccccc88;
+  padding-left: 6px;
+
+
 }
 .icon-css:before {
   content: "\e901";

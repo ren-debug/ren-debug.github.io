@@ -79,7 +79,6 @@
     outline: none;
     margin: 0px 2px;
     padding-right: 0px;
-
     cursor: pointer;
     transition: 0.3s;
     color: #cccccc88;
@@ -163,23 +162,22 @@ button {
 
 
     /* width */
- .tabcontent::-webkit-scrollbar {
+ /* .tabcontent::-webkit-scrollbar {
     width: 6px;
     color: #212121;
   } 
-  
+   */
   /* Track */
-   .tabcontent::-webkit-scrollbar-track {
-    /* box-shadow: inset 0 0 5px grey; */
+   /* .tabcontent::-webkit-scrollbar-track {
     border-radius: 0px;
     background-color: #212121;
-  } 
+  }  */
   
   /* Handle */
-  .tabcontent::-webkit-scrollbar-thumb {
+  /* .tabcontent::-webkit-scrollbar-thumb {
     background: #a6a6a6;
     border-radius: 0px;
-  }  
+  }   */
 
 
  
