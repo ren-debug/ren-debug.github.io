@@ -15,16 +15,16 @@ body {
   
   .container .col_1 {
     grid-column: col 1 / span 4;
-    grid-row: row 4;
-    margin-top: 32px;
+    grid-row: row 3;
+    margin-top: 60px;
     
   }
   
   
   .container .col_2 {
-    grid-column: col 7 / span 6;
-    grid-row: row 4;
-    padding-top: 80px;
+    grid-column: col 7 / span 4;
+    grid-row: row 3;
+    padding-top: 60px;
   
   
   }
@@ -32,10 +32,9 @@ body {
   
   .container .col_3 {
     grid-column: col 7 / span 6;    
-    grid-row: row 2;
+    grid-row: row 1;
     padding-top: 120px;
 
-  
   
   }
 
@@ -44,8 +43,7 @@ body {
     grid-column: col 7 / span 6;  
     margin-top: 32px;
     height: 32vh;
-
-    grid-row: row 3;
+    grid-row: row 2;
     overflow-x: scroll;
     overflow-y: scroll;
     padding-right: 40px;
@@ -56,8 +54,32 @@ body {
     
 }
 
+  
+.container .col_5 {
+    grid-column: col 12;
+    grid-row: row 3;
+    padding-top: 60px;
+    padding-right: 40px;
+  
+  
+  }
 
-
+  button.square {
+    
+        position: relative;
+        width: 120px;
+        height: 42px;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        border-radius: 0px;
+        border: 1px solid #a6a6a6;
+        color: #a6a6a6;
+        font-weight: 300;
+        background-color: transparent;
+        opacity: .8;
+      
+  }
 
    /* width */
    .opentab::-webkit-scrollbar {
@@ -80,8 +102,8 @@ body {
 button {
     border: none;
     outline: none;
-    margin-top: 16px;
-    width: 100px;
+    margin-top: 24px;
+    width: 88px;
     height: 40px;
     margin-right: 4px;
     border-radius: 50px;
@@ -99,7 +121,7 @@ button {
   
   /* Change background color of buttons on hover */
   button:hover {
-    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    /* transform: scale(1.1); (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     color: #eaeaea;
     background-color: transparent;
     
@@ -138,3 +160,158 @@ button {
   .view {
     float: right;
   }
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    .grid {
+      display: grid;
+      height: 100vh;
+      grid-template-columns: repeat(12, [col] 1fr);
+      grid-template-rows: repeat(3, [row] auto);
+      grid-column-gap: 1em;
+      margin: 0px 100px 0px 100px;
+  
+  
+    }
+  
+  
+  }
+  
+  
+  
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+  
+    .grid {
+      display: grid;
+      height: 100vh;
+      grid-template-columns: repeat(6, [col] 1fr);
+      grid-template-rows: repeat(3, [row] auto);
+      grid-column-gap: 1em;
+      margin: 0px 60px 0px 60px;
+      padding: 0%;
+  
+  
+    }
+  
+  }
+  
+  
+  
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+  
+  
+    .grid {
+      display: grid;
+      height: 100vh;
+      grid-template-columns: repeat(6, [col] 1fr);
+      grid-template-rows: repeat(3, [row] auto);
+      grid-column-gap: 1em;
+      margin: 0px 20px 0px 20px;
+  
+  
+    }
+  
+  }
+  
+  
+  
+  /* 
+  Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+  
+  
+  
+    .grid {
+      display: grid;
+      height: 74vh;
+      grid-template-columns: repeat(12, [col] 1fr);
+      grid-template-rows: repeat(3, [row] auto);
+      grid-column-gap: 3em;
+      grid-row-gap: 1em;
+      margin: 0px 0px 0px 0px;
+  
+    }
+  
+  }
+  
+  
+  
+  
+  
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+  
+    .container {
+      display: grid;
+      grid-template-columns: repeat(12, [col] 1fr);
+      grid-column-gap: 0em;
+      padding: 100px 24px 0px 24px;
+    } 
+  
+  
+
+
+
+  
+    .links {
+      display: none;
+    }
+  
+
+button {
+    width: 55.5px;
+    height: 30px;
+    font-size: 10px;
+}
+      
+
+.container .col_3 {
+    grid-column: col 1 / span 12;    
+    grid-row: row 1;
+    padding-top: 0px;
+    
+
+  
+  }
+
+  .opentab {
+    grid-column: col 1 / span 12;  
+    margin-top: 32px;
+    height: 25vh;
+    grid-row: row 2;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    padding-right: 20px;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+
+    
+
+    
+}
+  
+  .container .col_2 {
+    grid-column: col 1 / span 12;
+    grid-row: row 3;
+    padding-top: 40px;
+  
+  
+  }
+  
+
+  .container .col_1 {
+    grid-column: col 1 / span 12;
+    grid-row: row 4;
+    margin-top: 40px;
+    padding-bottom: 0px;
+    
+  }
+
+}

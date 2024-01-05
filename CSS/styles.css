@@ -15,9 +15,9 @@ header {
     position: fixed;
     z-index: 1;
     height: 60px;
-    top: 0px;
-    right: 0px;
-    left: 0px;
+    top: 8px;
+    right: 8px;
+    left: 8px;
     background-color: transparent; 
     border-bottom: 0.5px solid #b3b3b35d;  
    backdrop-filter: blur(5px); 
@@ -29,11 +29,15 @@ header * {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 7px;
+    padding-top: 0px;
     width: fit-content;
 
 }
 
+header div:nth-child(2) {
+    padding-right: 88px;
+   
+}
 
 .nav_left {
     float: left;
@@ -71,11 +75,7 @@ header * {
 
 }
 
-.email i {
-    font-size: 1.2rem;
-    padding: 0px 98px 0px 40px;
 
-}
 
 
 
@@ -123,7 +123,7 @@ footer * {
 
 
 .footer_contact ul li i {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding-left: 40px;
     padding-top: 5px;
 }
@@ -141,7 +141,7 @@ footer * {
 
 .links {
     position: fixed;
-    top: 16%;
+    top: 12%;
 }
 
 .links ul {
@@ -312,7 +312,6 @@ footer * {
 }
 
 .openbtn {
-    font-size: 2rem;
     padding: 0%;
     margin: 0%;
     z-index: 1;
@@ -323,7 +322,7 @@ footer * {
     border: none;
     position: fixed;
     right: 8px;
-    top: 20px;
+    top: 24px;
 }
 
 
@@ -459,9 +458,23 @@ h1 .sticky  {
 
 
 /* HEADER */
+
+
+header * {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 0px;
+    width: fit-content;
+
+}
+
+
+
 .nav_left i {
     font-size: 1.2rem;
-    padding: 0px 40px 0px 40px;
+    padding: 8px 40px 0px 24px;
+
 
 }
 
@@ -478,7 +491,7 @@ h1 .sticky  {
     justify-content: space-between;
     font-size: .65rem;
     float: left;
-    /* margin-left: 40px; */
+    margin-left: 24px; 
 }
 
 
@@ -492,21 +505,21 @@ h1 .sticky  {
 
 .footer ul li {
     padding-left: 0%;
-    padding-right: 10px;
+    padding-right: 16px;
 }
 
 
 
 .footer_contact ul li i {
     font-size: 1.1rem;
-    padding-left: 16px;
-    padding-top: 5px;
+    padding-left: 24px;
+    padding-top: 8px;
 }
 
 
 .footer_contact {
     float: right;
-    margin-right:36px;
+    margin-right: 24px;
 
 }
 
@@ -539,8 +552,8 @@ h1 .sticky  {
 
 .openbtn {
     position: fixed;
-    right: 32px;
-    top: 16px;
+    right: 10px;
+    top: 24px;
 }
 
 
@@ -552,8 +565,8 @@ h1 .sticky  {
 
 
 .sidebar button a {
-    bottom: 4px;
-    right: 2px;
+    bottom: 0px;
+    right: 0px;
 }
     
 
