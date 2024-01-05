@@ -28,31 +28,16 @@ header {
 header * {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     padding-top: 0px;
     width: fit-content;
 
 }
 
-header div:nth-child(2) {
-    padding-right: 88px;
-   
-}
-
-.nav_left {
-    float: left;
-    
-}
-
-.nav_right {
-    float: right;   
-
-}
 
 
-.nav_left a, .nav_right a {
-    padding-top: 12px;
-    justify-content: space-between;
+.nav ul li a {
+    padding-top: 24px;
+    padding-right: 40px;
     font-size: .76rem;
     letter-spacing: 0.2px;
     z-index: 1;
@@ -62,15 +47,17 @@ header div:nth-child(2) {
 
 
 
-.nav_left a:hover, .nav_right a:hover {
+
+.nav a:hover, .nav_right a:hover {
     opacity: 0.6;
 
 }
 
 
-.nav_left i {
+
+.nav i {
     font-size: 1.2rem;
-    padding: 0px 40px 0px 40px;
+    padding: 21px 40px 0px 40px;
 
 
 }
@@ -141,7 +128,7 @@ footer * {
 
 .links {
     position: fixed;
-    top: 12%;
+    top: 21%;
 }
 
 .links ul {
