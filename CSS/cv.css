@@ -1,20 +1,25 @@
-body {
-    margin-right: 40px;
 
-}
 .tab {
-    box-sizing: border-box;
+    /* box-sizing: border-box;
     -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
+    -webkit-box-sizing: border-box; */
     /* border: 0.2px solid white; */
-    grid-column: col 7 / span 7; 
+    grid-column: col 7 / span 8; 
     margin-right: 0px;
     margin-top: 120px;
     /* cursor: pointer; */
     /* grid-row: row 2 /span 3;  */
   }
 
- 
+ #work .tab {
+
+    /* border: 0.2px solid white; */
+    grid-column: col 7 / span 8; 
+    margin-top: 120px;
+    /* cursor: pointer; */
+    /* grid-row: row 2 /span 3;  */
+  
+ }
 
   .cv {
 
@@ -42,7 +47,7 @@ body {
     /* grid-row: row 2 /span 3;  */
   }
 
-  .skills {
+.skills {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -51,11 +56,17 @@ body {
     grid-row: row 12;  
     margin-right: 0px;
     margin-top: 152px;
+   
     
     /* cursor: pointer; */
     /* grid-row: row 2 /span 3;  */
   }
 
+
+  .skills .tooltip {
+    padding-top: 16px;
+    padding-right: 16px;
+  }
 .fi {
     font-size: 1.25rem;
    
@@ -67,7 +78,7 @@ body {
     border: none;
     outline: none;
     margin: 0px 2px;
-    padding-right: 24px;
+    padding-right: 0px;
 
     cursor: pointer;
     transition: 0.3s;
@@ -84,7 +95,7 @@ body {
 button {
     border: none;
     outline: none;
-    margin-top: 12px;
+    margin-top: 16px;
     width: 100px;
     height: 40px;
     margin-right: 8px;
@@ -203,6 +214,8 @@ button {
     color: transparent;
     background-clip: text;
     overflow: hidden; /* Hide scrollbars */
+    height: 70vh;
+
 
 } 
 

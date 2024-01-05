@@ -73,7 +73,7 @@ header * {
 
 .email i {
     font-size: 1.2rem;
-    padding: 0px 88px 0px 60px;
+    padding: 0px 40px 0px 60px;
 
 }
 
@@ -323,8 +323,10 @@ footer * {
     border: none;
     position: fixed;
     right: 8px;
-    top: 20px;
+    top: 88px;
 }
+
+
 
 .sidebar button {
     margin-top: 4%;
