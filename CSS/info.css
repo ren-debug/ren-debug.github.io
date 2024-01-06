@@ -44,7 +44,7 @@ body {
   .container .col_3 {
     grid-column: col 7 / span 7;    
     grid-row: row 1;
-    margin-top: 10vh;
+    margin-top: 0vh;
   
   
   }
@@ -130,7 +130,7 @@ margin-top: 48vh;
   #work .col_3 {
     grid-column: col 7 / span 9; 
     grid-row: row 2;
-    padding-top: 164px;
+    padding-top: 100px;
 
   }
 
