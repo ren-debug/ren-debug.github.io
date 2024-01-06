@@ -377,3 +377,104 @@ p {
 
 
 
+
+
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+  .container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(12, [col] 1fr);
+    grid-template-rows: repeat(3, [row] auto);
+    grid-column-gap: 1em;
+    margin: 0px 240px 0px 240px;
+
+
+  }
+
+
+}
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+  .grid {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(6, [col] 1fr);
+    grid-template-rows: repeat(3, [row] auto);
+    grid-column-gap: 1em;
+    margin: 0px 60px 0px 60px;
+    padding: 0%;
+
+
+  }
+
+}
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+  .grid {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(6, [col] 1fr);
+    grid-template-rows: repeat(3, [row] auto);
+    grid-column-gap: 1em;
+    margin: 0px 20px 0px 20px;
+
+
+  }
+
+}
+
+
+
+/* 
+Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+
+  .grid {
+    display: grid;
+    height: 74vh;
+    grid-template-columns: repeat(12, [col] 1fr);
+    grid-template-rows: repeat(3, [row] auto);
+    grid-column-gap: 3em;
+    grid-row-gap: 1em;
+    margin: 0px 0px 0px 0px;
+
+  }
+
+}
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  .grid {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(12, [col] 1fr);
+    grid-column-gap: 3em;
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+  } 
+
+}
