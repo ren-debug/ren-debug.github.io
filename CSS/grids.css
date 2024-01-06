@@ -49,8 +49,8 @@
 /* ABOUT */
 
 #about,
-#cv {
-  margin: 0px 40px 0px 40px;
+#cv, #work {
+  margin: 0px 7%;
 }
 
 
