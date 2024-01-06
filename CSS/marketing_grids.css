@@ -1,4 +1,3 @@
-
 main {
   display: flex;
   flex-direction: column;
@@ -6,12 +5,12 @@ main {
 
 }
 
- 
+
 body {
   color: #7e7e7e;
 }
 
-main > section {
+main>section {
   display: grid;
   grid-template-columns: repeat(12, [col] 1fr);
   grid-template-rows: repeat(auto [row] auto);
@@ -44,12 +43,12 @@ ul {
   position: fixed;
   left: 44px;
   top: 39.5%;
- 
- 
- }
- 
 
- button {
+
+}
+
+
+button {
   position: relative;
   width: 120px;
   height: 42px;
@@ -72,8 +71,8 @@ button:hover {
 }
 
 button a:hover {
-padding: 8px;
-opacity: 1;
+  padding: 8px;
+  opacity: 1;
 
 
 }
@@ -83,23 +82,38 @@ opacity: 1;
 
 
 
-#expand, #expand_1, #expand_2, #expand_3, #expand_4, #expand_5 {
+#expand,
+#expand_1,
+#expand_2,
+#expand_3,
+#expand_4,
+#expand_5 {
   position: sticky;
 }
 
 
 
-#expand, #expand_1, #expand_2, #expand_3, #expand_4, #expand_5 {
-  display:none;
-} 
+#expand,
+#expand_1,
+#expand_2,
+#expand_3,
+#expand_4,
+#expand_5 {
+  display: none;
+}
 
 
 
 
-#expand:target, #expand_1:target, #expand_2:target, #expand_3:target, #expand_4:target, #expand_5:target {
-display: grid;
+#expand:target,
+#expand_1:target,
+#expand_2:target,
+#expand_3:target,
+#expand_4:target,
+#expand_5:target {
+  display: grid;
 
-} 
+}
 
 
 
@@ -170,18 +184,18 @@ p {
 
 
 #first div:nth-child(1) {
-    grid-column: col 1 / span 3;
-    grid-row: 1;
+  grid-column: col 1 / span 3;
+  grid-row: 1;
 
 }
 
 
 #first .copy {
-    grid-column: col 1 / span 5;
-    grid-row: 4;
+  grid-column: col 1 / span 5;
+  grid-row: 4;
 
-    
-} 
+
+}
 
 
 #first div:nth-child(3) {
@@ -190,38 +204,38 @@ p {
 
 
 
-  
-} 
+
+}
 
 
 
 
 #second div:nth-child(1) {
-    grid-column: col 1 / span 8;
-    grid-row: 1;
-    
-  }
+  grid-column: col 1 / span 8;
+  grid-row: 1;
+
+}
 
 
 
-  #second div:nth-child(2) {
-    grid-column: col 9 / span 7;
-    grid-row: 2;
-    
-  }
+#second div:nth-child(2) {
+  grid-column: col 9 / span 7;
+  grid-row: 2;
 
-  
-  #second div:nth-child(3) {
-    grid-column: col 1 / span 8;
-    grid-row: 3;
-    
-  }
- 
-  #second .copy_ps {
-    grid-column: col 1 / span 8;
-    grid-row: 5;
-    
-  }
+}
+
+
+#second div:nth-child(3) {
+  grid-column: col 1 / span 8;
+  grid-row: 3;
+
+}
+
+#second .copy_ps {
+  grid-column: col 1 / span 8;
+  grid-row: 5;
+
+}
 
 #second .css-slider {
   grid-column: col 8 / span 6;
@@ -231,91 +245,91 @@ p {
 
 
 
- #third div:nth-child(1) {
-    grid-column: col 1 / span 4;
-    grid-row: 1;
-  } 
-
-
-
-  #third div:nth-child(2) {
-    grid-column: col 1 / span 6;
-    grid-row: 4;
-    padding-top: 0px;
-
-    
-  } 
-
-  #third div:nth-child(3) {
-    grid-column: col 8 / span 5;
-    grid-row: 2;
-    padding-top: 0px;
-
-    
-  } 
-
-
-
-
-
-
-
-
-
-  #fourth div:nth-child(1) {
-    grid-column: col 7 / span 7;
-    grid-row: 1;
+#third div:nth-child(1) {
+  grid-column: col 1 / span 4;
+  grid-row: 1;
 }
 
-  #fourth .copy {
-    grid-column: col 1 / span 6;
-    grid-row: 2;
-    padding-top: 0px;  
-
-  }
 
 
+#third div:nth-child(2) {
+  grid-column: col 1 / span 6;
+  grid-row: 4;
+  padding-top: 0px;
+
+
+}
+
+#third div:nth-child(3) {
+  grid-column: col 8 / span 5;
+  grid-row: 2;
+  padding-top: 0px;
+
+
+}
 
 
 
 
-  #fifth div:nth-child(1) {
-    grid-column: col 1 / span 6;
-    grid-row: 1;
-
-  }
 
 
- 
-  #fifth div:nth-child(2) {
-    grid-column: col 7 / span 8;
-    grid-row: 2;
-    margin-top: 0px;
 
 
-  }
+
+#fourth div:nth-child(1) {
+  grid-column: col 7 / span 7;
+  grid-row: 1;
+}
+
+#fourth .copy {
+  grid-column: col 1 / span 6;
+  grid-row: 2;
+  padding-top: 0px;
+
+}
 
 
- 
-
-  #fifth div:nth-child(4) {
-    grid-column: col 1 / span 7;
-    grid-row: 2;
-    padding-top: 200px;
-
-  }
 
 
-  #fifth div:nth-child(3) {
-    grid-column: col 1 / span 4;
-    grid-row: 4;
-    padding-top: 0px;
-
-  }
 
 
- 
- 
+#fifth div:nth-child(1) {
+  grid-column: col 1 / span 6;
+  grid-row: 1;
+
+}
+
+
+
+#fifth div:nth-child(2) {
+  grid-column: col 7 / span 8;
+  grid-row: 2;
+  margin-top: 0px;
+
+
+}
+
+
+
+
+#fifth div:nth-child(4) {
+  grid-column: col 1 / span 7;
+  grid-row: 2;
+  padding-top: 200px;
+
+}
+
+
+#fifth div:nth-child(3) {
+  grid-column: col 1 / span 4;
+  grid-row: 4;
+  padding-top: 0px;
+
+}
+
+
+
+
 
 
 
@@ -326,15 +340,19 @@ p {
   0% {
     opacity: 0;
   }
+
   4% {
     opacity: 1;
   }
+
   33.33% {
     opacity: 1;
   }
+
   37.33% {
     opacity: 0;
   }
+
   100% {
     opacity: 0;
   }
@@ -342,23 +360,25 @@ p {
 
 
 
-.css-slider > * {
+.css-slider>* {
   animation: 12s autoplays infinite linear;
   position: absolute;
   opacity: 0;
   width: 480px;
-  
+
 }
 
 
-.css-slider > *:nth-child(1) {
+.css-slider>*:nth-child(1) {
   animation-delay: 0s;
 
 }
-.css-slider > *:nth-child(2) {
+
+.css-slider>*:nth-child(2) {
   animation-delay: 4s;
 }
-.css-slider > *:nth-child(3) {
+
+.css-slider>*:nth-child(3) {
   animation-delay: 8s;
 }
 
@@ -371,11 +391,7 @@ p {
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-
-
-}
+@media only screen and (min-width: 1200px) {}
 
 
 
@@ -445,13 +461,228 @@ Small devices (portrait tablets and large phones, 600px and up) */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-  .grid {
+ 
+
+  main>section {
     display: grid;
-    height: 100vh;
-    grid-template-columns: repeat(12, [col] 1fr);
-    grid-column-gap: 3em;
-    padding: 0px 0px 0px 0px;
-    margin: 0;
-  } 
+    grid-template-columns: repeat(6, [col] 1fr);
+    grid-template-rows: repeat(auto [row] auto);
+    grid-column-gap: 0px;
+    grid-row-gap: 60px;
+    margin: 0px 1%;
+    padding-top: 68px;
+    padding-bottom: 46px;
+    /* grid-row-gap: 1rem; */
+  
+  
+  }
+
+
+
+#expand,
+#expand_1,
+#expand_2,
+#expand_3,
+#expand_4,
+#expand_5 {
+  position: sticky;
+}
+
+
+
+#expand,
+#expand_1,
+#expand_2,
+#expand_3,
+#expand_4,
+#expand_5 {
+  display: none;
+}
+
+
+
+
+#expand:target,
+#expand_1:target,
+#expand_2:target,
+#expand_3:target,
+#expand_4:target,
+#expand_5:target {
+  display: grid;
+
+}
+
+
+
+#expand_1 {
+  padding-top: 0px;
+}
+
+#expand_2 {
+  padding-top: 0px;
+}
+
+#expand_3 {
+  padding-top: 0px;
+}
+
+#expand_4 {
+  padding-top: 0px;
+}
+
+#expand_5 {
+  padding-top: 0px;
+}
+
+
+  .nav_numbers {
+    display: none;
+  }
+
+
+  #first div:nth-child(1) {
+    grid-column: col 1 / span 6;
+    grid-row: 1;
+  
+  }
+  
+  
+  #first .copy {
+    grid-column: col 1 / span 6;
+    grid-row: 4;
+  
+  
+  }
+  
+  
+  #first div:nth-child(3) {
+    grid-column: col 1 / span 6;
+    grid-row: 5;
+  
+  
+  
+  
+  }
+  
+  
+  
+  
+  #second div:nth-child(1) {
+    grid-column: col 1 / span 6;
+    grid-row: 6;
+  
+  }
+  
+  
+  
+  #second div:nth-child(2) {
+    grid-column: col 1 / span 6;
+    grid-row: 2;
+  
+  }
+  
+  
+  #second div:nth-child(3) {
+    grid-column: col 1 / span 6;
+    grid-row: 3;
+  
+  }
+  
+  #second .copy_ps {
+    grid-column: col 1 / span 6;
+    grid-row: 5;
+  
+  }
+  
+  #second .css-slider {
+    grid-column: col 1 / span 6;
+    grid-row: 3;
+  
+  }
+  
+  
+  
+  #third div:nth-child(1) {
+    grid-column: col 1 / span 6;
+    grid-row: 1;
+  }
+  
+  
+  
+  #third div:nth-child(2) {
+    grid-column: col 1 / span 6;
+    grid-row: 4;
+    padding-top: 0px;
+  
+  
+  }
+  
+  #third div:nth-child(3) {
+    grid-column: col 1 / span 6;
+    grid-row: 2;
+    padding-top: 0px;
+  
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  #fourth div:nth-child(1) {
+    grid-column: col 1 / span 6;
+    grid-row: 1;
+  }
+  
+  #fourth .copy {
+    grid-column: col 1 / span 6;
+    grid-row: 2;
+    padding-top: 0px;
+  
+  }
+  
+  
+  
+  
+  
+  
+  #fifth div:nth-child(1) {
+    grid-column: col 1 / span 6;
+    grid-row: 1;
+  
+  }
+  
+  
+  
+  #fifth div:nth-child(2) {
+    grid-column: col 1 / span 6;
+    grid-row: 2;
+    margin-top: 0px;
+  
+  
+  }
+  
+  
+  
+  
+  #fifth div:nth-child(4) {
+    grid-column: col 1 / span 6;
+    grid-row: 2;
+    padding-top: 200px;
+  
+  }
+  
+  
+  #fifth div:nth-child(3) {
+    grid-column: col 1 / span 6;
+    grid-row: 4;
+    padding-top: 0px;
+  
+  }
+  
 
 }
