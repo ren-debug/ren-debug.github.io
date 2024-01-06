@@ -53,9 +53,10 @@ button {
   position: relative;
   width: 120px;
   height: 42px;
-  top: 16px;
+  top: 20px;
   left: 0px;
   right: 0px;
+  margin-bottom: 40px;
   border-radius: 0px;
   border: 1px solid #818181;
   color: #7e7e7e;
@@ -464,15 +465,23 @@ Small devices (portrait tablets and large phones, 600px and up) */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
- 
+  main {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 24px 0px 24px;
+    /* margin: 0px 0px 0px 0px; */
+
+  
+  }
+  
 
   main>section {
     display: grid;
     grid-template-columns: repeat(6, [col] 1fr);
     grid-template-rows: repeat(auto [row] auto);
     grid-column-gap: 0px;
-    grid-row-gap: 60px;
-    margin: 0px 1%;
+    grid-row-gap: 40px;
+    margin: 0px 0px;
     padding-top: 68px;
     padding-bottom: 46px;
     /* grid-row-gap: 1rem; */
@@ -544,15 +553,15 @@ Small devices (portrait tablets and large phones, 600px and up) */
 
 
   #first div:nth-child(1) {
-    grid-column: col 1 / span 6;
-    grid-row: 1;
+    grid-column: col 1 / span 3;
+    grid-row: 3;
   
   }
   
   
   #first .copy {
     grid-column: col 1 / span 6;
-    grid-row: 3;
+    grid-row: 2;
   
   
   }
@@ -560,7 +569,7 @@ Small devices (portrait tablets and large phones, 600px and up) */
   
   #first div:nth-child(3) {
     grid-column: col 1 / span 6;
-    grid-row: 2;
+    grid-row: 1;
   
   
   
@@ -579,23 +588,24 @@ Small devices (portrait tablets and large phones, 600px and up) */
   
   
   #second div:nth-child(2) {
-    grid-column: col 1 / span 6;
-    grid-row: 2;
+    display: none;
+    /* grid-column: col 1 / span 6;
+    grid-row: 1; */
   
   }
   
   
   #second div:nth-child(3) {
     grid-column: col 1 / span 6;
-    grid-row: 4;
-    padding-top: 180px;
+    grid-row: 2;
+    padding-top: 0px;
 
   
   }
   
   #second .copy_ps {
     grid-column: col 1 / span 6;
-    grid-row: 5;
+    grid-row: 3;
     padding-top: 0px;
   
   }
@@ -604,15 +614,15 @@ Small devices (portrait tablets and large phones, 600px and up) */
   
   
   #third div:nth-child(1) {
-    grid-column: col 1 / span 6;
-    grid-row: 1;
+    grid-column: col 4 / span 3;
+    grid-row: 3;
   }
   
   
   
   #third div:nth-child(2) {
     grid-column: col 1 / span 6;
-    grid-row: 2;
+    grid-row: 1;
     padding-top: 0px;
   
   
@@ -620,7 +630,7 @@ Small devices (portrait tablets and large phones, 600px and up) */
   
   #third div:nth-child(3) {
     grid-column: col 1 / span 6;
-    grid-row: 3;
+    grid-row: 2;
     padding-top: 0px;
   
   
@@ -636,12 +646,12 @@ Small devices (portrait tablets and large phones, 600px and up) */
   
   #fourth div:nth-child(1) {
     grid-column: col 1 / span 6;
-    grid-row: 1;
+    grid-row: 2;
   }
   
   #fourth .copy {
     grid-column: col 1 / span 6;
-    grid-row: 2;
+    grid-row: 1;
     padding-top: 0px;
   
   }
@@ -652,7 +662,7 @@ Small devices (portrait tablets and large phones, 600px and up) */
   
   
   #fifth div:nth-child(1) {
-    grid-column: col 1 / span 6;
+    grid-column: col 3 / span 4;
     grid-row: 1;
   
   }
@@ -661,7 +671,7 @@ Small devices (portrait tablets and large phones, 600px and up) */
   
   #fifth div:nth-child(2) {
     grid-column: col 1 / span 6;
-    grid-row: 2;
+    grid-row: 3;
     margin-top: 0px;
   
   
@@ -672,16 +682,15 @@ Small devices (portrait tablets and large phones, 600px and up) */
   
   #fifth div:nth-child(4) {
     grid-column: col 1 / span 6;
-    grid-row: 3;
+    grid-row: 2;
     padding-top: 0px;
   
   }
   
   
   #fifth div:nth-child(3) {
-    grid-column: col 1 / span 6;
-    grid-row: 4;
-    padding-top: 0px;
+    display: none;
+
   
   }
   
