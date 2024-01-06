@@ -14,7 +14,7 @@
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   /* speak: never; */
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -46,19 +46,20 @@
   content: "\e900";
   color: #cccccc88;
   padding-left: 6px;
+  padding-right: 8px;
 
 
 }
 .icon-css:before {
   content: "\e901";
-  padding-left: 4px;
+  padding-left: 0px;
 }
 .icon-html:before {
   content: "\e902";
 }
 .icon-mural:before {
   content: "\e903";
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 .icon-ballet:before {
   content: "\e904";
@@ -90,14 +91,14 @@
 
 }
 
-/* #cv .col_2 .fi-brands-github {
-  font-size: 1.3rem;
+ #cv .col_1 .fi-brands-github {
+  font-size: 1.4rem;
   padding-left: 4px;
 }
 
 #cv .fi-brands-sketch {
-  padding-left: 2px;
-} */
+  padding-left: 0px;
+} 
 
 #about .fi-sr-guitar {
   font-size: 1.3rem;

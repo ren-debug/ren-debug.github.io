@@ -23,6 +23,7 @@ html {
 body {
     font-family: 'Switzer';
     font-size: 0.8rem;
+    letter-spacing: 0.5px;
     line-height: 1.4rem;
     font-weight: 200;
     padding-top: 0px;
