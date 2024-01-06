@@ -5,11 +5,11 @@ body {
 
 .container {
     display: grid;
-    height: 100%;
+    height: 100vh;
     grid-template-columns: repeat(12, [col] 1fr);
     grid-column-gap: 3em;
-    padding: 0px 40px 60px 40px;
-    margin: 0px 0px;
+    padding: 0px 40px 80px 40px;
+    margin-top: 0;
   }
   
 
@@ -17,16 +17,21 @@ body {
   .container .col_2 {
     grid-column: col 1 / span 4;
     grid-row: row 3;
-    padding-top: 0px;
+    padding-top: 30vh;
+
+    
 
   
   }
-  
+   
   
   .container .col_1 {
     grid-column: col 1 / span 4;
-    grid-row: row 4;
-    margin-top: 0px;
+    grid-row: row 3;
+    padding-bottom: 240px;
+
+  
+
     
   }
   
@@ -34,9 +39,11 @@ body {
   
   .container .col_3 {
     grid-column: col 7 / span 7;    
-    grid-row: row 3;
-    margin-top: 16vh;
-
+    grid-row: row 2;
+    margin-top: 0vh;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
   
   }
 
@@ -44,10 +51,9 @@ body {
     
 .opentab {
     grid-column: col 7 / span 6; 
-    grid-row: row 4;
-    margin-top: 36vh;
-    height: 42vh;
     grid-row: row 3;
+    margin-top: 0vh;
+    height: 35vh;
     overflow-x: scroll;
     overflow-y: scroll;
     padding-right: 40px;
@@ -57,13 +63,15 @@ body {
   
   .container .col_5 {
     grid-column: col 11 / span 3;
-height: 20vh;    
-grid-row: row 4;
-    align-self: self-end;
-    padding-left: 24px;
+grid-row: row 3;
+margin-top: 37vh;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+padding-left: 24px;
   
   
-  }
+  } 
 
   button.square {
     
