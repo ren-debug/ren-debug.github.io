@@ -70,8 +70,8 @@ header * {
 
 footer {
     position: fixed;
-    height: 36px;
-    padding: 12px 0px 6px 0px;
+    height: 40px;
+    padding: 0px 0px 6px 0px;
     bottom: 0px;
     right: 8px;
     left: 8px;
@@ -85,6 +85,7 @@ footer * {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 4px;
 
 }
 
