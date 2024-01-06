@@ -15,9 +15,9 @@ main > section {
   display: grid;
   grid-template-columns: repeat(12, [col] 1fr);
   grid-template-rows: repeat(auto [row] auto);
-  grid-column-gap: 1rem;
-  grid-row-gap: 1rem;
-  margin: 0px 10%;
+  grid-column-gap: 60px;
+  grid-row-gap: 60px;
+  margin: 0px 7%;
   padding-top: 68px;
   padding-bottom: 46px;
   /* grid-row-gap: 1rem; */
@@ -80,11 +80,6 @@ opacity: 1;
 
 
 
-.copy div:nth-child(2) {
-    display: flex; 
-    justify-content: space-between;
-    padding: 16px 0px;
-} 
 
 
 
@@ -183,16 +178,15 @@ p {
 
 #first .copy {
     grid-column: col 1 / span 5;
-    grid-row: 3;
+    grid-row: 4;
 
     
 } 
 
 
 #first div:nth-child(3) {
-  grid-column: col 7 / span 6;
-  grid-row: 2;
-  padding-top: 20%;
+  grid-column: col 6 / span 7;
+  grid-row: 3;
 
 
 
@@ -203,15 +197,15 @@ p {
 
 
 #second div:nth-child(1) {
-    grid-column: col 1 / span 6;
+    grid-column: col 1 / span 7;
     grid-row: 1;
     
   }
 
 #second .copy {
-  grid-column: col 9 / span 5;
+  grid-column: col 8 / span 5;
   grid-row: 2; 
-  padding-top: 60px;
+  padding-top: 0px;
 
 }
 
@@ -220,9 +214,9 @@ p {
 
 
 #second div:nth-child(3) {
-  grid-column: col 7 / span 6;
+  grid-column: col 8 / span 6;
   grid-row: 3;
-  padding-top: 0px;
+  padding-top: 60px;
 
   
 }
@@ -238,17 +232,17 @@ p {
 
 
   #third div:nth-child(2) {
-    grid-column: col 1 / span 7;
-    grid-row: 5;
-    padding-top: 60px;
+    grid-column: col 1 / span 6;
+    grid-row: 4;
+    padding-top: 0px;
 
     
   } 
 
   #third div:nth-child(3) {
-    grid-column: col 9 / span 7;
-    grid-row: 3;
-    padding-top: 60px;
+    grid-column: col 7 / span 5;
+    grid-row: 2;
+    padding-top: 0px;
 
     
   } 
@@ -262,13 +256,13 @@ p {
 
 
   #fourth div:nth-child(1) {
-    grid-column: col 8 / span 7;
+    grid-column: col 7 / span 7;
     grid-row: 1;
 }
 
   #fourth .copy {
     grid-column: col 1 / span 6;
-    grid-row: 8;
+    grid-row: 2;
     padding-top: 0px;  
 
   }
@@ -279,7 +273,7 @@ p {
 
 
   #fifth div:nth-child(1) {
-    grid-column: col 1 / span 5;
+    grid-column: col 1 / span 6;
     grid-row: 1;
 
   }
@@ -295,16 +289,18 @@ p {
   }
 
 
-  #fifth div:nth-child(3) {
-    grid-column: col 1 / span 4;
-    grid-row: 6;
-    padding-top: 120px;
+ 
+
+  #fifth div:nth-child(4) {
+    grid-column: col 1 / span 7;
+    grid-row: 2;
+    padding-top: 200px;
 
   }
 
 
-  #fifth div:nth-child(4) {
-    grid-column: col 1 / span 7;
+  #fifth div:nth-child(3) {
+    grid-column: col 1 / span 4;
     grid-row: 4;
     padding-top: 0px;
 
@@ -312,7 +308,7 @@ p {
 
 
  
-
+ 
 
 
 
@@ -342,7 +338,7 @@ p {
 .css-slider > * {
   animation: 12s autoplays infinite linear;
   position: absolute;
-  top: 260px;
+  top: 320px;
   left: 0;
   opacity: 0;
 
@@ -352,17 +348,13 @@ p {
 
 .css-slider > *:nth-child(1) {
   animation-delay: 0s;
-  background: #f00;
-   /* width: 100%;  */
 
 }
 .css-slider > *:nth-child(2) {
   animation-delay: 4s;
-  background: #000;
 }
 .css-slider > *:nth-child(3) {
   animation-delay: 8s;
-  background: #ff0;
 }
 
 
@@ -392,7 +384,7 @@ p {
     grid-template-columns: repeat(6, [col] 1fr);
     grid-template-rows: repeat(3, [row] auto);
     grid-column-gap: 1em;
-    margin: 0px 120px 0px 120px;
+    margin: 0px 0px 0px 0px;
     padding: 0%;
 
 
@@ -413,7 +405,7 @@ p {
     grid-template-columns: repeat(6, [col] 1fr);
     grid-template-rows: repeat(3, [row] auto);
     grid-column-gap: 1em;
-    margin: 0px 20px 0px 20px;
+    margin: 0px 0px 0px 0px;
 
 
   }
