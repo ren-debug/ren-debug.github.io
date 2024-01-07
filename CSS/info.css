@@ -58,7 +58,7 @@ body {
     height: 44vh;
     overflow-x: scroll;
     overflow-y: scroll;
-    padding-right: 40px;
+    padding-right: 0px;
     overflow-x: hidden; /* Hide horizontal scrollbar */   
     }
 
@@ -377,8 +377,8 @@ margin-top: 48vh;
     margin-top: 0px;
     height: 38vh;
     overflow-x: hidden;
-    overflow-y: scroll;
-    padding-right: 0px;
+    /* overflow-y: scroll; */
+    padding-right: 12px;
 
     
 
