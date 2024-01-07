@@ -375,10 +375,10 @@ margin-top: 48vh;
   .opentab {
     grid-column: col 1 / span 12;  
     margin-top: 0px;
-    height: 40vh;
+    height: 38vh;
     overflow-x: scroll;
     overflow-y: scroll;
-    padding-right: 20px;
+    padding-right: 24px;
     overflow-x: hidden; /* Hide horizontal scrollbar */
 
     
