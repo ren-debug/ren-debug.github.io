@@ -14,12 +14,12 @@ html {
 header {
     position: fixed;
     z-index: 1;
-    height: 60px;
+    height: 40px;
     top: 8px;
     right: 8px;
     left: 8px;
     background-color: transparent; 
-    border-bottom: 0.5px solid #b3b3b35d;  
+    /* border-bottom: 0.5px solid #b3b3b35d;   */
    backdrop-filter: blur(5px); 
 
 }
