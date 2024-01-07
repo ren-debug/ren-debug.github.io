@@ -330,8 +330,8 @@ margin-top: 48vh;
       grid-template-rows: repeat(6, [row] 1fr);
 
       grid-column-gap: 0em;
-      grid-row-gap: 3em;
-      padding: 120px 24px 60px 24px;
+      grid-row-gap: 2.5em;
+      padding: 0px 24px 0px 24px;
       overflow: scroll;
     } 
   
@@ -351,7 +351,7 @@ margin-top: 48vh;
 .container .col_3 {
     grid-column: col 1 / span 12;
     padding-top: 0px;
-    grid-row: row 2;
+    grid-row: row 1;
 
     
 
@@ -374,9 +374,8 @@ margin-top: 48vh;
 
   .opentab {
     grid-column: col 1 / span 12;  
-    margin-top: 180px;
-    height: auto;
-    grid-row: row 2;
+    margin-top: 0px;
+    height: 50vh;
     overflow-x: scroll;
     overflow-y: scroll;
     padding-right: 20px;
@@ -389,7 +388,7 @@ margin-top: 48vh;
   
    .container .col_2 {
     grid-column: col 1 / span 12;
-    grid-row: row 1;
+    grid-row: row 3;
     padding-top: 0vh;
   
   
@@ -398,7 +397,7 @@ margin-top: 48vh;
 
   .container .col_1 {
     grid-column: col 1 / span 12;
-    grid-row: row 1;
+    grid-row: row 3;
     margin-top: 0vh;
     padding-bottom: 0px;
     
@@ -408,7 +407,7 @@ margin-top: 48vh;
   .container .col_5 {
     grid-column: col 1 / span 12;
     grid-row: row 2;
-    margin-top: 60vh;
+    margin-top: 55vh;
     padding-bottom: 0px;
     
   } 
