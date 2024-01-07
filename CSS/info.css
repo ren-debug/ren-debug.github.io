@@ -350,7 +350,7 @@ margin-top: 48vh;
 
 .container .col_3 {
     grid-column: col 1 / span 12;
-    padding-top: 0px;
+    padding-top: 0vh;
     grid-row: row 1;
 
     
@@ -375,7 +375,7 @@ margin-top: 48vh;
   .opentab {
     grid-column: col 1 / span 12;  
     margin-top: 0px;
-    height: 50vh;
+    height: 40vh;
     overflow-x: scroll;
     overflow-y: scroll;
     padding-right: 20px;
@@ -407,7 +407,7 @@ margin-top: 48vh;
   .container .col_5 {
     grid-column: col 1 / span 12;
     grid-row: row 2;
-    margin-top: 55vh;
+    margin-top: 45vh;
     padding-bottom: 0px;
     
   } 
