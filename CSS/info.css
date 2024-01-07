@@ -376,7 +376,7 @@ margin-top: 48vh;
     grid-column: col 1 / span 12;  
     margin-top: 0px;
     height: 38vh;
-    overflow-x: scroll;
+    overflow-x: hidden;
     overflow-y: scroll;
     padding-right: 24px;
 
