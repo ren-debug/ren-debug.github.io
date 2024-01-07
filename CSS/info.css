@@ -342,16 +342,30 @@ margin-top: 48vh;
   
 
 button {
-    width: 55.5px;
-    height: 30px;
-    font-size: 10px;
+    width: 96px;
+    height: 40px;
+    font-size: 12px;
+    margin-right: 0px;
 }
       
 
 .container .col_3 {
-    grid-column: col 1 / span 12;    
-    grid-row: row 1;
+    grid-column: col 1 / span 12;
+    grid-row: row 2;    
     padding-top: 0px;
+
+    
+
+  
+  }
+
+  .container .col_3 * {
+    width: 120px;
+    height: 40px;
+    font-size: 12px;
+    margin-right: 0px;   
+    justify-content: space-evenly;
+
     
 
   
