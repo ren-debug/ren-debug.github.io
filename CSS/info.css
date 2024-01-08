@@ -130,7 +130,7 @@ padding: 0px 60px;
   grid-column: col 1 / span 4;
   grid-row: row 2;
 align-self: flex-end;
-margin-bottom: 48vh;
+margin-bottom: 45vh;
 
 
 
@@ -142,7 +142,7 @@ margin-bottom: 48vh;
   grid-row: row 2;
   align-self: flex-end;
 
-  margin-bottom: 16vh;
+  margin-bottom: 17vh;
 
 
 
@@ -155,7 +155,7 @@ margin-bottom: 48vh;
 
 
 .container .col_3 {
-  grid-column: col 7 / span 6;    
+  grid-column: col 7 / span 7;    
   grid-row: row 1;
   margin-top: 6vh;
 
@@ -165,7 +165,7 @@ margin-bottom: 48vh;
 
   
 .opentab {
-  grid-column: col 7 / span 6; 
+  grid-column: col 7 / span 7; 
   grid-row: row 2;
   margin-top: 0vh;
   margin-bottom: 24vh;
@@ -220,13 +220,6 @@ button.square {
 } 
 
 
-#work .col_1 {
-grid-column: col 1 / span 4;
-grid-row: row 3;
-align-self: end;
-padding-bottom: 62px;
-
-}
 
 #work .opentab {
   background-image: linear-gradient(180deg, #a6a6a6, #ffffff36);
@@ -236,48 +229,55 @@ padding-bottom: 62px;
   overflow: hidden;
   z-index: 99;
   height: 65vh;
+  margin-top: 20vh;
+  grid-row: row 2;
+  margin-top: 5vh;
+  grid-column: col 7 / span 7;    
+
 
 
 }
 
 
 #work .col_3 {
-  grid-column: col 7 / span 9; 
-  grid-row: row 2;
-  padding-top: 100px;
+  grid-column: col 7 / span 7;    
+  grid-row: row 1;
+  margin-top: 9.5vh;
+
 
 }
 
-
-#work .opentab {
-  grid-column: col 7 / span 9;  
-  grid-row: row 3;
-  margin-top: 38px;
-
+#about, #work, #cv {
+  overflow: hidden;
 
 }
 
 #about .col_1  {
   grid-column: col 1 / span 4;
-  grid-row: row 1;
-  padding-top: 248px;
+  grid-row: row 3;
+  margin-left: 14%;
+  padding-bottom: 60px;
 
 }
 
-#about .fi {
-  font-size: 1.1rem;
-  padding-right: 16px;
-}
+
 
 #about .col_1 hr {
   margin-bottom: 24px;
 }
 
 
-#about .col_3  {
-  grid-column: col 6 / span 6; 
+#about .col_2  {
+  grid-column: col 7 / span 5; 
   grid-row: row 1;
-  padding-top: 120px;
+  margin-top: 20vh;
+
+}
+
+#about .col_3  {
+  grid-column: col 7 / span 5; 
+  grid-row: row 2;
+  margin-top: 11vh;
 
 }
 
@@ -438,7 +438,7 @@ Small devices (portrait tablets and large phones, 600px and up) */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-  .container {
+  .container, .grid {
     display: grid;
     grid-template-columns: repeat(12, [col] 1fr);
     grid-template-rows: repeat(6, [row] 1fr);
@@ -451,7 +451,7 @@ Small devices (portrait tablets and large phones, 600px and up) */
     padding-right: 40px;
     overflow-y: auto;
     padding-bottom: 140px;
-    padding-top: 60px;
+    padding-top: 80px;
 
     margin-right: 0px;
   } 
@@ -532,5 +532,32 @@ Small devices (portrait tablets and large phones, 600px and up) */
   padding-bottom: 0px;
   
 } 
+
+
+#work .col_3 {
+  grid-column: col 1 / span 12;
+  grid-row: row 1;
+  margin-top: 0vh;
+
+  
+
+}
+
+#work .opentab {
+  background-image: linear-gradient(180deg, #a6a6a6, #ffffff36);
+  background-size: 100%; 
+  color: transparent;
+  background-clip: text; 
+  overflow: hidden;
+  z-index: 99;
+  height: 65vh;
+  margin-top: 20vh;
+  grid-row: row 2;
+  margin-top: 5vh;
+  grid-column: col 1 / span 12;    
+
+
+
+}
 
 }

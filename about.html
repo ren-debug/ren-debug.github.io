@@ -8,52 +8,148 @@
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="./CSS/styles.css">
     <link rel="stylesheet" href="./CSS/typography.css">
-    <!-- <link rel="stylesheet" href="./CSS/grids.css"> -->
+     <link rel="stylesheet" href="./CSS/grids.css"> 
     <link rel="stylesheet" href="./CSS/font-style.css">
     <!-- <link rel="stylesheet" href="./CSS/cv.css"> -->
     <link rel="stylesheet" href="./CSS/info.css">
 
+
+
     <!-- <link rel="stylesheet" href="./CSS/experience.css">  -->
+
 
     <!-- <link rel="stylesheet" href="./CSS/styles_2.css"> -->
     <!-- <link rel="stylesheet" href="./CSS/scroll.css"> -->
 
-    <link href="https://fonts.cdnfonts.com/css/switzer" rel="stylesheet" />
 
-    <style>
-        html {
-            box-sizing: border-box;
-            -moz-box-sizing: border-box;
-            -webkit-box-sizing: border-box;
-            border-right: 8px solid white;
-            border-left: 8px solid white;
-            margin: 0px;
-            height: 100vh;
-        }
-
-        body {
-            background-color: #212121;
-            color: #a6a6a6;
-            overflow: hidden;
-            /* Hide scrollbars */
-
-        }
+    <link href="https://fonts.cdnfonts.com/css/switzer" rel="stylesheet"/>
 
 
-        footer {
-            border-bottom: 8px solid white;
-            right: 8px;
-            left: 8px;
-        }
-    </style>
+
+
+<style>
+
+
+
+body {
+background-color: #141414;
+border-right: 8px solid white;
+border-left: 8px solid white;
+
+
+
+} 
+
+
+footer {
+    border-bottom: 8px solid white;
+    right: 8px;
+    left: 8px;
+}
+
+
+
+
+#about {
+    position: sticky;
+    height: 100vh;
+  }
+
+  
+
+
+
+
+
+
+
+#about:target{
+    display: grid;
+}
+
+
+
+
+#work {
+    position: sticky;
+    height: 100vh;
+  }
+
+  
+
+#work{ 
+    display:none;
+}
+
+
+
+
+
+#work:target{
+    display: grid;
+}
+
+
+
+
+#cv {
+    position: sticky;
+    height: 100vh;
+  }
+
+  
+
+#cv { 
+    display:none;
+}
+
+
+
+
+
+#cv:target{
+    display: grid;
+}
+
+
+</style>
 
 </head>
 
 <body>
 
-    <header>
+    <div class="navbar">
+
+
+        <!-- Hamburger icon -->
+    
+    
+        <div class="center">
+            <a href="about">about</a>
+       
+    
+    
+    
+            <div class="navbar subnav">
+                <div class="subnavbtn">work</div>
+
+                <div class="subnav-content">
+                    <a href="#company">digital</a>
+                    <a href="#company">print</a>
+                    <a href="#company">digital</a>
+                   
+                </div>
+            </div>
+            <a href="/cv.html">cv</a>
+    
+        </div>
+
+
+    </div>
+    
+    <!-- <header>
         <div class="nav">
-            <a href="./index.html" class="home"><i class="fi fi-rr-home"></i></a>
+           <a href="./index.html" class="home"><i class="fi fi-rr-home"></i></a>
 
             <ul>
                 <li><a href="./about.html" class="about">about</a></li>
@@ -64,8 +160,10 @@
             </ul>
         </div>
 
-    </header>
-
+       
+    </header>   -->
+    
+    
     <!-- <menu class="links">
         <ul><h1>
             <li><a href="./about.html">about</a></li> 
@@ -73,307 +171,589 @@
             <li>experience</li> 
         </h1></ul>
     </menu> -->
-
+<!--     
+    
     <aside>
         <div id="mySidebar" class="sidebar">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
             <div><a href="./print.html">01. print design</a></div>
             <div><a href="./web.html">02. web design</a></div>
             <div><a href="./digital.html">03. digital design</a></div>
-
+            
             <button><a href="mailto:irene.spalletti@gmail.com">get in touch!</a></button>
         </div>
-        <button class="openbtn" onclick="openNav()"><i class="fi fi-br-menu-burger"></i></button>
-        <div id="main"></div>
+            <button class="openbtn" onclick="openNav()"><i class="fi fi-br-menu-burger"></i></button>
+            <div id="main"></div>
     </aside>
-
+            
     <script>
-        function openNav() {
-            document.getElementById("mySidebar").style.width = "100%";
-            document.getElementById("main").style.marginLeft = "250px";
-        }
-
-        function closeNav() {
-            document.getElementById("mySidebar").style.width = "0";
-            document.getElementById("main").style.marginLeft = "0";
-        }
+    function openNav() {
+    document.getElementById("mySidebar").style.width = "100%";
+    document.getElementById("main").style.marginLeft = "250px";
+    }
+            
+    function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+    }
     </script>
+            
+    <div id="main"></div> -->
 
-    <div id="main"></div>
+    <div class="parallax"></div>
+    
+    <section style="height:35vh;" class="sticky">
+    <ul><h1>
+        <li><a href="#about">about</a></li>
+        <li><a href="#work">work</a></li>
+        <li><a href="#cv">experience</a></li>
+    </h1></ul>
+    </section>
 
-    <div id="about" class="container page">
+    
+    <div style="height: 100vh;" id="about" class="grid page">
 
-        <div class="col_1">
-
-            <h3>contact<hr>
-            </h3>
-
-            <h5>
-                Irene Spalletti
-                <br><a href="mailto:irene.spalletti@gmail.com">irene.spalletti@gmail.com</a>
-                <br><a href="tel:00447412604767">+44 (0)7412 604 767</a>
-            </h5>
-
-            <br>
-            <a href="#"><i class="fi fi-brands-instagram"></i></a>
-            <a href="#"><i class="fi fi-brands-github"></i></a>
-            <a href="#"><i class="fi fi-brands-linkedin"></i></a>
-            <a href="#"><i class="fi fi-rr-envelope"></i></a>
+            <div class="col_1">
+                <h4>contact<hr></h4>
+    
+                Irene Spalletti<br>
+                <a href="mailto:irene.spalletti@gmail.com">irene.spalletti@gmail.com</a><br>
+                <a href="tel:00447412604767">+44 (0) 7412 604 767</a>
+    
+            </div>
 
 
+            <div class="col_2"><h2>hello! i am bla bla</h2>
+            </div>
+          
+        <div style="padding-top: 0px;" class="col_3"> 
+
+            
+            <p>I am a freelance UX / UI Designer and Front-end Developer, Senior Visuao and Digital Designer
+                with
+                over eleven years of experience in my field. My work in Visual Communication expressed through
+                both
+                the printed and digital media has given me a deep respect for the physical properties and
+                tactile
+                elements of materials and provided me with a distinctive advantage in creating designs for the
+                digital world, an area that continually inspires me through its innovation and expressive
+                potential.
+
+                <br><br>This has allowed me to cultivate a foundational understanding of traditional design
+                principles,
+                enabling the translation of ideas and execution across diverse channels seamlessly. My body of
+                work
+                is characterised by a careful attention to detail, with a focus on a clean and classic aesthetic
+                whilst placing emphasis on typography-driven design and merges elegance with functional.
+            </p>    
         </div>
 
+    </div>
 
-        <div style="padding-left: 68px;" class="col_3">
+        
+    <div id="work" class="container page">
 
-            <h2>I am a freelance designer</h2><br><br>
-            My work in Visual Communication expressed through both the printed and digital media has given me a deep
-                respect for the physical properties and tactile elements of materials and provided me with a distinctive
-                advantage in creating designs for the digital world, an area that continually inspires me through its
-                innovation and expressive potential.<br><br>
-                This has allowed me to cultivate a foundational understanding of traditional design principles, enabling
-                the translation of ideas and execution across diverse channels seamlessly. My body of work is
-                characterised by a careful attention to detail, with a focus on a clean and classic aesthetic whilst
-                placing emphasis on typography-driven design and merges elegance with functional.
+
+
+
+
+        <div style="padding-left: 0px;" class="col_3">
+             <h3>index of works<hr></h3> 
+       
+
+            <button class="tablinks" onclick="openCity(event, 'digital')"id="defaultOpen">digital</button>
+            <button class="tablinks" onclick="openCity(event, 'print')">print</button>
+            <button class="tablinks" onclick="openCity(event, 'web')">web</button>
+            
+        </div>
+          
+        <div class="opentab" class="container page">
+
+            <div id="digital" class="tabcontent">
+                <p>
+                    <ul>
+                        <li>
+                            <h4>Yves Saint Laurent</h4>
+                            <h5>digital marketing - freelance<hr></h5>
+                        </li>
+
+                        <li>
+                            <h4><br>Pokerstars</h4>
+                            <h5>digital design - freelance
+                            <div class="view">view</div>
+                            <hr></h5>
+                            
+                        </li>
+
+                        <li>
+                            <h4><br>Boots</h4>
+                            <h5>digital / print design - freelance<hr></h5>
+                        </li>
+
+                        <li>
+                            <h4><br>McArthurGlen</h4>
+                            <h5>marketing & digital design - freelance
+                            <div class="view">view</div>
+                            <hr></h5>
+                            
+                        </li>
+
+
+                        <li>
+                            <h4><br>Rugby Football Union</h4>
+                            <h5>branding / digital design - freelance
+                            <div class="view">view</div>
+                            </h5>
+                            
+                        </li>
+
+                    </ul>
+                 </p>
+
+            </div>
+
+        
+
+            <div id="print" class="tabcontent">
+                <p>
+                    <ul>
+                        <li>
+                            <h4>Capital Gardens</h4>
+                            <h5>company rebranding - art director<hr></h5>
+                        </li>
+
+                        <li>
+                            <h4><br>Christie's - Alexander Calder</h4>
+                            <h5>visual identity - print designer
+                            <div class="view">view</div>
+                            <hr></h5>
+                            
+                        </li>
+
+                        <li>
+                            <h4><br>Christie's - Jan Krugier</h4>
+                            <h5>digital / print design - freelance<hr></h5>
+                        </li>
+
+                        <li>
+                            <h4><br>Karolina Manns</h4>
+                            <h5>branding & packaging - freelance
+                            <div class="view">view</div>
+                            <hr></h5>
+                            
+                        </li>
+
+                    </ul>
+                 </p>
+
+            </div>
+
+
+            
+            <div id="web" class="tabcontent">
+                <p>
+                    <ul>
+                        <li>
+                            <h4>Yves Saint Laurent</h4>
+                            <h5>digital marketing - freelance<hr></h5>
+                        </li>
+
+                        <li>
+                            <h4><br>Pokerstars</h4>
+                            <h5>digital design - freelance
+                            <div class="view">view</div>
+                            <hr></h5>
+                            
+                        </li>
+
+                        <li>
+                            <h4><br>Boots</h4>
+                            <h5>digital / print design - freelance<hr></h5>
+                        </li>
+
+                        <li>
+                            <h4><br>Rugby Football Union</h4>
+                            <h5>branding / digital design - freelance
+                            <div class="view">view</div>
+                            <hr></h5>
+                            
+                        </li>
+                    </ul>
+                 </p>
+            </div>
             
         </div>
 
 
+        
     </div>
+
+
+
+
+
+    
+
+    <div id="cv" class="container page">
 
   
 
 
-    <!-- 
-        <div class="scrollbar"> 
-            
-            <div>
-            
-            <ul>
-           
+        <div class="col_1">
+            <h3>skills<hr></h3>
 
             
+            <div class="tablinks tooltip"><li><i class="fi fi-brands-photoshop"></i></li>
+                <span class="tooltiptext">photoshop</span>
+            </div>
 
-                <h3>beauty & healthcare<hr></h3>
+            <div class="tablinks tooltip"><li><i class="fi fi-brands-illustrator"></i></li>
+                <span class="tooltiptext">illustrator</span>
+            </div>
 
-                
-                <li>
-                    <h4>Boots</h4>
-                   
-                    <p>description / role / project               
-                    </p><br><li><a href="#" class="view">view project</a><hr></li>
+            <div class="tablinks tooltip"><li><i class="fi fi-brands-indesign"></i></li>
+                <span class="tooltiptext">inDesign</span>
+            </div>
 
-            
-                <li><h4>The Body Shop</h4>
-                    <p>description / role / project               
-                    </p><br>beauty & healthcare<hr></li>
+            <div class="tablinks tooltip"><li><i class="fi fi-brands-xd"></i></li>
+                <span class="tooltiptext">xd</span>
+            </div>
 
-
-                <li><h4>Elemis (Frontroom)</h4>
-                    <p>description / role / project               
-                    </p><br><a href="#" class="view">view project</a><hr></li>
-
-
-                <li><h4>Bausch & Lomb (AS&K)</h4>
-                    <p>description / role / project               
-                    </p><br><a href="#" class="view">view project</a><hr></li>
-        
-                
-                <li><h4>Lancôme</h4>
-                    <p>description / role / project               
-                    </p><br><a href="#" class="view">view project</a><hr></li>
-        
-        
-        
-                <li><h4>L’Orēal</h4>
-                    <p>description / role / project               
-                    </p><br><a href="#" class="view">view project</a><hr></li>
-
-
-                <li><h4>Yves Saint Laurent</h4>
-                    <p>description / role / project               
-                    </p><br><a href="#" class="view">view project</a><hr>
-                </li>
-
-
-            </ul>
-
-            <ul>
-           
-                <br><br><h3>economics & finance</h3><br>
-
-                <li><h4>ADA Economics</h4>
-                    <p>description / role / project               
-                    </p><br><a href="#" class="view">view project</a><hr></li>
-
-            
-                <li><h4>Blocksize Unlimited</h4>
-                    <p>description / role / project               
-                    </p><br><a href="#" class="view">view project</a><hr></li>
-
-
-                <li><h4>FT Financial Times</h4>
-                    <p>description / role / project               
-                    </p><br><a href="#" class="view">view project</a><hr></li>
-
-
-                <li><h4>Greenfinch app</h4>
-                    <p>description / role / project               
-                    </p><br><a href="#" class="view">view project</a><hr></li>
-
-            </ul>
-
-            <ul>
-           
-                <br><br><h3>fashion & retail</h3><br>
-
-                <li><h4>Blank</h4>
-                    <p>description / role / project               
-                    </p><br><a href="#" class="view">view project</a><hr></li>
-
-            
-                <li><h4>McArthurGlen</h4>
-                    <p>description / role / project               
-                    </p><br><a href="#" class="view">view project</a><hr></li>
-
-
-                <li><h4>Mike Koedinger</h4>
-                    <p>description / role / project               
-                    </p><br><a href="#" class="view">view project</a><hr></li>
-
-
-            </ul>
-
-            <ul>
-           
-                <br><br><h3>food & hospitality</h3><br>
-
-                <li><h4>Belvedere Vodka (Hue & Cry)</h4>
-                    <p>description / role / project               
-                    </p><br><a href="#" class="view">view project</a><hr></li>
-
-            
-                <li><h4>Ella</h4>
-                    <p>description / role / project               
-                    </p><br><a href="#" class="view">view project</a><hr></li>
-
-
-                <li><h4>Karolina Manns</h4>
-                    <p>description / role / project               
-                    </p><br><a href="#" class="view">view project</a><hr></li>
-
-
-                <li><h4>The East India Company</h4>
-                    <p>description / role / project               
-                    </p><br><a href="#" class="view">view project</a><hr></li>
-
-            </ul>
-
-
-            <ul>
-           
-                <br><br><h3>luxury</h3><br>
-
-                <li><h4>Burberry</h4>
-                    <p>description / role / project               
-                    </p><br><a href="#" class="view">view project</a><hr></li>
-
-            
-                <li><h4>Christie’s</h4>
-                    <p>description / role / project               
-                    </p><br><a href="#" class="view">view project</a><hr></li>
-
-
-                <li><h4>Lancôme</h4>
-                    <p>description / role / project               
-                    </p><br><a href="#" class="view">view project</a><hr></li>
-
-
-                <li><h4>The East India Company</h4>
-                    <p>description / role / project               
-                    </p><br><a href="#" class="view">view project</a><hr></li>
-
-
-                <li><h4>Yves Saint Laurent</h4>
-                    <p>description / role / project               
-                    </p><br><a href="#" class="view">view project</a><hr></li>
-
-            </ul>
-
-
-
- 
-            
-            <ul>
-           
-                <br><br><h3>real estate</h3><br>
-
-                <li><h4><strong>Babylon</strong> (Socrates)</h4>
-                    <p>description / role / project               
-                    </p><br><a href="#" class="view">view project</a><hr></li>
-
-
-                <li><h4>Christie’s Real Estate</h4>
-                    <p>description / role / project               
-                    </p><br><a href="#" class="view">view project</a><hr></li>
-
-            </ul>
-
-
-            <ul>
-           
-                <br><br><h3>sport & well-being</h3><br>
-
-                <li><h4>Atma Yoga</h4>
-                    <p>description / role / project               
-                    </p><br><a href="#" class="view">view project</a><hr></li>
-
-            
-                <li><h4>LP Workouts</h4>
-                    <p>description / role / project               
-                    </p><br><a href="#" class="view">view project</a><hr></li>
-
-
-                <li><h4>Karolina Manns</h4>
-                    <p>description / role / project               
-                    </p><br><a href="#" class="view">view project</a><hr></li>
-
-
-                <li><h4><strong>England Rugby Football Union</strong> (RFU)</h4>
-                    <p>description / role / project               
-                    </p><br><a href="#" class="view">view project</a><hr></li>
-
-
-
-            </ul>
+            <div class="tablinks tooltip"><li><i class="fi fi-brands-after-effects"></i></li>
+                <span class="tooltiptext">after effects</span>
+            </div>
 
         
+
+        <br>
+
+        <div class="tablinks tooltip"><li><span class="icon-mural"></span></li>
+            <span class="tooltiptext">mural</span>
         </div>
 
 
-    -->
+        <div class="tablinks tooltip"><span class="icon-balsamiq"></span></li>
+            <span class="tooltiptext">balsamiq</span> 
+        </div>
 
-    <!-- <div class="cv"><h4><a href="./pdf/irene.spalletti_CV_print.pdf" download>download full cv&nbsp;&nbsp;&nbsp;<i class="fi fi-br-download"></i></a></h4></div> -->
+
+            <div class="tablinks tooltip"><li><i class="fi fi-brands-figma"></i></li>
+                <span class="tooltiptext">figma</span>
+            </div>
+
+            <div class="tablinks tooltip"><li><i class="fi fi-brands-sketch"></i></li>
+                <span class="tooltiptext">sketch</span>
+            </div>
+
+            <div class="tablinks tooltip"><li><i class="fi fi-brands-invision"></i></li>
+                <span class="tooltiptext">inVision</span>
+            </div>
+
+        
+
+
+
+            <br>
+            <div class="tablinks tooltip"><li><span class="icon-html"></span></li>
+                <span class="tooltiptext">html</span>
+            </div>
+
+            <div class="tablinks tooltip"><li><span class="icon-css"></span></li>
+                <span class="tooltiptext">css</span>
+            </div> 
+
+            <div class="tablinks tooltip"><li><i class="fi fi-brands-github"></i></li>
+                <span class="tooltiptext">gitHub</span>
+            </div>
+
+
+
+
+        </div>
+
+        
+        <div style="margin-top: 200px;"  class="col_2">
+            <h3>languages<hr></h3>
+
+            <button class="tablinks">italian</button>
+            <button class="tablinks">french</button>
+            <button class="tablinks">english</button>
+            <button class="tablinks">spanish</button>
+        </div>  
+
+
+        
+        <div class="col_3">
+            
+            <h3>clients & industries<hr></h3>
+
+
+            <button class="tablinks" onclick="openCity(event, 'all')">all</button>
+            <button class="tablinks" onclick="openCity(event, 'beauty')" id="defaultOpen">beauty</button>
+            <button class="tablinks" onclick="openCity(event, 'finance')">finance</button>
+            <button class="tablinks" onclick="openCity(event, 'retail')">retail</button>
+            <button class="tablinks" onclick="openCity(event, 'luxury')">luxury</button>
+            <button class="tablinks" onclick="openCity(event, 'media')">media</button>
+            <button class="tablinks" onclick="openCity(event, 'sport')">sport</button>
+        </div>
+        
+        <div style="padding-top: 40px;" class="opentab">
+
+
+        
+
+            <div id="beauty" class="tabcontent">
+                <p>
+                    <ul>
+                        <li>
+                            <h4>Boots</h4>
+                            <p>description / role / project               
+                            <a href="#" class="view">view project</a><hr></p>
+                        </li>
+
+                        <li><br>
+                            <h4>The Body Shop</h4>
+                            <p>description / role / project               
+                            <a href="#" class="view">view project</a><hr></p>
+                        </li>
+
+                        <li><br>
+                            <h4>Elemis (Frontroom)</h4>
+                            <p>description / role / project               
+                            <a href="#" class="view">view project</a><hr></p>
+                        </li>
+
+                        <li><br>
+                            <h4>Bausch & Lomb (AS&K)</h4>
+                            <p>description / role / project               
+                            <a href="#" class="view">view project</a><hr></p>
+                        </li>
+
+                        <li><br>
+                            <h4>Yves Saint Laurent (L'Orēal)</h4>
+                            <p>description / role / project               
+                            <a href="#" class="view">view project</a><hr></p>
+                        </li>
+
+                        <li><br>
+                            <h4>Lancôme (L'Orēal)</h4>
+                            <p>description / role / project               
+                            <a href="#" class="view">view project</a><hr></p>
+                        </li>
+
+                    </ul>
+                </p>
+
+            </div>
+
+
+            
+            <div id="finance" class="tabcontent">
+                <p>
+                    <ul>
+                        <li>
+                            <h4>FT Financial Times</h4>
+                            <p>description / role / project               
+                            <a href="#" class="view">view project</a><hr></p>
+                        </li>
+
+                        <li><br>
+                            <h4>Greenfinch</h4>
+                            <p>description / role / project               
+                            <a href="#" class="view">view project</a><hr></p>
+                        </li>
+
+                        <li><br>
+                            <h4>Blockchain Unlimited</h4>
+                            <p>description / role / project               
+                            <a href="#" class="view">view project</a><hr></p>
+                        </li>
+
+                        <li><br>
+                            <h4>ADA Economics</h4>
+                            <p>description / role / project               
+                            <a href="#" class="view">view project</a><hr></p>
+                        </li>
+            
+
+                    </ul>
+                </p>
+            </div>
+            
+            <div id="retail" class="tabcontent">
+                <p>
+                    <ul>
+                        <li>
+                            <h4>McArthurGlen</h4>
+                            <p>description / role / project               
+                            <a href="#" class="view">view project</a><hr></p>
+                        </li>
+
+                        <li><br>
+                            <h4>Mike Koedinger Editions</h4>
+                            <p>description / role / project               
+                            <a href="#" class="view">view project</a><hr></p>
+                        </li>
+
+                        <li><br>
+                            <h4>Belvedere Vodka (Hue & Cry)</h4>
+                            <p>description / role / project               
+                            <a href="#" class="view">view project</a><hr></p>
+                        </li>
+
+                        <li><br>
+                            <h4>Karolina Manns</h4>
+                            <p>description / role / project               
+                            <a href="#" class="view">view project</a><hr></p>
+                        </li>
+            
+
+                    </ul>
+                </p>
+            </div>
+
+            <div id="luxury" class="tabcontent">
+                <p>
+                    <ul>
+                        <li>
+                            <h4>The East India Company</h4>
+                            <p>description / role / project               
+                            <a href="#" class="view">view project</a><hr></p>
+                        </li>
+
+                        <li><br>
+                            <h4>Christie's</h4>
+                            <p>description / role / project               
+                            <a href="#" class="view">view project</a><hr></p>
+                        </li>
+
+                        <li><br>
+                            <h4>Burberry</h4>
+                            <p>description / role / project               
+                            <a href="#" class="view">view project</a><hr></p>
+                        </li>
+
+                        <li><br>
+                            <h4>Yves Saint Laurent (L'Orēal)</h4>
+                            <p>description / role / project               
+                            <a href="#" class="view">view project</a><hr></p>
+                        </li>
+
+                        <li><br>
+                            <h4>Babylon (Socrates)</h4>
+                            <p>description / role / project               
+                            <a href="#" class="view">view project</a><hr></p>
+                        </li>
+
+                    </ul>
+                </p>
+            </div>
+            
+            <div id="media" class="tabcontent">
+                <p>
+                    <ul>
+                        <li>
+                            <h4>Pokerstars</h4>
+                            <p>description / role / project               
+                            <a href="#" class="view">view project</a><hr></p>
+                        </li>
+
+                        <li><br>
+                            <h4>Sonos (Sense Worldwide)</h4>
+                            <p>description / role / project               
+                            <a href="#" class="view">view project</a><hr></p>
+                        </li>
+
+                        <li><br>
+                            <h4>Pinzutu Films</h4>
+                            <p>description / role / project               
+                            <a href="#" class="view">view project</a><hr></p>
+                        </li>
+
+                    </ul>
+                </p>
+            </div>
+            
+            <div id="sport" class="tabcontent">
+                <p>
+                    <ul>
+                        <li>
+                            <h4>England Rugby Football Union</h4>
+                            <p>description / role / project               
+                            <a href="#" class="view">view project</a><hr></p>
+                        </li>
+
+                        <li><br>
+                            <h4>LP Workouts</h4>
+                            <p>description / role / project               
+                            <a href="#" class="view">view project</a><hr></p>
+                        </li>
+
+                        <li><br>
+                            <h4>Atma Yoga</h4>
+                            <p>description / role / project               
+                            <a href="#" class="view">view project</a><hr></p>
+                        </li>
+
+        
+                    </ul>
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="col_5">
+            <h4><a href="./pdf/irene.spalletti_CV_print.pdf" download>download full cv&nbsp;&nbsp;&nbsp;<i class="fi fi-br-download"></i></a></h4>       
+        </div>  
+    
+    </div>
+
+
+
+<script>
+    function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+    }
+</script>
+
+<script>
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+    
+
+
 
     <footer>
         <div class="footer">
-            <ul>
-                <li>© 2023 — Irene Spalletti</li>
-                <li><a href="#">privacy</a></li>
-                <li><a href="#">terms</a></li>
-            </ul>
+        <ul>
+            <li>© 2023 — Irene Spalletti</li>
+            <li><a href="#">privacy</a></li>
+            <li><a href="#">terms</a></li>
+        </ul>
         </div>
-
+    
         <div class="footer_contact">
-            <ul>
-                <li><a href="#"><i class="fi fi-brands-instagram"></i></a></li>
-                <li><a href="#"><i class="fi fi-brands-github"></i></a></li>
-                <li><a href="#"><i class="fi fi-brands-linkedin"></i></a></li>
-                <li> <a href="#"><i class="fi fi-rr-envelope"></i></a></li>
-            </ul>
-        </div>
-    </footer>
+        <ul>
+            <li><a href="#"><i class="fi fi-brands-instagram"></i></a></li>
+            <li><a href="#"><i class="fi fi-brands-github"></i></a></li>
+            <li><a href="#"><i class="fi fi-brands-linkedin"></i></a></li>
+            <li> <a href="#"><i class="fi fi-rr-envelope"></i></a></li>
+        </ul>
+        </div>   
+    </footer> 
 
 </body>
-
 </html>

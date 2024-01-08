@@ -354,38 +354,19 @@ footer * {
 .sticky {
     position: -webkit-sticky;
     position: sticky;
-    top: 19.2%;
-    margin: 0px 0px 0px 0px;
+    top: 8%;
+    margin: 0px 40px;
+    width: 40%;
     background-color: transparent;
     z-index: 1;
 }
 
 
 h1 .sticky  {
-    margin-left: 0px;
-    padding-left: 0%;
+
     list-style: none;
 }
 
-
-/* #work {
-    position: sticky;
-    height: 100vh;
-  }
-
-  
-
-#work{ 
-    display:none;
-}
-
-
-
-
-
-#work:target{
-    display: grid;
-} */
 
 
 
