@@ -5,19 +5,18 @@ body {
 
 
 .navbar {
-  background-color: #3838386b;
+  background-color: transparent;
   overflow: hidden;
-  height: 50px;
-  border-top: 8px solid white;
-  top: 0px;
+  height: 40px;
+  top: 5vh;
 }
 
 .navbar a {
-  color: white;
+  color: #a6a6a6;
   text-decoration: none;
-  height: 50px;
-padding: 0px 60px;
-  font-size: 14px;
+  height: 40px;
+padding: 10px 0px;
+  font-size: 12px;
   letter-spacing: 0.5px;
   font-weight: 200;
   display: flex;
@@ -33,7 +32,7 @@ padding: 0px 60px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50px;
+  height: 40px;
   
 }
 
@@ -59,7 +58,7 @@ padding: 0px 60px;
   font-family: inherit;
   font-weight: inherit;
   font-size: 14px;
-  height: 50px;
+  height: 40px;
 
 
 }
@@ -79,12 +78,13 @@ padding: 0px 60px;
 
 .subnav-content {
   display: none;
-  position: absolute;
-  top: 56px;
+
+  top: 40px;
   height: 40px;
   right: 8px;
   left: 8px;
-  background-color: #B3B3B3;
+  /* background-color: #B3B3B3; */
+  color: #151515;
   z-index: 1;
 }
 
@@ -94,6 +94,7 @@ padding: 0px 60px;
   width: 0px;
   text-decoration: none;
   margin-left: 16px;
+  
 
 
 }
@@ -101,10 +102,12 @@ padding: 0px 60px;
 
 
 .subnav:hover .subnav-content {
-  display: inline-block;
-  text-align: center;
-  background-color: none;
-  padding-top: 16px;
+  background-color: #585858;
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  width: auto;
+  padding: 0px 40px;
 
 
 }
