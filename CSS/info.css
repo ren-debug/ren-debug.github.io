@@ -14,8 +14,8 @@ body {
 .navbar a {
   color: #a6a6a6;
   text-decoration: none;
-  height: 40px;
-padding: 10px 0px;
+  height: 68px;
+padding: 10px 60px;
   font-size: 12px;
   letter-spacing: 0.5px;
   font-weight: 200;
@@ -54,7 +54,6 @@ padding: 10px 0px;
   outline: none;
   color: white;
   padding: 0px 60px;
-  background-color: inherit;
   font-family: inherit;
   font-weight: inherit;
   font-size: 14px;
@@ -93,7 +92,7 @@ padding: 10px 0px;
   display: inline-block;
   width: 0px;
   text-decoration: none;
-  margin-left: 16px;
+  margin-left: 0px;
   
 
 
@@ -107,7 +106,7 @@ padding: 10px 0px;
   display: flex;
   justify-content: space-evenly;
   width: auto;
-  padding: 0px 40px;
+  padding: 0px 20px;
 
 
 }
