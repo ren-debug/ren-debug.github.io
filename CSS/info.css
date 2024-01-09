@@ -369,23 +369,25 @@ Small devices (portrait tablets and large phones, 600px and up) */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-  .container, .grid {
+  .container {
     display: grid;
     grid-template-columns: repeat(12, [col] 1fr);
-    grid-template-rows: repeat(6, [row] 1fr);
+    /* grid-template-rows: repeat(3, [row] 1fr); */
     grid-column-gap: 0em;
     grid-row-gap: 0px;
-    padding: 0px 0px 0px 24px;
-    width: 100%;
-    box-sizing: border-box;
-    width: calc(100% + 24px);
-    padding-right: 48px;
-    overflow-y: auto;
-    padding-bottom: 140px;
-    padding-top: 40px;
+    padding: 0px 24px 0px 24px;
+    width: calc(100% - 48px);
+    overflow-x: hidden;
+    padding-top: 60px;
+    height: 140vh;
 
-    margin-right: 0px;
   } 
+
+
+  html {
+    overflow-y: scroll;
+
+  }
 
 
 .tab_display {
@@ -409,27 +411,19 @@ Small devices (portrait tablets and large phones, 600px and up) */
 .container .col_3 {
   grid-column: col 1 / span 12;
   grid-row: row 1;
-  margin-top: 0vh;
-
-  
 
 
 }
 
-
-.col_3 button {
-  width: 98px;
-}
 
 .opentab {
   grid-column: col 1 / span 12;
-  margin-top: 6vh;
+  grid-row: row 1;
+  margin-top: 24vh;
   width: 95%;
   height: 45vh;
   padding-right: 24px;
-
   overflow-x: hidden;
-  /* overflow-y: scroll; */
 
   
 
@@ -438,10 +432,19 @@ Small devices (portrait tablets and large phones, 600px and up) */
 
 
 
+.col_3 button {
+  width: 98px;
+}
+
+
+
+
+
   .container .col_1 {
   grid-column: col 1 / span 12;
-  grid-row: row 3;
-  margin-bottom: 24vh;
+  grid-row: 2;
+  margin-top: 80vh;
+
 
 
 
@@ -450,9 +453,10 @@ Small devices (portrait tablets and large phones, 600px and up) */
 
 .container .col_2 {
   grid-column: col 1 / span 12;
-  grid-row: row 3;
-  margin-top: 4vh;
-  margin-bottom: 0px;
+  grid-row: 2;
+  margin-top: 90vh;
+
+
 
 
 
@@ -462,9 +466,8 @@ Small devices (portrait tablets and large phones, 600px and up) */
 
 .container .col_5 {
   grid-column: col 1 / span 12;
-  grid-row: row 2;
-  margin-top: 55vh;
-  padding-bottom: 0px;
+  grid-row: row 1;
+  margin-top: 76vh;
   
 } 
 
