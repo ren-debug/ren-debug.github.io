@@ -354,7 +354,7 @@ footer * {
 .sticky {
     position: -webkit-sticky;
     position: sticky;
-    top: 8%;
+    top: 15%;
     margin: 0px 40px;
     width: 40%;
     background-color: transparent;
@@ -362,10 +362,6 @@ footer * {
 }
 
 
-h1 .sticky  {
-
-    list-style: none;
-}
 
 
 

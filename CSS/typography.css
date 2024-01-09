@@ -34,7 +34,7 @@ body {
 
 
 h1 {
-    font-size: 7rem;
+    font-size: 6.7rem;
     letter-spacing: -4px;
     line-height: 5.2rem;
     font-weight: 100;
@@ -44,18 +44,17 @@ h1 {
 
 
 h2 {
-    font-size: 3rem;
-    line-height: 3rem;
-    letter-spacing: -3px;
+    font-size: 4rem;
+    letter-spacing: -4px;
+    line-height: 5.2rem;
     font-weight: 100;
-    padding: 0% 0;
-    margin: 0% 0;
+    padding: 0%;
+    margin: 0%;
 }
 
 
 h3 {
     font-size: 1rem;
-    letter-spacing: 0px;
     font-weight: 400;
     padding: 0%;
     margin: 0%;
@@ -135,7 +134,7 @@ li {
 
 hr {
     border: 0.4px solid rgba(100, 100, 100, 0.24);
-    margin-bottom: 4px;
+    margin-bottom: 0px;
 } 
 
 

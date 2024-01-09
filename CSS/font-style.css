@@ -14,7 +14,7 @@
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   /* speak: never; */
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -28,34 +28,36 @@
 
 .icon-botany:before {
   content: "\e90b";
-  color: #a6a5a5;
-  padding-right: 12px;
+
 }
 .icon-meditation:before {
   content: "\e90d";
-  color: #a6a5a5;
-  padding-right: 8px;
+  font-size: 1.1rem;
 
 }
 .icon-saturn:before {
   content: "\e90f";
-  color: #a6a5a5;
+
 }
 .icon-balsamiq:before {
   font-size: 1.45rem;
   content: "\e900";
-  color: #cccccc88;
   padding-left: 6px;
   padding-right: 8px;
 
 
 }
+
+
 .icon-css:before {
   content: "\e901";
   padding-left: 0px;
+  font-size: 1.4rem;
 }
 .icon-html:before {
   content: "\e902";
+  padding-left: 0px;
+  font-size: 1.4rem;
 }
 .icon-mural:before {
   content: "\e903";
@@ -66,6 +68,7 @@
 }
 .icon-boxing:before {
   content: "\e905";
+
 }
 .icon-glove:before {
   content: "\e906";
@@ -75,19 +78,18 @@
 }
 .icon-mat:before {
   content: "\e908";
-  font-size: 1.2rem;
-  padding-left: 6px;
+  font-size: 1rem;
 }
 
 
 .icon-saddle:before {
   content: "\e909";
-  font-size: 1.7rem;
+  font-size: 1.1rem;
 
 }
 .icon-swim:before {
   content: "\e90a";
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 
 }
 
@@ -96,13 +98,27 @@
   padding-left: 4px;
 }
 
+#cv .fi-brands-figma {
+  padding-left: 0px;
+  font-size: 1.4rem;
+
+} 
+
+#cv .fi-brands-invision {
+  padding-left: 0px;
+  font-size: 1.3rem;
+
+} 
+
+
 #cv .fi-brands-sketch {
   padding-left: 0px;
+  font-size: 1.4rem;
+
 } 
 
 #about .fi-sr-guitar {
-  font-size: 1.3rem;
-
+ color: #cccccc88;
 }
 #about .fi-rs-physics{
   font-size: 1.3rem;
@@ -132,15 +148,11 @@
 
   .icon-botany:before {
     content: "\e90b";
-    color: #a6a5a5;
-    padding-right: 8px;
   }
 
 
   .icon-meditation:before {
     content: "\e90d";
-    color: #a6a5a5;
-    padding-right: 12px;
   
   }
 
