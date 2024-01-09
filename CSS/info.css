@@ -4,128 +4,6 @@ body {
 
 
 
-.navbar {
-  background-color: transparent;
-  overflow: hidden;
-  padding-top: 40px;
-  height: 60px;
-  top: 0vh;
-  left: 8px;
-  right: 8px;
-  border-top: 8px solid white;
-}
-
-.navbar a {
-  /* background-color: azure; */
-  color: #a6a6a6;
-  text-decoration: none;
-padding: 0px 40px;
-  font-size: 12px;
-  letter-spacing: 0.5px;
-  font-weight: 200;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-  
-}
-
-
-.navbar .subnav {
-  height: 60px;
-}
-
-.center {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 0px;
-  
-}
-
-
-
-
-.subnav {
-  overflow: hidden;
-  border-top: 0px;
-
-  
-  
-}
-
-.subnavbtn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  outline: none;
-  width: 40px;
-  color: white;
-  padding: 0px 0px;
-  font-family: inherit;
-  font-weight: inherit;
-  font-size: 12px;
-  height: 20px;
-
-
-}
-
-
-.subnav-content a {
-padding-right: 8px;
-padding-left: 16px;
-
-}
-
-
-
-.navbar a:hover,
- .subnavbtn {
-  color: #151515;
-}
-
-.subnav-content {
-  display: none;
-  top: 66px;
-  right: 8px;
-  left: 8px;
-  color: #151515;
-  z-index: 1;
-}
-
-
-
-
-.subnav:hover .subnav-content {
-  background-color: #585858;
-  position: absolute;
-  display: flex;
-  justify-content: center;
-
-  height: 28px;
-  top: 72px;
-
-
-}
-
-.home {
-float: left;
-padding-top: 0px;
-margin-left: 0px;
-
-
-
-}
-
-.home i {
-  font-size: 1.1rem;
-  background-color: transparent;
-
-
-
-}
-
-
 #about {
   margin-top: 120px;
 }
@@ -196,7 +74,7 @@ margin-left: 40px;
   display: grid;
   height: 100vh;
   grid-template-columns: repeat(12, [col] 1fr);
-  grid-column-gap: 3em;
+  grid-column-gap: 60px;
   padding: 0px 40px 0px 40px;
   margin-bottom: 0px;
 }
@@ -208,7 +86,8 @@ margin-left: 40px;
 .container .col_2 {
   grid-column: col 1 / span 4;
   grid-row: row 2;
-margin-bottom: 56vh;
+  align-self: flex-end;
+margin-bottom: 54vh;
 
 
 
@@ -220,7 +99,7 @@ margin-bottom: 56vh;
   grid-row: row 2;
   align-self: flex-end;
 
-  margin-bottom: 26vh;
+  margin-bottom: 24vh;
 
 
 
@@ -230,12 +109,18 @@ margin-bottom: 56vh;
   
 }
 
+.tab_mob {
+  display: none;
+}
+
+.tab_display {
+  display: grid;
+}
 
 
 .container .col_3 {
   grid-column: col 7 / span 7;    
   grid-row: row 1;
-  margin-top: 6vh;
 
 
 }
@@ -245,8 +130,8 @@ margin-bottom: 56vh;
 .opentab {
   grid-column: col 7 / span 7; 
   grid-row: row 2;
-  margin-top: 0vh;
-  margin-bottom: 24vh;
+  margin-top: 1vh;
+  margin-bottom: 32vh;
   height: 44vh;
   overflow-x: scroll;
   overflow-y: scroll;
@@ -331,15 +216,12 @@ button.square {
 }
 
 
-/* #work .tabcontent{
- display: none;
-} */
 
 /* Style the buttons inside the tab */
 button {
   border: none;
   outline: none;
-  margin-top: 16px;
+  margin-top: 20px;
   width: 88px;
   height: 40px;
   margin-right: 4px;
@@ -493,22 +375,26 @@ Small devices (portrait tablets and large phones, 600px and up) */
     grid-template-rows: repeat(6, [row] 1fr);
     grid-column-gap: 0em;
     grid-row-gap: 0px;
-    padding: 0px 0px 0px 28px;
+    padding: 0px 0px 0px 24px;
     width: 100%;
     box-sizing: border-box;
     width: calc(100% + 24px);
-    padding-right: 40px;
+    padding-right: 48px;
     overflow-y: auto;
     padding-bottom: 140px;
-    padding-top: 80px;
+    padding-top: 40px;
 
     margin-right: 0px;
   } 
 
 
+.tab_display {
+  display: none;
+}
 
-
-
+.tab_mob {
+  display: grid;
+}
 
   .links {
     display: none;
@@ -537,7 +423,7 @@ Small devices (portrait tablets and large phones, 600px and up) */
 
 .opentab {
   grid-column: col 1 / span 12;
-  margin-top: 4vh;
+  margin-top: 6vh;
   width: 95%;
   height: 45vh;
   padding-right: 24px;
