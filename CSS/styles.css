@@ -1,7 +1,10 @@
+@import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
 body {
 background-color: black;
 color: white;
-margin: 4%;
+margin: 0px 4%;
 letter-spacing: 1.2px;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
@@ -27,7 +30,7 @@ h3 {
 }
 
 h4 {
-    font-size: 2rem;
+    font-size: .7rem;
 }
 
 h5 {
@@ -35,6 +38,7 @@ h5 {
 }
 
 h6 {
+    font-family: 'the_new_eleganceregular';
     font-size: 0.9rem;
 }
 
@@ -63,18 +67,176 @@ list-style: none;
 padding-left: 0px;
 }
 
-button.tablink {
+ul {
+    list-style: none;
+    padding-left: 0px;
+    }
+
+button {
     border-radius: 50px;
+    width: 120px;
+    height: 42px;
+    border: none;
+    font-family: 'NeueHaasGroteskDisplay35ExtraLight';
+    padding-left: 0px;
 }
 
-.square {
-    height: 36px;
-    width: 36px;
-    background-color: white;
-    border-radius: 10px;
+
+
+button.tablink {
+    border-radius: 50px;
+    width: 120px;
+    height: 42px;
+    border: none;
+    font-family: 'NeueHaasGroteskDisplay35ExtraLight';
 }
+
+
 
 .vl {
     border-left: 6px solid green;
     height: 100px;
 }
+
+
+.test {
+    font-family: 'NeueHaasGroteskDisplay25Thin';
+}
+
+.active {
+    opacity: 1;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    opacity: .6;
+}
+
+.square {
+    padding: 0px 0px 0px 0px;
+    border: none;
+    outline: none;
+    margin: 6px;
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: #2929297b;
+    font-weight: 200;
+    transition: transform .2s;
+  
+  
+  }
+
+
+.square i {
+  position: absolute;
+  z-index: 1;
+  top: 9px;
+  left: 0%;
+  margin-left: 9px;
+  font-size: .9rem;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    color: #767473;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-size: .8rem;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+
+/* LANGUAGES - Style the buttons inside the tab */
+button.tablinks {
+    border: none;
+    outline: none;
+    min-width: 102px;
+    
+    height: 40px;
+    border-radius: 50px;
+    transition: 0.3s;
+    font-size: .8rem;
+    color: #cccccc88;
+    background-color: #3838386b;
+    font-weight: 200;
+    transition: transform .2s; 
+  
+  }
+
+
+
+
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+   
+  }
+  
+
+
+ /* width */
+ .opentab::-webkit-scrollbar {
+    width: 6px;
+    
+    /* color: #212121; */
+  } 
+  
+  
+  /* Handle */
+  .opentab::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 50px;
+    
+  } 
+
+
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    opacity: .3;  
+    cursor: pointer;
+}
+  
+/* Create an active/current tablink class */
+.tab button.active {
+    color: #ccc;
+    background-color: #d6d0cb69;
+  }
+  
+
+  
+
+  
+
+  
+  
+  
+  .view {
+    float: right;
+    /* text-decoration-line: underline;
+    text-underline-offset: 0.4em;
+    text-decoration-thickness: 0.50px;
+    text-decoration-color: #c9c9c964; */
+  }

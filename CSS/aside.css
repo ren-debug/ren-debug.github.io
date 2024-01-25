@@ -1,0 +1,100 @@
+
+.content-wrapper {
+    height: 100vh;
+    width: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    padding: 8%;
+   
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-sizing: border-box;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    background: linear-gradient(#ffffff, #000000);    
+    border-radius: 50px;
+
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    box-sizing: border-box;
+    border-radius: 100px;
+    background: #ffffff;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: transparent;
+  }
+
+
+/* .menu-wrapper {
+ 
+    
+} */
+
+.vl {
+    border-left: 0.5px solid  #9f9f9fa7;
+    height: 100vh;
+    position: fixed;
+    left: 0%;
+    margin-left: 60px;
+    top: 0;
+  }
+
+
+.content {
+    height: 200vh;
+    box-sizing: border-box;
+    padding: 0%;
+    
+}
+
+.active {
+    background-color: #2C3E50;
+    transition: .5s ease-out;
+}
+
+.menu {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    padding-right: 0px;
+}
+
+
+.menu ul, .menu li { list-style: none; margin: 0; padding: 0; 
+
+
+
+}
+.menu li { margin: 100px; 
+
+
+
+}
+.menu li a { 
+    display: inline-block;
+    vertical-align: top;
+    transform: translate(0,100%) rotate(-90deg);
+    transform-origin: 0px 0px;
+    white-space: nowrap;
+    text-decoration: none;
+    position: fixed;
+    left: 24px;
+    width: 60px;
+
+}
