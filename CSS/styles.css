@@ -2,9 +2,9 @@
 @import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
 
 body {
-background-color: black;
-color: white;
+    color: white;
 margin: 0px 4%;
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(29, 29, 29) 0%, rgb(0, 0, 0) 99.4%);    
 
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
