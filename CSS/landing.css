@@ -1,0 +1,228 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700);
+@import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-bold-rounded/css/uicons-bold-rounded.css');
+
+
+
+body {
+    background-image: url("/img/background.jpg");
+    background-size: cover;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+ box-sizing: border-box;
+}
+
+
+
+.animate {
+    animation-duration: 1.05s;
+    animation-delay: 2s;
+    animation-name: animate-fade;
+    animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
+    animation-fill-mode: backwards;
+  }
+  
+  /* Glow In */
+  .animate.glow {
+    animation-name: animate-glow;
+    animation-timing-function: ease;
+  }
+  
+  @keyframes animate-glow {
+    0% {
+      opacity: 0;
+      filter: brightness(3) saturate(3);
+      transform: scale(0.8, 0.8);
+    }
+  
+    
+    100% {
+          opacity: 1;
+          filter: brightness(1) saturate(1);
+          transform: scale(1, 1);
+          
+        }
+    }
+  
+  .delay-1 {
+    animation-delay: 0.6s;
+  }
+  /* .delay-2 {
+    animation-delay: 1s;
+  } */
+  /* .delay-3 {
+    animation-delay: 0.8s;
+  } */
+
+
+
+/* Push */
+@-webkit-keyframes hvr-push {
+    50% {
+      -webkit-transform: scale(0.8);
+      transform: scale(0.8);
+    }
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+  @keyframes hvr-push {
+    50% {
+      -webkit-transform: scale(0.8);
+      transform: scale(0.8);
+    }
+    100% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+  .hvr-push {
+    display: block;
+    margin: auto;
+    margin-top: 10vh;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .hvr-push:hover, .hvr-push:focus, .hvr-push:active {
+    -webkit-animation-name: hvr-push;
+    animation-name: hvr-push;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+  }
+
+
+
+
+
+#wrapper {
+    padding-top: 20vh;
+    color: #d6d0cb;
+    /* background-color: blueviolet; */
+}
+
+
+body { 
+    
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
+#title {
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 24vh;
+
+
+
+} 
+
+.title-letter {
+font-family: 'Playfair Display';
+  font-weight: 400;
+  font-size: calc(0.4vw + 0.6rem);
+  letter-spacing: calc(0.3vw + 0.5rem);
+  text-transform: uppercase;
+
+
+
+    
+}
+/* 
+#sub-title {
+    font-family: 'the_new_eleganceitalic';
+    font-weight: 100;
+    font-size: 7rem;
+    line-height: 11rem;
+
+letter-spacing: calc(0vw + 0rem);
+    margin-left: 0px;
+    padding-left: 0px;
+} */
+
+
+/* #sub-title {
+    position: relative;
+
+    overflow: hidden;
+    width: 100%;
+    margin-left: 0px;
+    padding-left: 0px;
+} */
+/* Opacity For Start */
+.title-letter, #sub-title {
+  opacity: 0;   
+}
+
+
+#word-container {
+    /* Adjust as needed */
+     height: 20vh;
+     /* Height of one item */
+     overflow: hidden;
+     position: relative;
+     display: block;
+
+     
+     
+ }
+
+ 
+ #word-list {
+     text-align: center;
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+     position: relative;
+     top: 0;
+     transition: top 0.5s ease-in-out;
+  
+ }
+ 
+ #word-list li {
+    height: 20vh; /* Same as container height */
+     line-height: 7.5rem; /* Center text vertically */
+     text-align: center;
+     font-family: 'the_new_eleganceitalic';
+     font-weight: 100;
+    font-size: 7rem;
+     letter-spacing: 0.5rem;
+     position: relative;
+     width: 100%;
+    
+ 
+ }
+ 
+ /* footer {
+    position: fixed;
+    z-index: 99;
+    box-sizing: border-box;
+    text-align: center;
+
+     
+  } */
+  
+  .social {
+    /* color:#edeae8;
+    font-size: 0.95rem; */
+    margin: 0;
+    position: absolute;
+    top: 80vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+  }
+
+  .enter, .enter p {
+    background-color: aquamarine;
+    vertical-align: 50%;
+    text-align: center;
+    line-height: 0.5rem;
+    box-sizing: border-box;
+  }
