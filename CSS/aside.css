@@ -5,7 +5,7 @@
     overflow-y: scroll;
     scroll-behavior: smooth;
     box-sizing: border-box;
-    padding: 8%;
+    /* padding: 8%; */
    
 }
 
@@ -60,19 +60,21 @@
 }
 
 .active {
-    background-color: #2C3E50;
+    color: white;
     transition: .5s ease-out;
+    font-weight: 800;
 }
 
 .menu {
     position: fixed;
     display: flex;
     flex-direction: column;
-    top: 0;
+    top: 6%;
     left: 0;
     bottom: 0;
-    width: 60px;
+    width: 0px;
     padding-right: 0px;
+    font-size: .8rem;
 }
 
 
@@ -81,8 +83,11 @@
 
 
 }
-.menu li { margin: 100px; 
-
+.menu li { 
+    display: flex;
+    flex-direction: column-reverse;
+    height: 200px;
+    justify-content: space-evenly;
 
 
 }
@@ -95,6 +100,38 @@
     text-decoration: none;
     position: fixed;
     left: 24px;
-    width: 60px;
 
 }
+
+
+
+.contact {
+    /* vertical-align: top; */
+    transform: translate(0,100%) rotate(0deg);
+    /* white-space: nowrap; */
+    left: 25px;
+    text-decoration: none;
+    position: fixed;
+    display: flex;
+    flex-direction: column-reverse;
+    bottom: 24%;
+    justify-content: space-evenly;
+    height: 24vh;
+}
+
+
+.contact i {
+    font-size: 1rem;
+
+}
+
+
+
+.fi-sr-house-chimney {
+    font-size: 1.1rem;
+    position: fixed;
+    left: 23.5px;
+    top: 4%;
+    
+}
+
