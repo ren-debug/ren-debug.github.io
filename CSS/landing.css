@@ -226,3 +226,9 @@ letter-spacing: calc(0vw + 0rem);
     line-height: 0.5rem;
     box-sizing: border-box;
   }
+
+  .cta {
+    background-color: blue;
+    display: flex;
+
+  }
