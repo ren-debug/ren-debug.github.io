@@ -58,8 +58,8 @@ h6 {
 
 p {
     font-family: 'NeueHaasGroteskDisplay45Light';
-    font-size: 0.85rem;
-    line-height: 1.5rem;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
     letter-spacing: 0.5px;
     text-align: justify;
 }
@@ -274,6 +274,7 @@ button.tablinks {
 
     h2 {
         font-size: 2rem;
+        line-height: 2.5rem;
     }
 
   }
