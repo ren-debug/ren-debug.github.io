@@ -29,14 +29,13 @@ h2 {
     font-family: 'the_new_eleganceregular';
 letter-spacing: 3px;
     font-size: 4rem;
+    line-height: 0rem;
+
 }
 
 h3 {
-    font-family: 'the_new_eleganceitalic';
-    letter-spacing: 2px;
-    font-size: 5rem;
-    margin: 0px;
-    padding: 0px;
+    font-size: .7rem;
+
 }
 
 h4 {
@@ -45,7 +44,11 @@ h4 {
 }
 
 h5 {
+    font-family: 'the_new_eleganceitalic';
+    letter-spacing: 1px;
     font-size: 1rem;
+    margin: 0px;
+    padding: 0px;
 }
 
 h6 {
@@ -90,10 +93,19 @@ ul {
 button {
     border-radius: 50px;
     width: 120px;
-    height: 42px;
+    height: 46px;
     border: none;
     font-family: 'NeueHaasGroteskDisplay35ExtraLight';
     padding-left: 0px;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    padding: 0px;
+    background: #E6DADA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(45deg, #274046, #e6dada);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(-90deg, #2740460d, #e4c5c537); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 150%;
+    padding: 0px 0px;
+
 }
 
 
@@ -110,10 +122,6 @@ hr {
     border: 0.5px solid rgba(255, 255, 255, 0.163);
 }
 
-.vl {
-    border-left: 6px solid green;
-    height: 100px;
-}
 
 
 .test {
@@ -256,4 +264,16 @@ button.tablinks {
     text-underline-offset: 0.4em;
     text-decoration-thickness: 0.50px;
     text-decoration-color: #c9c9c964; */
+  }
+
+
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+
+
+    h2 {
+        font-size: 2rem;
+    }
+
   }

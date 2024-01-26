@@ -68,18 +68,25 @@ body::-webkit-scrollbar {
 navigation {
     position: fixed;
     top: 0;
-    right: 4%; 
+    left: 8%; 
+    background-color: rgba(255, 255, 255, 0.384);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 80px;
     }
     
     navigation a {
+        float: left;
         text-decoration: none;
         text-align: center;
-        margin: 20px;
+        margin: 0px 20px 0px;
 
     }
 
     navigation button {
-        margin-left: 60px;
+    position: fixed;
+    top: 20%;
+    right: 12%;      
     }
 
 

@@ -12,15 +12,16 @@
 /* width */
 ::-webkit-scrollbar {
     width: 2px;
+    border-radius: 100px;
   }
   
   /* Track */
   ::-webkit-scrollbar-track {
     box-sizing: border-box;
     margin-top: 200px;
-    margin-bottom: 200px;
-    background: linear-gradient(#ffffff, #000000);    
-    border-radius: 50px;
+    margin-bottom: 300px;
+    background: linear-gradient(#d6d6d6, #a1a1a14d);    
+    border-radius: 100px;
 
   }
   
@@ -28,7 +29,8 @@
   ::-webkit-scrollbar-thumb {
     box-sizing: border-box;
     border-radius: 100px;
-    background: #ffffff;
+    background: #424141;
+    
   }
   
   /* Handle on hover */
@@ -53,7 +55,7 @@
 
 
 .content {
-    height: 200vh;
+    height: auto;
     box-sizing: border-box;
     padding: 0%;
     
@@ -75,24 +77,20 @@
     width: 0px;
     padding-right: 0px;
     font-size: .8rem;
-}
-
-
-.menu ul, .menu li { list-style: none; margin: 0; padding: 0; 
-
-
 
 }
+
+
+
 .menu li { 
     display: flex;
     flex-direction: column-reverse;
-    height: 200px;
+    height: 100%;
     justify-content: space-evenly;
 
 
 }
 .menu li a { 
-    display: inline-block;
     vertical-align: top;
     transform: translate(0,100%) rotate(-90deg);
     transform-origin: 0px 0px;
@@ -100,16 +98,14 @@
     text-decoration: none;
     position: fixed;
     left: 24px;
-
 }
-
 
 
 .contact {
     /* vertical-align: top; */
     transform: translate(0,100%) rotate(0deg);
     /* white-space: nowrap; */
-    left: 25px;
+    right: 4%;
     text-decoration: none;
     position: fixed;
     display: flex;
