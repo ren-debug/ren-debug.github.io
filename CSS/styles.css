@@ -5,6 +5,7 @@ body {
 background-color: black;
 color: white;
 margin: 0px 4%;
+
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 
@@ -188,7 +189,7 @@ button.tablinks {
     border: none;
     outline: none;
     min-width: 102px;
-    
+    margin: 4px 0px;
     height: 40px;
     border-radius: 50px;
     transition: 0.3s;
@@ -213,7 +214,7 @@ button.tablinks {
 
 
  /* width */
- .opentab::-webkit-scrollbar {
+ #cv::-webkit-scrollbar {
     width: 6px;
     
     /* color: #212121; */
@@ -221,8 +222,8 @@ button.tablinks {
   
   
   /* Handle */
-  .opentab::-webkit-scrollbar-thumb {
-    background: grey;
+  #cv::-webkit-scrollbar-thumb {
+    background: rgb(182, 10, 10);
     border-radius: 50px;
     
   } 
