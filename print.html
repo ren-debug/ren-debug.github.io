@@ -7,7 +7,7 @@
     <title>print</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="CSS/styles.css">
-    <link rel="stylesheet" href="CSS/layout.css">
+    <!-- <link rel="stylesheet" href="CSS/layout.css"> -->
     <link rel="stylesheet" href="CSS/aside.css">
     <link rel="stylesheet" href="CSS/print.css">
 
@@ -20,6 +20,14 @@
         rel="stylesheet" />
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-brands/css/uicons-brands.css'>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-thin-rounded/css/uicons-thin-rounded.css'>
+   
+    <style> 
+    body {
+        background-color: white;
+
+     }
+        
+        </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <!-- <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script> -->
     <!-- <script src="https://code.jquery.com/jquery-3.7.0.js"></script> -->
@@ -34,15 +42,40 @@
     <div id="websiteFrameLeft" class="websiteFrame"></div>
 
     <navigation>
-        <h6>
-            <a href="#">bio</a>
-            <a href="#" class="active">work</a>
-            <a href="#" class="active">print</a>
-            <a href="#">digital</a>
-            <button a href="mailto:irene.spalletti@gmail.com">contact</button>
-
-        </h6>
+            <a href="index.html"><i class="fi fi-sr-house-chimney"></i></a>
+            <a href="print.html" class="active nav left">print design</a>
+            <a href="digital.html" class="nav left">digital design</a>
+            <a href="home.html" class="nav">bio</a>
+            <a href="work.html" class="nav">work</a>
+       <a href="mailto:irene.spalletti@gmail.com"><i class="fi fi-sr-envelope"></i></a>
     </navigation>
+
+
+    <div id="myNav" class="overlay">
+        <span class="openbtn" onclick="openNav()"><i class="fi fi-br-menu-burger"></i></span>
+    
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fi fi-sr-circle-xmark"></i></a>
+            <div class="overlay-content">
+              <a href="home.html#about">about</a>
+              <a href="home.html#cv">clients</a>
+              <a href="digital.html">digital design</a>
+              <a href="print.html">print design</a>
+            </div>
+    </div>
+    
+    
+    
+    <script>
+        function openNav() {
+          document.getElementById("myNav").style.height = "100%";
+        }
+        
+        function closeNav() {
+          document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+  
+  
 
     <div class="content-wrapper">
         <div class="menu-wrapper">
@@ -53,16 +86,13 @@
                 <li><a href="#calder">02. Alexander Calder</a></li>
                 <li><a href="#krugier">03. Jan Krugier</a></li>
                 <li><a href="#ks">04. Karolina Spirulina</a></li>
-
             </ul>
-
             <ul class="contact">
-                <li><a href="https://www.linkedin.com/in/irene-s-38613460/"><i class="fi fi-brands-linkedin"></i></a>
-                </li>
-                <li><a href="https://www.instagram.com/ireneishi/"><i class="fi fi-brands-instagram"></i></a></li>
-                <li><a href="https://github.com/ren-debug"><i class="fi fi-brands-github"></i></a></li>
-                <li><a href="mailto:irene.spalletti@gmail.com"><i class="fi fi-sr-envelope"></i></a></li>
-                <li><a href="tel:00447412604767"><i class="fi fi-sr-phone-flip"></i></a></li>
+                <li class="square"><a href="https://www.linkedin.com/in/irene-s-38613460/"><i class="fi fi-brands-linkedin"></i></a></li>
+                <li  class="square"><a href="https://www.instagram.com/ireneishi/"><i class="fi fi-brands-instagram"></i></a></li>
+                <li  class="square"> <a href="https://github.com/ren-debug"><i class="fi fi-brands-github"></i></a></li>
+                <li  class="square"><a href="mailto:irene.spalletti@gmail.com"><i class="fi fi-sr-envelope"></i></a></li>
+                <li  class="square"><a href="tel:00447412604767"><i class="fi fi-sr-phone-flip"></i></a></li>
             </ul>
             <div class="vl"></div>
 
@@ -76,8 +106,8 @@
                 <img class="img_5" src="/img/capital_gardens_signage_logo.jpg" alt="ysl_insta" width="100%">
 
                 <div class="copy">
-                    <h2>Boots</h2>
-                    <h5>Hand Chemistry · Fountain</h5><br>
+                    <h2>Capital Gardens</h2>
+                    <h5>Rebranding</h5><br>
                     <div class="col">
 
                         <div>
@@ -111,7 +141,7 @@
 
                     <div class="brief">
                         <p>ROLE:<br>
-                            <br>BRIEF:<br>During my time working with L’Oréal, I was in charge of designing and
+                            <br>BRIEF:<br><br>During my time working with L’Oréal, I was in charge of designing and
                             developing
                             newsletters that showcased Lancôme and Yves Saint Laurents products</p>
                     </div>
@@ -141,8 +171,8 @@
                 <img class="img_3" src="/img/calder_cover.png" alt="ysl_insta" width="100%">
 
                 <div class="copy">
-                    <h2>Boots</h2>
-                    <h5>Hand Chemistry · Fountain</h5><br>
+                    <h2>Alexander Calder</h2>
+                    <h5>Christie's · Lorem</h5><br>
                     <div class="col">
 
                         <div>
@@ -206,8 +236,8 @@
                 <img class="img_2" src="/img/giacometti.jpg" alt="ysl_insta" width="100%">
 
                 <div class="copy">
-                    <h2>Boots</h2>
-                    <h5>Hand Chemistry · Fountain</h5><br>
+                    <h2>Jan Krugier</h2>
+                    <h5>Christie's  · Lorem</h5><br>
                     <div class="col">
 
                         <div>
@@ -273,8 +303,8 @@
                 <img class="img_3" src="/img/karolina_spirulina_business_card.jpg" alt="ysl_insta" width="100%">
 
                 <div class="copy">
-                    <h2>Boots</h2>
-                    <h5>Hand Chemistry · Fountain</h5><br>
+                    <h2>Karolina Spirulina</h2>
+                    <h5>Lorem · Lorem</h5><br>
                     <div class="col">
 
                         <div>

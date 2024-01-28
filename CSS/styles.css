@@ -2,9 +2,8 @@
 @import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
 
 body {
-    color: white;
-margin: 0px 4%;
-    background: radial-gradient(circle at 24.1% 68.8%, rgb(29, 29, 29) 0%, rgb(0, 0, 0) 99.4%);    
+margin: 0px 2%;
+scroll-behavior: smooth;
 
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
@@ -27,9 +26,9 @@ h1 {
 
 h2 {
     font-family: 'the_new_eleganceregular';
-letter-spacing: 3px;
-    font-size: 4rem;
-    line-height: 4.5rem;
+letter-spacing: 1.5px;
+    font-size: 3rem;
+    line-height: 2rem;
 
 }
 
@@ -44,11 +43,12 @@ h4 {
 }
 
 h5 {
-    font-family: 'the_new_eleganceitalic';
-    letter-spacing: 1px;
-    font-size: 1rem;
+    font-family: 'the_new_eleganceCnIt';
+    letter-spacing: 0.3px;
+    font-size: 1.1rem;
+    line-height: 0rem;
     margin: 0px;
-    padding: 0px;
+    padding-bottom: 20px;
 }
 
 h6 {
@@ -60,6 +60,14 @@ p {
     font-family: 'NeueHaasGroteskDisplay45Light';
     font-size: 0.8rem;
     line-height: 1.2rem;
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+
+body {
+    font-family: 'NeueHaasGroteskDisplay45Light';
+    font-size: 0.8rem;
+    line-height: 1rem;
     letter-spacing: 0.5px;
     text-align: justify;
 }
@@ -93,21 +101,42 @@ ul {
 button {
     border-radius: 50px;
     width: 120px;
-    height: 46px;
+    height: 40px;
     border: none;
     font-family: 'NeueHaasGroteskDisplay35ExtraLight';
-    padding-left: 0px;
     font-size: 12px;
     letter-spacing: 0.5px;
     padding: 0px;
     background: #E6DADA; 
+    text-align: center;
     /* background: -webkit-linear-gradient(45deg, #274046, #e6dada); 
     background: linear-gradient(-90deg, #2740460d, #e4c5c537);  */
-    padding: 0px 0px;
+    padding: 6px 6px;
 
 }
 
+.hvr-push {
+    display: block;
+    margin: auto;
+    margin-top: 10vh;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .hvr-push:hover, .hvr-push:focus, .hvr-push:active {
+    -webkit-animation-name: hvr-push;
+    animation-name: hvr-push;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+  }
 
+
+
+/* 
 
 button.tablink {
     border-radius: 50px;
@@ -115,10 +144,12 @@ button.tablink {
     height: 42px;
     border: none;
     font-family: 'NeueHaasGroteskDisplay35ExtraLight';
-}
+} */
 
 hr {
     border: 0.5px solid rgba(255, 255, 255, 0.163);
+    margin-bottom: 24px;
+    margin-top: 12px;
 }
 
 
@@ -127,19 +158,24 @@ hr {
     font-family: 'NeueHaasGroteskDisplay25Thin';
 }
 
-.active {
-    opacity: 1;
-}
+
 
 a {
     text-decoration: none;
     color: inherit;
+   
+
+}
+
+a:hover {
+    transition: 0.3s;
     opacity: .6;
 }
 
 .square {
     padding: 0px 0px 0px 0px;
-    border: none;
+    border: 0.5px solid #e6dada3f;
+    /* filter: drop-shadow(0 0 0.25rem rgb(129, 129, 129)); */
     outline: none;
     margin: 6px;
     width: 32px;
@@ -193,16 +229,20 @@ a {
 
 /* LANGUAGES - Style the buttons inside the tab */
 button.tablinks {
-    border: none;
+    border: 1px solid white;
     outline: none;
-    min-width: 102px;
-    margin: 4px 0px;
+    width: 106px;
+    margin: 4px 2px;
     height: 40px;
     border-radius: 50px;
     transition: 0.3s;
-    font-size: .8rem;
-    color: #cccccc88;
-    background-color: #3838386b;
+    font-family: 'NeueHaasGroteskDisplay35ExtraLight';
+    padding-left: 0px;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    padding: 0px;
+    color: black;
+    background: #E6DADA; 
     font-weight: 200;
     transition: transform .2s; 
   
@@ -221,7 +261,7 @@ button.tablinks {
 
 
  /* width */
- #cv::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 6px;
     
     /* color: #212121; */
@@ -229,7 +269,7 @@ button.tablinks {
   
   
   /* Handle */
-  #cv::-webkit-scrollbar-thumb {
+  ::-webkit-scrollbar-thumb {
     background: rgb(182, 10, 10);
     border-radius: 50px;
     
@@ -245,8 +285,8 @@ button.tablinks {
   
 /* Create an active/current tablink class */
 .tab button.active {
-    color: #ccc;
-    background-color: #d6d0cb69;
+    color: white;
+    background-color: #e0dcd869;
   }
   
 
@@ -254,8 +294,7 @@ button.tablinks {
 
   
 
-  
-  
+
   
   .view {
     float: right;
@@ -264,6 +303,9 @@ button.tablinks {
     text-decoration-thickness: 0.50px;
     text-decoration-color: #c9c9c964; */
   }
+
+
+
 
 
 

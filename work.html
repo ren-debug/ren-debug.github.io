@@ -3,12 +3,14 @@
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>landing</title>
+    <title>work</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="CSS/layout.css">
     <link rel="stylesheet" href="CSS/aside.css">
     <link rel="stylesheet" href="CSS/landing.css">
+    <link rel="stylesheet" href="CSS/work.css">
+
     <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="fonts/glyphter-font/css/Glyphter.css">
     <link rel="preconnect" href="https://cdn.fonts.net">
@@ -20,6 +22,12 @@
         rel="stylesheet" />
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <style>
+        body {
+            background: radial-gradient(circle at 24.1% 68.8%, rgb(29, 29, 29) 0%, rgb(0, 0, 0) 99.4%);    
+
+        }
+    </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
@@ -37,86 +45,97 @@
     <div id="websiteFrameBottom" class="websiteFrame"></div>
     <div id="websiteFrameLeft" class="websiteFrame"></div>
 
-
     <navigation>
-    <h6>
-        <a href="landing.html"><i class="fi fi-sr-house-chimney"></i></a>
+        <h6>
+            <a href="index.html"><i class="fi fi-sr-house-chimney"></i></a>
+            <a href="home.html" class="active nav">bio</a>
+            <a href="work.html" class="nav">work</a>
+        </h6>
+    
+        <button><a href="mailto:irene.spalletti@gmail.com">contact</a>
+        </button>
+        </navigation>
 
-      
-        <button a href="mailto:irene.spalletti@gmail.com">contact</button>
 
-    </h6>
-    </navigation>
+    <div id="myNav" class="overlay">
+        <span class="openbtn" onclick="openNav()"><i class="fi fi-br-menu-burger"></i></span>
 
-      
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fi fi-sr-circle-xmark"></i></a>
+        <div class="overlay-content">
+          <a href="home.html#about">about</a>
+          <a href="home.html#cv">clients</a>
+          <a href="digital.html">digital design</a>
+          <a href="print.html">print design</a>
+        </div>
+      </div>
+
+
+
+<script>
+    function openNav() {
+      document.getElementById("myNav").style.height = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("myNav").style.height = "0%";
+    }
+    </script>
+  
+
     <div id="wrapper">
-      
+  
+        <h1 class="work animate glow">work</h1>
 
         <span id="title">
-            <span class="title-letter">d</span>
-            <span class="title-letter">e</span>
-            <span class="title-letter">s</span>
-            <span class="title-letter">i</span>
-            <span class="title-letter">g</span>
-            <span class="title-letter">n</span>
-            <span class="title-letter">&nbsp;</span>
-            <span class="title-letter">·</span>
-            <span class="title-letter">&nbsp;</span>
-            <span class="title-letter">w</span>
-            <span class="title-letter">e</span>
-            <span class="title-letter">b</span>
-            <span class="title-letter">&nbsp;</span>
-            <span class="title-letter">d</span>
-            <span class="title-letter">e</span>
-            <span class="title-letter">v</span>
-            <span class="title-letter">e</span>
-            <span class="title-letter">l</span>
-            <span class="title-letter">o</span>
+
+            <a href="print.html">
             <span class="title-letter">p</span>
-            <span class="title-letter">m</span>
-            <span class="title-letter">e</span>
+            <span class="title-letter">r</span>
+            <span class="title-letter">i</span>
             <span class="title-letter">n</span>
             <span class="title-letter">t</span>
+            <span class="title-letter">&nbsp;</span>
+            <span class="title-letter">d</span>
+            <span class="title-letter">e</span>
+            <span class="title-letter">s</span>
+            <span class="title-letter">i</span>
+            <span class="title-letter">g</span>          
+            <span class="title-letter">n</span></a>
             <span class="title-letter">&nbsp;</span>
             <span class="title-letter">·</span>
             <span class="title-letter">&nbsp;</span>
-            <span class="title-letter">a</span>
+            <a href="digital.html">
             <span class="title-letter">d</span>
-            <span class="title-letter">v</span>
-            <span class="title-letter">e</span>
-            <span class="title-letter">r</span>
-            <span class="title-letter">t</span>
             <span class="title-letter">i</span>
+            <span class="title-letter">g</span>
+            <span class="title-letter">i</span>
+            <span class="title-letter">t</span>
+            <span class="title-letter">a</span>
+            <span class="title-letter">l</span>
+            <span class="title-letter">&nbsp;</span>
+            <span class="title-letter">d</span>
+            <span class="title-letter">e</span>
             <span class="title-letter">s</span>
             <span class="title-letter">i</span>
-            <span class="title-letter">n</span>
-            <span class="title-letter">g</span>
-            
+            <span class="title-letter">g</span>          
+            <span class="title-letter">n</span></a>
         </span> 
 
-        <span id="sub-title">
-            <div id="word-container">
-                <ul id="word-list">
-                    <li>print</li>
-                    <li>digital</li>
-                    <li>web</li>
-                </ul>
-            </div>      
-        </span>
+     
           
-        <div class="cta">
+        <!-- <div class="cta">
         <button class="hvr-push"><a href="/index.html">bio</a>
         </button>
         <button class="hvr-push"><a href="/digital.html">work</a>
         </button>
-        </div>
+        </div> -->
 
 
-        <div class="enter">
-            <h4>Irene Spalletti</h4>
+        <!-- <div class="enter">
+            <h4 style="padding-top: 120px;">Irene Spalletti</h4>
             <p>Visual Designer & Front-end Dev</p>
             
-        </div>
+        </div> -->
         
      
 

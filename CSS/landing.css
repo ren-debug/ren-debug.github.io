@@ -192,7 +192,7 @@ letter-spacing: calc(0vw + 0rem);
      font-family: 'the_new_eleganceitalic';
      font-weight: 100;
     font-size: 7rem;
-     letter-spacing: 0.5rem;
+     letter-spacing: 0.2px;
      position: relative;
      width: 100%;
     
@@ -213,22 +213,53 @@ letter-spacing: calc(0vw + 0rem);
     font-size: 0.95rem; */
     margin: 0;
     position: absolute;
-    top: 80vh;
+    top: 90vh;
     left: 50%;
     transform: translate(-50%, -50%);
    
   }
 
   .enter, .enter p {
-    background-color: aquamarine;
     vertical-align: 50%;
     text-align: center;
     line-height: 0.5rem;
     box-sizing: border-box;
-  }
+}
 
   .cta {
-    background-color: blue;
     display: flex;
+    width: 24%;
+    margin: auto;
+    padding-top: 24px;
 
   }
+
+  .animates {
+    animation-duration: 2.05s;
+    animation-delay: 3.7s;
+    animation-name: animate-fade;
+    animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
+    animation-fill-mode: backwards;
+  }
+  
+  /* Glow In */
+  .animates.glow {
+    animation-name: animate-glow;
+    animation-timing-function: ease;
+  }
+  
+  @keyframes animates-glow {
+    0% {
+      opacity: 0;
+      filter: brightness(3) saturate(3);
+      transform: scale(0.8, 0.8);
+    }
+  
+    
+    100% {
+          opacity: 1;
+          filter: brightness(1) saturate(1);
+          transform: scale(1, 1);
+          
+        }
+    }

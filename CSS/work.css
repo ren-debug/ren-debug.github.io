@@ -1,0 +1,47 @@
+body {
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(29, 29, 29) 0%, rgb(0, 0, 0) 99.4%);    
+
+}
+
+
+
+#title {
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 16vh;
+
+
+
+} 
+
+.work {
+    position: relative; 
+    margin: auto;
+    top: 80px;
+    width: 30%;
+       padding-bottom: 0px;
+       margin-bottom: 0px;
+      }
+
+
+
+.title-letter {
+    font-family: 'Playfair Display';
+      font-weight: 400;
+      font-size: calc(0.4vw + 0.6rem);
+      letter-spacing: calc(0.3vw + 0.5rem);
+      text-transform: uppercase;
+   
+    
+    
+        
+    }
+
+  
+
+    #title:hover {
+        transition: transform .2s; /* Animation */
+        transform: scale(1.02);
+
+    }

@@ -8,19 +8,28 @@
     <link rel="stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="CSS/layout.css">
     <link rel="stylesheet" href="CSS/aside.css">
+    <link rel="stylesheet" href="CSS/landing.css">
     <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="fonts/glyphter-font/css/Glyphter.css">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.3.1/flatly/bootstrap.min.css"> -->
-    <!-- <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css"> -->
     <link rel="preconnect" href="https://cdn.fonts.net">
     <link href="https://cdn.fonts.net/kit/80364058-c27d-4c1b-b2c7-350a8631e968/80364058-c27d-4c1b-b2c7-350a8631e968.css" rel="stylesheet" />
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-brands/css/uicons-brands.css'>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-thin-rounded/css/uicons-thin-rounded.css'>
+    <link rel="preconnect" href="https://cdn.fonts.net">
+    <link href="https://cdn.fonts.net/kit/83dc9264-9811-40b9-9139-091c087b8bc3/83dc9264-9811-40b9-9139-091c087b8bc3.css"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <!-- <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script> -->
-    <!-- <script src="https://code.jquery.com/jquery-3.7.0.js"></script> -->
-    <script src="/js/jquery.scroll-spy.js"></script>
-    <script src="/js/jquery.scroll-spy.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+    <script src="/js/scrolling.js"></script>
 </head>
 <body>
     <div id="websiteFrameTop" class="websiteFrame"></div>
@@ -28,910 +37,127 @@
     <div id="websiteFrameBottom" class="websiteFrame"></div>
     <div id="websiteFrameLeft" class="websiteFrame"></div>
 
-
     <navigation>
-    <h6>
-        <a href="landing.html"><i class="fi fi-sr-house-chimney"></i></a>
-
-        <a href="#" class="active">bio</a>
-        <a href="digital.html">work</a>
-        <button a href="mailto:irene.spalletti@gmail.com">contact</button>
-
-    </h6>
-    </navigation>
-
+        <!-- <h6>
+            <a href="landing.html"><i class="fi fi-sr-house-chimney"></i></a>
+           
+        </h6> -->
+    
+        <button><a href="mailto:irene.spalletti@gmail.com">contact</a>
+        </button>
+        </navigation>
       
 
+    <div id="wrapper">
+      
 
-<div class="content-wrapper">
-    <div class="menu-wrapper">
+        <span id="title">
+            <span class="title-letter">a</span>
+            <span class="title-letter">d</span>
+            <span class="title-letter">v</span>
+            <span class="title-letter">e</span>
+            <span class="title-letter">r</span>
+            <span class="title-letter">t</span>
+            <span class="title-letter">i</span>
+            <span class="title-letter">s</span>
+            <span class="title-letter">i</span>
+            <span class="title-letter">n</span>
+            <span class="title-letter">g</span>
+            <span class="title-letter">&nbsp;</span>
+            <span class="title-letter">·</span>
+            <span class="title-letter">&nbsp;</span>
+            <span class="title-letter">d</span>
+            <span class="title-letter">e</span>
+            <span class="title-letter">s</span>
+            <span class="title-letter">i</span>
+            <span class="title-letter">g</span>
+            <span class="title-letter">n</span>
+            <span class="title-letter">&nbsp;</span>
+            <span class="title-letter">·</span>
+            <span class="title-letter">&nbsp;</span>
+            <span class="title-letter">w</span>
+            <span class="title-letter">e</span>
+            <span class="title-letter">b</span>
+            <span class="title-letter">&nbsp;</span>
+            <span class="title-letter">d</span>
+            <span class="title-letter">e</span>
+            <span class="title-letter">v</span>
+            <span class="title-letter">e</span>
+            <span class="title-letter">l</span>
+            <span class="title-letter">o</span>
+            <span class="title-letter">p</span>
+            <span class="title-letter">m</span>
+            <span class="title-letter">e</span>
+            <span class="title-letter">n</span>
+            <span class="title-letter">t</span>           
+        </span> 
 
-        <ul class="menu">
-            <li><a href="#about">about</a></li>
-            <li><a href="#cv">clients & experience</a></li>
-        </ul>
-
-        <ul class="contact">
-            <li><a href="https://www.linkedin.com/in/irene-s-38613460/"><i class="fi fi-brands-linkedin"></i></a></li>
-            <li><a href="https://www.instagram.com/ireneishi/"><i class="fi fi-brands-instagram"></i></a></li>
-            <li><a href="https://github.com/ren-debug"><i class="fi fi-brands-github"></i></a></li>
-            <li><a href="mailto:irene.spalletti@gmail.com"><i class="fi fi-sr-envelope"></i></a></li>
-            <li><a href="tel:00447412604767"><i class="fi fi-sr-phone-flip"></i></a></li>
-        </ul>
-        <div class="vl"></div>
-
-    </div>
-    <div class="content">
-        <section id="about">
-            <div class="copy">
-            <p>I'm Irene Spalletti, a Visual Designer and Front-End Developer with more than 12 years of experience. My
-                passion for Visual Communication spans across both print and digital media, and it has made me
-                appreciate the physical feel and look of materials. This unique perspective gives me an edge when
-                crafting designs for the digital realm, which constantly excites and inspires me with its endless
-                possibilities.
-                <br><br>
-                My journey has allowed me to grasp the fundamentals of traditional design principles, making it
-                effortless for me to bring ideas to life across various platforms. My portfolio is all about attention
-                to detail, offering a clean and timeless style. I'm all about putting typography at the forefront,
-                creating designs that effortlessly blend elegance and functionality.</p>
-            </div>
-
-            <div class="info">
-                <h5>contact
-                    <hr>
-                </h5>
-                <p>Irene Spalletti
-                    <br>Senior Visual Designer & Front-End Developer
-                    <br><br>irene.spalletti@gmail.com
-                    <br>+44 (0) 7412 604 767</p>
-            </div>
-
-            <div class="big">
-                <h1>about</h1>
-            </div>
-        </section>
-        <section id="cv" style="height: 100vh;">
-            <div class="skills">
-                <h5>skills
-                    <hr>
-                </h5>
-    
-                <div class="skills_1">
-    
-                    <div class="square tooltip">
-                        <i class="fi fi-brands-photoshop"></i>
-                        <span class="tooltiptext">photoshop</span>
-                    </div>
-    
-                    <div class="square tooltip">
-                        <i class="fi fi-brands-illustrator"></i>
-                        <span class="tooltiptext">illustrator</span>
-                    </div>
-    
-                    <div class="square tooltip">
-                        <i class="fi fi-brands-indesign"></i>
-                        <span class="tooltiptext">inDesign</span>
-                    </div>
-    
-                    <div class="square tooltip">
-                        <i class="fi fi-brands-xd"></i>
-                        <span class="tooltiptext">xd</span>
-                    </div>
-    
-                    <div class="square tooltip">
-                        <i class="fi fi-brands-after-effects"></i>
-                        <span class="tooltiptext">after effects</span>
-                    </div>
-    
-                    <div class="square tooltip">
-                        <i class="fi fi-brands-figma"></i>
-                        <span class="tooltiptext">figma</span>
-                    </div>
-    
-                    <div class="square tooltip">
-                        <i class="fi fi-brands-sketch"></i>
-                        <span class="tooltiptext">sketch</span>
-                    </div>
-    
-                </div>
-    
-                <div class="skills_2">
-    
-                    <div class="square tooltip">
-                        <span class="icon-balsamiq"></span>
-                        <span class="tooltiptext">balsamiq</span>
-                    </div>
-    
-                    <div class="square tooltip">
-                        <i class="fi fi-brands-invision"></i>
-                        <span class="tooltiptext">invision</span>
-                    </div>
-    
-                    <div class="square tooltip">
-                        <span class="icon-html"></span>
-                        <span class="tooltiptext">html</span>
-                    </div>
-    
-                    <div class="square tooltip">
-                        <span class="icon-css"></span>
-                        <span class="tooltiptext">css</span>
-                    </div>
-    
-                    <div class="square tooltip">
-                        <span class="icon-java-script"></span>
-                        <span class="tooltiptext">java script</span>
-                    </div>
-    
-                    <div class="square tooltip">
-                        <span class="icon-jquery-logo-svgrepo-com"></span>
-                        <span class="tooltiptext">jquery</span>
-                    </div>
-    
-                    <div class="square tooltip">
-                        <i class="fi fi-brands-github"></i>
-                        <span class="tooltiptext">github</span>
-                    </div>
-    
-                </div>
-            </div>
-            <div class="languages">
-                <h5>languages
-                    <hr>
-                </h5>
-    
-                <button class="tablinks">italian</button>
-                <button class="tablinks">french</button>
-                <button class="tablinks">english</button>
-                <button class="tablinks">spanish</button>
-            </div>
-
-            <div class="clients">
-                <h5>clients & industries
-                    <hr>
-                </h5>
-                <div class="tab">
-                    <!-- <button class="tablinks" onclick="openCity(event, 'all')">all</button> -->
-                    <button class="tablinks" onclick="openCity(event, 'beauty')" id="defaultOpen">beauty</button>
-                    <button class="tablinks" onclick="openCity(event, 'finance')">finance</button>
-                    <button class="tablinks" onclick="openCity(event, 'retail')">retail</button>
-                    <button class="tablinks" onclick="openCity(event, 'luxury')">luxury</button>
-                    <button class="tablinks" onclick="openCity(event, 'media')">media</button>
-                    <button class="tablinks" onclick="openCity(event, 'sport')">sport</button>
-    
-                </div>
-    
-                <div class="opentab scrollbar">
-    
-                    <div id="all" class="tabcontent"></div>
-    
-                    <div id="beauty" class="tabcontent">
-    
-                        <ul>
-                            <li>
-                                <h4>Yves Saint Laurent</h4>
-                                <p>digital marketing - freelance
-                                    <hr>
-                                </p>
-                            </li>
-    
-                            <li><br>
-                                <h4>The Body Shop</h4>
-                                <p>description / role / project
-                                    <a href="#" class="view">view project</a>
-                                    <hr>
-                                </p>
-                            </li>
-    
-                            <li><br>
-                                <h4>Elemis (Frontroom)</h4>
-                                <p>description / role / project
-                                    <a href="#" class="view">view project</a>
-                                    <hr>
-                                </p>
-                            </li>
-    
-                            <li><br>
-                                <h4>Bausch & Lomb (AS&K)</h4>
-                                <p>description / role / project
-                                    <a href="#" class="view">view project</a>
-                                    <hr>
-                                </p>
-                            </li>
-    
-                            <li><br>
-                                <h4>Yves Saint Laurent (L'Orēal)</h4>
-                                <p>description / role / project
-                                    <a href="#" class="view">view project</a>
-                                    <hr>
-                                </p>
-                            </li>
-    
-                            <li><br>
-                                <h4>Lancôme (L'Orēal)</h4>
-                                <p>description / role / project
-                                    <a href="#" class="view">view project</a>
-                                    <hr>
-                                </p>
-                            </li>
-    
-                        </ul>
-    
-                    </div>
-    
-                    <div id="finance" class="tabcontent">
-                        <p>
-                            <ul>
-                                <li>
-                                    <h4>FT Financial Times</h4>
-                                    <p>description / role / project
-                                        <a href="#" class="view">view project</a>
-                                        <hr>
-                                    </p>
-                                </li>
-    
-                                <li><br>
-                                    <h4>Greenfinch</h4>
-                                    <p>description / role / project
-                                        <a href="#" class="view">view project</a>
-                                        <hr>
-                                    </p>
-                                </li>
-    
-                                <li><br>
-                                    <h4>Blockchain Unlimited</h4>
-                                    <p>description / role / project
-                                        <a href="#" class="view">view project</a>
-                                        <hr>
-                                    </p>
-                                </li>
-    
-                                <li><br>
-                                    <h4>ADA Economics</h4>
-                                    <p>description / role / project
-                                        <a href="#" class="view">view project</a>
-                                        <hr>
-                                    </p>
-                                </li>
-    
-                            </ul>
-                        </p>
-                    </div>
-    
-                    <div id="retail" class="tabcontent">
-                        <p>
-                            <ul>
-                                <li>
-                                    <h4>McArthurGlen</h4>
-                                    <p>description / role / project
-                                        <a href="#" class="view">view project</a>
-                                        <hr>
-                                    </p>
-                                </li>
-    
-                                <li><br>
-                                    <h4>Mike Koedinger Editions</h4>
-                                    <p>description / role / project
-                                        <a href="#" class="view">view project</a>
-                                        <hr>
-                                    </p>
-                                </li>
-    
-                                <li><br>
-                                    <h4>Belvedere Vodka (Hue & Cry)</h4>
-                                    <p>description / role / project
-                                        <a href="#" class="view">view project</a>
-                                        <hr>
-                                    </p>
-                                </li>
-    
-                                <li><br>
-                                    <h4>Karolina Manns</h4>
-                                    <p>description / role / project
-                                        <a href="#" class="view">view project</a>
-                                        <hr>
-                                    </p>
-                                </li>
-    
-                            </ul>
-                        </p>
-                    </div>
-    
-                    <div id="luxury" class="tabcontent">
-                        <p>
-                            <ul>
-                                <li>
-                                    <h4>The East India Company</h4>
-                                    <p>description / role / project
-                                        <a href="#" class="view">view project</a>
-                                        <hr>
-                                    </p>
-                                </li>
-    
-                                <li><br>
-                                    <h4>Christie's</h4>
-                                    <p>description / role / project
-                                        <a href="#" class="view">view project</a>
-                                        <hr>
-                                    </p>
-                                </li>
-    
-                                <li><br>
-                                    <h4>Burberry</h4>
-                                    <p>description / role / project
-                                        <a href="#" class="view">view project</a>
-                                        <hr>
-                                    </p>
-                                </li>
-    
-                                <li><br>
-                                    <h4>Yves Saint Laurent (L'Orēal)</h4>
-                                    <p>description / role / project
-                                        <a href="#" class="view">view project</a>
-                                        <hr>
-                                    </p>
-                                </li>
-    
-                                <li><br>
-                                    <h4>Babylon (Socrates)</h4>
-                                    <p>description / role / project
-                                        <a href="#" class="view">view project</a>
-                                        <hr>
-                                    </p>
-                                </li>
-    
-                            </ul>
-                        </p>
-                    </div>
-    
-                    <div id="media" class="tabcontent">
-                        <p>
-                            <ul>
-                                <li>
-                                    <h4>Pokerstars</h4>
-                                    <p>description / role / project
-                                        <a href="#" class="view">view project</a>
-                                        <hr>
-                                    </p>
-                                </li>
-    
-                                <li><br>
-                                    <h4>Sonos (Sense Worldwide)</h4>
-                                    <p>description / role / project
-                                        <a href="#" class="view">view project</a>
-                                        <hr>
-                                    </p>
-                                </li>
-    
-                                <li><br>
-                                    <h4>Pinzutu Films</h4>
-                                    <p>description / role / project
-                                        <a href="#" class="view">view project</a>
-                                        <hr>
-                                    </p>
-                                </li>
-    
-                            </ul>
-                        </p>
-                    </div>
-    
-                    <div id="sport" class="tabcontent">
-                        <p>
-                            <ul>
-                                <li>
-                                    <h4>England Rugby Football Union</h4>
-                                    <p>description / role / project
-                                        <a href="#" class="view">view project</a>
-                                        <hr>
-                                    </p>
-                                </li>
-    
-                                <li><br>
-                                    <h4>LP Workouts</h4>
-                                    <p>description / role / project
-                                        <a href="#" class="view">view project</a>
-                                        <hr>
-                                    </p>
-                                </li>
-    
-                                <li><br>
-                                    <h4>Atma Yoga</h4>
-                                    <p>description / role / project
-                                        <a href="#" class="view">view project</a>
-                                        <hr>
-                                    </p>
-                                </li>
-    
-                            </ul>
-                        </p>
-                    </div>
-    
-                </div>
-    
-            </div>
-
-            <div class="cv">
-
-                <h4><a href="./pdf/irene.spalletti_CV_print.pdf" download>download full cv&nbsp;&nbsp;&nbsp;<i
-                            class="fi fi-br-download"></i></a></h4>
-            </div>
-<!-- 
-            <div class="big">
-                <h1>clients</h1>
-            </div> -->
-        </section>
-       
-       
-    </div>
-</div>
-  
-
-    <!-- <div id="space" class="scroll-space"></div>
-    <div class="scroll-indicator">
-        <div class="bar"></div>
-        <span id="indicator" class="indicator"></span>
-      </div> -->
-
-    
-   
-    <!-- <div class="sections">
-        <a href="#" class="prev-section"><i class="fi fi-sr-angle-small-up"></i></a>
-        <a href="#" class="next-section"><i class="fi fi-sr-angle-small-down"></i></a>
-    
-    </div> -->
-<!-- 
-    <div class="content">
-    
-
-
-    <section id="cv">
-        <div class="languages">
-            <button class="tablinks">italian</button>
-            <button class="tablinks">french</button>
-            <button class="tablinks">english</button>
-            <button class="tablinks">spanish</button>
-
-            <div class="skills">
-                <div class="skills_1">
-    
-                    <div class="square tooltip">
-                        <i class="fi fi-brands-photoshop"></i>
-                        <span class="tooltiptext">photoshop</span>
-                    </div>
-    
-                    <div class="square tooltip">
-                        <i class="fi fi-brands-illustrator"></i>
-                        <span class="tooltiptext">illustrator</span>
-                    </div>
-    
-                    <div class="square tooltip">
-                        <i class="fi fi-brands-indesign"></i>
-                        <span class="tooltiptext">inDesign</span>
-                    </div>
-    
-                    <div class="square tooltip">
-                        <i class="fi fi-brands-xd"></i>
-                        <span class="tooltiptext">xd</span>
-                    </div>
-    
-                    <div class="square tooltip">
-                        <i class="fi fi-brands-after-effects"></i>
-                        <span class="tooltiptext">after effects</span>
-                    </div>
-    
-                    <div class="square tooltip">
-                        <i class="fi fi-brands-figma"></i>
-                        <span class="tooltiptext">figma</span>
-                    </div>
-    
-                    <div class="square tooltip">
-                        <i class="fi fi-brands-sketch"></i>
-                        <span class="tooltiptext">sketch</span>
-                    </div>
-    
-                </div>
-    
-                <div class="skills_2">
-    
-                    <div class="square tooltip">
-                        <span class="icon-balsamiq"></span>
-                        <span class="tooltiptext">balsamiq</span>
-                    </div>
-    
-                    <div class="square tooltip">
-                        <i class="fi fi-brands-invision"></i>
-                        <span class="tooltiptext">invision</span>
-                    </div>
-    
-                    <div class="square tooltip">
-                        <span class="icon-html"></span>
-                        <span class="tooltiptext">html</span>
-                    </div>
-    
-                    <div class="square tooltip">
-                        <span class="icon-css"></span>
-                        <span class="tooltiptext">css</span>
-                    </div>
-    
-                    <div class="square tooltip">
-                        <span class="icon-java-script"></span>
-                        <span class="tooltiptext">java script</span>
-                    </div>
-    
-                    <div class="square tooltip">
-                        <span class="icon-jquery-logo-svgrepo-com"></span>
-                        <span class="tooltiptext">jquery</span>
-                    </div>
-    
-                    <div class="square tooltip">
-                        <i class="fi fi-brands-github"></i>
-                        <span class="tooltiptext">github</span>
-                    </div>
-    
-                </div>
-             </div>
+        <span id="sub-title">
+            <div id="word-container">
+                <ul id="word-list">
+                    <li>print</li>
+                    <li>digital</li>
+                    <li>web</li>
+                </ul>
+            </div>      
+        </span>
+          
+        <div class="animates glow cta">
+        <button class="hvr-push"><a href="home.html">bio</a>
+        </button>
+        <button class="hvr-push"><a href="work.html">work</a>
+        </button>
         </div>
 
-     
 
-         <div class="clients">
-          
-            <div class="tab">
-                <button class="tablinks" onclick="openCity(event, 'beauty')" id="defaultOpen">beauty</button>
-                <button class="tablinks" onclick="openCity(event, 'finance')">finance</button>
-                <button class="tablinks" onclick="openCity(event, 'retail')">retail</button>
-                <button class="tablinks" onclick="openCity(event, 'luxury')">luxury</button>
-                <button class="tablinks" onclick="openCity(event, 'media')">media</button>
-                <button class="tablinks" onclick="openCity(event, 'sport')">sport</button>
-
+        <div class="animates glow enter">
+            <h4 style="padding-top: 120px;">Irene Spalletti</h4>
+            <p>Visual Designer & Front-end Dev</p><br><br><br>
+            <div class="square tooltip">
+                <a href="https://www.linkedin.com/in/irene-s-38613460/"><i class="fi fi-brands-linkedin"></i></a>
+                <span class="tooltiptext">linkedin</span>
             </div>
-
-            <div class="opentab">
-
-                <div id="all" class="tabcontent"></div>
-
-                <div id="beauty" class="tabcontent">
-
-                    <ul>
-                        <li>
-                            <h4>Yves Saint Laurent</h4>
-                            <p>digital marketing - freelance
-                                <hr>
-                            </p>
-                        </li>
-
-                        <li><br>
-                            <h4>The Body Shop</h4>
-                            <p>description / role / project
-                                <a href="#" class="view">view project</a>
-                                <hr>
-                            </p>
-                        </li>
-
-                        <li><br>
-                            <h4>Elemis (Frontroom)</h4>
-                            <p>description / role / project
-                                <a href="#" class="view">view project</a>
-                                <hr>
-                            </p>
-                        </li>
-
-                        <li><br>
-                            <h4>Bausch & Lomb (AS&K)</h4>
-                            <p>description / role / project
-                                <a href="#" class="view">view project</a>
-                                <hr>
-                            </p>
-                        </li>
-
-                        <li><br>
-                            <h4>Yves Saint Laurent (L'Orēal)</h4>
-                            <p>description / role / project
-                                <a href="#" class="view">view project</a>
-                                <hr>
-                            </p>
-                        </li>
-
-                        <li><br>
-                            <h4>Lancôme (L'Orēal)</h4>
-                            <p>description / role / project
-                                <a href="#" class="view">view project</a>
-                                <hr>
-                            </p>
-                        </li>
-
-                    </ul>
-
-                </div>
-
-                <div id="finance" class="tabcontent">
-                    <p>
-                        <ul>
-                            <li>
-                                <h4>FT Financial Times</h4>
-                                <p>description / role / project
-                                    <a href="#" class="view">view project</a>
-                                    <hr>
-                                </p>
-                            </li>
-
-                            <li><br>
-                                <h4>Greenfinch</h4>
-                                <p>description / role / project
-                                    <a href="#" class="view">view project</a>
-                                    <hr>
-                                </p>
-                            </li>
-
-                            <li><br>
-                                <h4>Blockchain Unlimited</h4>
-                                <p>description / role / project
-                                    <a href="#" class="view">view project</a>
-                                    <hr>
-                                </p>
-                            </li>
-
-                            <li><br>
-                                <h4>ADA Economics</h4>
-                                <p>description / role / project
-                                    <a href="#" class="view">view project</a>
-                                    <hr>
-                                </p>
-                            </li>
-
-                        </ul>
-                    </p>
-                </div>
-
-                <div id="retail" class="tabcontent">
-                    <p>
-                        <ul>
-                            <li>
-                                <h4>McArthurGlen</h4>
-                                <p>description / role / project
-                                    <a href="#" class="view">view project</a>
-                                    <hr>
-                                </p>
-                            </li>
-
-                            <li><br>
-                                <h4>Mike Koedinger Editions</h4>
-                                <p>description / role / project
-                                    <a href="#" class="view">view project</a>
-                                    <hr>
-                                </p>
-                            </li>
-
-                            <li><br>
-                                <h4>Belvedere Vodka (Hue & Cry)</h4>
-                                <p>description / role / project
-                                    <a href="#" class="view">view project</a>
-                                    <hr>
-                                </p>
-                            </li>
-
-                            <li><br>
-                                <h4>Karolina Manns</h4>
-                                <p>description / role / project
-                                    <a href="#" class="view">view project</a>
-                                    <hr>
-                                </p>
-                            </li>
-
-                        </ul>
-                    </p>
-                </div>
-
-                <div id="luxury" class="tabcontent">
-                    <p>
-                        <ul>
-                            <li>
-                                <h4>The East India Company</h4>
-                                <p>description / role / project
-                                    <a href="#" class="view">view project</a>
-                                    <hr>
-                                </p>
-                            </li>
-
-                            <li><br>
-                                <h4>Christie's</h4>
-                                <p>description / role / project
-                                    <a href="#" class="view">view project</a>
-                                    <hr>
-                                </p>
-                            </li>
-
-                            <li><br>
-                                <h4>Burberry</h4>
-                                <p>description / role / project
-                                    <a href="#" class="view">view project</a>
-                                    <hr>
-                                </p>
-                            </li>
-
-                            <li><br>
-                                <h4>Yves Saint Laurent (L'Orēal)</h4>
-                                <p>description / role / project
-                                    <a href="#" class="view">view project</a>
-                                    <hr>
-                                </p>
-                            </li>
-
-                            <li><br>
-                                <h4>Babylon (Socrates)</h4>
-                                <p>description / role / project
-                                    <a href="#" class="view">view project</a>
-                                    <hr>
-                                </p>
-                            </li>
-
-                        </ul>
-                    </p>
-                </div>
-
-                <div id="media" class="tabcontent">
-                    <p>
-                        <ul>
-                            <li>
-                                <h4>Pokerstars</h4>
-                                <p>description / role / project
-                                    <a href="#" class="view">view project</a>
-                                    <hr>
-                                </p>
-                            </li>
-
-                            <li><br>
-                                <h4>Sonos (Sense Worldwide)</h4>
-                                <p>description / role / project
-                                    <a href="#" class="view">view project</a>
-                                    <hr>
-                                </p>
-                            </li>
-
-                            <li><br>
-                                <h4>Pinzutu Films</h4>
-                                <p>description / role / project
-                                    <a href="#" class="view">view project</a>
-                                    <hr>
-                                </p>
-                            </li>
-
-                        </ul>
-                    </p>
-                </div>
-
-                <div id="sport" class="tabcontent">
-                    <p>
-                        <ul>
-                            <li>
-                                <h4>England Rugby Football Union</h4>
-                                <p>description / role / project
-                                    <a href="#" class="view">view project</a>
-                                    <hr>
-                                </p>
-                            </li>
-
-                            <li><br>
-                                <h4>LP Workouts</h4>
-                                <p>description / role / project
-                                    <a href="#" class="view">view project</a>
-                                    <hr>
-                                </p>
-                            </li>
-
-                            <li><br>
-                                <h4>Atma Yoga</h4>
-                                <p>description / role / project
-                                    <a href="#" class="view">view project</a>
-                                    <hr>
-                                </p>
-                            </li>
-
-                        </ul>
-                    </p>
-                </div>
-
+        
+            <div class="square tooltip">
+                <a href="https://www.instagram.com/ireneishi/"><i class="fi fi-brands-instagram"></i></a>
+                <span class="tooltiptext">instagram</span>
             </div>
-
+        
+            <div class="square tooltip">
+                <a href="https://github.com/ren-debug"><i class="fi fi-brands-github"></i></a>
+                <span class="tooltiptext">gitHub</span>
+            </div>
+        
+            <div class="square tooltip">
+                <a href="mailto:irene.spalletti@gmail.com"><i class="fi fi-sr-envelope"></i></a>
+                <span class="tooltiptext">irene.spalletti@gmail.com</span>
+            </div>
+        
+            <div class="square tooltip">
+                <a href="tel:00447412604767"><i class="fi fi-sr-phone-flip"></i></a>
+                <span class="tooltiptext">+44 (0) 7412 604 767</span>
+            </div>
         </div>
         
-    </section>
+     
+
+    </div>
+   
+
 
   
-</div> -->
-  
+
+
+
+
+
+
+
 
 </body>
-<script>
-    // Get the element with id="defaultOpen" and click on it
-    document.getElementById("defaultOpen").click();
-</script>
-<script>
-    function openCity(evt, cityName) {
-        // Declare all variables
-        var i, tabcontent, tablinks;
-        // Get all elements with class="tabcontent" and hide them
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-        }
-        // Get all elements with class="tablinks" and remove the class "active"
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-        // Show the current tab, and add an "active" class to the button that opened the tab
-        document.getElementById(cityName).style.display = "block";
-        evt.currentTarget.className += " active";
-    }
-</script>
 
 
-<script>
-    jQuery.fn.extend({
-  scrollTo : function(speed, easing) {
-    return this.each(function() {
-      var targetOffset = $(this).offset().top;
-      $('html,body').animate({scrollTop: targetOffset}, speed, easing);
-    });
-  }
-});
+<script src="/js/landing.js"></script>
 
-$('.next-section').click(function(e){
-    e.preventDefault();
-    var $this = $(this),
-        $next = $this.parent().next();
-    
-    $next.scrollTo(400, 'linear');
-});
-
-$('.prev-section').click(function(e){
-    e.preventDefault();
-    var $this = $(this),
-        $prev = $this.parent().prev();
-
-    $prev.scrollTo(400, 'linear');
-});
-
-</script>
-
-
-
-
-
-<script>
-    function scrollToElement(id) {
-        $('html, body').animate({
-            scrollTop: $("#" + id).offset().top
-        }, 750);
-    }
-    $("#go-to-about").click(function() {
-        // uncomment for other effect
-        // $("#about").show()
-        // $("#titles").hide()
-        // $("#cv").hide()
-        scrollToElement("about")
-    });
-    $("#go-to-cv").click(function() {
-        // uncomment for other effect
-        // $("#cv").show()
-        // $("#about").hide()
-        // $("#titles").hide()
-        scrollToElement("cv")
-    });
-    // $("#digital-content-link").click(function() {
-    //     function callback() {
-    //         setTimeout(function() {
-    //             $("#digital-content").removeAttr("style").fadeIn();
-    //         }, 1000);
-    //     }
-    //     $("#digital-content").show
-    // })
-</script>
-<script>
-$('.content-wrapper').scrollSpy({
-  target: $('.menu a'),
-  activeClass: 'active'
-}).scroll();
-</script>
 
 </html>
