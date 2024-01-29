@@ -9,6 +9,7 @@
     <!-- <link rel="stylesheet" href="./CSS/layout.css"> -->
     <link rel="stylesheet" href="./CSS/aside.css">
     <link rel="stylesheet" href="./CSS/digital.css">
+    <link rel="stylesheet" href="./CSS/print.css">
 
     <link rel="stylesheet" href="./fonts/stylesheet.css">
     <link rel="stylesheet" href="./fonts/glyphter-font/css/Glyphter.css">
@@ -31,27 +32,28 @@
     <div id="websiteFrameLeft" class="websiteFrame"></div>
 
     <navigation>
-        <h6>
-            <a href="landing.html"><i class="fi fi-sr-house-chimney"></i></a>
-            <a href="index.html" class="active nav">bio</a>
+            <a href="index.html"><i class="fi fi-sr-house-chimney"></i></a>
             <a href="work.html" class="nav">work</a>
-        </h6>
-    
-        <button><a href="mailto:irene.spalletti@gmail.com">contact</a>
-        </button>
-        </navigation>
+            <a href="print.html" class="active nav">print design</a>
+            <a href="digital.html" class="nav">digital design</a>
+            <a href="home.html#about" class="nav">about</a>
+            <a href="home.html#cv" class="nav">cv</a>
 
-        <div id="myNav" class="overlay">
-            <span class="openbtn" onclick="openNav()"><i class="fi fi-br-menu-burger"></i></span>
+       <a href="mailto:irene.spalletti@gmail.com"><i class="fi fi-sr-envelope"></i></a>
+    </navigation>
+
+
+    <div id="myNav" class="overlay">
+        <span class="openbtn" onclick="openNav()"><i class="fi fi-br-menu-burger"></i></span>
     
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fi fi-sr-circle-xmark"></i></a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fi fi-sr-circle-xmark"></i></a>
             <div class="overlay-content">
-              <a href="index.html#about">about</a>
-              <a href="index.html#cv">clients</a>
+              <a href="home.html#about">about</a>
+              <a href="home.html#cv">clients</a>
               <a href="digital.html">digital design</a>
               <a href="print.html">print design</a>
             </div>
-          </div>
+    </div>
     
     
     
@@ -63,9 +65,7 @@
         function closeNav() {
           document.getElementById("myNav").style.height = "0%";
         }
-        </script>
-      
-
+    </script>
       
 
 

@@ -26,10 +26,10 @@ h1 {
 
 h2 {
     font-family: 'the_new_eleganceregular';
-letter-spacing: 1.5px;
-    font-size: 3rem;
+letter-spacing: 1px;
+    font-size: 2rem;
     line-height: 2rem;
-
+text-transform:uppercase
 }
 
 h3 {
@@ -45,8 +45,8 @@ h4 {
 h5 {
     font-family: 'the_new_eleganceCnIt';
     letter-spacing: 0.3px;
-    font-size: 1.1rem;
-    line-height: 0rem;
+    font-size: 0.8rem;
+    line-height: 1.3rem;
     margin: 0px;
     padding-bottom: 20px;
 }
@@ -59,15 +59,15 @@ h6 {
 p {
     font-family: 'NeueHaasGroteskDisplay45Light';
     font-size: 0.8rem;
-    line-height: 1.2rem;
+    line-height: 1.4rem;
     letter-spacing: 0.5px;
     text-align: justify;
 }
 
 body {
     font-family: 'NeueHaasGroteskDisplay45Light';
-    font-size: 0.8rem;
-    line-height: 1rem;
+    font-size: 0.7rem;
+    line-height: 0.85rem;
     letter-spacing: 0.5px;
     text-align: justify;
 }
@@ -148,7 +148,7 @@ button.tablink {
 
 hr {
     border: 0.5px solid rgba(255, 255, 255, 0.163);
-    margin-bottom: 24px;
+    margin-bottom: 12px;
     margin-top: 12px;
 }
 

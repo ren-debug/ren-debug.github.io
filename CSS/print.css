@@ -5,21 +5,20 @@
 
   body {
     /* color: rgb(87, 100, 103); */
-    color: rgb(65, 74, 76);
+    color: rgb(51, 57, 58);
 
   }
   navigation {
     position: fixed;
     font-family: 'the_new_eleganceregular';
-
     display: flex;
     width: calc(100% - 92px);
     left: 46px;
-    justify-content: center;
+    justify-content: space-between;
     padding-top: 3.6px;
     margin: 0px;
-    font-size: 14px;
-    letter-spacing: 1px;
+    font-size: 12px;
+    letter-spacing: 0.5px;
     /* left: 8%;  */
     /* background-color: rgba(255, 255, 255, 0.384);
     backdrop-filter: blur(10px); */
@@ -67,10 +66,26 @@
 
 }
 
-.menu {
-  
-  
+.fi-br-menu-burger {
   position: fixed;
+  top: 1.1%;
+  left: 6.2%;
+  font-size: 20px;
+  
+}
+
+
+.fi-sr-house-chimney {
+  font-size: 1.1rem;
+  position: fixed;
+  left: 1.5%;
+  top: 1.1%;
+  
+}
+
+
+.menu {
+position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -137,44 +152,6 @@ button {
   }
 
 
-  /* .skill_tab {
-    box-sizing: border-box;
-    padding-top: 40px;
-
-  } */
-
-
-
-  /* .skill_tab > div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  
-   
-   
-    
-    
- 
-
-} */
-
-/* 
-  
-.tablinks_skills {
-    padding: 0px 0px 0px 0px;
-    border: none;
-    color: white;
-    outline: none;
-    text-align: center;
-    width: 36px;
-    height: 36px;
-    border-radius: 5px;
-    transition: transform .2s;
-    margin-bottom: 16px;
-  
-  
-  }
-   */
   
   .tabs {
     display: flex; 
@@ -236,21 +213,6 @@ button {
   border-right: 0.5px solid #E6DADA9a;
   }  
   
-  
-/* .skill_tab li {
-    justify-content: space-evenly;
-    text-align: center;
-    width: 128px;
-    height: 36px;
-    border-radius: 50px;
-    box-sizing: border-box;
-    margin-right: 6px;
-    padding-top: 10px;
-   font-size: 12px;
-   background-color: rgba(183, 179, 173, 0.346);
-  opacity: 1;
-  
-  } */
 
 
 .brief p {
@@ -286,7 +248,7 @@ button {
     gap: 80px;
     box-sizing: border-box;
     /* background-color: #8cffa0; */
-    padding: 100px 0% 0px 6%;
+    padding: 100px 0% 0px 12%;
     
   }
   
