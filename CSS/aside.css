@@ -54,7 +54,7 @@ navigation {
 .fi-sr-house-chimney {
   font-size: 1.1rem;
   position: fixed;
-  left: 1.5%;
+  left: 1.25%;
   top: 1.7%;
   
 }
@@ -108,10 +108,12 @@ navigation {
   } */
 
 
-/* .menu-wrapper {
+.menu-wrapper .active {
+  color: rgb(194, 194, 194);
+  font-weight: 500;
  
     
-} */
+}
 
 
 
@@ -120,8 +122,9 @@ navigation {
     height: 100vh;
     position: fixed;
     left: 0%;
-    margin-left: 64px;
+    margin-left: 54px;
     top: 0;
+    display: block;
   }
 
 
@@ -136,7 +139,6 @@ navigation {
     color: white;
     transition: .5s ease-out;
     opacity: 1;
-    font-weight: 800;
 }
 
 .menu {
@@ -149,18 +151,18 @@ navigation {
     font-size: .8rem;
     justify-content: space-evenly;
 
-
 }
 
 
 .menu li a { 
-  font-family: 'NeueHaasGroteskDisplay35ExtraLight';
-  font-size: .7rem;
+  font-family: 'neue-haas-grotesk-display';
+  font-weight: 200;
+  font-style: normal;  font-size: .75rem;
   letter-spacing: 1px;
-  color: rgb(96, 96, 96);
-    /* vertical-align: top; */
+  color: #646464;
+  /* vertical-align: top; */
     transform: translate(0,100%) rotate(-90deg);
-    transform-origin: 24px 0px;
+    transform-origin: 20px 0px;
     text-decoration: none;
     position: fixed;
   /* left: 25px; */
@@ -267,8 +269,9 @@ navigation {
 }
 
 
-
-
+.vl {
+  display: none;
+}
 
 
 

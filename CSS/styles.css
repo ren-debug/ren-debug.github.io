@@ -3,7 +3,7 @@
 @import url("https://use.typekit.net/ezv7rpx.css");
 
 body {
-margin: 0px 2%;
+margin: 0px 0%;
 scroll-behavior: smooth;
 
 -webkit-font-smoothing: antialiased;
@@ -21,7 +21,7 @@ h1 {
   font-family: 'the_new_eleganceCnRg';
 
   font-size: 7rem;
-    letter-spacing: 3.5px;
+    letter-spacing: 6px;
    
 }
 
@@ -54,7 +54,7 @@ h5 {
 
 h6 {
     font-size: 0.7rem;
-    line-height: 0.7rem;
+    line-height: 1rem;
     letter-spacing: 0.75px;
 }
 
@@ -154,7 +154,7 @@ button.tablink {
 } */
 
 hr {
-    border: 0.5px solid rgba(255, 255, 255, 0.163);
+    border: 0.5px solid rgba(255, 255, 255, 0.066);
     margin-bottom: 0px;
     margin-top: 10px;
 }
@@ -237,6 +237,7 @@ a:hover {
 
 /* LANGUAGES - Style the buttons inside the tab */
 button.tablinks {
+  border: 1px solid rgba(255, 255, 255, 0.195);
   outline: none;
   width: 95px;
   margin: 2px 2px;
@@ -247,8 +248,8 @@ button.tablinks {
     font-size: 11px;
     letter-spacing: 0.5px;
     padding: 0px;
-    color: black;
-    background: white; 
+    color: white;
+    background: transparent; 
     font-weight: 200;
     transition: transform .2s; 
   opacity: 1;
@@ -336,15 +337,17 @@ button.tablinks {
   }
 
 
-
-
-
-  @media only screen and (min-width: 400px) and (max-width: 768px) {
+  @media only screen and (min-width: 400px) and (max-width: 600px) {
     h1 {
       font-size: 5rem;
       line-height: 2.5rem;
       letter-spacing: 4px;
   }
+  }
+
+
+  @media only screen and (min-width: 400px) and (max-width: 768px) {
+
 
     h2 {
         font-size: 2rem;
@@ -363,7 +366,7 @@ button.tablinks {
   }
 
   button.tablinks {
-    width: 96px;
+    width: 95px;
 
     outline: none;
     flex-wrap: nowrap;

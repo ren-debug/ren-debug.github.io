@@ -8,17 +8,14 @@
 
 body {
     background-color: white;
-    color: rgb(82, 82, 82);
+    color: rgb(58, 58, 58);
 }
 
 h2 {
   margin-bottom: 12px;
 }
 
-.active {
-  color: rgb(82, 82, 82);
-  font-weight: 800;
-}
+
 
 
 .content-wrapper {
