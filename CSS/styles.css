@@ -1,5 +1,6 @@
 @import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
 @import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url("https://use.typekit.net/ezv7rpx.css");
 
 body {
 margin: 0px 2%;
@@ -17,9 +18,10 @@ nav.it {
 }
 
 h1 {
-    font-family: 'the_new_eleganceitalic';
-    font-size: 7rem;
-    letter-spacing: 3px;
+  font-family: 'the_new_eleganceCnRg';
+
+  font-size: 7rem;
+    letter-spacing: 3.5px;
    
 }
 
@@ -36,28 +38,30 @@ h3 {
 }
 
 h4 {
-    
+  font-family: 'NeueHaasGroteskDisplay55Regular';
+
     font-size: .8rem;
 }
 
 h5 {
-    font-family: 'the_new_eleganceCnIt';
-    letter-spacing: 0.4px;
-    font-size: 0.8rem;
-    line-height: 1.3rem;
+  font-family: 'the_new_eleganceregular';
+  letter-spacing: 0.75px;
+    font-size: 12px;
+    line-height: 0.2rem;
     margin: 0px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 
 h6 {
-    font-family: 'the_new_eleganceregular';
-    font-size: 0.9rem;
+    font-size: 0.7rem;
+    line-height: 0.7rem;
+    letter-spacing: 0.75px;
 }
 
 p {
-    font-family: 'NeueHaasGroteskDisplay45Light';
-    font-size: 0.8rem;
-    line-height: 1.4rem;
+  font-family: 'neue-haas-grotesk-display'; 
+  font-size: 0.7rem;
+    line-height: 1.2rem;
     letter-spacing: 0.5px;
     text-align: justify;
 }
@@ -97,11 +101,12 @@ ul {
     }
 
 button {
+  font-family: 'NeueHaasGroteskDisplay45Light';
+
     border-radius: 50px;
     width: 120px;
     height: 40px;
     border: none;
-    font-family: 'NeueHaasGroteskDisplay35ExtraLight';
     font-size: 12px;
     letter-spacing: 0.5px;
     padding: 0px;
@@ -150,8 +155,8 @@ button.tablink {
 
 hr {
     border: 0.5px solid rgba(255, 255, 255, 0.163);
-    margin-bottom: 8px;
-    margin-top: 12px;
+    margin-bottom: 0px;
+    margin-top: 10px;
 }
 
 
@@ -180,7 +185,7 @@ a:hover {
     border: 0.5px solid #e6dada3f;
     /* filter: drop-shadow(0 0 0.25rem rgb(129, 129, 129)); */
     outline: none;
-    margin: 6px;
+    margin: 0px 6px 0px 0px;
     width: 32px;
     height: 32px;
     border-radius: 5px;
@@ -197,7 +202,7 @@ a:hover {
   z-index: 1;
   top: 9px;
   left: 0%;
-  margin-left: 9px;
+  margin-left: 8px;
   font-size: .9rem;
 }
 
@@ -232,52 +237,52 @@ a:hover {
 
 /* LANGUAGES - Style the buttons inside the tab */
 button.tablinks {
-    border: 1px solid white;
-    outline: none;
-    width: 112px;
-    margin: 2px 0px;
-    height: 40px;
+  outline: none;
+  width: 95px;
+  margin: 2px 2px;
+  height: 40px;
     border-radius: 50px;
     transition: 0.3s;
-    font-family: 'NeueHaasGroteskDisplay35ExtraLight';
     padding-left: 0px;
     font-size: 11px;
     letter-spacing: 0.5px;
     padding: 0px;
     color: black;
-    background: #E6DADA; 
+    background: white; 
     font-weight: 200;
     transition: transform .2s; 
   opacity: 1;
   }
 
 
-
+.languages {
+  flex-wrap: nowrap;
+}
 
 
 /* Style the tab */
 .tab {
     overflow: hidden;
-   
+   display: flex;
+   flex-wrap: wrap;
+
   }
   
 /* clients - Style the buttons inside the tab */
 .tab button.tablinks {
-    border: 1px solid white;
+    border: 1px solid rgba(255, 255, 255, 0.195);
     outline: none;
-    width: 120px;
-    
-    margin: 2px 0px;
+    width: 102px;
+    margin: 4px 2px;
     height: 40px;
     border-radius: 50px;
     transition: 0.3s;
-    font-family: 'NeueHaasGroteskDisplay35ExtraLight';
     padding-left: 0px;
     font-size: 11px;
     letter-spacing: 0.5px;
     padding: 0px;
-    color: black;
-    background: #E6DADA; 
+    color: white;
+    background: transparent; 
     font-weight: 200;
     transition: transform .2s; 
     opacity: 1;
@@ -303,8 +308,10 @@ button.tablinks {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-    opacity: .3;  
+    /* opacity: .3;   */
     cursor: pointer;
+    color: black;
+    background-color: white;
 }
   
 /* Create an active/current tablink class */
@@ -333,7 +340,11 @@ button.tablinks {
 
 
   @media only screen and (min-width: 400px) and (max-width: 768px) {
-
+    h1 {
+      font-size: 5rem;
+      line-height: 2.5rem;
+      letter-spacing: 4px;
+  }
 
     h2 {
         font-size: 2rem;
@@ -342,21 +353,28 @@ button.tablinks {
 
     /* LANGUAGES - Style the buttons inside the tab */
 .tab button.tablinks {
-    border: 1px solid white;
+  
     outline: none;
     flex-wrap: nowrap;
-
-    margin: 2px 0px 0px 0px;
+    margin: 4px 4px 0px 0px;
     height: 40px;
    
   
   }
 
   button.tablinks {
-    border: 1px solid white;
+    width: 96px;
+
     outline: none;
     flex-wrap: nowrap;
 
   }
+
+  /* clients - Style the buttons inside the tab */
+.tab button.tablinks {
+  outline: none;
+  width: 128px;
+  margin: 3px 2px;
+}
 
 }

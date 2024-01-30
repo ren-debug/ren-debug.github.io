@@ -551,7 +551,10 @@ grid-row: 2;
         box-sizing: border-box;
 
     }
-
+    .vl {
+      display: none;
+    }
+    
     .contact {
       display: none;
     }
