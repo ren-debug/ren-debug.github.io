@@ -38,8 +38,8 @@ h3 {
 }
 
 h4 {
-  font-family: 'NeueHaasGroteskDisplay55Regular';
-
+  font-family: 'neue-haas-grotesk-display'; 
+font-weight: 500;
     font-size: .8rem;
 }
 
@@ -102,15 +102,17 @@ ul {
 
 button {
   font-family: 'NeueHaasGroteskDisplay45Light';
+border: 1px solid rgba(255, 255, 255, 0.332);
+outline: none;
 
     border-radius: 50px;
     width: 120px;
     height: 40px;
-    border: none;
     font-size: 12px;
     letter-spacing: 0.5px;
     padding: 0px;
-    background: #E6DADA; 
+    background-color: transparent;
+    /* background: transparent;  */
     text-align: center;
     /* background: -webkit-linear-gradient(45deg, #274046, #e6dada); 
     background: linear-gradient(-90deg, #2740460d, #e4c5c537);  */

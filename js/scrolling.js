@@ -29,7 +29,7 @@ function showSubTitle() {
     targets: '#sub-title',
     easing: 'easeInQuad',
     opacity: 1,
-    duration: 300,
+    duration: 200,
     delay: 1
   });
 }
