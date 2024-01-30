@@ -234,21 +234,21 @@ a:hover {
 button.tablinks {
     border: 1px solid white;
     outline: none;
-    width: 120px;
-    margin: 2px 2px;
+    width: 112px;
+    margin: 2px 0px;
     height: 40px;
     border-radius: 50px;
     transition: 0.3s;
     font-family: 'NeueHaasGroteskDisplay35ExtraLight';
     padding-left: 0px;
-    font-size: 10px;
+    font-size: 11px;
     letter-spacing: 0.5px;
     padding: 0px;
     color: black;
     background: #E6DADA; 
     font-weight: 200;
     transition: transform .2s; 
-  
+  opacity: 1;
   }
 
 
@@ -266,20 +266,21 @@ button.tablinks {
     border: 1px solid white;
     outline: none;
     width: 120px;
-
-    margin: 2px 2px;
+    
+    margin: 2px 0px;
     height: 40px;
     border-radius: 50px;
     transition: 0.3s;
     font-family: 'NeueHaasGroteskDisplay35ExtraLight';
     padding-left: 0px;
-    font-size: 10px;
+    font-size: 11px;
     letter-spacing: 0.5px;
     padding: 0px;
     color: black;
     background: #E6DADA; 
     font-weight: 200;
     transition: transform .2s; 
+    opacity: 1;
   
   }
 
@@ -343,9 +344,9 @@ button.tablinks {
 .tab button.tablinks {
     border: 1px solid white;
     outline: none;
-    width: 123px;
+    flex-wrap: nowrap;
 
-    /* margin: 2px 2px; */
+    margin: 2px 0px 0px 0px;
     height: 40px;
    
   
@@ -354,7 +355,7 @@ button.tablinks {
   button.tablinks {
     border: 1px solid white;
     outline: none;
-    width: 90px;
+    flex-wrap: nowrap;
 
   }
 

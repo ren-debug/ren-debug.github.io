@@ -152,6 +152,9 @@ h5 {
   float: right;
 }
 
+
+
+
   #about, #cv {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -161,7 +164,7 @@ h5 {
     box-sizing: border-box;
     /* background-color: #8cffa0; */
     min-height: 100vh;
-    padding: 60px 6% 0px;
+    padding: 60px 4% 2% 6%;
   }
   
   /* #about > div {
@@ -172,24 +175,24 @@ background-color: aqua;
   grid-column: 1 / span 6;
   grid-row: 1;
   box-sizing: border-box;
-  padding-top: 16vh;
+  padding-top: 6vh;
 
 }
 
 .info {
   grid-column: 9 / span 4;
-  grid-row: 3;
-  padding-top: 9vh;
-
+  grid-row: 4;
+  align-self: flex-end;
+ 
 }
 
 
 
 .big {
     grid-column: 1 / span 2;
-    grid-row: 3;
-    box-sizing: border-box;
-    padding-top: 22vh; 
+    grid-row: 4;
+  align-self: flex-end;
+
 }
 
 
@@ -242,8 +245,8 @@ margin: 0;
 
 
 #cv p {
-padding-top: 4px;
-padding-bottom: 8px;
+padding-top: 2px;
+padding-bottom: 6px;
 margin: 0;
 }
 
@@ -251,9 +254,67 @@ margin: 0;
 
 .skills {
     grid-column: 9 / span 4;
-    grid-row: 4;
-    padding-bottom: 0vh; 
+    grid-row: 5;
+    padding-top: 8vh; 
+width: 100%;
+flex-wrap: row wrap;
+   
 
+}
+
+
+.languages {
+    grid-column: 1 / span 7;
+    grid-row: 5;
+    padding-top: 8vh; 
+
+
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 600px) and (max-width: 1300px){
+
+  #about, #cv {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    /* grid-template-rows: repeat(4, auto); */
+    row-gap: 60px;
+    column-gap: 0px;
+    box-sizing: border-box;
+    /* background-color: #8cffa0; */
+    min-height: 100vh;
+    padding: 60px 2% 4% 12%;
+  }
+  .info {
+    grid-column: 1 / span 5;
+    grid-row: 3;
+  }
+
+  .copy {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+    padding-top: 0vh;
+    /* width: 80%; */
+
+  
+  }
+
+    .big {
+      display: none;
+    }
+
+  .clients {
+    grid-column: 1 / span 6;
+    grid-row: 1 / span 3;
+    box-sizing: border-box;
+   
+  }
+ 
+  .skills {
+    grid-column: 1 / span 6;
+    grid-row: 4;
    
 
 }
@@ -261,16 +322,16 @@ margin: 0;
 
 .languages {
     grid-column: 1 / span 6;
-    grid-row: 4;
-    padding-bottom: 0vh; 
+    grid-row: 5;
+    align-self: flex-end;
 
 
 }
 
+}
 
 
-
-@media only screen and (min-width: 400px) and (max-width: 768px) {
+@media only screen and (min-width: 400px) and (max-width: 600px) {
     body {
         overflow-x: hidden;
 
@@ -282,6 +343,12 @@ margin: 0;
 
     }
 
+    .clients p {
+      padding-top: 0px;
+      padding-bottom: 2px;
+      margin: 0;
+      }
+      
   
 .websiteFrame {
   position: fixed;
@@ -330,12 +397,12 @@ margin: 0;
       display: grid;
       grid-template-columns: repeat(6, auto);
       /* grid-template-rows: repeat(4, auto); */
-      row-gap: 40px;
+      row-gap: 20px;
       column-gap: 0px;
       box-sizing: border-box;
       /* background-color: #8cffa0; */
       min-height: 100vh;
-      padding: 80px 8% 40px 12%;
+      padding: 80px 6% 60px 12%;
     }
     
     /* #about > div {
@@ -353,7 +420,8 @@ margin: 0;
   .info {
     grid-column: 1 / span 6;
     grid-row: 2;
-    padding-bottom: 2vh;
+    align-self: flex-end;
+    padding-top: 16vh;
 
   }
   
@@ -421,7 +489,7 @@ margin: 0;
   
   .skills {
       grid-column: 1 / span 6;
-      grid-row: 6;
+      grid-row: 4;
   
      
   
@@ -429,9 +497,9 @@ margin: 0;
   
   
   .languages {
-      grid-column: 1 / span 6;
-      grid-row: 7;
-      padding-bottom: 3vh; 
+      grid-column: 1 / span 5;
+      grid-row: 5;
+      padding-bottom: 0vh; 
   
   
   }
