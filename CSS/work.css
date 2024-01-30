@@ -51,13 +51,13 @@ body {
 
     .animates {
       position: fixed;
-      bottom: 8vh;
+      bottom: 7vh;
       right: 0;
       left: 0;
       margin: auto;
     }
 
-    
+
     .mobile_1 {
         display: none;  
           }
@@ -118,7 +118,7 @@ body {
 
     .animates {
       position: fixed;
-      bottom: 8vh;
+      bottom: 7vh;
       right: 0;
       left: 0;
       margin: auto;
