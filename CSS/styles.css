@@ -20,8 +20,7 @@ h1 {
     font-family: 'the_new_eleganceitalic';
     font-size: 7rem;
     letter-spacing: 3px;
-    margin: 0px;
-    padding: 0px;
+   
 }
 
 h2 {
@@ -29,7 +28,6 @@ h2 {
 letter-spacing: 1px;
     font-size: 2rem;
     line-height: 2rem;
-text-transform:uppercase
 }
 
 h3 {
@@ -44,7 +42,7 @@ h4 {
 
 h5 {
     font-family: 'the_new_eleganceCnIt';
-    letter-spacing: 0.3px;
+    letter-spacing: 0.4px;
     font-size: 0.8rem;
     line-height: 1.3rem;
     margin: 0px;
@@ -67,7 +65,7 @@ p {
 body {
     font-family: 'NeueHaasGroteskDisplay45Light';
     font-size: 0.7rem;
-    line-height: 0.85rem;
+    line-height: 0.95rem;
     letter-spacing: 0.5px;
     text-align: justify;
 }
@@ -148,7 +146,7 @@ button.tablink {
 
 hr {
     border: 0.5px solid rgba(255, 255, 255, 0.163);
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     margin-top: 12px;
 }
 
@@ -163,13 +161,14 @@ hr {
 a {
     text-decoration: none;
     color: inherit;
+    opacity: .6;
    
 
 }
 
 a:hover {
     transition: 0.3s;
-    opacity: .6;
+    opacity: 1;
 }
 
 .square {
@@ -211,8 +210,8 @@ a:hover {
     color: #767473;
     text-align: center;
     border-radius: 6px;
-    padding: 5px 0;
-    font-size: .8rem;
+    padding: 0px 0;
+    font-size: .6rem;
   
     /* Position the tooltip */
     position: absolute;
@@ -231,14 +230,14 @@ a:hover {
 button.tablinks {
     border: 1px solid white;
     outline: none;
-    width: 106px;
-    margin: 4px 2px;
+    width: 96px;
+    margin: 2px 2px;
     height: 40px;
     border-radius: 50px;
     transition: 0.3s;
     font-family: 'NeueHaasGroteskDisplay35ExtraLight';
     padding-left: 0px;
-    font-size: 12px;
+    font-size: 10px;
     letter-spacing: 0.5px;
     padding: 0px;
     color: black;
@@ -258,19 +257,39 @@ button.tablinks {
    
   }
   
+/* clients - Style the buttons inside the tab */
+.tab button.tablinks {
+    border: 1px solid white;
+    outline: none;
+    width: 100px;
 
+    margin: 2px 2px;
+    height: 40px;
+    border-radius: 50px;
+    transition: 0.3s;
+    font-family: 'NeueHaasGroteskDisplay35ExtraLight';
+    padding-left: 0px;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    padding: 0px;
+    color: black;
+    background: #E6DADA; 
+    font-weight: 200;
+    transition: transform .2s; 
+  
+  }
 
  /* width */
 ::-webkit-scrollbar {
     width: 6px;
-    
+    color: white;
     /* color: #212121; */
   } 
   
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: rgb(182, 10, 10);
+    background: white;
     border-radius: 50px;
     
   } 
@@ -308,9 +327,7 @@ button.tablinks {
 
 
 
-
-  /* Extra small devices (phones, 600px and down) */
-  @media only screen and (max-width: 600px) {
+  @media only screen and (min-width: 400px) and (max-width: 768px) {
 
 
     h2 {
@@ -318,4 +335,23 @@ button.tablinks {
         line-height: 2.5rem;
     }
 
+    /* LANGUAGES - Style the buttons inside the tab */
+.tab button.tablinks {
+    border: 1px solid white;
+    outline: none;
+    width: 123px;
+
+    /* margin: 2px 2px; */
+    height: 40px;
+   
+  
   }
+
+  button.tablinks {
+    border: 1px solid white;
+    outline: none;
+    width: 90px;
+
+  }
+
+}

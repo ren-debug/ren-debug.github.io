@@ -20,14 +20,13 @@
         rel="stylesheet" />
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-brands/css/uicons-brands.css'>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-thin-rounded/css/uicons-thin-rounded.css'>
-   
-    <style> 
-    body {
-        background-color: white;
 
-     }
-        
-        </style>
+    <style>
+        body {
+            background-color: white;
+
+        }
+    </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <!-- <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script> -->
     <!-- <script src="https://code.jquery.com/jquery-3.7.0.js"></script> -->
@@ -42,59 +41,57 @@
     <div id="websiteFrameLeft" class="websiteFrame"></div>
 
     <navigation>
-            <a href="index.html"><i class="fi fi-sr-house-chimney"></i></a>
-            <a href="work.html" class="nav">work</a>
-            <a href="print.html" class="active nav">print design</a>
-            <a href="digital.html" class="nav">digital design</a>
-            <a href="home.html#about" class="nav">about</a>
-            <a href="home.html#cv" class="nav">cv</a>
+        <a href="index.html"><i class="fi fi-sr-house-chimney"></i></a>
+        <a href="print.html" class="active nav">print design</a>
+        <a href="digital.html" class="nav">digital design</a>
+        <span class="openbtn" onclick="openNav()"><i class="fi fi-br-menu-burger"></i></span>
 
-       <a href="mailto:irene.spalletti@gmail.com"><i class="fi fi-sr-envelope"></i></a>
+
     </navigation>
 
-
     <div id="myNav" class="overlay">
-        <span class="openbtn" onclick="openNav()"><i class="fi fi-br-menu-burger"></i></span>
-    
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fi fi-sr-circle-xmark"></i></a>
-            <div class="overlay-content">
-              <a href="home.html#about">about</a>
-              <a href="home.html#cv">clients</a>
-              <a href="digital.html">digital design</a>
-              <a href="print.html">print design</a>
-            </div>
+
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fi fi-br-cross-small"></i></a>
+        <div class="overlay-content">
+            <a href="home.html#about">about</a>
+            <a href="home.html#cv">clients</a>
+            <a href="work.html">work</a>
+            <a href="digital.html">digital design</a>
+            <a href="print.html">print design</a>
+        </div>
     </div>
-    
-    
-    
+
     <script>
         function openNav() {
-          document.getElementById("myNav").style.height = "100%";
+            document.getElementById("myNav").style.height = "100%";
         }
-        
+
         function closeNav() {
-          document.getElementById("myNav").style.height = "0%";
+            document.getElementById("myNav").style.height = "0%";
         }
     </script>
-  
-  
 
     <div class="content-wrapper">
         <div class="menu-wrapper">
-            <a href="index.html"><i class="fi fi-sr-house-chimney"></i></a>
 
             <ul class="menu">
-                <li><a href="#cg">01. Capital Gardens</a></li>
+                <li style="padding-bottom: 32px;"><a href="#cg">01. Capital Gardens</a></li>
                 <li><a href="#calder">02. Alexander Calder</a></li>
-                <li><a href="#krugier">03. Jan Krugier</a></li>
+                <li style="padding-bottom: 40px;"><a href="#krugier">03. Jan Krugier</a></li>
                 <li><a href="#ks">04. Karolina Spirulina</a></li>
             </ul>
             <ul class="contact">
-                <li class="square"><a href="https://www.linkedin.com/in/irene-s-38613460/"><i class="fi fi-brands-linkedin"></i></a></li>
-                <li  class="square"><a href="https://www.instagram.com/ireneishi/"><i class="fi fi-brands-instagram"></i></a></li>
-                <li  class="square"> <a href="https://github.com/ren-debug"><i class="fi fi-brands-github"></i></a></li>
-                <li  class="square"><a href="mailto:irene.spalletti@gmail.com"><i class="fi fi-sr-envelope"></i></a></li>
-                <li  class="square"><a href="tel:00447412604767"><i class="fi fi-sr-phone-flip"></i></a></li>
+                <li  class="square tooltip"><a href="https://www.linkedin.com/in/irene-s-38613460/"><i class="fi fi-brands-linkedin"></i>                       
+                <span class="tooltiptext">linkedin</span>
+                </a></li>
+                <li class="square tooltip"><a href="https://www.instagram.com/ireneishi/"><i class="fi fi-brands-instagram"></i>
+                <span class="tooltiptext">instagram</span></a></li>
+                <li class="square tooltip"><a href="https://github.com/ren-debug"><i class="fi fi-brands-github"></i>
+                <span class="tooltiptext">github</span></a></li>
+                <li class="square tooltip"><a href="mailto:irene.spalletti@gmail.com"><i class="fi fi-sr-envelope"></i>
+                <span class="tooltiptext">irene.spalletti@gmail.com</span></a></li>
+                <li class="square tooltip"><a href="tel:00447412604767"><i class="fi fi-sr-phone-flip"></i>
+                <span class="tooltiptext">+44 (0) 7412 604 767</span></a></li>
             </ul>
             <div class="vl"></div>
 
@@ -108,33 +105,26 @@
                 <img class="img_5" src="/img/capital_gardens_signage_logo.jpg" alt="ysl_insta" width="100%">
 
                 <div class="copy">
-                    <h2>Capital Gardens</h2>
-                    <h5>Rebranding</h5><br>
+                    <h2>Capital Gardens</h2><br>
                     <div class="col">
 
                         <div>
-                            <li>newsletters</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>newsletters</li>
+                            <li>art direction</li>
+                            <li>branding</li>
+                            <li>print design</li>
+                            <li>digital design</li>
                         </div>
                         <div>
-                            <li>newsletters</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>newsletters</li>
+                            <li>POS design</li>
+                            <li>billboard design</li>
+                            <li>marketing collaterals</li>
+                            <li>advertising campaigns</li>
                         </div>
                         <div>
-                            <li>newsletters</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>newsletters</li>
-                        </div>
-                        <div>
-                            <li>newsletters</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>newsletters</li>
+                            <li>social media campaigns</li>
+                            <li>signage</li>
+                            <li>...</li>
+                            <li>...</li>
                         </div>
 
                         <hr>
@@ -142,26 +132,23 @@
                     </div>
 
                     <div class="brief">
-                        <p>ROLE:<br>
-                            <br>BRIEF:<br><br>During my time working with L’Oréal, I was in charge of designing and
-                            developing
-                            newsletters that showcased Lancôme and Yves Saint Laurents products</p>
+                        <p>ROLE: Art Director & Lead Designer
+                            <br><br>BRIEF: As the appointed Art Director of the rebranding for Capital Gardens, I was
+                            responsible for establishing a consistent and coherent brand identity across all eight
+                            garden centres. </p>
                     </div>
 
                     <div class="CTA">
                         <button id="flip1">read more</button>
 
                         <div id="panel1">
-                            <p>During my time working with L’Oréal, I was in charge of designing and developing
-                                newsletters
-                                that
-                                showcased Lancôme and Yves Saint Laurents products and that would keep subscribers
-                                engaged.
-
-                                Each newsletter was fully responsive and optimized for different mail clients and
-                                devices,
-                                and
-                                tested on Litmus before deployment.</p>
+                            <p>The brand incorporates the materiality of plants and home goods into its visual identity,
+                                with a focus on engaging the customer through the use of tactile materials, and printing
+                                methods such as foiling and embossing.
+                                <br><br>The carved inscriptions not only reduce our carbon footprint, but they also use
+                                less water and CO2 during the manufacturing process, making them an environmentally
+                                conscious choice.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -174,32 +161,20 @@
 
                 <div class="copy">
                     <h2>Alexander Calder</h2>
-                    <h5>Christie's · Lorem</h5><br>
+                    <h5>Christie's · New York</h5><br>
                     <div class="col">
 
                         <div>
-                            <li>newsletters</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>newsletters</li>
+                            <li>visual identity</li>
+                            <li>exhibition design</li>
+                            <li>book design</li>
+                            <li>print design</li>
                         </div>
                         <div>
-                            <li>newsletters</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>newsletters</li>
-                        </div>
-                        <div>
-                            <li>newsletters</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>newsletters</li>
-                        </div>
-                        <div>
-                            <li>newsletters</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>newsletters</li>
+                            <li>lead designer</li>
+                            <li>signage</li>
+                            <li>marketing</li>
+                            <li>...</li>
                         </div>
 
                         <hr>
@@ -207,31 +182,24 @@
                     </div>
 
                     <div class="brief">
-                        <p>ROLE:<br>
-                            <br>BRIEF:<br>During my time working with L’Oréal, I was in charge of designing and
-                            developing
-                            newsletters that showcased Lancôme and Yves Saint Laurents products</p>
+                        <p>ROLE: Print Designer<br>
+                            <br>BRIEF: For the Alexander Calder auction taking place in New York, I was responsible for
+                            designing the visual identity, full book interior and cover, the exhibition signage and
+                            other derived external printed marketing assets.</p>
                     </div>
 
                     <div class="CTA">
                         <button id="flip2">read more</button>
 
                         <div id="panel2">
-                            <p>During my time working with L’Oréal, I was in charge of designing and developing
-                                newsletters
-                                that
-                                showcased Lancôme and Yves Saint Laurents products and that would keep subscribers
-                                engaged.
-
-                                Each newsletter was fully responsive and optimized for different mail clients and
-                                devices,
-                                and
-                                tested on Litmus before deployment.</p>
+                            <p>Drawing inspiration from the industrial materials used by the artist, such as steel,
+                                aluminum, and wire, I incorporated metallic papers and printing methods throughout all
+                                the assets. From letterpress to metallic foiling, each element was thoughtfully crafted
+                                to convey the essence of the artist’s work and style.</p>
                         </div>
                     </div>
                 </div>
             </section>
-
 
             <section id="krugier">
                 <img class="img_1" src="/img/jan_krugier_visual_identity.jpg" alt="ysl_insta" width="100%">
@@ -239,32 +207,20 @@
 
                 <div class="copy">
                     <h2>Jan Krugier</h2>
-                    <h5>Christie's  · Lorem</h5><br>
+                    <h5>Christie's · London</h5><br>
                     <div class="col">
 
                         <div>
-                            <li>newsletters</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>newsletters</li>
+                            <li>visual identity</li>
+                            <li>exhibition design</li>
+                            <li>book design</li>
+                            <li>print design</li>
                         </div>
                         <div>
-                            <li>newsletters</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>newsletters</li>
-                        </div>
-                        <div>
-                            <li>newsletters</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>newsletters</li>
-                        </div>
-                        <div>
-                            <li>newsletters</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>newsletters</li>
+                            <li>lead designer</li>
+                            <li>signage</li>
+                            <li>marketing</li>
+                            <li>...</li>
                         </div>
 
                         <hr>
@@ -272,32 +228,24 @@
                     </div>
 
                     <div class="brief">
-                        <p>ROLE:<br>
-                            <br>BRIEF:<br>During my time working with L’Oréal, I was in charge of designing and
-                            developing
-                            newsletters that showcased Lancôme and Yves Saint Laurents products</p>
+                        <p>ROLE: Print Designer<br>
+                            <br>BRIEF: For the Jan Krugier Collection’s auction, Christie’s required a branding that
+                            would evoke a sense of trust and tradition. Working alongside the Creative Director, we
+                            developed a comprehensive and visually impactful sale identity that effectively communicated
+                            the Collectionist’s commitment to excellence in the art world. </p>
                     </div>
 
                     <div class="CTA">
                         <button id="flip3">read more</button>
 
                         <div id="panel3">
-                            <p>During my time working with L’Oréal, I was in charge of designing and developing
-                                newsletters
-                                that
-                                showcased Lancôme and Yves Saint Laurents products and that would keep subscribers
-                                engaged.
-
-                                Each newsletter was fully responsive and optimized for different mail clients and
-                                devices,
-                                and
-                                tested on Litmus before deployment.</p>
+                            <p>Our design choices, including elegant typography, carefully curated printing methods as
+                                well as high-quality and refined paper stocks, served to reinforce Christie’s
+                                unparalleled level of service and expertise.</p>
                         </div>
                     </div>
                 </div>
             </section>
-
-        
 
             <section id="ks">
                 <img class="img_1" src="/img/karolina_spirulina_labels.png" alt="ysl_insta" width="100%">
@@ -305,33 +253,20 @@
                 <img class="img_3" src="/img/karolina_spirulina_business_card.jpg" alt="ysl_insta" width="100%">
 
                 <div class="copy">
-                    <h2>Karolina Spirulina</h2>
-                    <h5>Lorem · Lorem</h5><br>
+                    <h2>Karolina Spirulina</h2><br>
                     <div class="col">
 
                         <div>
-                            <li>newsletters</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>newsletters</li>
+                            <li>art direction</li>
+                            <li>lead designer</li>
+                            <li>branding</li>
+                            <li>packaging</li>
                         </div>
                         <div>
-                            <li>newsletters</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>newsletters</li>
-                        </div>
-                        <div>
-                            <li>newsletters</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>newsletters</li>
-                        </div>
-                        <div>
-                            <li>newsletters</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>newsletters</li>
+                            <li>print design</li>
+                            <li>...</li>
+                            <li>...</li>
+                            <li>...</li>
                         </div>
 
                         <hr>
@@ -339,26 +274,19 @@
                     </div>
 
                     <div class="brief">
-                        <p>ROLE:<br>
-                            <br>BRIEF:<br>During my time working with L’Oréal, I was in charge of designing and
-                            developing
-                            newsletters that showcased Lancôme and Yves Saint Laurents products</p>
+                        <p>ROLE: Art Director<br>
+                            <br>BRIEF: Karolina Manns was committed to inspire others to join her movement towards
+                            sustainability and healthy living through her ethos and her food.</p>
                     </div>
 
                     <div class="CTA">
                         <button id="flip4">read more</button>
 
                         <div id="panel4">
-                            <p>During my time working with L’Oréal, I was in charge of designing and developing
-                                newsletters
-                                that
-                                showcased Lancôme and Yves Saint Laurents products and that would keep subscribers
-                                engaged.
-
-                                Each newsletter was fully responsive and optimized for different mail clients and
-                                devices,
-                                and
-                                tested on Litmus before deployment.</p>
+                            <p>She envisioned an identity that captured the essence of the vegan-sustainability movement
+                                while embodying the ethical values that she holds. With a focus on promoting
+                                sustainability and healthy living, Karolina Spirulina inspires its customers to lead a
+                                conscious and meaningful lifestyle.</p>
                         </div>
                     </div>
                 </div>
@@ -429,7 +357,6 @@
         $prev.scrollTo(400, 'linear');
     });
 </script>
-
 
 <script>
     $('.content-wrapper').scrollSpy({

@@ -2,25 +2,24 @@
 
 navigation {
   position: fixed;
-  
-  display: flex;
-  width: calc(100% - 92px);
-  left: 46px;
-  justify-content: center;
-  margin: 0px;
-  top: 1vh;
-  font-size: 20px;
-  height: 40px;
-  /* left: 8%;  */
-  /* background-color: rgba(255, 255, 255, 0.384);
-  backdrop-filter: blur(10px); */
-  z-index: 122;
+    font-family: 'the_new_eleganceregular';
+    display: flex;
+    width: 100%;
+    left: 0%;
+    margin-top: 16px;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    justify-content: space-between;
+    /* left: 8%;  */
+    /* background-color: rgba(255, 255, 255, 0.384);
+    backdrop-filter: blur(10px); */
+    z-index: 1;
   }
   
   navigation a {
       /* float: left; */
       text-decoration: none;
-      text-align: center;
+      text-align: left;
 
 
   }
@@ -42,9 +41,35 @@ navigation {
 
 
 
+.fi-br-menu-burger {
+  position: fixed;
+  top: 1.6%;
+  right: 2%;
+  font-size: 20px;
+  opacity: 0.6;
+  
+}
+
+
+.fi-sr-house-chimney {
+  font-size: 1.1rem;
+  position: fixed;
+  left: 1.5%;
+  top: 1.7%;
+  
+}
+
+
+.contact .tooltiptext {
+  text-align: right;
+  bottom: 27%;
+  left: 50%;
+  margin-left: -148px;
+}
+
 .content-wrapper {
     height: 100vh;
-    width: 99%;
+    width: 102%;
     overflow-y: scroll;
     scroll-behavior: smooth;
     box-sizing: border-box;
@@ -53,14 +78,14 @@ navigation {
 }
 
 /* width */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     width: 2px;
     border-radius: 100px;
    
-  }
+  } */
   
   /* Track */
-  ::-webkit-scrollbar-track {
+  /* ::-webkit-scrollbar-track {
     box-sizing: border-box;
     margin-top: 200px;
     margin-bottom: 320px;
@@ -68,7 +93,7 @@ navigation {
     border-radius: 100px;
    
 
-  }
+  } */
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
@@ -78,9 +103,9 @@ navigation {
   }
   
   /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
+  /* ::-webkit-scrollbar-thumb:hover {
     background: transparent;
-  }
+  } */
 
 
 /* .menu-wrapper {
@@ -108,8 +133,9 @@ navigation {
 }
 
 .active {
-    color: rgba(255, 255, 255, 0.466);
+    color: white;
     transition: .5s ease-out;
+    opacity: 1;
     font-weight: 800;
 }
 
@@ -117,55 +143,45 @@ navigation {
     position: fixed;
     display: flex;
     flex-direction: column;
-    top: 6%;
+    top: 0%;
     left: 0;
-    bottom: 0;
-    width: 0px;
-    padding-right: 0px;
+    bottom: 0%;
     font-size: .8rem;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
 
 }
 
 
-
-.menu li { 
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: space-between;
-
-}
 .menu li a { 
-    vertical-align: top;
+  font-family: 'NeueHaasGroteskDisplay35ExtraLight';
+  font-size: .7rem;
+  letter-spacing: 1px;
+  color: rgb(228, 228, 228);
+    /* vertical-align: top; */
     transform: translate(0,100%) rotate(-90deg);
-    transform-origin: 0px 0px;
-    white-space: nowrap;
+    transform-origin: 24px 0px;
     text-decoration: none;
     position: fixed;
-    position: fixed;
-  left: 25px;
+  /* left: 25px; */
 }
 
 
 
 .contact {
-    /* vertical-align: top; */
     transform: translate(0,100%) rotate(0deg);
-    /* white-space: nowrap; */
-    right: 2%;
+    right: 1%;
     text-decoration: none;
     position: fixed;
     display: flex;
     flex-direction: column-reverse;
-    bottom: 24%;
+    bottom: 28%;
     justify-content: space-evenly;
-    height: 24vh;
 }
 
 
 .contact i {
-    font-size: .95rem;
+    font-size: .85rem;
 
 }
 
@@ -178,45 +194,29 @@ navigation {
   top: 0;
   left: 0;
   background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.9);
   overflow-y: hidden;
   transition: 0.5s;
 }
 
-.fi-br-menu-burger {
-  position: fixed;
-  top: 2%;
-  left: 6.2%;
-  font-size: 20px;
-  
-}
-
-
-.fi-sr-house-chimney {
-  font-size: 1.1rem;
-  position: fixed;
-  left: 1.5%;
-  top: 2%;
-  
-}
 
 .overlay-content {
   position: relative;
-  top: 25%;
+  top: 29%;
   width: 100%;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .overlay a {
   padding: 8px;
   text-decoration: none;
   font-family: 'the_new_eleganceregular';
-  font-size: 3rem;
-  line-height: 3.5rem;
-  letter-spacing: 1px;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 1.5px;
   display: block;
   transition: 0.3s;
+  color: white;
 }
 
 .overlay a:hover, .overlay a:focus {
@@ -225,49 +225,59 @@ navigation {
 
 .overlay .closebtn {
   position: absolute;
-  top: 2%;
-  left: 6%;
-  opacity: 0;
+  top: 0%;
+  right: 1%;
+  font-size: 30px;
 }
 
 
 
-  /* Extra small devices (phones, 600px and down) */
-  @media only screen and (max-width: 600px) {
+@media only screen and (min-width: 400px) and (max-width: 768px) {
 
-.menu {
-  display: none;
+
+
+  .overlay .closebtn {
+    position: absolute;
+    top: 0%;
+    right: 2%;
+    font-size: 30px;
+  }
+
+  .fi-br-menu-burger {
+    position: fixed;
+    top: 1.7%;
+    right: 4%;
+    font-size: 20px;
+    opacity: 0.6;
+    
+  }
+  
+  
+  .fi-sr-house-chimney {
+    font-size: 1.1rem;
+    position: fixed;
+    left: 4%;
+    top: 1.6%;
+    
+  }
+
+
+.nav {
+  padding: 0px 0px 0px 0px;
 }
+
 
   .vl {
     display: none;
   }
 
-  .fi-br-menu-burger {
-    position: fixed;
-    top: 4%;
-    right: 6%;
-    font-size: 20px;
-    
-  }
 
 
-  .fi-sr-house-chimney {
-    font-size: 1.1rem;
-    position: fixed;
-    left: 6%;
-    top: 4%;
-    
-}
 
 
-  navigation a {
-      float: none;
-      text-decoration: none;
-      text-align: center;
-      margin: 0px 50px;
 
-  }
+
+
 
 
 
