@@ -80,11 +80,19 @@ color: white;
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  bottom: 140%;
+  top: 140%;
   left: 50%;
   margin-left: -60px;
 }
 
+.square a {
+  color: white;
+  opacity: 1;
+}
+
+.square a:hover {
+  opacity: .3;
+}
 
 .square i {
   position: absolute;
@@ -93,6 +101,7 @@ color: white;
   left: 0%;
   margin-left: 8.2px;
   font-size: .9rem;
+  
 }
 
 
@@ -294,9 +303,18 @@ display: none;
     width: 24%;
     margin: auto;
     padding-top: 24px;
-
+   
   }
 
+  .cta a {
+    color: black;
+    opacity: 1;
+    padding: 6px;
+  }
+
+  .cta a:hover {
+    font-weight: 800;
+  }
   .animates {
     animation-duration: 2s;
     animation-delay: 4.2s;
@@ -327,6 +345,11 @@ display: none;
         }
     }
 
+    navigation button a {
+      color: black;
+      opacity: 1;
+      padding: 6px;
+    }
 
 
     @media only screen and (min-width: 400px) and (max-width: 768px) {

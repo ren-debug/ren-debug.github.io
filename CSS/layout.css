@@ -88,6 +88,63 @@ h5 {
 }
 
 
+.skills_1 .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  color: #767473;
+  text-align: center;
+  border-radius: 6px;
+  padding: 0px 0;
+  font-size: .6rem;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 110%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+
+.skills_2 .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  color: #767473;
+  text-align: center;
+  border-radius: 6px;
+  padding: 0px 0;
+  font-size: .6rem;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 110%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+
+.info .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  color: #767473;
+  text-align: center;
+  border-radius: 6px;
+  padding: 0px 0;
+  font-size: .6rem;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 110%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.info .square a{
+  color: white;
+  opacity: 1;
+}
 
 
 
@@ -104,7 +161,7 @@ h5 {
     box-sizing: border-box;
     /* background-color: #8cffa0; */
     min-height: 100vh;
-    padding: 60px 6% 40px;
+    padding: 60px 6% 0px;
   }
   
   /* #about > div {
@@ -195,7 +252,7 @@ margin: 0;
 .skills {
     grid-column: 9 / span 4;
     grid-row: 4;
-    padding-top:10vh; 
+    padding-bottom: 0vh; 
 
    
 
@@ -203,9 +260,9 @@ margin: 0;
 
 
 .languages {
-    grid-column: 1 / span 5;
+    grid-column: 1 / span 6;
     grid-row: 4;
-    padding-top: 10vh; 
+    padding-bottom: 0vh; 
 
 
 }
@@ -273,12 +330,12 @@ margin: 0;
       display: grid;
       grid-template-columns: repeat(6, auto);
       /* grid-template-rows: repeat(4, auto); */
-      row-gap: 0px;
+      row-gap: 40px;
       column-gap: 0px;
       box-sizing: border-box;
       /* background-color: #8cffa0; */
       min-height: 100vh;
-      padding: 0px 8% 20px 12%;
+      padding: 80px 8% 40px 12%;
     }
     
     /* #about > div {
@@ -288,14 +345,16 @@ margin: 0;
   .copy {
     grid-column: 1 / span 6;
     grid-row: 1;
-   
+    padding-top: 0vh;
+
   
   }
   
   .info {
     grid-column: 1 / span 6;
     grid-row: 2;
-  
+    padding-bottom: 2vh;
+
   }
   
   
@@ -320,7 +379,7 @@ margin: 0;
     margin-top: 32px;
     height: 30vh;
     overflow-y: scroll;
-    padding-right: 24px;
+    padding-right: 12px;
     overflow-x: hidden;
   
     }
@@ -362,8 +421,7 @@ margin: 0;
   
   .skills {
       grid-column: 1 / span 6;
-      grid-row: 4;
-      padding-top: 9vh; 
+      grid-row: 6;
   
      
   
@@ -372,7 +430,7 @@ margin: 0;
   
   .languages {
       grid-column: 1 / span 6;
-      grid-row: 5;
+      grid-row: 7;
       padding-bottom: 3vh; 
   
   
