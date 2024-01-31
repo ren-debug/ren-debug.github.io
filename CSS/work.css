@@ -3,7 +3,10 @@ body {
 
 }
 
-
+navigation {
+  color: white;
+  opacity: 1;
+}
 
 #title {
     text-align: center;
@@ -27,7 +30,9 @@ body {
        margin-bottom: 0px;
       }
 
-
+h1 {
+  font-size: 7rem;
+}
 
 .title-letter {
     font-family: 'Playfair Display';
@@ -161,7 +166,7 @@ body {
     text-align: center;
     display: block;
     position: relative;
-    top: 28vh;
+    top: 26vh;
     padding: 0px;
     margin: 0px;
 

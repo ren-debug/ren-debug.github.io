@@ -5,20 +5,19 @@
 
   body {
     /* color: rgb(87, 100, 103); */
-    color: rgb(82, 82, 82);
+    color: rgb(120, 120, 120);
 
 
   }
 
 
 h2 {
-  margin-bottom: 12px;
+  margin-bottom: 24px;
 }
-
 
   .content-wrapper {
     height: 100vh;
-    width: 100%;
+    width: 98%;
 
     overflow-y: scroll;
     scroll-behavior: smooth;
@@ -47,12 +46,20 @@ h2 {
   color: rgb(64, 64, 64);
     /* vertical-align: top; */
     transform: translate(0,100%) rotate(-90deg);
-    transform-origin: 24px 0px;
+    transform-origin: 20px 0px;
     text-decoration: none;
     position: fixed;
   /* left: 25px; */
 }
 
+
+
+.menu-wrapper .active {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+ 
+    
+}
 
    /* width */
 ::-webkit-scrollbar {
@@ -129,7 +136,13 @@ font-weight: 800;
 
 button {
   background-color: transparent;
-  border: 0.5px solid #274046;
+  border: 0.5px solid rgb(120, 120, 120);
+  ;
+}
+
+.copy {
+  width: 90%;
+
 }
 
 .contact a {
@@ -139,8 +152,8 @@ button {
   
 .menu-wrapper .contact {
   position: absolute;
-  bottom: 24%;
-  right: 1.5%;
+  bottom: 22%;
+  right: 1.25%;
 }
 
 .menu-wrapper .square {
@@ -148,9 +161,9 @@ button {
   border: 0.5px solid #e6dada3f;
   /* filter: drop-shadow(0 0 0.25rem rgb(129, 129, 129)); */
   outline: none;
-  margin: 6px;
-  width: 24px;
-  height: 24px;
+  margin: 4px;
+  width: 28px;
+  height: 28px;
   border-radius: 5px;
   background-color: #2929297b;
   font-weight: 200;
@@ -163,10 +176,10 @@ button {
 .square i {
   position: absolute;
   z-index: 1;
-  top: 5px;
+  top: 6px;
   left: 1%;
-  margin-left: 5px;
-  font-size: .8rem;
+  margin-left: 6px;
+  font-size: .9rem;
 }
 
 .fi-brands-linkedin {
@@ -177,7 +190,7 @@ button {
 #flip1, #flip2, #flip3, #flip4 {
     margin-top: 20px;
     margin-bottom: 0px;
-
+cursor: pointer;
   }
   
   #panel1, #panel2, #panel3, #panel4 {
@@ -185,13 +198,7 @@ button {
     margin-top: 0px;
     text-align: justify;
     margin-top: 40px;
-    width: 100%;
-    background: #E6DADA;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(45deg, #274046, #e6dada);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(45deg, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  
 
   }
 
@@ -214,10 +221,7 @@ button {
     /* border: 2px solid #434343; */
   /* border-top: 1px solid #434343; */
   box-sizing: border-box;
-  background: #E6DADA;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(45deg, #274046, #e6dada);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(-90deg, #2740460d, #e4c5c537); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-size: 150%;
+
   font-size: 0.7rem;
   line-height: 0.8rem;
   letter-spacing: 0.3px;
@@ -233,18 +237,12 @@ button {
   
   .col {
     /* background-color: blue; */
-    padding-top: 8px;
-    background-color: #e6dada13;
+    padding-top: 20px;
   
     display: flex;
     width: 100%;
     height: 80px;
-    background: #E6DADA;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(45deg, #274046, #e6dada);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(45deg, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+   
   }
   
   .col > div {
@@ -256,12 +254,7 @@ button {
 
 .brief p {
     box-sizing: border-box;
-    background: #E6DADA;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(45deg, #274046, #e6dada);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(45deg, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+ 
     margin-top: 40px;
     width: 100%;
 

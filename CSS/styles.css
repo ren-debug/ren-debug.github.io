@@ -5,7 +5,6 @@
 body {
 margin: 0px 0%;
 scroll-behavior: smooth;
-
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 
@@ -60,16 +59,16 @@ h6 {
 
 p {
   font-family: 'neue-haas-grotesk-display'; 
-  font-size: 0.7rem;
-    line-height: 1.2rem;
-    letter-spacing: 0.5px;
+  font-size: 0.75rem;
+    line-height: 1.1rem;
+    letter-spacing: 0.75px;
     text-align: justify;
 }
 
 body {
     font-family: 'NeueHaasGroteskDisplay45Light';
-    font-size: 0.7rem;
-    line-height: 0.95rem;
+    font-size: 0.65rem;
+    line-height: 1.1rem;
     letter-spacing: 0.5px;
     text-align: justify;
 }
@@ -172,14 +171,14 @@ hr {
 a {
     text-decoration: none;
     color: inherit;
-    opacity: .6;
+    opacity: 1;
    
 
 }
 
 a:hover {
     transition: 0.3s;
-    opacity: 1;
+    opacity: .6;
 }
 
 .square {

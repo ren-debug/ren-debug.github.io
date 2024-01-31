@@ -30,7 +30,8 @@ body::-webkit-scrollbar {
 
 
 navigation {
-color: #868381;
+color:#666666;
+opacity: 1;
 }
 
 
@@ -57,7 +58,7 @@ h5 {
   width: 100%;
   height: 44px;
   /* border-bottom: 0.5px solid #afa5a58b; */
-  background-color: #1d1d1d0a;
+  background-color: #0000000a;
   backdrop-filter: blur(10px);
   z-index: 1;
 }
@@ -118,7 +119,10 @@ h5 {
 .info .square a{
   color: white;
   opacity: 1;
+ 
 }
+
+
 
 
 
@@ -139,6 +143,7 @@ h5 {
   right: 40px;
   /* margin: auto; */
   font-size: 1rem;
+  color: black;
   
 }
 
@@ -164,7 +169,7 @@ column-gap: 20px;
 box-sizing: border-box;
 /* background-color: #8cffa0; */
 height: 100vh;
-padding: 10% 4% 2% 12%;
+padding: 8% 4% 1% 12%;
 }
 
 
@@ -193,41 +198,41 @@ margin-bottom: 16px;
 display: grid;
 grid-template-columns: repeat(12, auto);
 /* grid-template-rows: repeat(4, auto); */
-row-gap: 20px;
+row-gap: 0px;
 column-gap: 40px;
 box-sizing: border-box;
 /* background-color: #8cffa0; */
 height: 100vh;
-padding: 12% 4% 6% 12%;
+padding: 10% 4% 1% 12%;
 }
 
 .skills_h {
 grid-column: 1 / span 4;
-grid-row: 5;
+grid-row: 2;
 
-margin-bottom: 0px;
 }
 
 
 
 .skills_design {
-grid-column: 7 / span 5;
-grid-row: 2;
+grid-column: 4 / span 6;
+grid-row: 7;
 
 
 }
 
 
 .skills_dev {
-grid-column: 7 / span 5;
-grid-row: 4;
-
+grid-column: 10 / span 5;
+grid-row: 6;
+padding-top: 20px;
+width: 100%;
 
 }
 
 .skills_wire {
-grid-column: 7 / span 5;
-grid-row: 3;
+grid-column: 10 / span 5;
+grid-row: 7;
 
 
 }
@@ -239,8 +244,8 @@ padding-top: 6px;
 
 
 .languages {
-grid-column: 7 / span 5;
-grid-row: 5;
+grid-column: 1 / span 3;
+grid-row: 7;
 padding-top: 0vh; 
 
 
@@ -355,7 +360,7 @@ margin: 0;
   grid-row: 2;
   padding-bottom: 12px;
   align-self: flex-end;
-
+  z-index: 0;
 
 }
 
