@@ -898,6 +898,8 @@ width: auto;
 
 @media only screen and (min-width: 400px) and (max-width: 600px) {
 
+
+
   #about {
     display: grid;
     grid-template-columns: repeat(4, auto);
@@ -1107,16 +1109,15 @@ width: auto;
   background-color: white;
 }
 
-#websiteFrameTop {
+/* #websiteFrameTop {
   top: 0;
   left: 0;
   width: 100%;
   height: 44px;
-  /* border-bottom: 0.5px solid #afa5a58b; */
   background-color: #cdcdcd83;
   backdrop-filter: blur(4px);
   z-index: 1;
-}
+} */
 
 #websiteFrameRight {
   top: 0;
