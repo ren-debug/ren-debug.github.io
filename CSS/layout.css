@@ -61,6 +61,7 @@ h5 {
   background-color: #0000000a;
   backdrop-filter: blur(10px);
   z-index: 1;
+  border-top: 4px solid white ;
 }
 
 #websiteFrameRight {
@@ -169,7 +170,7 @@ column-gap: 20px;
 box-sizing: border-box;
 /* background-color: #8cffa0; */
 height: 100vh;
-padding: 8% 4% 1% 12%;
+padding: 8% 4% 2% 12%;
 }
 
 
@@ -185,8 +186,9 @@ box-sizing: border-box;
 
 .clients_h {
 grid-column: 1 / span 4;
-grid-row: 4;
-padding-top: 8px;
+grid-row: 3;
+align-self: flex-end;
+padding-top: 0px;
 }
 
 .clients h5 hr {
@@ -1103,6 +1105,13 @@ width: auto;
 width: auto;
 }
 
+section .bg {
+  background-image: url("/img/background.jpg");
+  background-size: cover;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  -webkit-font-smoothing: antialiased;
+}
 .websiteFrame {
   position: fixed;
   z-index: 990;

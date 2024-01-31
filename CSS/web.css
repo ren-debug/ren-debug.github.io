@@ -1,0 +1,85 @@
+ul  li{
+    list-style: circle;
+}
+
+h6 {
+    margin-bottom: 0px;
+    padding-bottom: 8px;
+}
+
+
+p {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#media {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 80px;
+    box-sizing: border-box;
+    /* background-color: #8cffa0; */
+    padding: 100px 8% 40px 12%;
+    
+  }
+  
+
+#media .img_1 {
+    grid-column: 1 / span 7;
+    grid-row: 2;
+
+}
+
+
+#media .copy {
+    grid-column: 1 / span 7;
+    grid-row: 1;
+    
+}
+
+
+#media .video_1 {
+    grid-column: 6 / span 7;
+    grid-row: 3;
+
+}
+
+#media .video_2 {
+    grid-column: 3 / span 4;
+    grid-row: 3;
+
+}
+
+
+#media .img_2 {
+    grid-column: 1 / span 3;
+    grid-row: 4;
+
+}
+
+#media .img_3 {
+    grid-column: 4 / span 3;
+    grid-row: 4;
+
+}
+
+html:not(.mobile) img:hover {
+    cursor: zoom-in;
+    transition: .5s;
+    transition-delay: 90s; /* how long before the img automatically returns to original size */
+    transition-property: -webkit-transform;
+    -webkit-transform: scale(1); 
+    z-index: 999; 
+    position: sticky; /* this and z-index should ensure that the zoomed img is always displayed on top of any other element */
+  }
+  
+  html:not(.mobile) img:active { 
+   cursor: zoom-out;
+   -overflow: auto; /* Enable scroll if needed */
+   transition: 0s;
+   transition-delay: 0.05s;
+   transition-property: -webkit-transform;
+   -webkit-transform: scale(1.5); /* set zoom level */
+   -webkit-transform-origin: 0% 0%; /* set img position */
+   z-index: 1000; 
+  }
