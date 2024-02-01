@@ -9,12 +9,10 @@ navigation {
 }
 
 #title {
-    text-align: center;
-    display: block;
-    position: relative;
-    top: 28vh;
-    padding: 0px;
-    margin: 0px;
+  text-align: center;
+  display: block;
+  position: relative;
+  top: 48vh;
 
 
 
@@ -23,15 +21,15 @@ navigation {
 .work {
     position: relative; 
     margin: auto;
-    top: 16vh;
+    top: 34vh;
     height: fit-content;
     width: 100%;
-       padding-right: 0px;
-       margin-bottom: 0px;
+   
+       
       }
 
 h1 {
-  font-size: 7rem;
+  font-size: 8rem;
 }
 
 .title-letter {
@@ -166,7 +164,7 @@ h1 {
     text-align: center;
     display: block;
     position: relative;
-    top: 26vh;
+    top: 45vh;
     padding: 0px;
     margin: 0px;
 
@@ -175,11 +173,11 @@ h1 {
 } 
 
 .work {
-    position: relative; 
+    /* position: relative; 
     margin: auto;
     top: 16vh;
     height: fit-content;
-    width: 100%;
+    width: 100%; */
        padding-right: 28px;
        margin-bottom: 0px;
       }

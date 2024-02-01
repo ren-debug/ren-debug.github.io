@@ -46,7 +46,7 @@ h2 {
   color: rgb(64, 64, 64);
     /* vertical-align: top; */
     transform: translate(0,100%) rotate(-90deg);
-    transform-origin: 20px 0px;
+    transform-origin: 12px 0px;
     text-decoration: none;
     position: fixed;
   /* left: 25px; */

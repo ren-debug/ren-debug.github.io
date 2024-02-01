@@ -1,6 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700);
 @import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-bold-rounded/css/uicons-bold-rounded.css');
 
+* {
+  box-sizing: border-box;
+}
 
 
 body {
@@ -9,7 +12,7 @@ body {
     background-position: right bottom;
     background-repeat: no-repeat;
     -webkit-font-smoothing: antialiased;
-
+    max-height: 100vh;
     /* for Internet Explorer, Edge */
     scrollbar-width: none;
     /* for Firefox */
@@ -43,7 +46,7 @@ color: white;
   top: 0;
   left: 0;
   width: 4px;
-  border-top: 4px solid white ;
+    border-top: 4px solid white ;
 
   /* height: 4px; */
   /* color: white; */
@@ -189,11 +192,6 @@ color: white;
 
 
 
-#wrapper {
-    padding-top: 20vh;
-   
-}
-
 
 
 
@@ -201,7 +199,7 @@ color: white;
     text-align: center;
     display: block;
     position: relative;
-    top: 28vh;
+    top: 45.5vh;
 
 
 
@@ -234,7 +232,8 @@ font-family: 'Playfair Display';
      position: relative;
      display: block;
      line-height: 10.5rem; /* Center text vertically */
-
+     box-sizing: border-box;
+     margin-top: 17vh;
 
      
  }
@@ -243,11 +242,13 @@ font-family: 'Playfair Display';
  #word-list {
      text-align: center;
      list-style-type: none;
-    
+     box-sizing: border-box;
+     padding-top: 0vh;
+
      padding-right: 0%;
      margin: 0;
      position: relative;
-     top: 0;
+     top: 0vh;
      transition: top 0.5s ease-in-out;
   
  }
@@ -258,11 +259,11 @@ font-family: 'Playfair Display';
      text-align: center;
      font-family: 'the_new_eleganceCnRg';
      font-weight: 100;
-    font-size: 7rem;
+    font-size: 8rem;
      letter-spacing: 0.2px;
      position: relative;
      width: 100%;
-
+   
  
  }
  
@@ -310,8 +311,10 @@ display: none;
     display: flex;
     width: 26%;
     margin: auto;
+    box-sizing: border-box;
     margin-top: 0;
-    padding-top: 0;
+    margin-top: 3vh;
+
   }
 
   .cta a {
@@ -365,6 +368,34 @@ display: none;
 
     }
 
+    .square {
+      padding: 0px 0px 0px 0px;
+      border: 0.5px solid #e6dada3f;
+      /* filter: drop-shadow(0 0 0.25rem rgb(129, 129, 129)); */
+      outline: none;
+      margin: 0px 8px 0px 8px;
+      width: 36px;
+      height: 36px;
+      border-radius: 5px;
+      background-color: #2929297b;
+      font-weight: 200;
+      transition: transform .2s;
+    
+    
+    }
+    
+    
+    .square i {
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 0%;
+    margin-left: 10px;
+    font-size: 1rem;
+    opacity: .8;
+    }
+    
+    
 
     @media only screen and (min-width: 768px) and (max-width: 992px) {
 
@@ -396,7 +427,7 @@ display: none;
         text-align: center;
         display: block;
         position: relative;
-        top: 27vh;
+        top: 45.5vh;
     
     
     
@@ -431,7 +462,7 @@ display: block;
       font-size: calc(0.4vw + .9rem);
       letter-spacing: calc(0.3vw + 0.5rem);
       text-transform: uppercase;
-      top: 20vh;
+      top: 30vh;
     
     
         
@@ -452,6 +483,7 @@ display: block;
     box-sizing: border-box;
     padding-top: 0vh;
 }
+
 
 
 }
