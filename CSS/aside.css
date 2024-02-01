@@ -6,7 +6,7 @@ navigation {
     display: flex;
     width: 100%;
     left: 0%;
-    margin-top: 16px;
+    margin-top: 28px;
     font-size: 12px;
     letter-spacing: 0.5px;
     justify-content: space-between;
@@ -36,7 +36,7 @@ navigation {
   }
 
 .nav {
-  padding: 0px 80px;
+  padding: 0px 0px;
 }
 
 
@@ -44,7 +44,7 @@ navigation {
 
 .fi-br-menu-burger {
   position: fixed;
-  top: 1.6%;
+  top: 23px;
   right: 1.25%;
   font-size: 20px;
   opacity: 1;
@@ -57,7 +57,7 @@ navigation {
   font-size: 1.1rem;
   position: fixed;
   left: 1.25%;
-  top: 1.7%;
+  top: 23px;
   
 }
 
