@@ -23,6 +23,56 @@ img {
  width: 100%;
 }
 
+
+.card, .card_1 {
+    /* width: 130px;
+    height: 195px; */
+    position: relative;
+    display: inline-block;
+    margin: 0px;
+}
+.card .img-top, .card_1 .img-top-1 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.card:hover .img-top {
+    display: inline;
+}
+
+
+.card_1:hover .img-top-1 {
+    display: inline;
+}
+
+
+html:not(.mobile) .zoom:hover {
+    cursor: zoom-in;
+    transition: .5s;
+    transition-delay: 90s; /* how long before the img automatically returns to original size */
+    transition-property: -webkit-transform;
+    -webkit-transform: scale(1); 
+    z-index: 999; 
+    position: sticky; /* this and z-index should ensure that the zoomed img is always displayed on top of any other element */
+  }
+  
+  html:not(.mobile) .zoom:active { 
+   cursor: zoom-out;
+   -overflow: auto; /* Enable scroll if needed */
+   transition: 0s;
+   transition-delay: 0.05s;
+   transition-property: -webkit-transform;
+   -webkit-transform: scale(1.5); /* set zoom level */
+ 
+
+   -webkit-transform-origin: center; /* set img position */
+   z-index: 1000; 
+  }
+  
+
+  
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
 
@@ -96,23 +146,21 @@ img {
 /**************************/
 #media .title {
     background: white;
-
-    padding: 160px;
+    padding: 120px;
     padding-bottom: 40px;
     margin: 0 auto;
     text-align: center;
 }
 #media .title h1 {
     font-family: 'the_new_eleganceCnRg';
-
     font-size: 2rem;
-      letter-spacing: 1px;
+    letter-spacing: 1px;
 }
 
 /* Section - Block */
 /**************************/
 #media .block {
-    background: white;
+background: white;
   padding: 160px;
   width: 820px;
   margin: 0 auto;
@@ -120,10 +168,6 @@ img {
   padding-right: 80px;
 }
 
-#media .media {
-
-  padding-bottom: 120px;
-}
 
 #media .block-gray {
   background: #f2f2f2;
@@ -151,13 +195,14 @@ img {
   width: 94%;
   margin-left: 3%;
 
-  background-image: url("/img/parallax_1.png");
-  background-attachment: fixed;
-  background-size: 90% 100%;
-  -moz-background-size: 90% 100%;
-  -webkit-background-size: 90% 100%;
+  height: 100vh;
+  background-image: url("/img/parallax_1_full.jpg");
+  background-position: 60% 90%;
   background-repeat: no-repeat;
-  background-position: 80% 90%;
+  background-attachment: fixed;
+  background-size: 70%;
+ 
+
   
 }
 #media .parallax-two {
@@ -168,14 +213,16 @@ img {
     width: 94%;
     margin-left: 3%;
   
-    background-image: url("/img/parallax_1.png");
-    background-attachment: fixed;
-    background-size: 90% 100%;
-    -moz-background-size: 90% 100%;
-    -webkit-background-size: 90% 100%;
+    height: 100vh;
+    background-image: url("/img/parallax_1_full.jpg");
+    background-position: 60% 90%;
     background-repeat: no-repeat;
-    background-position: 80% 90%;
-}
+    background-attachment: fixed;
+    background-size: 70%;
+   
+  
+    
+  }
 #media .parallax-three {
     padding-top: 200px;
     padding-bottom: 400px;
@@ -184,14 +231,16 @@ img {
     width: 94%;
     margin-left: 3%;
   
-    background-image: url("/img/parallax_1.png");
-    background-attachment: fixed;
-    background-size: 90% 100%;
-    -moz-background-size: 90% 100%;
-    -webkit-background-size: 90% 100%;
+    height: 100vh;
+    background-image: url("/img/parallax_1_full.jpg");
+    background-position: 60% 90%;
     background-repeat: no-repeat;
-    background-position: 80% 90%;
-}
+    background-attachment: fixed;
+    background-size: 70%;
+   
+  
+    
+  }
 
 /* Extras */
 /**************************/
@@ -202,38 +251,6 @@ img {
   
 }
 
-/* Media Queries */
-/**************************/
-@media screen and (max-width: 959px) and (min-width: 768px) {
-  #media .block {
-    padding: 40px;
-    width: 620px;
-  }
-}
-@media screen and (max-width: 767px) {
-  #media .block {
-    padding: 30px;
-    width: 420px;
-  }
-  #media h2 {
-    font-size: 30px;
-  }
-  #media .block {
-    padding: 30px;
-  }
-  #media .parallax-one,
-  #media .parallax-two,
-  #media .parallax-three {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-}
-@media screen and (max-width: 479px) {
-  #media .block {
-    padding: 30px 15px;
-    width: 290px;
-  }
-}
 
 
 
@@ -242,9 +259,8 @@ img {
 /**************************/
 #pinzutu .title {
     background: white;
-
-  padding: 160px;
-  padding-bottom: 40px;
+    padding: 120px;
+    padding-bottom: 40px;
   margin: 0 auto;
   text-align: center;
 }
@@ -252,43 +268,30 @@ img {
     font-family: 'the_new_eleganceCnRg';
     font-size: 2rem;
       letter-spacing: 1px;
+      line-height: 2.5rem;
+
 }
 
 /* Section - Block */
 /**************************/
 #pinzutu .block {
     background: white;
-  padding: 160px;
-  padding-top: 40px;
-  width: 820px;
-  margin: 0 auto;
-  padding-right: 80px;
-  text-align: justify;
+    padding: 160px;
+    width: 820px;
+    margin: 0 auto;
+    text-align: justify;
+    padding-right: 80px;
 }
 
-#pinzutu .copy {
-    background: white;
-    padding: 120px 100px 0px 0px;
-  width: 720px;
-  /* margin: 0 auto; */
-  text-align: justify;
- 
-}
 
-#pinzutu .case {
-    background: white;
-  padding: 0px 80px 40px 0px;
-  width: 960px;
-  /* margin: 0 auto; */
- 
-  text-align: justify;
-}
+
 
 
 #pinzutu .block-gray {
   background: #f2f2f2;
-  padding: 60px;
+  padding: 0px;
 }
+
 #pinzutu .section-overlay-mask {
   position: absolute;
   top: 0;
@@ -304,23 +307,6 @@ img {
 /* Section - Parallax */
 /**************************/
 #pinzutu .parallax-one {
-  padding-top: 200px;
-  padding-bottom: 400px;
-  overflow: hidden;
-  position: relative;
-  width: 94%;
-  margin-left: 3%;
-
-  background-image: url("/img/parallax_2.png");
-  background-attachment: fixed;
-  background-size: 90% 100%;
-  -moz-background-size: 90% 100%;
-  -webkit-background-size: 90% 100%;
-  background-repeat: no-repeat;
-  background-position: 80% 90%;
-  
-}
-#pinzutu .parallax-two {
     padding-top: 200px;
     padding-bottom: 400px;
     overflow: hidden;
@@ -328,14 +314,37 @@ img {
     width: 94%;
     margin-left: 3%;
   
-    background-image: url("/img/parallax_2.png");
-    background-attachment: fixed;
-    background-size: 90% 100%;
-    -moz-background-size: 90% 100%;
-    -webkit-background-size: 90% 100%;
+    height: 100vh;
+    background-image: url("/img/parallax_2_full.jpg");
+    background-position: 60% 90%;
     background-repeat: no-repeat;
-    background-position: 80% 90%;
+    background-attachment: fixed;
+    background-size: 70%;
+   
+  
+    
+  }
+
+#pinzutu .parallax-two {
+  padding-top: 200px;
+  padding-bottom: 400px;
+  overflow: hidden;
+  position: relative;
+  width: 94%;
+  margin-left: 3%;
+
+  height: 100vh;
+  background-image: url("/img/parallax_2_full.jpg");
+  background-position: 60% 90%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 70%;
+ 
+
+  
 }
+
+
 #pinzutu .parallax-three {
     padding-top: 200px;
     padding-bottom: 400px;
@@ -344,14 +353,16 @@ img {
     width: 94%;
     margin-left: 3%;
   
-    background-image: url("/img/parallax_2.png");
-    background-attachment: fixed;
-    background-size: 90% 100%;
-    -moz-background-size: 90% 100%;
-    -webkit-background-size: 90% 100%;
+    height: 100vh;
+    background-image: url("/img/parallax_2_full.jpg");
+    background-position: 60% 90%;
     background-repeat: no-repeat;
-    background-position: 80% 90%;
-}
+    background-attachment: fixed;
+    background-size: 70%;
+   
+  
+    
+  }
 
 /* Extras */
 /**************************/
@@ -362,53 +373,20 @@ img {
   
 }
 
-/* Media Queries */
-/**************************/
-@media screen and (max-width: 959px) and (min-width: 768px) {
-  #pinzutu .block {
-    padding: 40px;
-    width: 620px;
-  }
-}
-@media screen and (max-width: 767px) {
-  #pinzutu .block {
-    padding: 30px;
-    width: 420px;
-  }
-  #pinzutu h2 {
-    font-size: 30px;
-  }
-  #pinzutu .block {
-    padding: 30px;
-  }
-  #pinzutu .parallax-one,
-  #pinzutu .parallax-two,
-  #pinzutu .parallax-three {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-}
-@media screen and (max-width: 479px) {
-  #pinzutu .block {
-    padding: 30px 15px;
-    width: 290px;
-  }
-}
-
-
 
 /* Section - Title */
 /**************************/
 #art .title {
     background: white;
-  padding: 160px;
-  padding-bottom: 40px;
+    padding: 120px;
+    padding-bottom: 40px;
   margin: 0 auto;
   text-align: center;
 }
 #art .title h1 {
     font-family: 'the_new_eleganceCnRg';
     font-size: 2rem;
+    line-height: 2rem;
       letter-spacing: 1px;
 }
 
@@ -416,30 +394,14 @@ img {
 /**************************/
 #art .block {
     background: white;
-  padding: 120px;
-  width: 820px;
-  margin: 0 auto;
-  padding-right: 80px;
-  text-align: justify;
+    padding: 160px;
+    width: 820px;
+    margin: 0 auto;
+    text-align: justify;
+    padding-right: 80px;
 }
 
-#art .copy {
-    background: white;
-    padding: 0px 140px 0px 40px;
-  width: 820px;
-  /* margin: 0 auto; */
-  text-align: justify;
- 
-}
 
-#art .case {
-    background: white;
-  padding: 0px 140px 40px 40px;
-  width: 820px;
-  /* margin: 0 auto; */
- 
-  text-align: justify;
-}
 
 
 
@@ -447,6 +409,7 @@ img {
   background: #f2f2f2;
   padding: 60px;
 }
+
 #art .section-overlay-mask {
   position: absolute;
   top: 0;
@@ -462,6 +425,26 @@ img {
 /* Section - Parallax */
 /**************************/
 #art .parallax-one {
+    padding-top: 200px;
+    padding-bottom: 400px;
+    overflow: hidden;
+    position: relative;
+    width: 94%;
+    margin-left: 3%;
+  
+    height: 100vh;
+    background-image: url("/img/parallax_3_full.jpg");
+    background-position: 80% 90%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 40%;
+   
+  
+    
+  }
+
+
+#art .parallax-two {
   padding-top: 200px;
   padding-bottom: 400px;
   overflow: hidden;
@@ -469,31 +452,18 @@ img {
   width: 94%;
   margin-left: 3%;
 
-  background-image: url("/img/parallax_3.jpg");
-  background-attachment: fixed;
-  background-size: 90% 100%;
-  -moz-background-size: 90% 100%;
-  -webkit-background-size: 90% 100%;
-  background-repeat: no-repeat;
+  height: 100vh;
+  background-image: url("/img/parallax_3_full.jpg");
   background-position: 80% 90%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 40%;
+ 
+
   
 }
-#art .parallax-two {
-    padding-top: 200px;
-    padding-bottom: 400px;
-    overflow: hidden;
-    position: relative;
-    width: 94%;
-  margin-left: 3%;
 
-  background-image: url("/img/parallax_3.jpg");
-  background-attachment: fixed;
-  background-size: 90% 100%;
-  -moz-background-size: 90% 100%;
-  -webkit-background-size: 90% 100%;
-  background-repeat: no-repeat;
-  background-position: 80% 90%;
-}
+
 #art .parallax-three {
     padding-top: 200px;
     padding-bottom: 400px;
@@ -502,14 +472,16 @@ img {
     width: 94%;
     margin-left: 3%;
   
-    background-image: url("/img/parallax_3.jpg");
-    background-attachment: fixed;
-    background-size: 90% 100%;
-    -moz-background-size: 90% 100%;
-    -webkit-background-size: 90% 100%;
-    background-repeat: no-repeat;
+    height: 100vh;
+    background-image: url("/img/parallax_3_full.jpg");
     background-position: 80% 90%;
-}
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 40%;
+   
+  
+    
+  }
 
 /* Extras */
 /**************************/
@@ -522,37 +494,48 @@ img {
 
 /* Media Queries */
 /**************************/
-@media screen and (max-width: 959px) and (min-width: 768px) {
-  #art .block {
-    padding: 40px;
-    width: 620px;
-  }
-}
-@media screen and (max-width: 767px) {
-  #art .block {
-    padding: 30px;
-    width: 420px;
-  }
-  #art h2 {
-    font-size: 30px;
-  }
-  #art .block {
-    padding: 30px;
-  }
-  #art .parallax-one,
-  #art .parallax-two,
-  #art .parallax-three {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-}
-@media screen and (max-width: 479px) {
-  #art .block {
-    padding: 30px 15px;
-    width: 290px;
-  }
-}
+@media screen and (min-width: 959px)  {
 
+
+.copy, .case {
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 140px;
+    width: 620px;
+    background-color: crimson;
+  
+  }
+
+
+
+  #pinzutu .copy {
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 140px;
+    width: 620px;
+    background-color: crimson;
+
+  }
+
+  #pinzutu .case {
+   padding: 0px;
+   margin: 0px;
+    width: 820px;
+    height: 280px;
+    background-color: aquamarine;
+ 
+  }
+
+
+
+
+
+
+
+.col {
+    display: flex;
+    flex: 1;
+}
 
 
 .media {
@@ -568,11 +551,6 @@ img {
 
 
 
-
-
-
-
-
 .media .video_1 {
     grid-column: 6 / span 6;
     grid-row: 1;
@@ -583,19 +561,8 @@ img {
 
 
 
-
-.col {
-    display: flex;
-}
-
-
-
-
-
-
-
 .media .card {
-    grid-column: 2 / span 3;
+    grid-column: 2 / span 4;
     grid-row: 2;
 
 }
@@ -603,65 +570,51 @@ img {
 
 
 .media .video_2 {
-    grid-column: 8 / span 4;
-    grid-row: 2;
+    grid-column: 8 / span 5;
+    grid-row: 3;
     /* background-color: aqua; */
     padding-bottom: 0px;
     margin-bottom: 0px;
-    padding-top: 108vh;
+    padding-top: 0vh;
 
 }
 
 
 .media .card_1 {
-    grid-column: 5 / span 3;
-    grid-row: 3;
-    padding-top: 60px;
+    grid-column: 3 / span 4;
+    grid-row: 4;
+    padding-top: 0px;
 
 }
 
 
 
-
-#pinzutu .media {
-    display: grid;
-    grid-template-columns: repeat(12, [col] auto);
-    gap: 40px;
-    margin: 0px 8% 160px 12%;
-    min-height: 100vh;
-   grid-row-gap: 40px;
-
-  }
 
 #pinzutu .video_1 {
     grid-column: 5 / span 7;
     grid-row: 2;
     padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 120px;
 }
 
+
 #pinzutu .video_mob {
-    grid-column: 2 / span 2;
+    grid-column: 2 / span 3;
     grid-row: 1;
     /* width: 100%;
     margin: 10%;
     margin-right: 20%; */
     padding-top: 160px;
     padding-bottom: 0px;
+    border: 0px;
+    border-style: none;
    
 
 }
 
 
-
-
-#art .copy {
-    grid-column: 1 / span 7;
-    grid-row: 1;
-    
-}
-
-
-#art .video_1 {
+.video_art {
     width: 50vw;
     margin-left: 40%;
     padding-top: 0px;
@@ -669,49 +622,216 @@ img {
 }
 
 
-.card, .card_1 {
-    /* width: 130px;
-    height: 195px; */
-    position: relative;
-    display: inline-block;
-    margin: 0px;
-}
-.card .img-top, .card_1 .img-top-1 {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-}
-.card:hover .img-top {
-    display: inline;
 }
 
 
-.card_1:hover .img-top-1 {
-    display: inline;
-}
+
+/* Media Queries */
+/**************************/
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+
+    #media .parallax-one, #media .parallax-two, #media .parallax-three {
+        padding-top: 200px;
+        padding-bottom: 200px;
+        overflow: hidden;
+        position: relative;
+        width: 94%;
+        margin-left: 3%;
+      
+        height: 100vh;
+        background-image: url("/img/parallax_1_full.jpg");
+        background-position: 60% 90%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 84%;
+       
+      
+        
+      }
+
+      #pinzutu .parallax-one, #pinzutu .parallax-two, #pinzutu .parallax-three {
+        padding-top: 200px;
+        padding-bottom: 200px;
+        overflow: hidden;
+        position: relative;
+        width: 94%;
+        margin-left: 3%;
+      
+        height: 100vh;
+        background-image: url("/img/parallax_2_full.jpg");
+        background-position: 60% 90%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 84%;
+       
+      
+        
+      }
+
+      #art .parallax-one, #art .parallax-two, #art .parallax-three {
+        padding-top: 200px;
+        padding-bottom: 200px;
+        overflow: hidden;
+        position: relative;
+        width: 94%;
+        margin-left: 3%;
+      
+        height: 100vh;
+        background-image: url("/img/parallax_3_full.jpg");
+        background-position: 85% 95%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 50%;
+     
+       
+      
+        
+      }
 
 
-html:not(.mobile) .zoom:hover {
-    cursor: zoom-in;
-    transition: .5s;
-    transition-delay: 90s; /* how long before the img automatically returns to original size */
-    transition-property: -webkit-transform;
-    -webkit-transform: scale(1); 
-    z-index: 999; 
-    position: sticky; /* this and z-index should ensure that the zoomed img is always displayed on top of any other element */
+
+
+    #media .block {
+      padding: 40px;
+      padding-left: 100px;
+      width: 620px;
+      /* background-color: aqua; */
+    }
   }
+
   
-  html:not(.mobile) .zoom:active { 
-   cursor: zoom-out;
-   -overflow: auto; /* Enable scroll if needed */
-   transition: 0s;
-   transition-delay: 0.05s;
-   transition-property: -webkit-transform;
-   -webkit-transform: scale(1.5); /* set zoom level */
+  @media screen and (max-width: 767px) {
+
+     #media .parallax-one, #media .parallax-two, #media .parallax-three {
+        padding-top: 200px;
+        padding-bottom: 200px;
+        overflow: hidden;
+        position: relative;
+        width: 94%;
+        margin-left: 3%;
+      
+        height: 60vh;
+        background-image: url("/img/parallax_1_full.jpg");
+        background-position: 60% 86%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 84%;
+       
+      
+        
+      }
+
+      #pinzutu .parallax-one, #pinzutu .parallax-two, #pinzutu .parallax-three {
+        padding-top: 200px;
+        padding-bottom: 200px;
+        overflow: hidden;
+        position: relative;
+        width: 94%;
+        margin-left: 3%;
+      
+        height: 100vh;
+        background-image: url("/img/parallax_2_full.jpg");
+        background-position: 60% 90%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 84%;
+       
+      
+        
+      }
+
+
+      #art .parallax-one, #art .parallax-two, #art .parallax-three {
+        padding-top: 200px;
+        padding-bottom: 200px;
+        overflow: hidden;
+        position: relative;
+        width: 94%;
+        margin-left: 3%;
+      
+        height: 100vh;
+        background-image: url("/img/parallax_3_full.jpg");
+        background-position: 60% 90%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 84%;
+       
+      
+        
+      }
+
+
+      #media .title,  #pinzutu .title,  #art .title {
+        background: white;
+        padding: 120px;
+        padding-bottom: 40px;
+        margin-top: 12vh;
+       
+        /* margin: 0 auto; */
+        text-align: center;
+    }
+
+
+    #media .block {
+      padding: 120px 0px 120px 30px;
+      width: 420px;
+    }
+
+
+    
+
+
+      #art .block {
+        padding: 120px 0px 120px 30px;
+        width: 420px;
+      }
+
+
+      #pinzutu .block {
+        padding: 120px 0px 120px 30px;
+        width: 420px;
+    }
+    
+  
+    
+ 
+    #pinzutu .case {
+        padding: 0px 30px 0px 0px;
+        margin: 0px;
+        width: 420px;
+         height: 340px;
+         background-color: aquamarine;
+      
+       }
+
+
+
+    #media h2 {
+      font-size: 30px;
+    }
+ 
+    #media .parallax-one,
+    #media .parallax-two,
+    #media .parallax-three {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+  }
+  @media screen and (max-width: 479px) {
+
  
 
-   -webkit-transform-origin: center; /* set img position */
-   z-index: 1000; 
+    #media .block {
+      padding: 30px 15px;
+      width: 290px;
+    }
   }
+
+ 
+
+
+
+
+
+
+
