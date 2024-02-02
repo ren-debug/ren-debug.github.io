@@ -2,14 +2,14 @@
 
 navigation {
   position: fixed;
-    font-family: 'the_new_eleganceregular';
+  font-family: 'NeueHaasGroteskDisplay45Light';
     display: flex;
     width: 100%;
     left: 0%;
-    height: 64px;
+    height: 44px;
     /* margin-top: 28px; */
     font-size: 12px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0px;
     align-items: center;
     justify-content: center;
     /* left: 8%;  */
@@ -45,7 +45,7 @@ navigation {
 
 
 
-.fi-br-menu-burger {
+/* .fi-br-menu-burger {
   position: fixed;
   top: 23px;
   right: 4%;
@@ -53,16 +53,16 @@ navigation {
   opacity: 1;
   cursor: pointer;
 
-}
+} */
 
 
-.fi-sr-house-chimney {
+/* .fi-sr-house-chimney {
   font-size: 1.1rem;
   position: fixed;
   left: 4%;
   top: 23px;
   
-}
+} */
 
 
 .contact .tooltiptext {
@@ -163,10 +163,11 @@ navigation {
 
 
 .menu li a { 
-  font-family: 'neue-haas-grotesk-display';
+  font-family: 'NeueHaasGroteskDisplay45Light';
   font-weight: 200;
-  font-style: normal;  font-size: .75rem;
-  letter-spacing: 1px;
+  font-style: normal;  
+  font-size: .75rem;
+  letter-spacing: 0px;
   color: #666666;
   opacity: 1;
   /* vertical-align: top; */
