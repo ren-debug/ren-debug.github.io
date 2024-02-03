@@ -6,48 +6,54 @@ body {
 navigation {
   color: white;
   opacity: 1;
-  padding: 24px 24px 0px 24px;
+  padding: 6px 12px 0px 12px;
 
+}
+
+navigation .active {
+  color: white;
+  opacity: .6;
 }
 
 #title {
   text-align: center;
   display: block;
   position: relative;
-  top: 0vh;
+  top: 38vh;
 
 
 
 } 
 
 .work {
-  height: 34vh; /* Same as container height */
-  line-height:  calc(12vw + 1rem); /* Center text vertically */
-  text-align: center;
-  font-family: 'the_new_eleganceCnRg';
-  font-weight: 100;
-  font-size: calc(8vw + 1rem);
-  margin-left: -2px;
-  position: relative;
-  width: 100%;
-  top:0vh;
-   
+    position: relative; 
+    margin: auto;
+    top: 30vh;
+    height: fit-content;
+    width: 100%;
+    font-size: calc(5vw + 4rem);
+    line-height: calc(3vw + 4rem); /* Center text vertically */
+
        
       }
 
+h1 {
+  font-size: 8rem;
+}
+
+.title-letter {
+    font-family: 'Playfair Display';
+      font-weight: 400;
+      font-size: calc(0.4vw + 0.6rem);
+      letter-spacing: calc(0.3vw + 0.5rem);
+      text-transform: uppercase;
+   
+    
+    
+        
+    }
+
   
-
-
-#title {
-  text-align: center;
-  display: block;
-  position: relative;
-  top: 0vh;
-
-
-
-} 
-
 
     #title:hover {
         transition: transform .2s; /* Animation */
@@ -167,7 +173,7 @@ navigation {
     text-align: center;
     display: block;
     position: relative;
-    top: 0;
+    top: 36vh;
     padding: 0px;
     margin: 0px;
 
@@ -176,11 +182,7 @@ navigation {
 } 
 
 .work {
-    /* position: relative; 
-    margin: auto;
-    top: 16vh;
-    height: fit-content;
-    width: 100%; */
+
        padding-right: 28px;
        margin-bottom: 0px;
       }

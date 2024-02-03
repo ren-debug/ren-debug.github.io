@@ -241,7 +241,7 @@ font-family: 'Playfair Display';
  }
  
  #word-list li {
-    height: 45vh; /* Same as container height */
+    height: 42vh; /* Same as container height */
      text-align: center;
      font-family: 'the_new_eleganceCnRg';
      font-weight: 100;
@@ -383,8 +383,8 @@ display: none;
 
 #word-container {
   /* Adjust as needed */
-  height: 40vh; /* Same as container height */
-  line-height:  calc(5vw + 6rem); /* Center text vertically */
+  height: 32vh; /* Same as container height */
+  line-height:  calc(5vw + 6.5rem); /* Center text vertically */
   overflow: hidden;
    position: relative;
    display: block;
@@ -396,8 +396,8 @@ display: none;
 
 
 #word-list li {
-  height: 40vh; /* Same as container height */
-   line-height:  calc(5vw + 6rem); /* Center text vertically */
+  height: 32vh; /* Same as container height */
+   line-height:  calc(5vw + 6.5rem); /* Center text vertically */
    text-align: center;
    font-family: 'the_new_eleganceCnRg';
    font-weight: 100;
@@ -412,7 +412,7 @@ display: none;
     display: flex;
     width: 400px;
     margin: 0 auto;
-    padding-top: 4vh;
+    padding-top: 8vh;
     margin-top: -10vh;
     padding-bottom: 0vh;
   }
