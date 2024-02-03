@@ -44,7 +44,6 @@ h2 {
   
   #panel1, #panel2, #panel3, #panel4, #panel5 {
     display: none;
-    margin-top: 0px;
     text-align: justify;
     margin-top: 40px;
     width: 100%;
