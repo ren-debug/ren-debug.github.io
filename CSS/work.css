@@ -14,39 +14,40 @@ navigation {
   text-align: center;
   display: block;
   position: relative;
-  top: 48vh;
+  top: 0vh;
 
 
 
 } 
 
 .work {
-    position: relative; 
-    margin: auto;
-    top: 34vh;
-    height: fit-content;
-    width: 100%;
+  height: 34vh; /* Same as container height */
+  line-height:  calc(12vw + 1rem); /* Center text vertically */
+  text-align: center;
+  font-family: 'the_new_eleganceCnRg';
+  font-weight: 100;
+  font-size: calc(8vw + 1rem);
+  margin-left: -2px;
+  position: relative;
+  width: 100%;
+  top:0vh;
    
        
       }
 
-h1 {
-  font-size: 8rem;
-}
-
-.title-letter {
-    font-family: 'Playfair Display';
-      font-weight: 400;
-      font-size: calc(0.4vw + 0.6rem);
-      letter-spacing: calc(0.3vw + 0.5rem);
-      text-transform: uppercase;
-   
-    
-    
-        
-    }
-
   
+
+
+#title {
+  text-align: center;
+  display: block;
+  position: relative;
+  top: 0vh;
+
+
+
+} 
+
 
     #title:hover {
         transition: transform .2s; /* Animation */
@@ -166,7 +167,7 @@ h1 {
     text-align: center;
     display: block;
     position: relative;
-    top: 45vh;
+    top: 0;
     padding: 0px;
     margin: 0px;
 

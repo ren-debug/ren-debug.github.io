@@ -517,6 +517,27 @@ background: white;
         padding-left: 1px;
       }
 
+
+
+      @media screen and (min-width: 1200px) { 
+
+
+        #about .parallax-one, #clint_list .parallax-one, #skills .parallax-one  {
+        background-size: 70%;
+      }
+      
+      
+      #about .parallax-two, #client_list .parallax-two, #skills .parallax-two  {
+        background-size: 70%;
+      }
+      
+      
+      #about .parallax-three, #client_list .parallax-three, #skills .parallax-three  {
+        background-size: 70%;
+      }
+
+    }
+
 /* Media Queries */
 /**************************/
 @media screen and (max-width: 1200px) and (min-width: 768px) {

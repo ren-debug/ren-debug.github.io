@@ -32,11 +32,12 @@ h2 {
 
 
 
-
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 
 
 #flip1, #flip2, #flip3, #flip4, #flip5 {
-    margin-top: 20px;
+    margin-top: 200px;
     margin-bottom: 0px;
     cursor: pointer;
 
@@ -150,7 +151,11 @@ h2 {
   align-self: flex-start;
 }
 
-@media only screen and (min-width: 600px) and (max-width: 992px) {
+
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
 
 
   body {

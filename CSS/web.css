@@ -141,7 +141,6 @@ html:not(.mobile) .zoom:hover {
 
 
 
-
 /* Section - Title */
 /**************************/
 #media .title {
@@ -543,6 +542,26 @@ background: white;
 
 
 
+
+
+@media screen and (min-width: 1200px) { 
+
+
+  #media .parallax-one, #pinzutu .parallax-one, #art .parallax-one  {
+  background-size: 70%;
+}
+
+
+#media .parallax-two, #pinzutu .parallax-two, #art .parallax-two  {
+  background-size: 70%;
+}
+
+
+#media .parallax-three, #pinzutu .parallax-three, #art .parallax-three  {
+  background-size: 70%;
+}
+
+}
 
 /* Media Queries */
 /**************************/
