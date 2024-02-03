@@ -92,6 +92,11 @@ img {
   padding-bottom: 10px;
 }
 
+
+#about, #client_list, #skills {
+  height: 100vh;
+}
+
 /* Typography */
 /**************************/
 /* #parallax-world-of-ugg h1 {
