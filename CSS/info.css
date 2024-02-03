@@ -26,6 +26,13 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+.fi-rr-chevron-double-down {
+    display: block;
+    box-sizing: border-box;
+    padding-left: 620px;   
+    font-size: 1rem;
+}
+
 
 
 ul  li{
@@ -149,7 +156,7 @@ img {
 /**************************/
 #about .block {
 background: white;
-  padding: 120px 160px 120px 160px;
+  padding: 120px 160px 60px 160px;
   width: 820px;
   margin: 0 auto;
   text-align: justify;
@@ -241,7 +248,7 @@ background: white;
 /**************************/
 .client_list .block {
     background: rgb(255, 255, 255);
-    padding: 80px 160px 160px 160px;
+    padding: 80px 160px 60px 160px;
     width: 900px;
       margin: 0 auto;
       text-align: justify;
@@ -514,6 +521,14 @@ background: white;
 /**************************/
 @media screen and (max-width: 1200px) and (min-width: 768px) {
 
+    .fi-rr-chevron-double-down {
+        display: block;
+        box-sizing: border-box;
+        padding-left: 540px;   
+        font-size: 1rem;
+    }
+
+
     #about .parallax-one, #about .parallax-two, #about .parallax-three {
         padding-top: 200px;
         padding-bottom: 200px;
@@ -600,7 +615,12 @@ background: white;
         /* background-color: aqua; */
       }
 
-
+      .fi-rr-chevron-double-down {
+        display: block;
+        box-sizing: border-box;
+        padding-left: 480px;   
+        font-size: 1rem;
+    }
 
     
   }
@@ -609,6 +629,9 @@ background: white;
 
   
   @media screen and (max-width: 767px) {
+
+
+
 
      #about .parallax-one, #about .parallax-two, #about .parallax-three {
         padding-top: 200px;
@@ -739,6 +762,14 @@ background: white;
 
     }
 
+
+    .fi-rr-chevron-double-down {
+        display: block;
+        box-sizing: border-box;
+        padding-left: 460px; 
+        padding-top: 0px;  
+        font-size: 1rem;
+    }
 
   }
 

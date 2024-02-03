@@ -2,16 +2,20 @@
 
 navigation {
   position: fixed;
-  font-family: 'NeueHaasGroteskDisplay45Light';
     display: flex;
     width: 100%;
     left: 0%;
     height: 44px;
-    /* margin-top: 28px; */
-    font-size: 12px;
-    letter-spacing: 0px;
-    align-items: center;
-    justify-content: center;
+    font-family: 'NeueHaasGroteskDisplay45Light';
+    font-weight: 200;
+    font-style: normal;  
+    font-size: .8rem;
+    letter-spacing: 0.5px;
+    color: #666666;
+    opacity: 1;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 16px 12px 0px 12px;
     /* left: 8%;  */
     /* background-color: rgba(255, 255, 255, 0.384);
     backdrop-filter: blur(10px); */
@@ -115,7 +119,7 @@ navigation {
 
 
 .menu-wrapper .active {
-  color: rgb(156, 156, 156);
+  color: rgb(0, 0, 0);
   font-weight: 500;
  
     
@@ -131,10 +135,15 @@ navigation {
     position: fixed;
     left: 0%;
     margin-left: 44px;
-    top: 64px;
+    top: 0px;
     display: block;
   }
 
+
+  .fi-sr-house-chimney, .fi-br-menu-burger {
+   font-size: 1.2rem;
+ 
+}
 
 .content {
     height: auto;
@@ -144,9 +153,10 @@ navigation {
 }
 
 .active {
-    color: white;
+    color: rgb(0, 0, 0);
     transition: .5s ease-out;
     opacity: 1;
+    
 }
 
 .menu {
@@ -166,8 +176,8 @@ navigation {
   font-family: 'NeueHaasGroteskDisplay45Light';
   font-weight: 200;
   font-style: normal;  
-  font-size: .75rem;
-  letter-spacing: 0px;
+  font-size: .8rem;
+  letter-spacing: 0.5px;
   color: #666666;
   opacity: 1;
   /* vertical-align: top; */
