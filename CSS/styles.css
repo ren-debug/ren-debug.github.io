@@ -155,7 +155,7 @@ button.tablink {
 } */
 
 hr {
-    border: 0.5px solid rgba(255, 255, 255, 0.066);
+    border: 0.5px solid rgba(123, 123, 123, 0.066);
     margin-bottom: 0px;
     margin-top: 10px;
 }
@@ -230,17 +230,20 @@ a:hover {
     left: 50%;
     margin-left: -60px;
   }
+
   
   .tooltip:hover .tooltiptext {
     visibility: visible;
   }
 
 
+
+
 /* LANGUAGES - Style the buttons inside the tab */
 button.tablinks {
-  border: 1px solid rgba(255, 255, 255, 0.195);
+  border: 1px solid rgb(0, 0, 0);
   outline: none;
-  width: 95px;
+  width: 112px;
   margin: 2px 2px;
   height: 40px;
     border-radius: 50px;
@@ -249,7 +252,7 @@ button.tablinks {
     font-size: 11px;
     letter-spacing: 0.5px;
     padding: 0px;
-    color: white;
+    color: rgb(0, 0, 0);
     background: transparent; 
     font-weight: 200;
     transition: transform .2s; 
@@ -272,7 +275,7 @@ button.tablinks {
   
 /* clients - Style the buttons inside the tab */
 .tab button.tablinks {
-    border: 1px solid rgba(255, 255, 255, 0.195);
+    border: 1px solid rgba(0, 0, 0, 0.195);
     outline: none;
     width: 102px;
     margin: 4px 2px;
@@ -283,7 +286,7 @@ button.tablinks {
     font-size: 11px;
     letter-spacing: 0.5px;
     padding: 0px;
-    color: white;
+    color: rgb(0, 0, 0);
     background: transparent; 
     font-weight: 200;
     transition: transform .2s; 
@@ -312,14 +315,14 @@ button.tablinks {
 .tab button:hover {
     /* opacity: .3;   */
     cursor: pointer;
-    color: black;
-    background-color: white;
+    color: rgb(255, 255, 255);
+    background-color: rgb(126, 126, 126);
 }
   
 /* Create an active/current tablink class */
 .tab button.active {
-    color: white;
-    background-color: #e0dcd869;
+  color: rgb(255, 255, 255);
+    background-color: rgb(126, 126, 126);
   }
   
 
@@ -367,7 +370,7 @@ button.tablinks {
   }
 
   button.tablinks {
-    width: 95px;
+    width: 108px;
 
     outline: none;
     flex-wrap: nowrap;
