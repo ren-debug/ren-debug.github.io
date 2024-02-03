@@ -549,18 +549,38 @@ width: 420px;
 @media screen and (min-width: 1200px) { 
 
 
-  #media .parallax-one, #pinzutu .parallax-one, #art .parallax-one  {
-  background-size: 70%;
+  .media {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+
+  #media .parallax-one, #pinzutu .parallax-one  {
+  background-size: 60%;
 }
 
 
-#media .parallax-two, #pinzutu .parallax-two, #art .parallax-two  {
-  background-size: 70%;
+#media .parallax-two, #pinzutu .parallax-two  {
+  background-size: 60%;
 }
 
 
-#media .parallax-three, #pinzutu .parallax-three, #art .parallax-three  {
-  background-size: 70%;
+#media .parallax-three, #pinzutu .parallax-three  {
+  background-size: 60%;
+}
+
+#art .parallax-one .parallax-one  {
+  background-size: 40%;
+}
+
+
+#mart .parallax-two  {
+  background-size: 40%;
+}
+
+
+#art .parallax-three  {
+  background-size: 40%;
 }
 
 }
