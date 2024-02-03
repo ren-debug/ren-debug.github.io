@@ -152,8 +152,8 @@ html:not(.mobile) .zoom:hover {
     text-align: center;
 }
 #media .title h1 {
-    font-family: 'the_new_eleganceCnRg';
-    font-size: 2rem;
+  font-family: 'the_new_eleganceregular';
+  font-size: 2rem;
     letter-spacing: 1px;
 }
 
@@ -266,8 +266,8 @@ background: white;
   text-align: center;
 }
 #pinzutu .title h1 {
-    font-family: 'the_new_eleganceCnRg';
-    font-size: 2rem;
+  font-family: 'the_new_eleganceregular';
+  font-size: 2rem;
       letter-spacing: 1px;
       line-height: 2.5rem;
 
@@ -285,8 +285,10 @@ background: white;
     }
     
     #pinzutu .case {
-        background-color: aqua;
-    }
+display: flex;    
+justify-content: space-between;
+width: 420px;
+}
     
     #pinzutu .block-gray {
       background: #f2f2f2;
@@ -377,8 +379,8 @@ background: white;
   text-align: center;
 }
 #art .title h1 {
-    font-family: 'the_new_eleganceCnRg';
-    font-size: 2rem;
+  font-family: 'the_new_eleganceregular';
+  font-size: 2rem;
     line-height: 2rem;
       letter-spacing: 1px;
 }
