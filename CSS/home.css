@@ -26,12 +26,6 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-.fi-rr-chevron-double-down {
-    display: block;
-    box-sizing: border-box;
-    padding-left: 620px;   
-    font-size: 1rem;
-}
 
 .active {
   opacity: .3;
@@ -146,7 +140,7 @@ img {
 #about .title {
     background: white;
     padding: 120px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     padding-top: 160px;
     margin: 0 auto;
     text-align: center;
@@ -163,7 +157,7 @@ img {
 /**************************/
 #about .block {
 background: white;
-  padding: 120px 160px 60px 160px;
+  padding: 68px 160px 60px 160px;
   width: 820px;
   margin: 0 auto;
   text-align: justify;
@@ -230,7 +224,7 @@ background: white;
 
 
   .info {
-    padding-top: 60px;
+    padding-top: 32px;
   }
 
 /* Extras */
@@ -255,7 +249,7 @@ background: white;
 /**************************/
 .client_list .block {
     background: rgb(255, 255, 255);
-    padding: 80px 160px 60px 160px;
+    padding: 60px 160px 60px 160px;
     width: 900px;
       margin: 0 auto;
       text-align: justify;
@@ -333,7 +327,7 @@ background: white;
 
 .opentab {
     margin-top: 24px;
-    height: 40vh;
+    height: 34vh;
     overflow-y: scroll;
     padding-right: 20px;
     overflow-x: hidden;
@@ -383,12 +377,9 @@ background: white;
         padding-top: 4vh;
 } */
 
- .skills {
-    padding-top: 40px;
- }
 
 .skills .copy h1 {
-    padding-bottom: 22vh;
+    padding-bottom: 8vh;
 }
 
 
@@ -427,11 +418,10 @@ background: white;
 /**************************/
 .skills .block {
     background: white;
-    padding: 120px 160px 120px 160px;
-    width: 820px;
+    padding: 120px 0px 120px 40px;
+    width: 600px;
     margin: 0 auto;
     text-align: justify;
-    padding-right: 80px;
 }
 
 
@@ -530,6 +520,22 @@ background: white;
       @media screen and (min-width: 1200px) { 
 
 
+        h1 {
+          font-size: 6rem;
+          letter-spacing: 1px;
+          line-height: 4rem;
+        }
+    
+        .languages {
+          padding-top: 12px;
+         }
+
+         
+  .info {
+    padding-top: 8px;
+  }
+
+
         #about .parallax-one, #clint_list .parallax-one, #skills .parallax-one  {
         background-size: 70%;
       }
@@ -550,12 +556,9 @@ background: white;
 /**************************/
 @media screen and (max-width: 1200px) and (min-width: 768px) {
 
-    .fi-rr-chevron-double-down {
-        display: block;
-        box-sizing: border-box;
-        padding-left: 540px;   
-        font-size: 1rem;
-    }
+ .languages {
+  padding-top: 12px;
+ }
 
 
     #about .parallax-one, #about .parallax-two, #about .parallax-three {
@@ -626,15 +629,30 @@ background: white;
       padding: 40px;
       padding-left: 100px;
       width: 620px;
-      padding-top: 100px;
+      padding-top: 60px;
       /* background-color: aqua; */
     }
 
+    h1 {
+      font-size: 5rem;
+      letter-spacing: 1px;
+      line-height: 4rem;
+    }
+
+
+
+
+  .info {
+    padding-top: 12px;
+  }
+
+
 
     .client_list .block {
-        padding: 40px;
-        padding-left: 100px;
-        width: 620px;
+      padding: 40px;
+      padding-left: 100px;
+      width: 620px;
+      padding-top: 60px;
         /* background-color: aqua; */
       }
 
@@ -642,17 +660,12 @@ background: white;
         padding: 40px;
         padding-left: 100px;
         width: 620px;
-        padding-top: 100px;
+        padding-top: 60px;
 
         /* background-color: aqua; */
       }
 
-      .fi-rr-chevron-double-down {
-        display: block;
-        box-sizing: border-box;
-        padding-left: 480px; 
-        font-size: 1rem;
-    }
+
 
     
   }
@@ -739,13 +752,20 @@ background: white;
 
 
     #about .block {
-        padding: 100px 0px 120px 0px;
-        width: 480px;
+        padding: 52px 0px 120px 20px;
+        width: 420px;
     }
 
 
-    
+    h1 {
+      font-size: 5.5rem;
+      letter-spacing: 1px;
+      line-height: 3rem;
+    }
 
+    .info {
+      padding-top: 12px;
+    }
 
       .skills .block {
         padding: 120px 0px 120px 0px;
@@ -754,8 +774,8 @@ background: white;
 
 
       .client_list .block {
-        padding: 120px 00px 120px 0px;
-        width: 480px;
+        padding: 120px 0px 120px 60px;
+        width: 520px;
     }
     
   
@@ -800,13 +820,10 @@ background: white;
     }
 
 
-    .fi-rr-chevron-double-down {
-        display: block;
-        box-sizing: border-box;
-        padding-left: 460px; 
-        padding-bottom: 120px;  
-        font-size: 1rem;
-    }
+    .contact {
+      display: none;
+     }
+    
 
 
   }
@@ -821,20 +838,15 @@ background: white;
  }
 
 
- .fi-rr-chevron-double-down {
- display: none;
-
-
- }
 
 
 
     #about .block {
       margin: 0px;
       padding: 0px;
-      padding-left: 12%;
-      padding-top: 60px;
-      width: 400px;
+      padding-left: 16%;
+      padding-top: 40px;
+      width: 420px;
     }
 
     .info {
