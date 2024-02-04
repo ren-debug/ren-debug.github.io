@@ -814,16 +814,39 @@ background: white;
 
   @media screen and (max-width: 479px) {
 
- 
+
+  
+ .contact {
+  display: none;
+ }
+
+
+ .fi-rr-chevron-double-down {
+ display: none;
+
+
+ }
+
+
 
     #about .block {
-      padding: 30px 15px;
-      width: 290px;
+      margin: 0px;
+      padding: 0px;
+      padding-left: 12%;
+      padding-top: 60px;
+      width: 400px;
+    }
+
+    .info {
+      padding-top: 0px;
     }
 
     .client_list .block {
-        padding: 30px 15px;
-        width: 290px;
+      margin: 0px;
+      padding: 0px;
+      padding-left: 12%;
+      padding-top: 60px;
+      width: 400px;
       }
 
 
@@ -831,8 +854,11 @@ background: white;
 
 
       .skills .block {
-        padding: 30px 15px;
-        width: 290px;
+        margin: 0px;
+      padding: 0px;
+      padding-left: 12%;
+      padding-top: 60px;
+      width: 400px;
       }
 
 

@@ -370,8 +370,8 @@ button.tablinks {
   }
 
   button.tablinks {
-    width: 108px;
-
+    width: 80px;
+height: 32px;
     outline: none;
     flex-wrap: nowrap;
 
