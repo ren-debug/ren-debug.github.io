@@ -16,7 +16,7 @@ body {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    min-height: 100vh;
+  width: 98%;
 
 
 
@@ -33,7 +33,9 @@ body::-webkit-scrollbar {
     font-size: 1rem;
 }
 
-
+.active {
+  opacity: .3;
+}
 
 ul  li{
     list-style: circle;
@@ -192,7 +194,7 @@ background: white;
   padding-bottom: 400px;
   overflow: hidden;
   position: relative;
-  width: 94%;
+  width: 97%;
   margin-left: 3%;
 
   height: 100vh;
@@ -211,7 +213,7 @@ background: white;
     padding-bottom: 400px;
     overflow: hidden;
     position: relative;
-    width: 94%;
+    width: 97%;
     margin-left: 3%;
   
     height: 100vh;
@@ -286,7 +288,7 @@ background: white;
     padding-bottom: 400px;
     overflow: hidden;
     position: relative;
-    width: 94%;
+    width: 97%;
     margin-left: 3%;
   
   
@@ -308,7 +310,7 @@ background: white;
   padding-bottom: 400px;
   overflow: hidden;
   position: relative;
-  width: 94%;
+  width: 97%;
   margin-left: 3%;
 
    
@@ -391,6 +393,7 @@ background: white;
 
 
    .skills .copy .languages {
+    box-sizing: border-box;
         padding-top: 4vh;
     }
 
@@ -560,10 +563,10 @@ background: white;
         padding-bottom: 200px;
         overflow: hidden;
         position: relative;
-        width: 94%;
-        margin-left: 3%;
-      
+        width: 96%;
+        margin-left: 3.8%;
         height: 100vh;
+
         background-image: url("/img/background.jpg");    
         background-position: 60% 90%;
         background-repeat: no-repeat;
@@ -580,8 +583,8 @@ background: white;
         padding-bottom: 200px;
         overflow: hidden;
         position: relative;
-        width: 94%;
-        margin-left: 3%;
+        width: 96%;
+        margin-left: 3.8%;
       
         height: 100vh;
         background-image: url("/img/background.jpg");    
@@ -600,8 +603,8 @@ background: white;
         padding-bottom: 200px;
         overflow: hidden;
         position: relative;
-        width: 94%;
-        margin-left: 3%;
+        width: 96%;
+        margin-left: 3.8%;
       
         height: 100vh;
         background-image: url("/img/background.jpg");    
@@ -623,6 +626,7 @@ background: white;
       padding: 40px;
       padding-left: 100px;
       width: 620px;
+      padding-top: 100px;
       /* background-color: aqua; */
     }
 
@@ -638,13 +642,15 @@ background: white;
         padding: 40px;
         padding-left: 100px;
         width: 620px;
+        padding-top: 100px;
+
         /* background-color: aqua; */
       }
 
       .fi-rr-chevron-double-down {
         display: block;
         box-sizing: border-box;
-        padding-left: 480px;   
+        padding-left: 480px; 
         font-size: 1rem;
     }
 
@@ -665,7 +671,7 @@ background: white;
         overflow: hidden;
         position: relative;
         width: 94%;
-        margin-left: 3%;
+        margin-left: 8%;
       
         height: 60vh;
         background-image: url("/img/background.jpg");    
@@ -684,15 +690,15 @@ background: white;
         padding-bottom: 200px;
         overflow: hidden;
         position: relative;
-        width: 94%;
-        margin-left: 3%;
+        width: 92%;
+        margin-left: 8%;
       
         height: 100vh;
         background-image: url("/img/background.jpg");    
         background-position: 60% 90%;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size: 84%;
+        background-size: 160%;
         background-color: black;
 
       
@@ -705,8 +711,8 @@ background: white;
         padding-bottom: 200px;
         overflow: hidden;
         position: relative;
-        width: 94%;
-        margin-left: 3%;
+        width: 92%;
+        margin-left: 8%;
         
 
         height: 100vh;
@@ -714,7 +720,7 @@ background: white;
         background-position: 60% 90%;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size: 84%;
+        background-size: 160%;
        background-color: black;
       
         
@@ -733,7 +739,7 @@ background: white;
 
 
     #about .block {
-        padding: 120px 0px 120px 0px;
+        padding: 100px 0px 120px 0px;
         width: 480px;
     }
 
@@ -793,9 +799,10 @@ background: white;
         display: block;
         box-sizing: border-box;
         padding-left: 460px; 
-        padding-top: 0px;  
+        padding-bottom: 120px;  
         font-size: 1rem;
     }
+
 
   }
 

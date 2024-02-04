@@ -153,7 +153,7 @@ navigation {
 }
 
 .active {
-    color: rgb(0, 0, 0);
+    
     transition: .5s ease-out;
     opacity: 1;
     
@@ -178,7 +178,7 @@ navigation {
   font-style: normal;  
   font-size: .8rem;
   letter-spacing: 0.5px;
-  color: #666666;
+  color: #a4a4a4;
   opacity: 1;
   /* vertical-align: top; */
     transform: translate(0,100%) rotate(-90deg);
@@ -233,10 +233,10 @@ navigation {
 .overlay a {
   padding: 8px;
   text-decoration: none;
-  font-family: 'the_new_eleganceCnRg';
-  font-size: 3rem;
+  font-family: 'the_new_eleganceregular';
+  font-size: 2.5rem;
   line-height: 4.5rem;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   display: block;
   transition: 0.3s;
   color: white;
@@ -249,7 +249,7 @@ navigation {
 .overlay .closebtn {
   position: absolute;
   top: -2%;
-  right: 3%;
+  right: 0%;
   font-size: 30px;
 }
 
@@ -258,11 +258,14 @@ navigation {
 @media only screen and (min-width: 400px) and (max-width: 768px) {
 
 
+  navigation {
+    height: 64px;
+  }
 
   .overlay .closebtn {
     position: absolute;
     top: -2%;
-    right: 1%;
+    right: 0%;
     font-size: 30px;
   }
 
