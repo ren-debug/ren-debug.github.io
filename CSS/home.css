@@ -739,7 +739,7 @@ background: white;
 
 
     #about .block {
-        padding: 100px 30px 120px 0px;
+        padding: 100px 0px 120px 0px;
         width: 480px;
     }
 
@@ -748,13 +748,13 @@ background: white;
 
 
       .skills .block {
-        padding: 120px 30px 120px 0px;
+        padding: 120px 0px 120px 0px;
         width: 480px;
       }
 
 
       .client_list .block {
-        padding: 120px 30px 120px 0px;
+        padding: 120px 00px 120px 0px;
         width: 480px;
     }
     
