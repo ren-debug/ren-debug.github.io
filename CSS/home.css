@@ -161,7 +161,7 @@ background: white;
   width: 820px;
   margin: 0 auto;
   text-align: justify;
-  padding-right: 80px;
+  padding-right: 160px;
 }
 
 
@@ -530,8 +530,8 @@ background: white;
 /**************************/
 #about .block {
   background: white;
-    padding: 40px 160px 60px 160px;
-    width: 820px;
+    padding: 20px 160px 60px 160px;
+    width: 720px;
     margin: 0 auto;
     text-align: justify;
     padding-right: 80px;
@@ -544,14 +544,10 @@ background: white;
           line-height: 4.5rem;
         }
     
-        .languages {
-          padding-top: 12px;
-         }
-
+   
 
   .info {
-align-self: flex-end;
-padding-top: 2vh;
+padding-top:1vh;
   }
 
 
@@ -573,7 +569,7 @@ padding-top: 2vh;
 
 /* Media Queries */
 /**************************/
-@media screen and (max-width: 1200px) and (min-width: 768px) {
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
 
  .languages {
   padding-top: 12px;
@@ -585,8 +581,8 @@ padding-top: 2vh;
         padding-bottom: 200px;
         overflow: hidden;
         position: relative;
-        width: 96%;
-        margin-left: 3.8%;
+        width: 100%;
+        margin-left: 44px;
         height: 100vh;
 
         background-image: url("/img/background.jpg");    
@@ -605,8 +601,8 @@ padding-top: 2vh;
         padding-bottom: 200px;
         overflow: hidden;
         position: relative;
-        width: 96%;
-        margin-left: 3.8%;
+        width: 100%;
+        margin-left: 44px;
       
         height: 100vh;
         background-image: url("/img/background.jpg");    
@@ -625,8 +621,8 @@ padding-top: 2vh;
         padding-bottom: 200px;
         overflow: hidden;
         position: relative;
-        width: 96%;
-        margin-left: 3.8%;
+        width: 100%;
+        margin-left: 44px;
       
         height: 100vh;
         background-image: url("/img/background.jpg");    
@@ -648,7 +644,7 @@ padding-top: 2vh;
       padding: 40px;
       padding-left: 100px;
       width: 620px;
-      padding-top: 60px;
+      padding-top: 40px;
       /* background-color: aqua; */
     }
 
@@ -692,7 +688,7 @@ padding-top: 2vh;
 
 
   
-  @media screen and (max-width: 767px) {
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
 
 
 
@@ -771,7 +767,7 @@ padding-top: 2vh;
 
 
     #about .block {
-        padding: 52px 0px 120px 20px;
+        padding: 40px 0px 40px 0px;
         width: 420px;
     }
 
@@ -847,57 +843,70 @@ padding-top: 2vh;
 
   }
 
-
-  @media screen and (max-width: 479px) {
+/* 
+  @media only screen and (min-width: 600px) and (max-width: 768px) {
 
 
   
- .contact {
-  display: none;
- }
 
-
-
-
-
-    #about .block {
-      margin: 0px;
-      padding: 0px;
-      padding-left: 16%;
-      padding-top: 40px;
-      width: 420px;
-    }
-
-    .info {
-      padding-top: 0px;
-    }
-
-    .client_list .block {
-      margin: 0px;
-      padding: 0px;
-      padding-left: 12%;
-      padding-top: 60px;
-      width: 400px;
-      }
-
-
-    
-
-
-      .skills .block {
-        margin: 0px;
-      padding: 0px;
-      padding-left: 12%;
-      padding-top: 60px;
-      width: 400px;
-      }
-
-
+#about .block {
+  background: white;
+    padding: 20px 0px 60px 0px;
+    width: 480px;
+    margin: 0 auto;
+    text-align: justify;
+    padding-right: 0px;
   }
+
+
+        h1 {
+          font-size: 6rem;
+          letter-spacing: 1px;
+          line-height: 4.5rem;
+        }
+    
+       
+
+
+  .info {
+padding-top: 1vh;
+  }
+
+
+
+
+  } */
 
  
 
+  @media only screen and (min-width: 400px) and (max-width: 600px) {
 
+/* Section - Block */
+/**************************/
+#about .block {
+  background: white;
+    padding: 40px 0px 0px 0px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: justify;
+    padding-right: 0px;
+  }
+
+
+        h1 {
+          font-size: 4rem;
+          letter-spacing: 1px;
+          line-height: 2.5rem;
+        }
+    
+       
+
+
+  .info {
+padding-top: 1vh;
+  }
+
+  }
 
 
 
