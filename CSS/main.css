@@ -382,11 +382,21 @@ hr {
   #about h2, #clients h2, #skills h2 {
     font-family: 'the_new_eleganceCnRg';
   font-size: 70px;
-  line-height: 90px;
+  line-height: 120px;
   letter-spacing: 2px;
   padding-right: 6px;
 
 }
+
+/* Section - Parallax */
+/**************************/
+#about .parallax-one, #clients .parallax-two,  #skills .parallax-three, #skills .parallax-four {
+    padding-top: 244px;
+    padding-bottom: 244px;
+
+    margin-top: 44px;
+    background-position: bottom right;
+  }
 
 }
 @media screen and (max-width: 767px) {
@@ -411,6 +421,16 @@ hr {
   padding-right: 6px;
 
 }
+
+/* Section - Parallax */
+/**************************/
+#about .parallax-one, #clients .parallax-two,  #skills .parallax-three, #skills .parallax-four {
+    padding-top: 124px;
+    padding-bottom: 144px;
+
+    margin-top: 44px;
+    background-position: bottom right;
+  }
 
 }
 
@@ -438,7 +458,17 @@ hr {
 
 }
 
+/* Section - Parallax */
+/**************************/
+#about .parallax-one, #clients .parallax-two,  #skills .parallax-three, #skills .parallax-four {
+    padding-top: 44px;
+    padding-bottom: 74px;
 
+    margin-top: 64px;
+    background-position: bottom right;
+  }
+
+  
 
 }
 
@@ -491,6 +521,16 @@ hr {
     transition: transform .2s;
   
   
+  }
+
+/* Section - Parallax */
+/**************************/
+#about .parallax-one, #clients .parallax-two,  #skills .parallax-three, #skills .parallax-four {
+    padding-top: 124px;
+    padding-bottom: 144px;
+
+    margin-top: 64px;
+    background-position: bottom right;
   }
 
 
