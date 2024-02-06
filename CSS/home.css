@@ -224,7 +224,7 @@ background: white;
 
 
   .info {
-    padding-top: 32px;
+    padding-top: 320px;
   }
 
 /* Extras */
@@ -519,11 +519,29 @@ background: white;
 
       @media screen and (min-width: 1200px) { 
 
+        #about {
+          height: 100vh;
+
+        }
+
+
+
+/* Section - Block */
+/**************************/
+#about .block {
+  background: white;
+    padding: 40px 160px 60px 160px;
+    width: 820px;
+    margin: 0 auto;
+    text-align: justify;
+    padding-right: 80px;
+  }
+
 
         h1 {
           font-size: 6rem;
           letter-spacing: 1px;
-          line-height: 4rem;
+          line-height: 4.5rem;
         }
     
         .languages {
@@ -532,7 +550,8 @@ background: white;
 
 
   .info {
-    padding-top: 8px;
+align-self: flex-end;
+padding-top: 2vh;
   }
 
 
