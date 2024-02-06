@@ -241,21 +241,21 @@ a:hover {
 
 /* LANGUAGES - Style the buttons inside the tab */
 button.tablinks {
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0.195);
   outline: none;
-  width: 112px;
-  margin: 2px 2px;
+  width: 102px;
+  margin: 4px 2px;
   height: 40px;
-    border-radius: 50px;
-    transition: 0.3s;
-    padding-left: 0px;
-    font-size: 11px;
-    letter-spacing: 0.5px;
-    padding: 0px;
-    color: rgb(0, 0, 0);
-    background: transparent; 
-    font-weight: 200;
-    transition: transform .2s; 
+  border-radius: 50px;
+  transition: 0.3s;
+  padding-left: 0px;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+  padding: 0px;
+  color: rgb(0, 0, 0);
+  background: transparent; 
+  font-weight: 200;
+  transition: transform .2s; 
   opacity: 1;
   }
 
@@ -341,47 +341,53 @@ button.tablinks {
   }
 
 
-  @media only screen and (min-width: 400px) and (max-width: 600px) {
-    h1 {
+  @media screen and (max-width: 959px) and (min-width: 768px) {
+    /* h1 {
       font-size: 5rem;
       line-height: 2.5rem;
       letter-spacing: 4px;
+  } */
   }
-  }
 
 
-  @media only screen and (min-width: 400px) and (max-width: 768px) {
+  @media screen and (max-width: 767px) {
 
 
-    h2 {
-        font-size: 2rem;
-        line-height: 2.5rem;
-    }
 
     /* LANGUAGES - Style the buttons inside the tab */
-.tab button.tablinks {
-  
-    outline: none;
-    flex-wrap: nowrap;
-    margin: 4px 4px 0px 0px;
-    height: 40px;
-   
-  
-  }
+
 
   button.tablinks {
-    width: 80px;
-height: 32px;
     outline: none;
-    flex-wrap: nowrap;
-
+    width: 92px;
+    height: 36px;
+    margin: 3px 2px;
   }
 
   /* clients - Style the buttons inside the tab */
 .tab button.tablinks {
   outline: none;
-  width: 128px;
+  width: 92px;
+  height: 36px;
   margin: 3px 2px;
 }
 
+.view  {
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
+
+}
+
+
+@media screen and (max-width: 479px) {
+
+  button.tablinks {
+    outline: none;
+    width: 64px;
+    height: 30px;
+    margin: 3px 2px;
+  }
+}
+

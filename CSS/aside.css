@@ -15,10 +15,10 @@ navigation {
     opacity: 1;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 12px 0px 12px;
+    padding: 0px 0px 0px 0px;
     /* left: 8%;  */
-    /* background-color: rgba(255, 255, 255, 0.384);
-    backdrop-filter: blur(10px); */
+    background-color: rgba(255, 255, 255, 0.894);
+    backdrop-filter: blur(10px);
     z-index: 1;
     opacity: 1;
   }
@@ -137,6 +137,7 @@ navigation {
     margin-left: 44px;
     top: 0px;
     display: block;
+    z-index: 990;
   }
 
 
@@ -255,12 +256,12 @@ navigation {
 
 
 
-@media only screen and (min-width: 400px) and (max-width: 768px) {
+@media only screen and (min-width: 479px) and (max-width: 768px) {
 
 
   navigation {
     height: 64px;
-  }
+    }
 
   .overlay .closebtn {
     position: absolute;
@@ -285,9 +286,9 @@ navigation {
 }
 
 
-.vl {
+/* .vl {
   display: none;
-}
+} */
 
 
 

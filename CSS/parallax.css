@@ -1,0 +1,424 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    /* overflow-x: hidden; */
+    scrollbar-width: none;
+    /* margin-right: 2%; */
+    /* overflow-y: hidden;
+    overflow-x: hidden;
+    scrollbar-width: none; */
+
+}
+
+
+body {
+    color: #666666;
+}
+
+#main {
+    width: 100%;
+    padding: 0;
+    /* margin: 0 2%; */
+
+}
+
+.content-asset p {
+    margin: 0 auto;
+
+}
+
+.breadcrumb {
+    display: none;
+}
+
+
+/* h6 {
+    margin-bottom: 0px;
+    padding-bottom: 8px;
+}
+
+
+p {
+    margin-top: 0px;
+    padding-top: 0px;
+} */
+
+
+
+/* Helpers */
+/**************************/
+.margin-top-20 {
+    padding-top: 20px;
+}
+
+.margin-top-60 {
+    padding-top: 60px;
+}
+
+.margin-bot-10 {
+    padding-bottom: 10px;
+}
+
+.margin-bot-20 {
+    padding-bottom: 20px;
+}
+
+/* Typography */
+/**************************/
+/* #about, #clients, #skills h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: black;
+    padding: 0;
+    margin: 0;
+} */
+
+#about h2, #clients h2, #skills h2 {
+    font-family: 'the_new_eleganceCnRg';
+    font-size: 100px;
+    line-height: 78px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    z-index: 10;
+    opacity: 0.9;
+}
+
+#about h3, #clients h3, #skills h3 {
+    font-family: 'NeueHaasGroteskDisplay45Light';
+    font-size: 12px;
+    line-height: 0;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+#about p, #clients p, #skills p {
+    font-family: 'NeueHaasGroteskDisplay45Light';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+/* Section - Title */
+/**************************/
+#about .title, #clients .title, #skills .title {
+    background: white;
+    padding: 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#about .title h1, #clients .title h1, #skills .title h1 {
+    font-size: 35px;
+    letter-spacing: 8px;
+}
+
+
+
+
+
+/* #about .block-gray, #clients .block-gray, #skills .block-gray {
+    background: #f2f2f2;
+    padding: 60px;
+} */
+
+/* #about .section-overlay-mask, #clients .section-overlay-mask, #skills .section-overlay-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.7;
+} */
+
+
+/* Section - Parallax */
+/**************************/
+/* #about .parallax-one {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative;
+    width: 90%;
+    margin-top: 44px;
+    background-image: url("/img/homepage.png");
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 80% 100%;
+} */
+/* 
+#clients .parallax-two {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative;
+    width: 90%;
+    margin-top: 44px;
+    background-image: url("/img/homepage.png");
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 80% 100%;
+} */
+
+/* #skills .parallax-three {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative;
+    width: 90%;
+    margin-top: 44px;
+    background-image: url("/img/homepage.png");
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 80% 100%;
+} */
+
+
+
+
+/* Tabs */
+/**************************/
+
+.opentab hr {
+    padding: 0px;
+    margin: 0px 0px;
+    opacity: 1;
+}
+
+
+
+.opentab h4 {
+    padding: 0;
+    margin: 0;
+    font-family: 'neue-haas-grotesk-display';
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+.opentab p {
+    padding-top: 0px;
+    padding-bottom: 12px;
+    margin: 0;
+}
+
+hr {
+    margin-bottom: 8px;
+}
+
+
+
+/* square */
+/**************************/
+
+.square i {
+    color: white;
+}
+
+.icon-html {
+    padding-top: 6px;
+}
+
+.axure {
+    width: 21px;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.framer {
+    width: 21px;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.marvel {
+    width: 26px;
+    padding-left: 6px;
+    padding-top: 8px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.pin {
+    width: 24px;
+    padding-left: 7px;
+    padding-top: 12px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.square .axure,
+.framer,
+.marvel,
+.pin {
+    position: absolute;
+}
+
+
+
+/* Media Queries */
+/**************************/
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+/* Section - Block */
+/**************************/
+#about .block {
+    background: white;
+    padding: 60px;
+    width: 820px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#clients .block {
+    background: white;
+    padding: 60px;
+    width: 820px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#skills .block {
+    background: white;
+    padding: 60px;
+    width: 820px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+/* Section - Block */
+/**************************/
+#about .block {
+    background: white;
+    padding: 60px;
+    width: 820px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#clients .block {
+    background: white;
+    padding: 60px;
+    width: 820px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#skills .block {
+    background: white;
+    padding: 60px;
+    width: 820px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+/* Section - Block */
+/**************************/
+#about .block {
+    background: white;
+    padding: 60px;
+    width: 820px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#clients .block {
+    background: white;
+    padding: 60px;
+    width: 820px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#skills .block {
+    background: white;
+    padding: 60px;
+    width: 820px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+
+
+    #about .block, #clients .block,  #skills .block {
+        padding: 0px 0px;
+        padding-right: 0px;
+        margin-right: 0;
+        margin-left: 84px;
+        width: 478px;
+        padding-bottom: 40px;
+        padding-top: 160px;
+    }
+
+    #about h2, #clients h2, #skills h2 {
+        font-size: 20px;
+        line-height: 0px;
+        padding: 0;
+        margin: 0;
+    }
+
+
+
+    /* #about .parallax-one,
+    #clients .parallax-two,
+    #skills .parallax-three {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    } */
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #about .block, #clients .block, #skills .block {
+        padding: 0px 0px;
+        padding-right: 0px;
+        margin-right: 0;
+        margin-left: 84px;
+        width: 380px;
+        padding-bottom: 0px;
+    }
+
+    /* #about h2, #clients h2, #skills h2 {
+        font-size: 48px;
+       
+    } */
+}

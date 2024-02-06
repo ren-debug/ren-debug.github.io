@@ -55,3 +55,32 @@
 .icon-mat {
     font-size: 0.4rem;
 }
+
+
+@media screen and (max-width: 420px) {
+
+
+    [class*='icon-']:before{
+        /* display: inline-block; */
+       font-family: 'Glyphter';
+       /* font-size: 1rem; */
+       font-style: normal;
+       font-weight: normal;
+       /* line-height: 1; */
+       /* padding: 0px; */
+       -webkit-font-smoothing: antialiased;
+       -moz-osx-font-smoothing: grayscale;
+       color: white;
+       
+        position: absolute;
+        z-index: 1;
+        top: 5px;
+        left: 0%;
+        margin-left: 6px;
+        font-size: .8rem;
+      
+    
+    }
+
+
+}
