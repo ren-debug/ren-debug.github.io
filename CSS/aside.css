@@ -5,6 +5,7 @@ navigation {
     display: flex;
     width: 100%;
     left: 0%;
+    right: 0%;
     height: 44px;
     font-family: 'NeueHaasGroteskDisplay45Light';
     font-weight: 200;
@@ -49,24 +50,21 @@ navigation {
 
 
 
-/* .fi-br-menu-burger {
-  position: fixed;
-  top: 23px;
-  right: 4%;
+.fi-br-menu-burger {
+  padding-right: 11px;
   font-size: 20px;
   opacity: 1;
   cursor: pointer;
 
-} */
+}
 
 
-/* .fi-sr-house-chimney {
-  font-size: 1.1rem;
-  position: fixed;
-  left: 4%;
-  top: 23px;
-  
-} */
+.fi-sr-house-chimney {
+  padding-left: 11px;
+  font-size: 20px;
+  opacity: 1;
+  cursor: pointer;  
+}
 
 
 .contact .tooltiptext {
@@ -119,7 +117,7 @@ navigation {
 
 
 .menu-wrapper .active {
-  color: rgb(0, 0, 0);
+  color: rgb(70, 70, 70);
   font-weight: 500;
  
     
@@ -169,6 +167,7 @@ navigation {
     bottom: 0%;
     font-size: .8rem;
     justify-content: space-evenly;
+    z-index: 990;
 
 }
 
@@ -186,6 +185,7 @@ navigation {
     transform-origin: 12px 0px;
     text-decoration: none;
     position: fixed;
+
   /* left: 25px; */
 }
 

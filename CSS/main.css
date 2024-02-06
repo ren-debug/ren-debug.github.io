@@ -142,11 +142,12 @@ body {
 /* Section - Parallax */
 /**************************/
 #about .parallax-one {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 244px;
+  padding-bottom: 244px;
   overflow: hidden;
   position: relative;
   width: 100%;
+  margin-top: 44px;
   background-image: url("/img/parallax.png");
   background-attachment: fixed;
   background-size: cover;
@@ -156,11 +157,12 @@ body {
   background-position: top center;
 }
 #clients .parallax-two {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
+    padding-top: 244px;
+    padding-bottom: 244px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin-top: 44px;
   background-image: url("/img/parallax.png");
   background-attachment: fixed;
   background-size: cover;
@@ -170,11 +172,28 @@ body {
   background-position: center center;
 }
 #skills .parallax-three {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
+    padding-top: 244px;
+    padding-bottom: 244px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin-top: 44px;
+  background-image: url("/img/parallax.png");
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#skills .parallax-four {
+    padding-top: 244px;
+    padding-bottom: 244px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin-top: 44px;
   background-image: url("/img/parallax.png");
   background-attachment: fixed;
   background-size: cover;
@@ -291,12 +310,12 @@ hr {
   }
 
   
-  .tooltip:hover .tooltiptext {
+  .tooltip:hover .tooltiptext:hover {
     visibility: visible;
   }
 
 
-  
+
 .contact a {
     color: white;
     opacity: 1;
