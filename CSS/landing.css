@@ -543,7 +543,7 @@ display: none;
     }
 
 
-    @media only screen and (min-width: 400px) and (max-width: 768px) {
+    @media only screen and (min-width: 600px) and (max-width: 768px) {
 
 
       body {
@@ -561,7 +561,7 @@ display: none;
         text-align: center;
         display: block;
         position: relative;
-        top: 41vh;
+        top: 44vh;
     
     
     
@@ -570,21 +570,21 @@ display: none;
 
     #word-container {
       /* Adjust as needed */
-      height: 26vh; /* Same as container height */
-      line-height:  calc(5vw + 6rem); /* Center text vertically */
+      height: 28vh; /* Same as container height */
+      line-height:  calc(6vw + 6rem); /* Center text vertically */
       overflow: hidden;
        position: relative;
        display: block;
        box-sizing: border-box;
-       margin-top: 20vh;
+       margin-top: 16vh;
        
     }
     
     
     
     #word-list li {
-      height: 26vh; /* Same as container height */
-       line-height:  calc(5vw + 6rem); /* Center text vertically */
+      height: 28vh; /* Same as container height */
+       line-height:  calc(6vw + 6rem); /* Center text vertically */
        text-align: center;
        font-family: 'the_new_eleganceCnRg';
        font-weight: 100;
@@ -629,7 +629,7 @@ display: block;
 
 .cta {
   display: flex;
-  width: 400px;
+  width: 320px;
   margin: 0 auto;
   padding-top: 0vh;
   margin-top: -4vh;
@@ -637,3 +637,7 @@ display: block;
 
 }
 
+@media only screen and (max-width: 600px) {
+
+
+}
