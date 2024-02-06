@@ -188,11 +188,11 @@ background: white;
   padding-bottom: 400px;
   overflow: hidden;
   position: relative;
-  width: 97%;
-  margin-left: 3%;
+  width: 100%;
+  margin-left: 44px;
 
   height: 100vh;
-  background-image: url("/img/background.jpg");
+  background-image: url("/img/homepage.png");
   background-position: 60% 90%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -207,11 +207,11 @@ background: white;
     padding-bottom: 400px;
     overflow: hidden;
     position: relative;
-    width: 97%;
-    margin-left: 3%;
+    width: 100%;
+    margin-left: 44px;
   
     height: 100vh;
-    background-image: url("/img/background.jpg");    
+    background-image: url("/img/homepage.png");    
     background-position: 60% 90%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -282,12 +282,12 @@ background: white;
     padding-bottom: 400px;
     overflow: hidden;
     position: relative;
-    width: 97%;
-    margin-left: 3%;
+    width: 100%;
+    margin-left: 44px;
   
   
     height: 100vh;
-    background-image: url("/img/background.jpg");    
+    background-image: url("/img/homepage.png");    
     background-position: 60% 90%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -304,12 +304,12 @@ background: white;
   padding-bottom: 400px;
   overflow: hidden;
   position: relative;
-  width: 97%;
-  margin-left: 3%;
+  width: 100%;
+  margin-left: 44px;
 
    
   height: 100vh;
-  background-image: url("/img/background.jpg");    
+  background-image: url("/img/homepage.png");   
   background-position: 60% 90%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -530,7 +530,7 @@ background: white;
           padding-top: 12px;
          }
 
-         
+
   .info {
     padding-top: 8px;
   }

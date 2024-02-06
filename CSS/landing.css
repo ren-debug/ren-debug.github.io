@@ -7,8 +7,8 @@
 
 
 body {
-    background-image: url("/img/background.jpg");
-    background-size: cover;
+  background-image: url("/img/homepage.png");    
+  background-size: cover;
     background-position: right bottom;
     background-repeat: no-repeat;
     -webkit-font-smoothing: antialiased;
@@ -241,11 +241,11 @@ font-family: 'Playfair Display';
  }
  
  #word-list li {
-    height: 42vh; /* Same as container height */
+    height: 32vh; /* Same as container height */
      text-align: center;
      font-family: 'the_new_eleganceCnRg';
      font-weight: 100;
-     margin-left: -2px;
+     margin-left: 0px;
      position: relative;
      width: 100%;
  
@@ -373,7 +373,7 @@ display: none;
         text-align: center;
         display: block;
         position: relative;
-        top: 45vh;
+        top: 47.5vh;
     
     
     
@@ -383,20 +383,20 @@ display: none;
 
 #word-container {
   /* Adjust as needed */
-  height: 32vh; /* Same as container height */
+  height: 36vh; /* Same as container height */
   line-height:  calc(5vw + 6.5rem); /* Center text vertically */
   overflow: hidden;
    position: relative;
    display: block;
    box-sizing: border-box;
-   margin-top: 16vh;
+   margin-top: 12vh;
    
 }
 
 
 
 #word-list li {
-  height: 32vh; /* Same as container height */
+  height: 36vh; /* Same as container height */
    line-height:  calc(5vw + 6.5rem); /* Center text vertically */
    text-align: center;
    font-family: 'the_new_eleganceCnRg';
@@ -410,7 +410,7 @@ display: none;
 
   .cta {
     display: flex;
-    width: 400px;
+    width: 320px;
     margin: 0 auto;
     padding-top: 8vh;
     margin-top: -10vh;
@@ -433,46 +433,49 @@ display: none;
         text-align: center;
         display: block;
         position: relative;
-        top: 48vh;
+        top: 44vh;
     
     
     
     } 
 
 
-    #word-container {
-      /* Adjust as needed */
-      height: 32vh; /* Same as container height */
-      line-height:  calc(4vw + 6rem); /* Center text vertically */
-      overflow: hidden;
-       position: relative;
-       display: block;
-       box-sizing: border-box;
-       margin-top: 24vh;
-       
-    }
-    
-    
-    
-    #word-list li {
-      height: 32vh; /* Same as container height */
-       line-height:  calc(4vw + 6rem); /* Center text vertically */
-       text-align: center;
-       font-family: 'the_new_eleganceCnRg';
-       font-weight: 100;
-       font-size: calc(4vw + 4rem);
-       margin-left: -2px;
-       position: relative;
-       width: 100%;
-    
-    }
 
-.cta {
-  display: flex;
-  width: 400px;
-  margin: 0 auto;
-  padding-top: 0vh;
+#word-container {
+  /* Adjust as needed */
+  height: 32vh; /* Same as container height */
+  line-height:  calc(5vw + 6.5rem); /* Center text vertically */
+  overflow: hidden;
+   position: relative;
+   display: block;
+   box-sizing: border-box;
+   margin-top: 12vh;
+   
 }
+
+
+
+#word-list li {
+  height: 32vh; /* Same as container height */
+   line-height:  calc(5vw + 6.5rem); /* Center text vertically */
+   text-align: center;
+   font-family: 'the_new_eleganceCnRg';
+   font-weight: 100;
+   font-size: calc(5vw + 4rem);
+   margin-left: -2px;
+   position: relative;
+   width: 100%;
+
+}
+
+  .cta {
+    display: flex;
+    width: 320px;
+    margin: 0 auto;
+    padding-top: 8vh;
+    margin-top: -10vh;
+    padding-bottom: 0vh;
+  }
 
 
     }
