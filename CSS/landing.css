@@ -194,16 +194,6 @@ color: white;
 
 
 
-#title {
-    text-align: center;
-    display: block;
-    position: relative;
-    top:70vh;
-
-
-
-} 
-
 
 
 
@@ -225,14 +215,24 @@ font-family: 'Playfair Display';
 }
 
 
-
+#word-container {
+  /* Adjust as needed */
+  height: 38vh; /* Same as container height */
+  line-height:  calc(6vw + 6.5rem); /* Center text vertically */
+  overflow: hidden;
+   position: relative;
+   display: block;
+   box-sizing: border-box;
+   margin-top: 10vh;
+   
+}
 
  
  #word-list {
      text-align: center;
      list-style-type: none;
      box-sizing: border-box;
-     padding-top: 0vh;
+     padding-bottom: 4vh;
      padding-right: 0%;
      margin: 0;
      position: relative;
@@ -373,7 +373,7 @@ display: none;
         text-align: center;
         display: block;
         position: relative;
-        top: 47.5vh;
+        top: 44vh;
     
     
     
@@ -383,8 +383,8 @@ display: none;
 
 #word-container {
   /* Adjust as needed */
-  height: 36vh; /* Same as container height */
-  line-height:  calc(5vw + 6.5rem); /* Center text vertically */
+  height: 38vh; /* Same as container height */
+  line-height:  calc(6vw + 6.5rem); /* Center text vertically */
   overflow: hidden;
    position: relative;
    display: block;
@@ -396,8 +396,8 @@ display: none;
 
 
 #word-list li {
-  height: 36vh; /* Same as container height */
-   line-height:  calc(5vw + 6.5rem); /* Center text vertically */
+  height: 38vh; /* Same as container height */
+   line-height:  calc(6vw + 6.5rem); /* Center text vertically */
    text-align: center;
    font-family: 'the_new_eleganceCnRg';
    font-weight: 100;
@@ -494,7 +494,7 @@ display: none;
         text-align: center;
         display: block;
         position: relative;
-        top: 44vh;
+        top: 43vh;
     
     
     
@@ -505,7 +505,7 @@ display: none;
 #word-container {
   /* Adjust as needed */
   height: 30vh; /* Same as container height */
-  line-height:  calc(5vw + 6.5rem); /* Center text vertically */
+  line-height:  calc(6vw + 6.5rem); /* Center text vertically */
   overflow: hidden;
    position: relative;
    display: block;
@@ -518,7 +518,7 @@ display: none;
 
 #word-list li {
   height: 30vh; /* Same as container height */
-   line-height:  calc(5vw + 6.5rem); /* Center text vertically */
+   line-height:  calc(6vw + 6.5rem); /* Center text vertically */
    text-align: center;
    font-family: 'the_new_eleganceCnRg';
    font-weight: 100;
@@ -639,5 +639,61 @@ display: block;
 
 @media only screen and (max-width: 600px) {
 
+
+ 
+  .desktop #title {
+    display: none;
+  }
+
+  .mobile #title {
+    display: block; 
+      }
+
+
+  #title {
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 40vh;
+
+
+
+} 
+
+
+#word-container {
+  /* Adjust as needed */
+  height: 26vh; /* Same as container height */
+  line-height:  calc(5.5vw + 6rem); /* Center text vertically */
+  overflow: hidden;
+   position: relative;
+   display: block;
+   box-sizing: border-box;
+   margin-top: 14vh;
+   
+}
+
+
+
+#word-list li {
+  height: 26vh; /* Same as container height */
+   line-height:  calc(5.5vw + 6rem); /* Center text vertically */
+   text-align: center;
+   font-family: 'the_new_eleganceCnRg';
+   font-weight: 100;
+   font-size: calc(5vw + 4.5rem);
+   margin-left: -2px;
+   position: relative;
+   width: 100%;
+
+}
+
+.cta {
+  display: flex;
+  width: 320px;
+  margin: 0 auto;
+  padding-top: 0vh;
+  margin-top: 0vh;
+}
 
 }
