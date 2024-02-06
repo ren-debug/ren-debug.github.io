@@ -494,47 +494,49 @@ display: none;
         text-align: center;
         display: block;
         position: relative;
-        top: 48vh;
+        top: 44vh;
     
     
     
     } 
 
-    #word-container {
-      /* Adjust as needed */
-      height: 26vh; /* Same as container height */
-      line-height:  calc(3vw + 7.5rem); /* Center text vertically */
-      overflow: hidden;
-       position: relative;
-       display: block;
-       box-sizing: border-box;
-       margin-top: 24vh;
-       
-    }
-    
-    
-    
-    #word-list li {
-      height: 26vh; /* Same as container height */
-       line-height:  calc(3vw + 7.5rem); /* Center text vertically */
-       text-align: center;
-       font-family: 'the_new_eleganceCnRg';
-       font-weight: 100;
-       font-size: calc(3vw + 4.5rem);
-       margin-left: -2px;
-       position: relative;
-       width: 100%;
-    
-    }
 
-.cta {
-  display: flex;
-  width: 400px;
-  margin: 0 auto;
-  padding-top: -6vh;
-  margin-top: -4vh;
+
+#word-container {
+  /* Adjust as needed */
+  height: 30vh; /* Same as container height */
+  line-height:  calc(5vw + 6.5rem); /* Center text vertically */
+  overflow: hidden;
+   position: relative;
+   display: block;
+   box-sizing: border-box;
+   margin-top: 14vh;
+   
+}
+
+
+
+#word-list li {
+  height: 30vh; /* Same as container height */
+   line-height:  calc(5vw + 6.5rem); /* Center text vertically */
+   text-align: center;
+   font-family: 'the_new_eleganceCnRg';
+   font-weight: 100;
+   font-size: calc(5vw + 4rem);
+   margin-left: -2px;
+   position: relative;
+   width: 100%;
 
 }
+
+  .cta {
+    display: flex;
+    width: 320px;
+    margin: 0 auto;
+    padding-top: 8vh;
+    margin-top: -10vh;
+    padding-bottom: 0vh;
+  }
 
 
 
