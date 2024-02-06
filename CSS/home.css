@@ -547,7 +547,7 @@ background: white;
    
 
   .info {
-padding-top:1vh;
+padding-top:20vh;
   }
 
 
@@ -644,7 +644,7 @@ padding-top:1vh;
       padding: 40px;
       padding-left: 100px;
       width: 620px;
-      padding-top: 40px;
+      padding-top: 60px;
       /* background-color: aqua; */
     }
 
@@ -658,7 +658,7 @@ padding-top:1vh;
 
 
   .info {
-    padding-top: 12px;
+    padding-top: 20vh;
   }
 
 
@@ -768,18 +768,18 @@ padding-top:1vh;
 
     #about .block {
         padding: 40px 0px 40px 0px;
-        width: 420px;
+        width: 460px;
     }
 
 
     h1 {
       font-size: 5.5rem;
       letter-spacing: 1px;
-      line-height: 3rem;
+      line-height: 5rem;
     }
 
     .info {
-      padding-top: 12px;
+      padding-top: 20vh;
     }
 
       .skills .block {
