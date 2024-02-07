@@ -64,35 +64,6 @@ h2 {
     
 }
 
-   /* width */
-::-webkit-scrollbar {
-  width: 2px;
-  border-radius: 100px;
- 
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-sizing: border-box;
-  margin-top: 200px;
-  margin-bottom: 320px;
-  background: linear-gradient(#d6d6d6, #a1a1a14d);    
-  border-radius: 100px;
- 
-
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  box-sizing: border-box;
-  border-radius: 100px;
-  background: #424141;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: transparent;
-}
 
 
   .websiteFrame {
@@ -141,7 +112,7 @@ font-weight: 800;
 button {
   background-color: transparent;
   border: 0.5px solid rgb(120, 120, 120);
-  ;
+  
 }
 
 .copy {
