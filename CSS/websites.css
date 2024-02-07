@@ -105,7 +105,7 @@ html:not(.mobile) .zoom:active {
   padding: 0;
   margin: 0;
 } */
-#media h2, #clients h2, #skills h2 {
+#media h2, #pinzutu h2, #skills h2 {
     font-family: 'the_new_eleganceCnRg';
   font-size: 90px;
   line-height: 160px;
@@ -116,7 +116,7 @@ html:not(.mobile) .zoom:active {
   z-index: 10;
   opacity: 0.9;
 }
-#media h3, #clients h3, #skills h3 {
+#media h3, #pinzutu h3, #skills h3 {
   font-family: 'the_new_eleganceCnRg';
   font-size: 32px;
     line-height: 52px;
@@ -124,7 +124,7 @@ html:not(.mobile) .zoom:active {
     letter-spacing: 0.5px;
 }
 
-#media p, #clients p, #skills p {
+#media p, #pinzutu p, #skills p {
     font-family: 'NeueHaasGroteskDisplay45Light';
     font-weight: 400;
     font-size: 12px;
@@ -140,21 +140,21 @@ html:not(.mobile) .zoom:active {
 
 /* Section - Title */
 /**************************/
-#media .title, #clients .title, #skills .title {
+#media .title, #pinzutu .title, #skills .title {
   background: rgb(37, 37, 37);
   padding: 120px 0;
   margin: 0 auto;
   text-align: center;
   color: white;
 }
-#media .title h1, #clients .title h1, #skills .title h1 {
+#media .title h1, #pinzutu .title h1, #skills .title h1 {
     font-size: 35px;
   letter-spacing: 8px;
 }
 
 /* Section - Block */
 /**************************/
-#media .block {
+#media .block, #pinzutu .block {
   padding: 60px;
   padding-top: 100px;
   width: 820px;
@@ -166,11 +166,11 @@ html:not(.mobile) .zoom:active {
 
 
 
-/* #media .block-gray, #clients .block-gray, #skills .block-gray {
+/* #media .block-gray, #pinzutu .block-gray, #skills .block-gray {
   background: #f2f2f2;
   padding: 60px;
 }
-#media .section-overlay-mask, #clients .section-overlay-mask, #skills .section-overlay-mask {
+#media .section-overlay-mask, #pinzutu .section-overlay-mask, #skills .section-overlay-mask {
   position: absolute;
   top: 0;
   left: 0;
@@ -188,13 +188,15 @@ html:not(.mobile) .zoom:active {
   overflow: hidden;
   position: relative;
   margin-top: 44px;
+  width: 100%;
+  height: auto;
   background-image: url("/img/blonde.jpg");
   background-attachment: fixed;
   background-size: 100%;
   -moz-background-size: 100%;
-  -webkit-background-size: 100%;
+  -webkit-background-size: cover;
   background-repeat: no-repeat;
-  background-position: 100% 12%;
+  background-position: top center;
 }
 
 #media .parallax-two {
@@ -206,12 +208,47 @@ html:not(.mobile) .zoom:active {
  
   background-image: url("/img/parallax_1.png");
   background-attachment: fixed;
+  background-size: contain;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100% bottom;
+}
+
+#pinzutu .parallax-one {
+  padding-top: 244px;
+  padding-bottom: 244px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 44px;
+  width: 100%;
+  height: auto;
+  background-image: url("/img/pinzutu.jpg");
+  background-attachment: fixed;
   background-size: 100%;
   -moz-background-size: 100%;
-  -webkit-background-size: 100%;
+  -webkit-background-size: cover;
   background-repeat: no-repeat;
-  background-position: 90% top;
+  background-position: top center;
 }
+
+#pinzutu .parallax-two {
+  padding-top: 244px;
+  padding-bottom: 244px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 44px;
+ 
+  background-image: url("/img/parallax_2.png");
+  background-attachment: fixed;
+  background-size: contain;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100% 20%;
+}
+
+
 
 
 /* MEDIA - GRID */
@@ -255,7 +292,18 @@ grid-row: 4;
 width: 80%;
 } 
 
+#pinzutu .video_1 {
+  display: grid;
+  grid-column: 2 / span 7;
+  grid-row: 1;
+} 
 
+#pinzutu .video_mob {
+  display: grid;
+  grid-column: 9 / span 3;
+  grid-row: 1;
+
+} 
 
 
 
@@ -340,7 +388,7 @@ width: 80%;
   #media .block {
     padding-bottom: 40px;
     padding-left: 80px;
-    width: 760px;
+    width: 720px;
   }
 
 
@@ -353,14 +401,13 @@ width: 80%;
   overflow: hidden;
   position: relative;
   margin-top: 44px;
-  height: 100%;
   background-image: url("/img/blonde.jpg");
   background-attachment: fixed;
   background-size: 100%;
   -moz-background-size: 100%;
   -webkit-background-size: 100%;
   background-repeat: no-repeat;
-  background-position: center 8%;
+  background-position: center 44px;
 }
 
 #media .parallax-two {
@@ -387,7 +434,7 @@ img {
   width: 100%;
 }
 
-.media {
+#media .media {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: 40px;
@@ -416,27 +463,39 @@ img {
 
 #media .card_1 {
   display: grid;
-grid-column: 7 / span 6;
+grid-column: 8 / span 6;
 grid-row: 4;
-width: 85%;
+width: 90%;
 } 
 
+#pinzutu .video_1 {
+  display: grid;
+  grid-column: 1 / span 8;
+  grid-row: 1;
+} 
+
+#pinzutu .video_mob {
+  display: grid;
+  grid-column: 9 / span 3;
+  grid-row: 1;
+ 
+}
 }
 
 
 
 @media screen and (max-width: 959px) and (min-width: 769px) {
-  #media .block {
+  #media .block, #pinzutu .block {
     margin: 0 auto;
     padding-bottom: 40px;
-    padding-left: 80px;
+    padding-left: 100px;
     padding-right: 120px;
-    width: 680px;
+    width: 660px;
   }
 
 
 
-  #media h2, #clients h2, #skills h2 {
+  #media h2, #pinzutu h2, #skills h2 {
     font-family: 'the_new_eleganceCnRg';
   font-size: 70px;
   line-height: 120px;
@@ -453,7 +512,7 @@ width: 85%;
   padding-bottom: 164px;
 background-size: 100%;
   margin-top: 44px;
-  background-position: 20% 4%;
+  background-position: 20% 44px;
 }
 
 #media .parallax-two {
@@ -469,7 +528,7 @@ background-size: 130%;
   grid-template-columns: repeat(9, 1fr);
   gap: 40px;
   box-sizing: border-box;
-  padding: 120px 16% 120px 18%;
+  padding: 120px 16% 100px 18%;
 }
 
 
@@ -499,7 +558,18 @@ grid-column: 7 / span 6;
 grid-row: 4;
 width: 86%;
 } 
+#pinzutu .video_1 {
+  display: grid;
+  grid-column: 1 / span 7;
+  grid-row: 1;
+} 
 
+#pinzutu .video_mob {
+  display: grid;
+  grid-column: 8 / span 3;
+  grid-row: 1;
+ 
+}
 
 
 
@@ -509,16 +579,17 @@ width: 86%;
 .contact {
     display: none;
 }
-  #media .block, #clients .block, #skills .block {
-    padding-right: 24px;
+  #media .block, #pinzutu .block, #skills .block {
+    padding-right: 48px;
     margin: 0 auto;
     width: 520px;
+  
   }
-  #media h2, #clients h2, #skills h2 {
+  #media h2, #pinzutu h2, #skills h2 {
     font-size: 30px;
   }
 
-  #media h2, #clients h2, #skills h2 {
+  #media h2, #pinzutu h2, #skills h2 {
     font-family: 'the_new_eleganceCnRg';
   font-size: 56px;
   line-height: 90px;
@@ -531,11 +602,11 @@ width: 86%;
 /* Section - Parallax */
 /**************************/
 #media .parallax-one {
-  padding-top: 124px;
-  padding-bottom: 124px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 background-size: 100%;
   margin-top: 44px;
-  background-position: 20% 4%;
+  background-position: 20% 44px;
 }
 
 #media .parallax-two {
@@ -546,25 +617,24 @@ background-size: 130%;
   background-position: 84% 50%;
 }
 
-
 .media {
   display: grid;
-  grid-template-columns: repeat(9, auto);
-  grid-row-gap: 20px;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 40px;
   box-sizing: border-box;
-  padding: 60px 0% 60px 27%;
+  padding: 120px 14% 100px 20%;
 }
 
 
 #media .video_1 {
   display: grid;
-  grid-column: 1 / span 5;
+  grid-column: 1 / span 7;
   grid-row: 1;
 } 
 
 #media .video_2 {
   display: grid;
-  grid-column: 1 / span 5;
+  grid-column: 8 / span 6;
   grid-row: 2;
 } 
 
@@ -572,16 +642,29 @@ background-size: 130%;
   display: grid;
   grid-column: 1 / span 5;
   grid-row: 3;
+  width: 100%;
+
 } 
 
 #media .card_1 {
   display: grid;
-grid-column: 1 / span 5;
+grid-column: 8 / span 6;
 grid-row: 4;
 width: 100%;
 } 
 
+#pinzutu .video_1 {
+  display: grid;
+  grid-column: 1 / span 7;
+  grid-row: 1;
+} 
 
+#pinzutu .video_mob {
+  display: grid;
+  grid-column: 8 / span 3;
+  grid-row: 1;
+ 
+}
 
 }
 
@@ -591,13 +674,13 @@ width: 100%;
     }
 
 
-    #media .block, #clients .block, #skills .block {
-  padding-right: 0;
+    #media .block, #pinzutu .block, #skills .block {
+  padding-right: 30px;
     margin: 0 auto;
     width: 420px;
   }
 
-  #media h2, #clients h2, #skills h2 {
+  #media h2, #pinzutu h2, #skills h2 {
     font-family: 'the_new_eleganceCnRg';
   font-size: 56px;
   line-height: 90px;
@@ -626,13 +709,24 @@ background-size: 120%;
 
 
 
-.media {
+#pinzutu .media {
   display: grid;
   grid-template-columns: repeat(9, auto);
   grid-row-gap: 20px;
   box-sizing: border-box;
-  padding: 60px 0% 60px 30%;
+  padding: 60px 0% 60px 100px;
 }
+
+#media .media {
+  display: grid;
+  grid-template-columns: repeat(9, auto);
+  grid-row-gap: 20px;
+  box-sizing: border-box;
+  padding: 60px 0% 60px 31.5%;
+}
+
+
+
 
 
 #media .video_1 {
@@ -660,7 +754,18 @@ grid-row: 4;
 width: 100%;
 } 
 
+#pinzutu .video_1 {
+  display: grid;
+  grid-column: 1 / span 5;
+  grid-row: 1;
+} 
 
+#pinzutu .video_mob {
+  display: grid;
+  grid-column: 6 / span 2;
+  grid-row: 1;
+ 
+}
   
 
 }
@@ -672,28 +777,33 @@ width: 100%;
         display: none;
     }
 
+ 
 
-    #media .block, #clients .block, #skills .block {
+
+
+
+    #media .block, #pinzutu .block, #skills .block {
       margin: 0 auto;
-      padding-right: 0;
-      width: 320px;
+      padding-right: 26px;
+      width: 380px;
   }
 /* Section - Parallax */
 /**************************/
 #media .parallax-one {
-  padding-top: 126px;
-  padding-bottom: 140px;
+  padding-top: 144px;
+  padding-bottom: 100px;
 background-size: 100%;
-margin-top: 4px;
-background-position: 100% 8%;
+margin-top: 44px;
+
+background-position: 100% 44px;
 }
 
 #media .parallax-two {
   padding-top: 124px;
   padding-bottom: 0px;
-background-size: 120%;
+background-size: cover;
   margin-top: 64px;
-  background-position: 94% 40%;
+  background-position: 94% top;
 }
 
 
@@ -703,7 +813,7 @@ background-size: 120%;
   grid-template-columns: repeat(9, auto);
   grid-row-gap: 20px;
   box-sizing: border-box;
-  padding: 60px 20% 60px 26.7%;
+  padding: 60px 20% 60px 29%;
 }
 
 
@@ -731,6 +841,19 @@ grid-column: 1 / span 4;
 grid-row: 4;
 width: 100%;
 } 
+
+#pinzutu .video_1 {
+  display: grid;
+  grid-column: 1 / span 4;
+  grid-row: 2;
+} 
+
+#pinzutu .video_mob {
+  display: grid;
+  grid-column: 2 / span 2;
+  grid-row: 1;
+}
+
 
 }
 
@@ -742,10 +865,10 @@ width: 100%;
     .menu, .vl {
         display: none;
     }
-    #media .block, #clients .block, #skills .block {
+    #media .block, #pinzutu .block, #skills .block {
   
     margin: 0;
-    padding: 40px 24px 40px 26px;
+    padding: 40px 24px 40px 20px;
     padding-bottom: 0;
     width: 85%;
   }
@@ -754,11 +877,11 @@ width: 100%;
 /* Section - Parallax */
 /**************************/
 #media .parallax-one {
-    padding-top: 120px;
-    padding-bottom: 20px;
+    padding-top: 0px;
+    padding-bottom: 100px;
 background-size: 100%;
-    margin-top: 44px;
-    background-position: center 6%;
+    margin-top: 64px;
+    background-position: center 20%;
   }
 
   #media .parallax-two {
@@ -769,7 +892,23 @@ background-size: 140%;
     background-position: 89% 30%;
   }
 
-#media h2, #clients h2, #skills h2 {
+  #pinzutu .parallax-one {
+    padding-top: 100px;
+    padding-bottom: 100px;
+background-size: cover;
+    margin-top: 64px;
+    background-position: center 20%;
+  }
+
+  #pinzutu .parallax-two {
+    padding-top: 124px;
+    padding-bottom: 0px;
+background-size: 130%;
+    margin-top: 64px;
+    background-position: 90% center;
+  }
+
+#media h2, #pinzutu h2, #skills h2 {
     font-family: 'the_new_eleganceCnRg';
   font-size: 56px;
   line-height: 90px;
@@ -780,10 +919,10 @@ background-size: 140%;
 
 .media {
   display: grid;
-  grid-template-columns: repeat(9, auto);
+  grid-template-columns: repeat(6, auto);
   grid-row-gap: 20px;
   box-sizing: border-box;
-  padding: 60px 20% 60px 21%;
+  padding: 60px 0% 0px 13.5%;
 }
 
 
@@ -811,5 +950,17 @@ grid-column: 1 / span 4;
 grid-row: 4;
 width: 100%;
 } 
+
+#pinzutu .video_1 {
+  display: grid;
+  grid-column: 1 / span 4;
+  grid-row: 2;
+} 
+
+#pinzutu .video_mob {
+  display: grid;
+  grid-column: 2 / span 2;
+  grid-row: 1;
+}
 
 }
