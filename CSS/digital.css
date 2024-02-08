@@ -27,7 +27,13 @@ body {
  
 }
 
-
+.column {
+  column-count: 2;
+  column-gap: 60px;
+  column-rule: 1px dotted #666666;
+  width: 50%;
+  text-align: center;
+}
 
    /* width */
    ::-webkit-scrollbar {
@@ -204,9 +210,10 @@ width: 100%;
 .media {
 display: grid;
 grid-template-columns: repeat(12, 1fr);
-gap: 80px;
+grid-row-gap: 80px;
+grid-column-gap: 20px;
 box-sizing: border-box;
-padding: 60px 12% 40px 14%;
+padding: 44px 12% 44px 14%;
 }
 
 

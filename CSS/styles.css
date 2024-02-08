@@ -217,7 +217,7 @@ a:hover {
   .tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
-    color: #767473;
+    color: #000000;
     text-align: center;
     border-radius: 6px;
     padding: 0px 0;
