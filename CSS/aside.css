@@ -198,7 +198,7 @@ navigation {
     position: fixed;
     display: flex;
     flex-direction: column-reverse;
-    bottom: 35%;
+    bottom: 24%;
     justify-content: space-evenly;
     z-index: 0;
 }

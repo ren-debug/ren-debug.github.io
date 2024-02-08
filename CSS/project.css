@@ -2,8 +2,8 @@
 * {
   /* box-sizing: border-box; */
   scroll-behavior: smooth;
-  overflow-x: hidden;
-  scrollbar-width: none;
+  /* overflow-x: hidden;
+  scrollbar-width: none; */
   /* margin-right: 2%; */
   /* overflow-y: hidden;
   overflow-x: hidden;
@@ -16,7 +16,16 @@ body {
   color: #666666;
 }
 
+.content-wrapper {
+  height: 100vh;
+  width: 98%;
 
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  /* padding: 8%; */
+ 
+}
 
 
 /* Override UGG site */
@@ -97,14 +106,14 @@ width: 80%;
 } */
 
 
-#flip1, #flip2, #flip3, #flip4, #flip5 {
+#flip1, #flip2, #flip3, #flip4 {
   margin-top: 20px;
   margin-bottom: 0px;
   cursor: pointer;
 
 }
 
-#panel1, #panel2, #panel3, #panel4, #panel5 {
+#panel1, #panel2, #panel3, #panel4 {
   display: none;
   text-align: justify;
   margin-top: 40px;
@@ -158,7 +167,7 @@ width: 80%;
 
 /* Section - Title */
 /**************************/
-/* #ysl .title, #ps .title, #boots .title {
+/* #cg .title, #calder .title, #krugier .title {
 background: rgb(37, 37, 37);
 padding: 120px 0;
 margin: 0 auto;
@@ -172,12 +181,11 @@ letter-spacing: 8px;
 
 /* Section - Block */
 /**************************/
-#ysl .block, #ps .block,  #boots .block, #mag .block, #rfu .block {
+#cg .block, #calder .block,  #krugier .block, #ks .block {
 padding: 60px 0;
 width: 820px;
 margin: 0 14%;
 text-align: justify;
-background-color: #424141;
 
 }
 
@@ -200,59 +208,87 @@ padding: 60px 12% 40px 14%;
 }
 
 
-#ysl .media .img_1 {
-display: grid;
-grid-column: 1 / span 4;
-grid-row: 1;
-} 
-
-#ysl .video_1 {
-  width: 480px;
-  margin-left: 14%;
-} 
-
-
-#ps .media .img_1 {
-  display: grid;
-  grid-column: 5 / span 8;
-  grid-row: 1;
-  } 
-  
-
-#boots .media .img_1 {
-display: grid;
-grid-column: 1 / span 7;
-grid-row: 2;
-} 
-
-#boots .media .img_2 {
+#cg .media .img_1 {
 display: grid;
 grid-column: 8 / span 5;
 grid-row: 1;
+} 
+
+#cg .media .img_2 {
+  display: grid;
+  grid-column: 1 / span 7;
+  grid-row: 1;
+  } 
+
+  #cg .media .img_3 {
+    display: grid;
+    grid-column: 8 / span 5;
+    grid-row: 2;
+    } 
+
+    #cg .media .img_4 {
+      display: grid;
+      grid-column: 1 / span 4;
+      grid-row: 3;
+      } 
+
+      #cg .media .img_5 {
+        display: grid;
+        grid-column: 6 / span 7;
+        grid-row: 4;
+        } 
+
+
+#calder .media .img_1 {
+  display: grid;
+  grid-column: 1 / span 3;
+  grid-row: 1;
+  } 
+  
+  #calder .media .img_2 {
+    display: grid;
+    grid-column: 7 / span 6;
+    grid-row: 2;
+    } 
+
+    #calder .media .img_3 {
+      display: grid;
+      grid-column: 1 / span 8;
+      grid-row: 1;
+      } 
+
+
+#krugier .media .img_1 {
+display: grid;
+grid-column: 1 / span 11;
+grid-row: 2;
+} 
+
+#krugier .media .img_2 {
+display: grid;
+grid-column: 9 / span 5;
+grid-row: 1;
 
 } 
 
-#mag .video_1 {
+
+
+#ks .img_1 {
+  grid-column: 9 / span 4;
+  grid-row: 1;
+}
+
+#ks .img_2 {
+  grid-column: 1 / span 8;
+  grid-row: 1;
+}
+
+#ks .img_3 {
   grid-column: 7 / span 6;
   grid-row: 2;
 }
 
-#rfu .video_1 {
-  grid-column: 1 / span 5;
-  grid-row: 1;
-}
 
-
-
-#rfu .video_2 {
-  grid-column: 1 / span 4;
-  grid-row: 3;
-}
-
-#rfu .video_3 {
-  grid-column: 6 / span 7;
-  grid-row: 2;
-}
 
 
 
@@ -292,6 +328,8 @@ grid-row: 1;
   opacity: 1;
   z-index: 990;
 }
+
+
 /*   
 .menu-wrapper .contact {
   bottom: 200px;
@@ -351,7 +389,7 @@ width: 100%;
   padding: 60px 140px 60px 148px;
   }
   
-  #ysl .block, #ps .block, #boots .block, #mag .block, #rfu .block {
+  #cg .block, #calder .block, #krugier .block, #ks .block {
     padding: 60px 0px 60px 0px;
     width: 780px;
     margin: 0 0px 0 148px;
@@ -359,60 +397,86 @@ width: 100%;
   }
   
   
-  
-#ysl .media .img_1 {
-  display: grid;
-  grid-column: 1 / span 4;
-  grid-row: 1;
-  } 
-  
-  #ysl .video_1 {
-    width: 480px;
-    margin-left: 148px;
-  } 
-  
-  
-  #ps .media .img_1 {
+
+  #cg .media .img_1 {
     display: grid;
-    grid-column: 4 / span 8;
+    grid-column: 1 / span 4;
     grid-row: 1;
     } 
     
-  
-  #boots .media .img_1 {
-  display: grid;
-  grid-column: 1 / span 6;
-  grid-row: 2;
-  } 
-  
-  #boots .media .img_2 {
-  display: grid;
-  grid-column: 5 / span 6;
-  grid-row: 1;
-  
-  } 
-  
-  #mag .video_1 {
-    grid-column: 5 / span 7;
+    #cg .media .img_2 {
+      display: grid;
+      grid-column: 1 / span 4;
+      grid-row: 1;
+      } 
+    
+      #cg .media .img_3 {
+        display: grid;
+        grid-column: 1 / span 4;
+        grid-row: 2;
+        } 
+    
+        #cg .media .img_4 {
+          display: grid;
+          grid-column: 1 / span 4;
+          grid-row: 3;
+          } 
+    
+          #cg .media .img_5 {
+            display: grid;
+            grid-column: 1 / span 4;
+            grid-row: 4;
+            } 
+    
+    
+    #calder .media .img_1 {
+      display: grid;
+      grid-column: 5 / span 8;
+      grid-row: 1;
+      } 
+      
+      #calder .media .img_2 {
+        display: grid;
+        grid-column: 5 / span 8;
+        grid-row: 2;
+        } 
+    
+        #calder .media .img_3 {
+          display: grid;
+          grid-column: 5 / span 8;
+          grid-row: 1;
+          } 
+    
+    
+    #krugier .media .img_1 {
+    display: grid;
+    grid-column: 1 / span 3;
     grid-row: 1;
-  }
-  
-  #rfu .video_1 {
-    grid-column: 1 / span 5;
-    grid-row: 1;
-  }
-  
-  
-  
-  #rfu .video_2 {
-    grid-column: 1 / span 4;
-    grid-row: 3;
-  }
-  
-  #rfu .video_3 {
-    grid-column: 5 / span 7;
+    } 
+    
+    #krugier .media .img_2 {
+    display: grid;
+    grid-column: 8 / span 5;
     grid-row: 2;
-  }
+    
+    } 
+    
+    #ks .img_1 {
+      grid-column: 7 / span 6;
+      grid-row: 1;
+    }
+    
+    #ks .img_2 {
+      grid-column: 7 / span 6;
+      grid-row: 2;
+    }
+    
+    
+    #ks .img_3 {
+      grid-column: 7 / span 6;
+      grid-row: 1;
+    }
+    
   
 
 }
@@ -442,7 +506,7 @@ padding-right: 6px;
   padding: 60px 0px 60px 90px;
   }
   
-  #ysl .block, #ps .block, #boots .block, #mag .block, #rfu .block {
+  #cg .block, #calder .block, #krugier .block, #ks .block {
     padding: 60px 0px 60px 0px;
     width: 680px;
     margin: 0 0px 0 90px;
@@ -452,59 +516,87 @@ padding-right: 6px;
   
   
   
-  
-  #ysl .media .img_1 {
+ 
+  #cg .media .img_1 {
     display: grid;
-width: 40%;   
+    grid-column: 1 / span 4;
+    grid-row: 1;
     } 
     
-   #ysl .video_1 {
-    width: 680px;
-  margin-left: 90px;
-    } 
+    #cg .media .img_2 {
+      display: grid;
+      grid-column: 1 / span 4;
+      grid-row: 1;
+      } 
+    
+      #cg .media .img_3 {
+        display: grid;
+        grid-column: 1 / span 4;
+        grid-row: 2;
+        } 
+    
+        #cg .media .img_4 {
+          display: grid;
+          grid-column: 1 / span 4;
+          grid-row: 3;
+          } 
+    
+          #cg .media .img_5 {
+            display: grid;
+            grid-column: 1 / span 4;
+            grid-row: 4;
+            } 
     
     
-    #ps .media .img_1 {
-      width: 680px;
-     
+    #calder .media .img_1 {
+      display: grid;
+      grid-column: 5 / span 8;
+      grid-row: 1;
       } 
       
+      #calder .media .img_2 {
+        display: grid;
+        grid-column: 5 / span 8;
+        grid-row: 2;
+        } 
     
-    #boots .media .img_1 {
-      width: 680px;
-  
+        #calder .media .img_3 {
+          display: grid;
+          grid-column: 5 / span 8;
+          grid-row: 1;
+          } 
+    
+    
+    #krugier .media .img_1 {
+    display: grid;
+    grid-column: 1 / span 3;
+    grid-row: 1;
     } 
     
-    #boots .media .img_2 {
-      width: 680px;
-      grid-column: 1 / span 6;
-  
+    #krugier .media .img_2 {
+    display: grid;
+    grid-column: 8 / span 5;
+    grid-row: 2;
     
     } 
     
-    #mag .video_1 {
-      width: 680px;
-      grid-column: 1 / span 6;
-  
+    #ks .img_1 {
+      grid-column: 7 / span 6;
+      grid-row: 1;
     }
     
-    #rfu .video_1 {
-      width: 680px;
-  
+    #ks .img_2 {
+      grid-column: 7 / span 6;
+      grid-row: 2;
     }
     
     
-    
-    #rfu .video_2 {
-      display: none;
+    #ks .img_3 {
+      grid-column: 7 / span 6;
+      grid-row: 1;
     }
     
-    #rfu .video_3 {
-      width: 680px;
-  
-  grid-column: 1 / span 6;
-    }
-    
+
 }
 @media screen and (max-width: 788px) {
 
@@ -532,7 +624,7 @@ padding-right: 6px;
   padding: 60px 0px 60px 120px;
   }
   
-  #ysl .block, #ps .block, #boots .block, #mag .block, #rfu .block {
+  #cg .block, #calder .block, #krugier .block, #ks .block {
     padding: 60px 0px 60px 0px;
     width: 580px;
     margin: 0 0px 0 120px;
@@ -543,57 +635,41 @@ padding-right: 6px;
   
   
   
-  #ysl .media .img_1 {
+  #cg .media .img_1 {
     display: grid;
 width: 40%;   
     } 
     
-   #ysl .video_1 {
+   #cg .video_1 {
     width: 580px;
   margin-left: 120px;
     } 
     
     
-    #ps .media .img_1 {
+    #calder .media .img_1 {
       width: 580px;
      
       } 
       
     
-    #boots .media .img_1 {
+    #krugier .media .img_1 {
       width: 580px;
   
     } 
     
-    #boots .media .img_2 {
+    #krugier .media .img_2 {
       width: 580px;
       grid-column: 1 / span 6;
   
     
     } 
     
-    #mag .video_1 {
+    #ks .video_1 {
       width: 580px;
       grid-column: 1 / span 6;
   
     }
-    
-    #rfu .video_1 {
-      width: 580px;
-  
-    }
-    
-    
-    
-    #rfu .video_2 {
-      display: none;
-    }
-    
-    #rfu .video_3 {
-      width: 580px;
-  
-  grid-column: 1 / span 6;
-    }
+
     
 
 
@@ -623,7 +699,7 @@ padding-right: 6px;
   padding: 60px 0px 60px 90px;
   }
   
-  #ysl .block, #ps .block, #boots .block, #mag .block, #rfu .block {
+  #cg .block, #calder .block, #krugier .block, #ks .block {
     padding: 60px 0px 60px 0px;
     width: 480px;
     margin: 0 0px 0 90px;
@@ -634,56 +710,39 @@ padding-right: 6px;
   
   
   
-  #ysl .media .img_1 {
+  #cg .media .img_1 {
     display: grid;
 width: 60%; 
     } 
     
-   #ysl .video_1 {
+   #cg .video_1 {
     width: 480px;
   margin-left: 90px;
     } 
     
     
-    #ps .media .img_1 {
+    #calder .media .img_1 {
       width: 480px;
      
       } 
       
     
-    #boots .media .img_1 {
+    #krugier .media .img_1 {
       width: 480px;
   
     } 
     
-    #boots .media .img_2 {
+    #krugier .media .img_2 {
       width: 480px;
       grid-column: 1 / span 6;
   
     
     } 
     
-    #mag .video_1 {
+    #ks .video_1 {
       width: 480px;
       grid-column: 1 / span 6;
   
-    }
-    
-    #rfu .video_1 {
-      width: 480px;
-  
-    }
-    
-    
-    
-    #rfu .video_2 {
-      display: none;
-    }
-    
-    #rfu .video_3 {
-      width: 480px;
-  
-  grid-column: 1 / span 6;
     }
     
 
@@ -707,7 +766,7 @@ box-sizing: border-box;
 padding: 60px 0px 60px 70px;
 }
 
-#ysl .block, #ps .block, #boots .block, #mag .block, #rfu .block {
+#cg .block, #calder .block, #krugier .block, #ks .block {
   padding: 60px 0px 60px 0px;
   width: 400px;
   margin: 0 0px 0 70px;
@@ -718,57 +777,42 @@ padding: 60px 0px 60px 70px;
 
 
 
-#ysl .media .img_1 {
+#cg .media .img_1 {
   display: grid;
 width: 60%; 
   } 
   
- #ysl .video_1 {
+ #cg .video_1 {
   width: 400px;
 margin-left: 70px;
   } 
   
   
-  #ps .media .img_1 {
+  #calder .media .img_1 {
     width: 400px;
    
     } 
     
   
-  #boots .media .img_1 {
+  #krugier .media .img_1 {
     width: 400px;
 
   } 
   
-  #boots .media .img_2 {
+  #krugier .media .img_2 {
     width: 400px;
     grid-column: 1 / span 6;
 
   
   } 
   
-  #mag .video_1 {
+  #ks .video_1 {
     width: 400px;
     grid-column: 1 / span 6;
 
   }
   
-  #rfu .video_1 {
-    width: 400px;
 
-  }
-  
-  
-  
-  #rfu .video_2 {
-    display: none;
-  }
-  
-  #rfu .video_3 {
-    width: 400px;
-
-grid-column: 1 / span 6;
-  }
   
 
 }
@@ -791,7 +835,7 @@ grid-column: 1 / span 6;
     padding: 40px 27px 40px 27px;
     }
     
-    #ysl .block, #ps .block, #boots .block, #mag .block, #rfu .block {
+    #cg .block, #calder .block, #krugier .block, #ks .block,  .block {
       padding: 60px 0px 60px 0px;
       width: 280px;
       margin: 0 0px 0 27px;
@@ -801,12 +845,12 @@ grid-column: 1 / span 6;
 
 
 
-    #ysl .media .img_1 {
+    #cg .media .img_1 {
       display: grid;
       width: 60%; 
       } 
       
-     #ysl .video_1 {
+     #cg .video_1 {
       width: 280px;
       margin-left: 27px;
       padding-left: 0;
@@ -814,44 +858,28 @@ grid-column: 1 / span 6;
       } 
       
       
-      #ps .media .img_1 {
+      #calder .media .img_1 {
         width: 280px;
        
         } 
         
       
-      #boots .media .img_1 {
+      #krugier .media .img_1 {
         width: 280px;
 
       } 
       
-      #boots .media .img_2 {
+      #krugier .media .img_2 {
         width: 280px;
 
       
       } 
       
-      #mag .video_1 {
+      #ks .video_1 {
         width: 280px;
 
       }
-      
-      #rfu .video_1 {
-        width: 280px;
-
-      }
-      
-      
-      
-      #rfu .video_2 {
-        display: none;
-      }
-      
-      #rfu .video_3 {
-        width: 280px;
-        grid-column: 1 / span 6;
-
-      }
+  
       
 
 
