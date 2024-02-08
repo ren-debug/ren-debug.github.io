@@ -391,3 +391,41 @@ button.tablinks {
   }
 }
 
+
+/* Media Queries */
+/**************************/
+@media screen and (min-width: 960px) and (max-width: 1200px) {
+
+
+}
+
+
+@media screen and (max-width: 959px) and (min-width: 769px) {
+
+
+}
+
+
+@media screen and (max-width: 788px) {
+
+
+}
+
+
+@media screen and (max-width: 620px) {
+
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+
+}
+
+
+@media screen and (max-width: 420px) {
+
+
+
+}

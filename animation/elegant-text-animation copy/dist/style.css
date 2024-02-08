@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700);
+
+body {
+  font-family: 'Playfair Display';
+  color: #0d0d0d;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  background-image: url("./img/homepage.png");    
+ background-size: cover;
+
+
+}
+
+
+.websiteFrame {
+  position: fixed;
+  z-index: 990;
+  background-color: white;
+  border-bottom: 0px;
+}
+
+#websiteFrameTop {
+  top: 0;
+  left: 0;
+  height: 4px;
+
+  /* height: 4px; */
+  /* color: white; */
+}
+
+#websiteFrameRight {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 4px;
+}
+
+#websiteFrameBottom {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+}
+
+#websiteFrameLeft {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+}
+
+
+
+h1 {
+    left: 50%;
+    margin: 0;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#title {
+    font-weight: 700;
+    display: inline-flex;
+    margin: -5px;
+    padding: 5px;
+} 
+
+.title-letter {
+    font-size: calc(6vw + 1rem);
+    margin-left: -2px;
+}
+
+#sub-title {
+    font-weight: 400;
+    font-size: calc(0.4vw + 0.5rem);
+    letter-spacing: calc(0.3vw + 0.5rem);
+    text-transform: uppercase;
+    position: relative;
+    top: -5px;
+}
+
+/* Opacity For Start */
+.title-letter, #sub-title {
+  opacity: 0;   
+}
+
+
+
+/* Push */
+@-webkit-keyframes hvr-push {
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes hvr-push {
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.hvr-push {
+  display: block;
+  margin: auto;
+  margin-top: 10vh;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-push:hover, .hvr-push:focus, .hvr-push:active {
+  -webkit-animation-name: hvr-push;
+  animation-name: hvr-push;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}

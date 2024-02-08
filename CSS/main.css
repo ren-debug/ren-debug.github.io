@@ -8,15 +8,24 @@
     /* overflow-y: hidden;
     overflow-x: hidden;
     scrollbar-width: none; */
-
 }
 
 
 body {
     color: #666666;
+    background-color: white;
+
 }
 
 
+navigation {
+width: 100%;
+    /* color: #666666; */
+    mix-blend-mode: exclusion;
+    background-color: rgba(15, 15, 15, 0.543);
+    backdrop-filter: blur(10px);
+
+  }
 /* Override UGG site */
 #main {
   width: 100%;
@@ -147,7 +156,7 @@ body {
   overflow: hidden;
   position: relative;
   width: 100%;
-  margin-top: 44px;
+
   background-image: url("/img/parallax.png");
   background-attachment: fixed;
   background-size: cover;
@@ -162,7 +171,7 @@ body {
     overflow: hidden;
     position: relative;
     width: 100%;
-    margin-top: 44px;
+
   background-image: url("/img/parallax.png");
   background-attachment: fixed;
   background-size: cover;
@@ -177,7 +186,7 @@ body {
     overflow: hidden;
     position: relative;
     width: 100%;
-    margin-top: 44px;
+
   background-image: url("/img/parallax.png");
   background-attachment: fixed;
   background-size: cover;
@@ -187,13 +196,14 @@ body {
   background-position: center center;
 }
 
-#skills .parallax-four {
-    padding-top: 244px;
-    padding-bottom: 244px;
+#contact .parallax-one {
+    padding-top: 0px;
+    padding-bottom: 0px;
     overflow: hidden;
     position: relative;
     width: 100%;
-    margin-top: 44px;
+    height: 100vh;
+
   background-image: url("/img/parallax.png");
   background-attachment: fixed;
   background-size: cover;
@@ -201,6 +211,29 @@ body {
   -webkit-background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+.details {
+  background-color: rgba(0, 0, 0, 0.543);
+  backdrop-filter: blur(10px);
+  border-radius: 50px;
+  width: 320px;
+  display: flex;
+ margin: auto;
+  justify-content: center;
+  align-items: center;
+  height: 320px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.prev-section, .next-section {
+  display:inline-block;
+  float:left;
+  margin:10px;
 }
 
 
@@ -469,35 +502,6 @@ hr {
   }
 
   
-  .menu li a {
-    font-size: .5rem;
-    height: 16px;
-    padding: 0%;
-    margin-top: 24px;
-  }
-
-  
-.vl {
-border-left: 0.5px solid  #9f9f9fa7;
-height: 100vh;
-position: fixed;
-left: 0%;
-margin-left: 42px;
-top: 0px;
-display: block;
-z-index: 990;
-}
-
-
-.fi-sr-house-chimney, .fi-br-menu-burger {
-font-size: .9rem;
-
-}
-
-
-.fi-sr-house-chimney {
-padding-left: 13.5px;
-}
 
 
 
@@ -520,35 +524,8 @@ padding-left: 13.5px;
     width: 280px;
   }
 
-  .menu li a {
-    font-size: .5rem;
-    height: 16px;
-    padding: 0%;
-    margin-top: 24px;
-  }
-
-  
-.vl {
-border-left: 0.5px solid  #9f9f9fa7;
-height: 100vh;
-position: fixed;
-left: 0%;
-margin-left: 42px;
-top: 0px;
-display: block;
-z-index: 990;
-}
 
 
-.fi-sr-house-chimney, .fi-br-menu-burger {
-font-size: .9rem;
-
-}
-
-
-.fi-sr-house-chimney {
-padding-left: 13.5px;
-}
 
 
 
