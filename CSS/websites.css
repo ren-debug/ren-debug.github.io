@@ -105,16 +105,18 @@ html:not(.mobile) .zoom:active {
   padding: 0;
   margin: 0;
 } */
+
+hr {
+  padding-top: 0;
+}
 #media h2, #pinzutu h2, #art_fair h2 {
-    font-family: 'the_new_eleganceCnRg';
-  font-size: 90px;
-  line-height: 160px;
-  letter-spacing: 2px;
-  text-align: center;
-  color: white;
-  font-weight: 400;
-  z-index: 10;
-  opacity: 0.9;
+  font-family: 'NeueHaasGroteskDisplay45Light';
+  /* font-style: normal;   */
+  font-size: 11px;
+  letter-spacing: 0.5px;
+  color: rgb(70, 70, 70);
+
+
 }
 #media h3, #pinzutu h3, #art_fair h3 {
   font-family: 'the_new_eleganceCnRg';
@@ -163,7 +165,13 @@ html:not(.mobile) .zoom:active {
 
 }
 
-
+.column {
+  column-count: 2;
+  column-gap: 60px;
+  column-rule: 1px dotted #666666;
+  width: 50%;
+  text-align: center;
+}
 
 
 /* #media .block-gray, #pinzutu .block-gray, #art_fair .block-gray {
@@ -189,7 +197,7 @@ html:not(.mobile) .zoom:active {
   position: relative;
   margin-top: 44px;
   width: 100%;
-  height: auto;
+  height: 100vh;
   background-image: url("/img/blonde.jpg");
   background-attachment: fixed;
   background-size: 100%;
@@ -206,11 +214,11 @@ html:not(.mobile) .zoom:active {
   position: relative;
   margin-top: 44px;
  
-  background-image: url("/img/parallax_1.png");
+  background-image: url("/img/parallax_1_full_bg.jpg");
   background-attachment: fixed;
-  background-size: contain;
-  -moz-background-size: contain;
-  -webkit-background-size: contain;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
   background-repeat: no-repeat;
   background-position: 100% bottom;
 }
