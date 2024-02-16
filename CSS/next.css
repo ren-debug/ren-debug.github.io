@@ -1,0 +1,17 @@
+section {
+    width:350px;
+    height:600px;
+    margin:50px;
+    border:4px solid #555;
+    background-color:#F0F0F0;
+}
+
+.prev-section, .next-section {
+    display:inline-block;
+    float:left;
+    margin:10px;
+}
+.section-content {
+    clear:both;
+    margin:10px;
+}

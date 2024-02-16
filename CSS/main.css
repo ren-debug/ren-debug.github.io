@@ -214,13 +214,13 @@ width: 100%;
 }
 
 .details {
-  background-color: rgba(0, 0, 0, 0.543);
+  /* background-color: rgba(0, 0, 0, 0.543);
   backdrop-filter: blur(10px);
-  border-radius: 50px;
-  width: 320px;
+  border-radius: 50px; */
+  width: 280px;
   display: flex;
  margin: auto;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   height: 320px;
   margin: 0;
@@ -232,7 +232,7 @@ width: 100%;
 
 .prev-section, .next-section {
   display:inline-block;
-  float:left;
+  z-index: 990;
   margin:10px;
 }
 
