@@ -159,11 +159,11 @@ width: 100%;
 
   background-image: url("/img/parallax.png");
   background-attachment: fixed;
-  background-size: cover;
+  background-size: 100%;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: bottom right;
 }
 #clients .parallax-two {
     padding-top: 244px;
