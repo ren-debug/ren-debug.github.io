@@ -229,18 +229,17 @@ background-color: #9d9a9a23; */
 
 .overlay-content {
   position: relative;
-  top: 24%;
+  top: 28%;
   width: 100%;
   text-align: center;
-  margin-top: 50px;
 }
 
 .overlay a {
-  padding: 8px;
+  /* padding: 8px; */
   text-decoration: none;
-  font-family: 'the_new_eleganceregular';
-  font-size: 2rem;
-  line-height: 3rem;
+  font-family: 'the_new_eleganceCnRg';
+  font-size: 6.5rem;
+  line-height: 9rem;
   letter-spacing: 1px;
   display: block;
   transition: 0.3s;
@@ -253,8 +252,8 @@ background-color: #9d9a9a23; */
 
 .overlay .closebtn {
   position: absolute;
-  top: -1%;
-  right: 0%;
+  top: 0%;
+  right: 2%;
   font-size: 30px;
 }
 
