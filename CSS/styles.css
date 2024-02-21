@@ -33,6 +33,7 @@ letter-spacing: 1px;
 
 h3 {
     font-size: .7rem;
+    line-height: .7rem;
 
 }
 
@@ -58,9 +59,9 @@ h6 {
 }
 
 p {
-  font-family: 'neue-haas-grotesk-display'; 
-  font-size: 0.75rem;
-    line-height: 1.1rem;
+  font-family: 'NeueHaasGroteskDisplay45Light';
+    font-weight: 400;
+    font-size: 12px;
     letter-spacing: 0.75px;
     text-align: justify;
 }

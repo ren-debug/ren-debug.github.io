@@ -108,20 +108,22 @@ html:not(.mobile) .zoom:active {
 
 hr {
   padding-top: 0;
+  margin-bottom: 14px;
 }
 #media h2, #pinzutu h2, #art_fair h2 {
   font-family: 'NeueHaasGroteskDisplay45Light';
   /* font-style: normal;   */
-  font-size: 11px;
-  letter-spacing: 0.5px;
-  color: rgb(70, 70, 70);
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.8px;
+  color: rgb(86, 86, 86);
 
 
 }
 #media h3, #pinzutu h3, #art_fair h3 {
   font-family: 'the_new_eleganceCnRg';
   font-size: 32px;
-    line-height: 52px;
+    line-height: 44px;
     font-weight: 600;
     letter-spacing: 0.5px;
 }
@@ -131,6 +133,13 @@ hr {
     font-weight: 400;
     font-size: 12px;
     line-height: 24px;
+}
+
+body {
+  font-family: 'NeueHaasGroteskDisplay45Light';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
 }
 
 /* .col {
@@ -168,11 +177,20 @@ hr {
 .column {
   column-count: 2;
   column-gap: 60px;
-  column-rule: 1px dotted #666666;
+  column-rule: none;
   width: 50%;
-  text-align: center;
+  margin-top: 20px;
+  text-align: left;
+  font-family: 'NeueHaasGroteskDisplay45Light';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
 }
 
+li {
+  list-style-type: circle;
+
+}
 
 /* #media .block-gray, #pinzutu .block-gray, #art_fair .block-gray {
   background: #f2f2f2;

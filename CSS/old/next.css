@@ -1,0 +1,20 @@
+section {
+    min-height: 100vh;
+}
+
+.prev-section, .next-section {
+    display:inline-block;
+    float:right;
+    margin:50px;
+}
+.section-content {
+    clear:both;
+    margin:10px;
+}
+
+
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #b3b5b9 #1e1f2200 !important;
+  }

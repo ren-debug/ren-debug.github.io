@@ -56,6 +56,11 @@ width: 100%;
     padding-bottom: 20px;
 }
 
+.margin-bottom-120 {
+  padding-bottom: 120px;
+
+}
+
 /* Typography */
 /**************************/
 /* #parallax-world-of-ugg h1 {
@@ -68,15 +73,11 @@ width: 100%;
   margin: 0;
 } */
 #about h2, #clients h2, #skills h2 {
-    font-family: 'the_new_eleganceCnRg';
-  font-size: 90px;
-  line-height: 160px;
-  letter-spacing: 2px;
-  text-align: center;
-  color: white;
-  font-weight: 400;
-  z-index: 10;
-  opacity: 0.9;
+  font-family: 'the_new_eleganceCnRg';
+  font-size: 32px;
+    line-height: 44px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
 }
 #about h3, #clients h3, #skills h3 {
     font-family: 'NeueHaasGroteskDisplay45Light';
@@ -96,7 +97,7 @@ width: 100%;
 
 /* Section - Title */
 /**************************/
-#about .title, #clients .title, #skills .title {
+/* #about .title, #clients .title, #skills .title {
   background: white;
   padding: 60px;
   margin: 0 auto;
@@ -105,36 +106,42 @@ width: 100%;
 #about .title h1, #clients .title h1, #skills .title h1 {
     font-size: 35px;
   letter-spacing: 8px;
-}
+} */
 
 /* Section - Block */
 /**************************/
 #about .block {
   background: white;
-  padding: 60px;
+  height: 100vh;
+  padding-top: 10%;
+  /* padding: 60px; */
   width: 820px;
   margin: 0 auto;
   text-align: justify;
 }
 
 #clients .block {
-    background: white;
-    padding: 60px;
-    width: 820px;
-    margin: 0 auto;
-    text-align: justify;
+  background: white;
+  height: 100vh;
+  padding-top: 10%;
+  /* padding: 60px; */
+  width: 820px;
+  margin: 0 auto;
+  text-align: justify;
   }
 
   #skills .block {
     background: white;
-    padding: 60px;
+    height: 100vh;
+    padding-top: 20%;
+    /* padding: 60px; */
     width: 820px;
     margin: 0 auto;
     text-align: justify;
   }
 
 
-#about .block-gray, #clients .block-gray, #skills .block-gray {
+/* #about .block-gray, #clients .block-gray, #skills .block-gray {
   background: #f2f2f2;
   padding: 60px;
 }
@@ -146,7 +153,7 @@ width: 100%;
   height: 100%;
   background-color: black;
   opacity: 0.7;
-}
+} */
 
 /* Section - Parallax */
 /**************************/
@@ -156,62 +163,61 @@ width: 100%;
   overflow: hidden;
   position: relative;
   width: 100%;
-
-  background-image: url("/img/parallax.png");
+  height: 100vh;
+  background-image: url("/img/homepage.png");    
   background-attachment: fixed;
-  background-size: 100%;
+  background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom right;
 }
 #clients .parallax-two {
-    padding-top: 244px;
-    padding-bottom: 244px;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-
-  background-image: url("/img/parallax.png");
+  padding-top: 244px;
+  padding-bottom: 244px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("/img/homepage.png");    
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: bottom right;
 }
 #skills .parallax-three {
-    padding-top: 244px;
-    padding-bottom: 244px;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-
-  background-image: url("/img/parallax.png");
+  padding-top: 244px;
+  padding-bottom: 244px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("/img/homepage.png");    
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: bottom right;
 }
 
-#contact .parallax-one {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    height: 100vh;
-
-  background-image: url("/img/parallax.png");
+/* #contact .parallax-one {
+  padding-top: 244px;
+  padding-bottom: 244px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("/img/homepage.png");    
   background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
-}
+  background-position: bottom right;
+} */
 
 .details {
   /* background-color: rgba(0, 0, 0, 0.543);
@@ -230,11 +236,7 @@ width: 100%;
   transform: translate(-50%, -50%);
 }
 
-.prev-section, .next-section {
-  display:inline-block;
-  z-index: 990;
-  margin:10px;
-}
+
 
 
 /* Tabs */

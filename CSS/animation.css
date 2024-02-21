@@ -6,10 +6,8 @@
 }
 
 body {
-  background-image: url("/img/homepage.png");    
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom right;
+  background: radial-gradient(circle at 24.1% 68.8%, rgb(29, 29, 29) 0%, rgb(0, 0, 0) 99.4%);    
+
   height: calc(100vh - 16px);
   color: #e6e6e6;
   text-align: center;
@@ -219,6 +217,7 @@ box-sizing: border-box;
     margin: auto;
     width: 60%;
   }
+
 
 }
 
