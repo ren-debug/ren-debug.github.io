@@ -35,6 +35,11 @@ navigation {
 
   }
 
+
+  navigation a:hover, menu li a:hover {
+    text-decoration: underline;
+  }
+
   navigation button {
   position: fixed;
   top: 3%;
@@ -61,12 +66,7 @@ navigation {
 }
 
 
-.logo {
-  width: 24px;
-  position: fixed;
-  top: 14px;
-  left: 10px;
-}
+
 
 
 .fi-br-menu-burger {
@@ -79,12 +79,14 @@ navigation {
 }
 
 
-/* .fi-sr-house-chimney {
+.fi-sr-house-chimney {
   padding-left: 13px;
   font-size: 16px;
   opacity: 1;
-  cursor: pointer;  
-} */
+  cursor:pointer;
+  z-index: 1000; 
+ 
+}
 
 
 .contact .tooltiptext {
@@ -144,10 +146,6 @@ navigation {
 }
 
 
-.menu-wrapper {
- 
-    
-}
 
 .menu-wrapper a:hover {
   color: rgb(119, 119, 119);
@@ -173,7 +171,7 @@ navigation {
     position: fixed;
     display: flex;
     flex-direction: column;
-    top: 0%;
+    top: 28px;
     color: #a4a4a4;
     text-align: center;
     left: 0;
@@ -197,8 +195,9 @@ background-color: #9d9a9a23; */
 }
 
 
+
 .menu li a:hover {
-  opacity: .6;
+  opacity: 1;
 }
 
 .contact {
@@ -235,19 +234,27 @@ background-color: #9d9a9a23; */
 
 .overlay-content {
   position: relative;
-  top: 28%;
+  height: 100vh;
+
   width: 100%;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .overlay a {
   /* padding: 8px; */
   text-decoration: none;
+  /* position: absolute; */
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);   */
   font-family: 'the_new_eleganceCnRg';
   font-size: 6.5rem;
-  line-height: 9rem;
+  line-height: 9.5rem;
   letter-spacing: 1px;
-  display: block;
+  /* display: block; */
   transition: 0.3s;
   color: white;
 }
@@ -258,9 +265,10 @@ background-color: #9d9a9a23; */
 
 .overlay .closebtn {
   position: absolute;
-  top: 0%;
-  right: 2%;
-  font-size: 30px;
+  top: -56px;
+  right: 20px;
+  font-size: 28px;
+  z-index: 990;
 }
 
 
