@@ -111,7 +111,7 @@ h1 {
 .hvr-push {
   display: block;
   margin: auto;
-  margin-top: 10vh;
+  margin-top: 0vh;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);

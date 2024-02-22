@@ -1,26 +1,26 @@
 @import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-bold-rounded/css/uicons-bold-rounded.css');
 
-navigation {
+navigation, .nav_links {
   position: fixed;
     display: flex;
+    top: 0px;
     width: 100%;
     left: 0%;
     right: 0%;
-    height: 44px;
+    height: 64px;
     font-family: 'NeueHaasGroteskDisplay45Light';
     font-weight: 200;
     font-style: normal;  
     font-size: 11px;
     letter-spacing: 0.5px;
-    color: #a4a4a4;
     opacity: 1;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 0px 0px 0px 0px;
     /* left: 8%;  */
    
-    background-color: rgba(255, 255, 255, 0.071);
-    backdrop-filter: blur(10px);
+    /* background-color: rgba(255, 255, 255, 0.071); */
+    /* backdrop-filter: blur(10px); */
     /* border-bottom: 0.5px solid #9f9f9f75; */
     z-index: 1;
     opacity: 1;
@@ -42,11 +42,15 @@ navigation {
 
   navigation button {
   position: fixed;
-  top: 3%;
-  right: 2%; 
+  top: 14px;
+  right: 14px; 
   z-index: 1;
-  text-align: center;
-  margin-right: 0px;
+  border-radius: 50px;
+  width: 102px;
+  height: 40px;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+ 
    
   }
 
@@ -70,19 +74,25 @@ navigation {
 
 
 .fi-br-menu-burger {
-  padding-right: 26px;
-  font-size: 18px;
+  position: fixed;
+  left: 80px;
+  top: 20px;
+/* margin-left: 24px; */
+  font-size: 17px;
   opacity: 1;
   cursor: pointer;
+  z-index: 990;
   /* padding-top: 2px; */
 
 }
 
 
 .fi-sr-house-chimney {
-  padding-left: 13px;
+  position: fixed;
+  left: 24px;
+  top: 21px;
   font-size: 16px;
-  opacity: 1;
+
   cursor:pointer;
   z-index: 1000; 
  
@@ -163,7 +173,7 @@ navigation {
     
     transition: .5s ease-out;
     opacity: 1;
-    color: black;
+    color: rgb(255, 255, 255);
     
 }
 
@@ -172,7 +182,7 @@ navigation {
     display: flex;
     flex-direction: column;
     top: 28px;
-    color: #a4a4a4;
+    /* color: #a4a4a4; */
     text-align: center;
     left: 0;
     bottom: 0%;
@@ -197,7 +207,7 @@ background-color: #9d9a9a23; */
 
 
 .menu li a:hover {
-  opacity: 1;
+  opacity: .6;
 }
 
 .contact {
@@ -225,7 +235,7 @@ background-color: #9d9a9a23; */
   position: fixed;
   z-index: 990;
   top: 0;
-  left: 0;
+  right: 0;
   background-color: rgb(0,0,0);
   overflow-y: hidden;
   transition: 0.5s;
@@ -265,8 +275,8 @@ background-color: #9d9a9a23; */
 
 .overlay .closebtn {
   position: absolute;
-  top: -56px;
-  right: 20px;
+  left: 44px;
+  top: -51px;
   font-size: 28px;
   z-index: 990;
 }
