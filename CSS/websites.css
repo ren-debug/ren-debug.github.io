@@ -12,10 +12,6 @@
 }
 
 
-body {
-    color: #666666;
-}
-
 
 .card, .card_1 {
   /* width: 130px;
@@ -135,12 +131,7 @@ hr {
     line-height: 24px;
 }
 
-body {
-  font-family: 'NeueHaasGroteskDisplay45Light';
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-}
+
 
 /* .col {
   display: flex;
