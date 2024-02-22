@@ -4,9 +4,19 @@
   <meta charset="UTF-8">
   <title>index</title>
   <link rel="stylesheet" href="/CSS/animation.css">
-  <link rel="stylesheet" href="/fonts/stylesheet.css">
-  <link rel="stylesheet" href="https://use.typekit.net/ezv7rpx.css">  <!-- <link rel="stylesheet" href="/CSS/styles.css"> -->
+  <link rel="stylesheet" href="/CSS/aside.css">
 
+  <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="fonts/glyphter-font/css/Glyphter.css">
+    <link rel="preconnect" href="https://cdn.fonts.net">
+    <link href="https://cdn.fonts.net/kit/80364058-c27d-4c1b-b2c7-350a8631e968/80364058-c27d-4c1b-b2c7-350a8631e968.css"
+        rel="stylesheet" />
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-brands/css/uicons-brands.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-thin-rounded/css/uicons-thin-rounded.css'>
+    
+  <link rel="stylesheet" href="https://use.typekit.net/ezv7rpx.css">
+  <link href="https://cdn.fonts.net/kit/80364058-c27d-4c1b-b2c7-350a8631e968/80364058-c27d-4c1b-b2c7-350a8631e968.css"
+      rel="stylesheet" />
 
 </head>
 <body>
@@ -18,6 +28,48 @@
 <div id="websiteFrameLeft" class="websiteFrame"></div>
 
 
+<navigation>
+  <!-- <a href="home.html#about"><i class="fi fi-sr-house-chimney"></i></a> -->
+  <span class="openbtn" onclick="openNav()"><i class="fi fi-br-menu-burger"></i></span>
+<div class="nav_links">
+  <a href="web.html" class="nav">web design</a>
+  <a href="print.html" class="nav">print design</a>
+  <a href="digital.html" class="nav">digital design</a></div>
+  <button class="hvr-push"><a href="home.html">get in touch!</a>
+  </button>
+</navigation>
+
+<div id="myNav" class="overlay">
+
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fi fi-br-cross-small"></i></a>
+  <div class="overlay-content"><ul>
+      <li><a href="home.html">about</a><li>
+          <li><a href="work.html">work</a></li></ul>
+     
+  </div>
+</div>
+
+<script>
+  function openNav() {
+      document.getElementById("myNav").style.height = "100%";
+  }
+
+  function closeNav() {
+      document.getElementById("myNav").style.height = "0%";
+  }
+</script>
+
+
+<ul class="contact">
+            
+            <li><a href="https://www.linkedin.com/in/irene-s-38613460/"><i
+                        class="fi fi-brands-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/ireneishi/"><i
+                        class="fi fi-brands-instagram"></i></a></li>
+            <li><a href="https://github.com/ren-debug"><i class="fi fi-brands-github"></i></a></li>
+            <li><a href="mailto:irene.spalletti@gmail.com"><i class="fi fi-sr-envelope"></i></a></li>
+            <li><a href="tel:00447412604767"><i class="fi fi-sr-phone-flip"></i></a></li>
+        </ul> 
 
 <div id="wrapper">
     <h1>
@@ -40,7 +92,7 @@
         </span>
         <br/>
 
-        <span id="sub-title">design & front-end development</span>
+        <span id="sub-title"><p>design & front-end development</p></span>
 
         <span id="sub-title">        
           <div class="cta">
@@ -51,10 +103,11 @@
             </div>
         </span>
 
-        <!-- <span id="sub-title" class="info"><a href="/print.html">print</a> · <a href="/digital.html">digital</a> · <a href="/websites.html">web dev</a> -->
+        
+        <!-- <span id="sub-title" class="info"><a href="/print.html">print</a> · <a href="/digital.html">digital</a> · <a href="/websites.html">web dev</a>
 
 
-        </span>
+        </span> -->
     </h1>
 </div>
 <!-- partial -->

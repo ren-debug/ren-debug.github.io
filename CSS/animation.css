@@ -8,7 +8,7 @@
 body {
   background: radial-gradient(circle at 24.1% 68.8%, rgb(29, 29, 29) 0%, rgb(0, 0, 0) 99.4%);    
 
-  height: calc(100vh - 16px);
+  /* height: calc(100vh - 16px); */
   color: #e6e6e6;
   text-align: center;
   -webkit-font-smoothing: antialiased;
@@ -43,6 +43,7 @@ body {
   top: 0;
   left: 0;
   height: 4px;
+  width: 100%;
 
   /* height: 4px; */
   /* color: white; */
@@ -69,7 +70,15 @@ body {
   width: 4px;
 }
 
+ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
+a:hover {
+  text-decoration: none;
+}
 
 /* Push */
 @-webkit-keyframes hvr-push {
@@ -113,6 +122,7 @@ body {
 
 
 
+
 button {
   font-family: "neue-haas-grotesk-display", sans-serif;
   font-weight: 400;
@@ -135,13 +145,15 @@ button {
 
 }
 
+
+
 .cta {
   display: flex;
   margin: auto;
-  width: 44%;
+  width: 48%;
   /* background-color: blueviolet; */
   position: relative;
-  top: -25px;
+  top: -15px;
   align-items: center;
 }
 
@@ -157,13 +169,17 @@ h1 {
     display: inline-flex;
     margin: -5px;
     padding: 5px;
+    margin-top: 10vh;
+
 } 
+
 
 .title-letter {
     font-size: calc(6vw + 1rem);
     margin-left: -2px;
     font-family: 'the_new_eleganceCnRg';
     font-weight: 100;
+    letter-spacing: 1px;
 
 }
 
@@ -173,11 +189,19 @@ h1 {
     letter-spacing: calc(0.3vw + 0.5rem);
     text-transform: uppercase;
     position: relative;
-    top: -5px;
+    top: 15px;
     font-family: 'Playfair Display';
 
 }
 
+#sub-title p {
+  line-height: 12px;
+}
+
+span {
+  line-height: 4px;
+
+}
 /* Opacity For Start */
 .title-letter, #sub-title {
   opacity: 0;   
@@ -219,6 +243,25 @@ box-sizing: border-box;
   }
 
 
+  #title {
+    margin-top: 10vh;
+  }
+.title-letter {
+  letter-spacing: 2px;
+}
+
+#sub-title {
+  font-size: calc(0.4vw + 0.5rem);
+  letter-spacing: calc(0.3vw + 0.4rem);
+  top: 24px;
+
+}
+
+
+#sub-title p {
+  line-height: 24px;
+}
+
 }
 
 
@@ -230,6 +273,28 @@ box-sizing: border-box;
     width: 70%;
   }
 
+
+
+
+
+#title {
+  margin-top: 10vh;
+}
+.title-letter {
+letter-spacing: 2px;
+}
+
+#sub-title {
+font-size: calc(0.4vw + 0.5rem);
+letter-spacing: calc(0.3vw + 0.4rem);
+top: 10px;
+
+}
+
+
+#sub-title p {
+line-height: 24px;
+}
 }
 
 
@@ -241,6 +306,26 @@ box-sizing: border-box;
     width: 70%;
   }
 
+
+
+  #title {
+    margin-top: 12vh;
+  }
+.title-letter {
+  letter-spacing: 2px;
+}
+
+#sub-title {
+  font-size: calc(0.4vw + 0.5rem);
+  letter-spacing: calc(0.3vw + 0.4rem);
+  top: 10px;
+
+}
+
+
+#sub-title p {
+  line-height: 24px;
+}
 }
 
 
@@ -254,6 +339,26 @@ box-sizing: border-box;
 
 
 
+  #title {
+    margin-top: 12vh;
+  }
+.title-letter {
+  letter-spacing: 2px;
+}
+
+#sub-title {
+  font-size: calc(0.4vw + 0.5rem);
+  letter-spacing: calc(0.3vw + 0.4rem);
+  top: 10px;
+
+}
+
+
+#sub-title p {
+  line-height: 24px;
+}
+
+
 
 }
 
@@ -262,10 +367,37 @@ box-sizing: border-box;
 
   .cta {
     display: flex;
-    margin: auto;
-    width: 90%;
+    /* margin: auto; */
+    width: 80%;
+    margin-top: 2vh;
+
   }
 
+  button {
+    outline: none;
+    width: 106px;
+    height: 40px;
+    margin: 3px 2px;
+  }
+
+  #title {
+    margin-top: 12vh;
+  }
+.title-letter {
+  letter-spacing: 2px;
+}
+
+#sub-title {
+  font-size: calc(0.4vw + 0.4rem);
+  letter-spacing: calc(0.3vw + 0.4rem);
+  top: 0px;
+
+}
+
+
+#sub-title p {
+  line-height: 16px;
+}
 
 
 }
@@ -279,9 +411,37 @@ box-sizing: border-box;
     width: 100%;
   }
 
+  /* .contact {
+    display: block;
+  } */
+
   button {
     width: 96px;
     height: 36px;
   }
+
+.title-letter {
+  letter-spacing: 2px;
+}
+
+#sub-title {
+  font-size: calc(0.4vw + 0.4rem);
+  letter-spacing: calc(0.3vw + 0.4rem);
+  top: 0px;
+
+}
+
+#title {
+  margin-top: 6vh;
+}
+
+#sub-title p {
+  line-height: 16px;
+}
+
+body {
+  margin-left: 0;
+  padding-left: 0;
+}
 
 }
