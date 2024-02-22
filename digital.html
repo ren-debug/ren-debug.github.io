@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="fonts/glyphter-font/css/Glyphter.css">
     <link rel="preconnect" href="https://cdn.fonts.net">
+    <link rel="stylesheet" href="https://use.typekit.net/ezv7rpx.css">
     <link href="https://cdn.fonts.net/kit/80364058-c27d-4c1b-b2c7-350a8631e968/80364058-c27d-4c1b-b2c7-350a8631e968.css"
         rel="stylesheet" />
     <script
@@ -28,13 +29,34 @@
 
 <body>
     <navigation>
-        <a href="index.html"><img src="/img/logo.svg" width="100%" class="logo"></a>
+        <a href="home.html"><img src="/img/logo.svg" width="100%" class="logo"></a>
         <a href="web.html" class="nav">web design</a>
         <a href="print.html" class="nav">print design</a>
         <a href="digital.html" class="active nav">digital design</a>
         <span class="openbtn" onclick="openNav()"><i class="fi fi-br-menu-burger"></i></span>
 
     </navigation>
+
+    <div id="myNav" class="overlay">
+
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fi fi-br-cross-small"></i></a>
+        <div class="overlay-content">
+            <a href="home.html#about">about</a>
+            <a href="websites.html">work</a>
+           
+        </div>
+    </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+
 
     <div class="content-wrapper">
         <div class="menu-wrapper">
@@ -52,23 +74,27 @@
         </div>
 
         <div class="content"> 
-            <section id="first">
+            <section style="margin-top: 0px;" id="first">
                 <!-- <a href="#" class="next-section">Next Section</a> -->
                 <!-- <div class="section-content"> -->
                     <div class="container">
 
-                        <div class="third"><img src="img/ysl_insta.png" alt="ysl_insta" width="100%">
+                        <div class="third">
+                            <img src="img/ysl_insta.png" alt="ysl_insta" width="100%">
                         </div>
                      
                         <div class="intro">
 				
-                            <ul>
-                                <li>art direction</li>
-                                <li>branding</li>
-                                <li>identity design</li>
-                                <li>photography</li>
+                            <ul><hr>
+                                <li>client:&nbsp;&nbsp;&nbsp;&nbsp;<span class="right">art direction</span></li>
+                                <li>role:&nbsp;&nbsp;&nbsp;&nbsp;<span class="right">branding</span></li>
+                                <li>solutions:&nbsp;&nbsp;&nbsp;&nbsp;<span class="right">identity design</span></li>
+                                <li>collaborators:&nbsp;&nbsp;&nbsp;&nbsp;<span class="right">art direction</span></li>
+
+                                
                             </ul>
             
+                           
                             <p>During my time at L'Oréal, I held the responsibility of designing and build
                                 newsletters that were dedicated to showcasing the products of various prestigious
                                 brands,such as Kiehl's, Lancôme and Yves Saint Laurent.
@@ -84,7 +110,7 @@
                             </div> -->
 
                         </div>
-                        <div class="three_quarters"><video width="100%" autoplay muted>
+                        <div class="half"><video width="100%" autoplay muted>
                             <source src="/mp4/YSL.mp4" type="video/mp4">
                         </video></div>               
                     </div>
@@ -98,24 +124,28 @@
                 </div> -->
                 <div class="container">
 
-                    <div class="half_right"><img src="img/pokerstars_desktop_3.png" alt="pokerstars" width="100%">
-                    </div>
+                    <div class="half_right"><img src="img/pokerstars_devices.png" alt="pokerstars_devices" width="100%"></div>
 
                     <div class="intro">
             
-                        <ul>
-                            <li>art direction</li>
-                            <li>branding</li>
-                            <li>identity design</li>
-                            <li>photography</li>
+                       
+                        <ul><hr>
+                            <li>client:&nbsp;&nbsp;&nbsp;&nbsp;<span class="right">art direction</span></li>
+                            <li>role:&nbsp;&nbsp;&nbsp;&nbsp;<span class="right">branding</span></li>
+                            <li>solutions:&nbsp;&nbsp;&nbsp;&nbsp;<span class="right">identity design</span></li>
+                            <li>collaborators:&nbsp;&nbsp;&nbsp;&nbsp;<span class="right">art direction</span></li>
+
+                            
                         </ul>
         
+                        
                         <p>Design of digital assets and visual identities for PokerStars, BetStars, and
                             PokerStars Casino. Digital assets creation to support product launches, promotions
                             and visual identities for multiple territories, in line with each brands unique look and feel.</p>
-        
+                        
+                        <div class="flip">
                         <button id="flip1">read more</button>
-
+                        </div>
                         <div id="panel1">
                             <p><br><br>I played a part in supporting various marketing initiatives, such as product launches
                                 and promotions, by designing digital assets like banners and website elements.
@@ -125,11 +155,11 @@
                                 in supporting the marketing efforts of The Stars Group.
                             </p>
                         </div>
-
                     </div>
 
 
-                    <div class="three_quarters"><img src="img/pokerstars_devices.png" alt="pokerstars_devices" width="100%"></div>
+                    <div class="half"><img src="img/pokerstars_desktop_3.png" alt="pokerstars" width="100%">
+                    </div>
                 
                 </div>
             </section>
@@ -146,11 +176,13 @@
 
                     <div class="intro">
             
-                        <ul>
-                            <li>art direction</li>
-                            <li>branding</li>
-                            <li>identity design</li>
-                            <li>photography</li>
+                        <ul><hr>
+                            <li>client:&nbsp;&nbsp;&nbsp;&nbsp;<span class="right">art direction</span></li>
+                            <li>role:&nbsp;&nbsp;&nbsp;&nbsp;<span class="right">branding</span></li>
+                            <li>solutions:&nbsp;&nbsp;&nbsp;&nbsp;<span class="right">identity design</span></li>
+                            <li>collaborators:&nbsp;&nbsp;&nbsp;&nbsp;<span class="right">art direction</span></li>
+
+                            
                         </ul>
         
                         <p>Contribution to marketing and advertising campaigns creating visual components for beauty brand campaigns. My role centered and had a strong
@@ -168,14 +200,21 @@
             <section id="fourth">
                 <!-- <a href="#" class="prev-section">Previous Section</a> -->
                 <div class="container">
-                   
+
+                    <div class="half_right"><video class="video_1" width="100%" controls muted>
+                        <source src="/mp4/mag_black_friday.mp4" type="video/mp4">
+
+                    </video></div>
+
                     <div class="intro">
             
-                        <ul>
-                            <li>art direction</li>
-                            <li>branding</li>
-                            <li>identity design</li>
-                            <li>photography</li>
+                        <ul><hr>
+                            <li>client:&nbsp;&nbsp;&nbsp;&nbsp;<span class="right">art direction</span></li>
+                            <li>role:&nbsp;&nbsp;&nbsp;&nbsp;<span class="right">branding</span></li>
+                            <li>solutions:&nbsp;&nbsp;&nbsp;&nbsp;<span class="right">identity design</span></li>
+                            <li>collaborators:&nbsp;&nbsp;&nbsp;&nbsp;<span class="right">art direction</span></li>
+
+                            
                         </ul>
         
                         <p>One of the projects I found particularly engaging during my time at McArthurGlen
@@ -184,9 +223,9 @@
                             within our department.</p>
         
               
-
+                        <div class="flip">
                             <button id="flip2">read more</button>
-
+                        </div>
                             <div id="panel2">
                                 <p><br><br>With the adoption of Salesforce, I collaborated with the CRM team
                                     to facilitate their
@@ -203,12 +242,10 @@
                                     workflow.
                                 </p>
                             </div>
+                        
                     </div>
 
-                    <div class="half"><video class="video_1" width="100%" controls muted>
-                        <source src="/mp4/mag_black_friday.mp4" type="video/mp4">
-
-                    </video></div>
+                   
                 </div>
             </section>
 
@@ -224,19 +261,29 @@
                      
                         <div class="intro">
 				
-                            <ul>
+                            <ul><hr>
+                                <li>client:&nbsp;&nbsp;&nbsp;&nbsp;<span class="right">art direction</span></li>
+                                <li>role:&nbsp;&nbsp;&nbsp;&nbsp;<span class="right">branding</span></li>
+                                <li>solutions:&nbsp;&nbsp;&nbsp;&nbsp;<span class="right">identity design</span></li>
+                                <li>collaborators:&nbsp;&nbsp;&nbsp;&nbsp;<span class="right">art direction</span></li>
+    
+                                
+                            </ul>
+
+                            <!-- <ul>
                                 <li>art direction</li>
                                 <li>branding</li>
                                 <li>identity design</li>
                                 <li>photography</li>
-                            </ul>
+                            </ul> -->
             
                             <p>I was responsible for redesigning newsletters as part of the broader rebranding
                                 initiative for the England Rugby Union. My task was to modernize and bring up to date
                                 the existing newsletter designs to align them with the new brand identity.</p>
             
+                            <div class="flip">
                             <button id="flip3">read more</button>
-
+                            </div>
                             <div id="panel3">
                                 <p><br><br>I focused on creating visually appealing templates
                                     that would effectively convey the Union's messages to its audience. This involved
@@ -249,7 +296,7 @@
                                     implementation of the redesigned newsletters as part of the larger rebranding effort.
                                 </p>
                             </div>
-
+                            
                         </div>
 
                         <div class="half"><video class="video_1" width="100%" controls muted>
@@ -257,7 +304,7 @@
     
                         </video></div>
 
-                        <div class="three_quarters_right"><video width="100%" controls muted>
+                        <div style="padding-bottom: 40px;" class="third_right"><video width="100%" controls muted>
                             <source src="/mp4/rfu_men.mp4" type="video/mp4">
                         </video></div> 
                         

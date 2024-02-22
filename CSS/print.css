@@ -3,9 +3,26 @@
   box-sizing: border-box;
 }
 
+p {
+  font-family: 'NeueHaasGroteskDisplay45Light';
+  /* font-style: normal;   */
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+  color: rgb(86, 86, 86);
+  float: right;
+  /* margin-top: 32px; */
+	width: 45%;
+}
 
+hr {
+  margin-bottom: 24px;
+}
 
-
+section {
+  margin-top: 60px;
+  padding-top: 44px;
+}
 
 .content-wrapper {
   height: 100vh;
@@ -20,7 +37,7 @@
 
 
 #flip1, #flip2, #flip3, #flip4 {
-  margin-top: 40px;
+  margin-top: 32px;
   margin-bottom: 0px;
   cursor: pointer;
 
@@ -31,6 +48,7 @@
   text-align: justify;
   margin-top: 60px;
   width: 100%;
+
  
 
 }
@@ -70,7 +88,8 @@
   button {
     background-color: transparent;
     border: 0.5px solid rgb(120, 120, 120);
-    
+    float: left;
+
   }
 
 a {
@@ -93,8 +112,6 @@ a:hover {
   border-radius: 2px; */
   padding-right: 44px;
   padding-left: 94px;
-
-  margin-top: 80px;
   justify-content: space-between;
   text-align: center;
 }
@@ -110,6 +127,9 @@ a:hover {
   flex-flow: column wrap;
   margin-top: 44px;
 }
+
+
+
 
 .full {
   width: 100%; /* IE */
@@ -130,25 +150,26 @@ a:hover {
 
 
 .half {
-  width: 45%; /* IE */
+  width: 50%; /* IE */
   flex: 0 2 calc(50% - 20px);
 }
 
 .half_right {
-  width: 45%; /* IE */
+  width: 50%; /* IE */
   flex: 0 2 calc(50% - 20px);
   align-self: flex-end;
 }
 
 .third {
-  width: 32.2%; /* IE */
-  flex: 0 1 calc(33.333333% - 20px);
+  
+  width: 38.2%; /* IE */
+  flex: 0 1 calc(38.333333% - 20px);
 }
 
 
 .third_right {
-  width: 32.2%; /* IE */
-  flex: 0 1 calc(33.333333% - 20px);
+  width: 38.2%; /* IE */
+  flex: 0 1 calc(38.333333% - 20px);
   align-self: flex-end;
 
 }
@@ -169,7 +190,7 @@ a:hover {
 /* =============== # INTRO =============== */
 
 .intro {
-	margin: 95px 0 110px 0;
+	margin: 120px 0 80px 0;
 }
 
 .intro h3 {
@@ -181,38 +202,57 @@ a:hover {
     text-align: left;
 }
 
+
+.intro h4 {
+  font-family: 'the_new_eleganceregular';
+  letter-spacing: 0.5px;
+    font-size: 1rem;
+    line-height: 0rem;
+    text-align: left;
+}
+
+
 .intro ul {
 	float: left;
 	list-style: none;
-	width: 50%;
+	width: 30%;
+
 }
+
+
+.right {
+  /* text-align: left; */
+  /* float: right; */
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  color: rgb(86, 86, 86);
+  
+}
+
 
 .intro ul li {
-  text-align: left;
+  text-align: justify;
 	margin-bottom: 2px;
-  font-family: 'NeueHaasGroteskDisplay45Light';
-  /* font-style: normal;   */
-  font-size: 12px;
-  line-height: 24px;
-  letter-spacing: 0.8px;
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 18px;
+  letter-spacing: 0.4px;
   color: rgb(86, 86, 86);
 }
 
-.intro p {
+.intro .flip {
 	float: right;
-	width: 50%;
-  font-family: 'NeueHaasGroteskDisplay45Light';
-  /* font-style: normal;   */
-  font-size: 12px;
-  line-height: 24px;
-  letter-spacing: 0.8px;
-  color: rgb(86, 86, 86);
+  /* margin-top: 32px; */
+	width: 45%;
+
 }
 
-button {
-	float: left;
- 
-}
+
 
 
 
@@ -236,6 +276,10 @@ button {
   margin-top: 40px;
 }
 
+button {
+  float: left;
+
+}
 
 
 .container > * {
@@ -275,6 +319,12 @@ button {
 /* Start @media(max-width:770px) */
 
 @media(max-width: 770px) {
+
+
+  button {
+    float: left;
+  
+  }
 
 
 	.intro ul {
@@ -318,6 +368,12 @@ button {
 /* Start @media(max-width:570px) */
 
 @media(max-width: 570px) {
+
+  button {
+    float: left;
+  
+  }
+
 
 	.info {
 		width: 100%;
@@ -369,6 +425,12 @@ button {
   
   }
 
+  button {
+    float: left;
+  
+  }
+
+
 }
 
 
@@ -381,5 +443,9 @@ button {
 		font-size: 2.7rem;
 	}
 
+  button {
+    float: left;
+  
+  }
   
 }

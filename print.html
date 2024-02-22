@@ -29,13 +29,34 @@
 
 <body>
     <navigation>
-        <a href="index.html"><img src="/img/logo.svg" width="100%" class="logo"></a>
+        <a href="home.html"><img src="/img/logo.svg" width="100%" class="logo"></a>
         <a href="web.html" class="nav">web design</a>
         <a href="print.html" class="active nav">print design</a>
         <a href="digital.html" class="nav">digital design</a>
         <span class="openbtn" onclick="openNav()"><i class="fi fi-br-menu-burger"></i></span>
 
     </navigation>
+
+    <div id="myNav" class="overlay">
+
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fi fi-br-cross-small"></i></a>
+        <div class="overlay-content">
+            <a href="home.html#about">about</a>
+            <a href="websites.html">work</a>
+           
+        </div>
+    </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+
 
     <div class="content-wrapper">
         <div class="menu-wrapper">
