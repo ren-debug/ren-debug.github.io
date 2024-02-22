@@ -152,10 +152,10 @@ button {
 .cta {
   display: flex;
   margin: auto;
-  width: 45%;
+  width: 40%;
   /* background-color: blueviolet; */
   position: relative;
-  top: -15px;
+  top: 20px;
   align-items: center;
 }
 
@@ -184,7 +184,7 @@ h1 {
 
 
 .title-letter {
-    font-size: calc(7vw + 1.5rem);
+    font-size: calc(6vw + 1.5rem);
     margin-left: -2px;
     font-family: 'the_new_eleganceCnRg';
     font-weight: 100;
