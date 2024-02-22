@@ -49,34 +49,37 @@ padding-top: 40px;
 </head>
 
 <body>
-    <navigation>
-        <a href="home.html#about"><i class="fi fi-sr-house-chimney"></i></a>
-        <a href="web.html" class="nav">web design</a>
-        <a href="print.html" class="nav">print design</a>
-        <a href="digital.html" class="active nav">digital design</a>
-        <span class="openbtn" onclick="openNav()"><i class="fi fi-br-menu-burger"></i></span>
-
-    </navigation>
-
-    <div id="myNav" class="overlay">
-
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fi fi-br-cross-small"></i></a>
-        <div class="overlay-content"><ul>
-            <li><a href="home.html">about</a><li>
-                <li><a href="work.html">work</a></li></ul>
-           
-        </div>
+ 
+<navigation>
+    <!-- <a href="home.html#about"><i class="fi fi-sr-house-chimney"></i></a> -->
+    <span class="openbtn" onclick="openNav()"><i class="fi fi-br-menu-burger"></i></span>
+  <div class="nav_links">
+    <a href="home.html#about" class="nav">about</a>
+    <a href="home.html#clients" class="nav">clients</a>
+    <a href="home.html#skills" class="nav">skills</a></div>
+    <button class="hvr-push"><a href="home.html">get in touch!</a>
+    </button>
+  </navigation>
+  
+  <div id="myNav" class="overlay">
+  
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fi fi-br-cross-small"></i></a>
+    <div class="overlay-content"><ul>
+        <li><a href="home.html">about</a><li>
+            <li><a href="work.html">work</a></li></ul>
+       
     </div>
-
-    <script>
-        function openNav() {
-            document.getElementById("myNav").style.height = "100%";
-        }
-
-        function closeNav() {
-            document.getElementById("myNav").style.height = "0%";
-        }
-    </script>
+  </div>
+  
+  <script>
+    function openNav() {
+        document.getElementById("myNav").style.height = "100%";
+    }
+  
+    function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+    }
+  </script>
 
 
     <div class="content-wrapper">

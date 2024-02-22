@@ -253,3 +253,103 @@ padding-top: 0px;
     background-repeat: no-repeat;
     background-position: 100% bottom;  
 }
+
+
+
+
+
+/* Start @media(max-width:870px) */
+
+@media(max-width: 870px) {
+
+	.intro {
+    margin: 65px 0 60px 0;
+}
+
+.intro ul,
+.intro p {
+  float: none;
+  width: 100%;
+}
+
+.intro p {
+  margin-top: 40px;
+}
+
+button {
+  float: left;
+
+}
+
+
+}
+
+
+
+/* Start @media(max-width:770px) */
+
+@media(max-width: 770px) {
+
+
+  button {
+    float: left;
+  
+  }
+
+
+	.intro ul {
+		margin-top: 35px;
+	}
+
+}
+
+
+/* Start @media(max-width:570px) */
+
+@media(max-width: 570px) {
+
+  button {
+    float: left;
+  
+  }
+
+
+	.info {
+		width: 100%;
+	}
+
+}
+
+
+/* Start @media(max-width:420px) */
+
+@media(max-width: 420px) {
+
+  .container > * {
+    /* padding-right: 44px;
+    padding-left: 94px; */
+    margin-top: 20px;
+  
+  }
+
+  button {
+    float: left;
+  
+  }
+
+}
+
+/* Start @media(max-width:320px) */
+
+@media(max-width: 320px) {
+
+  .intro h1 {
+     font-size: 2.7rem;
+   }
+ 
+   button {
+     float: left;
+   
+   }
+   
+ }
