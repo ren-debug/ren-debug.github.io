@@ -230,14 +230,14 @@ background-color: #9d9a9a23; */
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 260px;
+    width: calc(28vw + 1.5rem);
     justify-content: space-evenly;
     z-index: 0;
 }
 
 
 .contact i {
-    font-size: 1.2rem;
+    font-size: calc(0.5vw + 0.75rem);
 
 }
 
@@ -378,10 +378,10 @@ padding-right: 1%;
     margin: auto;
   }
 
-  .contact i {
+  /* .contact i {
     font-size: 1.1rem;
 
-}
+} */
 
 }
 
@@ -410,10 +410,10 @@ padding-right: 1%;
   }
   
 
-  .contact i {
+  /* .contact i {
     font-size: 1.1rem;
 
-}
+} */
 
   
 }
@@ -465,11 +465,11 @@ display: none;
   z-index: 990;
 }
 
-
+/* 
 .contact i {
   font-size: 0.9rem;
 
-}
+} */
 
 }
 
@@ -490,9 +490,9 @@ display: none;
 
 
 
-.contact i {
-  font-size: 0.9rem;
 
+.contact i {
+padding: 0 8px;
 }
 
 
