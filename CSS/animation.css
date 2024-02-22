@@ -78,6 +78,8 @@ ul li {
 
 a:hover {
   text-decoration: none;
+  opacity: .6;
+  cursor: pointer;
 }
 
 /* Push */
@@ -169,7 +171,6 @@ h1 {
     display: inline-flex;
     margin: -5px;
     padding: 5px;
-    margin-top: 10vh;
 
 } 
 

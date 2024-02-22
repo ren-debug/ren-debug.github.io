@@ -230,7 +230,7 @@ background-color: #9d9a9a23; */
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 260px;
+    width: 200px;
     justify-content: space-evenly;
     z-index: 0;
 }
@@ -258,7 +258,9 @@ background-color: #9d9a9a23; */
 .overlay-content {
   position: relative;
   height: 100vh;
-
+margin: 0;
+padding: 0;
+padding-right: 1%;
   width: 100%;
   text-align: center;
   display: flex;
@@ -266,16 +268,23 @@ background-color: #9d9a9a23; */
   align-items: center;
 }
 
+
+.overlay-content ul {
+  padding: 0;
+  margin: 0%;
+}
 .overlay a {
   /* padding: 8px; */
   text-decoration: none;
+  /* left: 48%; */
+  /* transform: translate(-48%, -50%); */
   /* position: absolute; */
   /* top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);   */
   font-family: 'the_new_eleganceCnRg';
-  font-size: 6.5rem;
-  line-height: 9.5rem;
+  font-size: calc(8vw + 1rem);
+  line-height: calc(8vw + 3rem);
   letter-spacing: 1px;
   /* display: block; */
   transition: 0.3s;
@@ -287,11 +296,9 @@ background-color: #9d9a9a23; */
 }
 
 .overlay .closebtn {
-  position: absolute;
-  left: 20px;
-  top: -47px;
-  font-size: 28px;
-  z-index: 990;
+  left: 19px;
+  top: -44px;
+  
 }
 
 
@@ -329,6 +336,15 @@ background-color: #9d9a9a23; */
   line-height: 24px;
 }
 
+.overlay .closebtn {
+  position: absolute;
+  left: 19px;
+  top: -32px;
+  font-size: 28px;
+  z-index: 990;
+}
+
+
 }
 
 
@@ -339,6 +355,16 @@ background-color: #9d9a9a23; */
     width: 460px;
     margin: auto;
   }
+
+  .overlay .closebtn {
+    position: absolute;
+    left: 19px;
+    top: -22px;
+    font-size: 28px;
+    z-index: 990;
+  }
+
+
 }
 
 
@@ -366,6 +392,16 @@ background-color: #9d9a9a23; */
     margin: auto;
   }
 
+
+  .overlay .closebtn {
+    position: absolute;
+    left: 18px;
+    top: -16px;
+    font-size: 28px;
+    z-index: 990;
+  }
+  
+  
 }
 
 
@@ -407,6 +443,15 @@ display: none;
 }
 
 
+.overlay .closebtn {
+  position: absolute;
+  left: 18px;
+  top: -8px;
+  font-size: 28px;
+  z-index: 990;
+}
+
+
 }
 
 
@@ -433,12 +478,13 @@ display: none;
     }
 
 
-  .overlay .closebtn {
-    position: absolute;
-    top: 0%;
-    right: 0%;
-    font-size: 30px;
-  }
+    .overlay .closebtn {
+      position: absolute;
+      left: 18px;
+      top: -5px;
+      font-size: 28px;
+      z-index: 990;
+    }
 
 
 
