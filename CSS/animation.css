@@ -106,7 +106,7 @@ a:hover {
 .hvr-push {
   display: block;
   margin: auto;
-  margin-top: 10vh;
+  margin-top: 5vh;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -159,10 +159,18 @@ button {
   align-items: center;
 }
 
+.cta_1 {
+  display: flex;
+  margin: 0 auto;
+  padding-top: -40px;
+  height: 50px;
+  width: 80%;
+}
+
 h1 {
     left: 50%;
     margin: 0;
-    top: 50%;
+    top: 48%;
     position: absolute;
     transform: translate(-50%, -50%);
 }
@@ -176,7 +184,7 @@ h1 {
 
 
 .title-letter {
-    font-size: calc(6vw + 1rem);
+    font-size: calc(8vw + 2rem);
     margin-left: -2px;
     font-family: 'the_new_eleganceCnRg';
     font-weight: 100;
@@ -244,9 +252,14 @@ box-sizing: border-box;
   }
 
 
-  #title {
-    margin-top: 10vh;
+  .cta_1 {
+    display: flex;
+    margin: auto;
+    width: 80%;
   }
+
+
+
 .title-letter {
   letter-spacing: 2px;
 }
@@ -275,12 +288,14 @@ box-sizing: border-box;
   }
 
 
+  .cta_1 {
+    display: flex;
+    margin: auto;
+    width: 100%;
+  }
 
 
 
-#title {
-  margin-top: 10vh;
-}
 .title-letter {
 letter-spacing: 2px;
 }
@@ -308,10 +323,15 @@ line-height: 24px;
   }
 
 
-
+  .cta_1 {
+    display: flex;
+    margin: auto;
+    width: 100%;
+  }
+/* 
   #title {
     margin-top: 12vh;
-  }
+  } */
 .title-letter {
   letter-spacing: 2px;
 }
@@ -338,11 +358,17 @@ line-height: 24px;
     width: 90%;
   }
 
+  .cta_1 {
+    display: flex;
+    margin: auto;
+    width: 100%;
+  }
 
 
+/* 
   #title {
     margin-top: 12vh;
-  }
+  } */
 .title-letter {
   letter-spacing: 2px;
 }
@@ -374,16 +400,16 @@ line-height: 24px;
 
   }
 
-  button {
-    outline: none;
-    width: 106px;
-    height: 40px;
-    margin: 3px 2px;
+  .cta_1 {
+    display: flex;
+    /* margin: auto; */
+    width: 100%;
+    margin-top: 2vh;
+
   }
 
-  #title {
-    margin-top: 12vh;
-  }
+
+
 .title-letter {
   letter-spacing: 2px;
 }
@@ -412,6 +438,12 @@ line-height: 24px;
     width: 100%;
   }
 
+  .cta_1 {
+    display: flex;
+    margin: auto;
+    width: 100%;
+  }
+
   /* .contact {
     display: block;
   } */
@@ -432,9 +464,6 @@ line-height: 24px;
 
 }
 
-#title {
-  margin-top: 6vh;
-}
 
 #sub-title p {
   line-height: 16px;
