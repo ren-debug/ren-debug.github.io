@@ -219,6 +219,23 @@ height: 100vh;
     background-position: 100% bottom;
 }
   
+#pinzutu .parallax-three {
+  padding-top: 244px;
+  padding-bottom: 244px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 0px;
+  width: 100%;
+  height: 100vh;
+  background-image: url("/img/parallax_christies.png");
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% bottom; 
+}
+
 
 
   #pinzutu .third_right {
