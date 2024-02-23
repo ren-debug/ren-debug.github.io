@@ -3,7 +3,7 @@
 navigation, .nav_links {
   position: fixed;
     display: flex;
-    top: 6px;
+    top: 4px;
     width: 100%;
     left: 0%;
     right: 0%;
@@ -17,6 +17,9 @@ navigation, .nav_links {
     align-items: center;
     justify-content: space-evenly;
     padding: 0px 0px 0px 0px;
+    color: white;
+  
+    mix-blend-mode: exclusion; 
     /* left: 8%;  */
     /* mix-blend-mode: exclusion; */
 
@@ -49,15 +52,19 @@ navigation, .nav_links {
 
   navigation button {
   position: fixed;
-  top: 28px;
+  top: 20px;
   right: 38px; 
-  z-index: 990;
+  z-index: 1;
   border-radius: 50px;
   width: 120px;
   height: 40px;
   font-size: 11px;
   letter-spacing: 0.5px;
   padding: 0px;
+  color: black;
+  background-color: white;
+  
+  mix-blend-mode: exclusion;
 
 
  
@@ -85,8 +92,8 @@ navigation, .nav_links {
 
 .fi-br-menu-burger {
   position: fixed;
-  left: 12px;
-  top: 24px;
+  left: 13px;
+  top: 12px;
 /* margin-left: 24px; */
   font-size: 17px;
   line-height: 18px;
@@ -94,18 +101,21 @@ navigation, .nav_links {
   padding: 2px;
   cursor: pointer;
   z-index: 10;
-  color: #636363;
-  /* padding-top: 2px; */
+  color: white;
+  
+  mix-blend-mode: exclusion;  /* padding-top: 2px; */
 
 }
 
 
 .fi-sr-house-chimney {
   position: fixed;
-  left: 68px;
-  top: 24px;
-  font-size: 16px;
-  color: #636363;
+  left: 66px;
+  top: 12px;
+  font-size: 16.5px;
+  color: white;
+  
+  mix-blend-mode: exclusion;
 
   cursor:pointer;
   z-index: 990; 
@@ -186,8 +196,7 @@ navigation, .nav_links {
 .active {
     
     transition: .5s ease-out;
-    opacity: 1;
-    color: rgb(255, 255, 255);
+    opacity: .4;
     
 }
 
@@ -213,8 +222,8 @@ background-color: #9d9a9a23; */
   /* width: fit-content; */
   writing-mode: vertical-lr;
   transform: rotate(180deg);
-  width: 30px;
-  mix-blend-mode: exclusion;
+  width: 32px;
+  mix-blend-mode: exclusion; 
   /* transform-origin: 13px 0px; */
 
 }
@@ -227,7 +236,7 @@ background-color: #9d9a9a23; */
 
 .contact {
     /* transform: translate(0,100%) rotate(0deg); */
-    padding: 0.5% 0;
+    padding: 2.5% 0;
     text-align: center;
     margin: auto;
     text-decoration: none;
@@ -237,14 +246,14 @@ background-color: #9d9a9a23; */
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: calc(28vw + 1.5rem);
+    width: calc(24vw + 1.2rem);
     justify-content: space-evenly;
     z-index: 0;
 }
 
 
 .contact i {
-    font-size: calc(0.5vw + 0.75rem);
+    font-size: calc(0.5vw + 0.6rem);
 
 }
 
@@ -304,8 +313,8 @@ padding-right: 1%;
 
 .overlay .closebtn {
   position: absolute;
-  left: 19px;
-  top: -46px;
+  left: 34px;
+  top: -43px;
   font-size: 28px;
   z-index: 990;
 }
@@ -327,7 +336,7 @@ padding-right: 1%;
 
 
   #title {
-    margin-top: 10vh;
+    margin-top: 0vh;
   }
 .title-letter {
   letter-spacing: 2px;
