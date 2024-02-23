@@ -5,6 +5,7 @@
 
 }
 
+
 p {
   font-family: 'NeueHaasGroteskDisplay45Light';
   /* font-style: normal;   */
@@ -115,7 +116,7 @@ a {
   display: -ms-flex;
   display: flex;
   flex-flow: column wrap;
-  margin-top: 44px;
+  margin-top: 0px;
 }
 
 
@@ -257,7 +258,7 @@ a {
 @media(max-width: 870px) {
 
 	.intro {
-    margin: 65px 0 60px 0;
+    margin: 0px 0 0px 0;
 }
 
 .intro ul,
@@ -279,7 +280,7 @@ button {
 .container > * {
   /* padding-right: 44px;
   padding-left: 94px; */
-  margin-top: 40px;
+  margin-top: 0px;
 
 }
 
@@ -376,7 +377,7 @@ button {
   .container > * {
     /* padding-right: 44px;
     padding-left: 94px; */
-    margin-top: 40px;
+    margin-top: 0px;
   
   }
 
@@ -415,7 +416,7 @@ button {
   .container > * {
     /* padding-right: 44px;
     padding-left: 94px; */
-    margin-top: 20px;
+    margin-top: 0px;
   
   }
 

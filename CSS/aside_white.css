@@ -1,0 +1,67 @@
+navigation, .nav_links {
+    position: fixed;
+      display: flex;
+      top: 0px;
+      width: 100%;
+      left: 0%;
+      right: 0%;
+      height: 60px;
+      font-family: 'NeueHaasGroteskDisplay45Light';
+      font-weight: 200;
+      font-style: normal;  
+      font-size: 11px;
+      letter-spacing: 0.5px;
+      opacity: 1;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 0px 0px 0px 0px;
+      color: rgb(70, 70, 70);
+    
+      mix-blend-mode: normal; 
+      /* left: 8%;  */
+      /* mix-blend-mode: exclusion; */
+  
+      background-color: rgba(255, 255, 255, 0.185);
+      backdrop-filter: blur(10px);
+      /* border-bottom: 0.5px solid #9f9f9f75; */
+      z-index: 1;
+    }
+
+
+.fi-br-menu-burger {
+      color: rgb(70, 70, 70);
+
+
+}
+
+
+.fi-sr-house-chimney {
+  color: rgb(70, 70, 70);
+
+
+}
+
+
+.contact {
+  /* transform: translate(0,100%) rotate(0deg); */
+  padding: 6% 0;
+  text-align: center;
+  margin: 0;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column-reverse;
+  bottom: 0%;
+  position: absolute;
+  right: 40px;
+  height: 50vh;
+  /* transform: translate(-50%, -50%); */
+  /* width: calc(24vw + 1.2rem); */
+  justify-content: space-evenly;
+  z-index: 0;
+}
+
+
+.contact i {
+  font-size: .9rem;
+
+}
