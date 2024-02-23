@@ -175,6 +175,10 @@ a {
   align-self: flex-end;
 }
 
+.sixth {
+  width: 10%; /* IE */
+  flex: 0 1 calc(10% - 20px);
+}
 
 
 /* =============== # INTRO =============== */
