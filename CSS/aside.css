@@ -7,7 +7,7 @@ navigation, .nav_links {
     width: 100%;
     left: 0%;
     right: 0%;
-    height: 52px;
+    height: 64px;
     font-family: 'NeueHaasGroteskDisplay45Light';
     font-weight: 200;
     font-style: normal;  
@@ -52,7 +52,7 @@ navigation, .nav_links {
 
   navigation button {
   position: fixed;
-  top: 20px;
+  top: 12px;
   right: 38px; 
   z-index: 1;
   border-radius: 50px;
@@ -69,6 +69,16 @@ navigation, .nav_links {
 
  
    
+  }
+
+  .fi-rr-pen-clip {
+    font-size: 16px;
+    position: static;
+    
+    /* mix-blend-mode: exclusion; */
+  
+    cursor:pointer;
+    z-index: 990; 
   }
 
 .nav {
@@ -92,28 +102,27 @@ navigation, .nav_links {
 
 .fi-br-menu-burger {
   position: fixed;
-  left: 13px;
-  top: 12px;
+  right: 38px;
+  top: 48vh;
 /* margin-left: 24px; */
   font-size: 17px;
   line-height: 18px;
   opacity: 1;
-  padding: 2px;
+  padding: 0px;
   cursor: pointer;
   z-index: 10;
-  color: white;
+  /* color: white; */
   
   mix-blend-mode: exclusion;  /* padding-top: 2px; */
 
 }
 
 
-.fi-sr-house-chimney {
+.fi-rr-house-chimney {
   position: fixed;
-  left: 66px;
-  top: 12px;
-  font-size: 16.5px;
-  color: white;
+  left: 16px;
+  top: 18px;
+  font-size: 14px;
   
   mix-blend-mode: exclusion;
 
@@ -313,10 +322,18 @@ padding-right: 1%;
 
 .overlay .closebtn {
   position: absolute;
-  left: 34px;
-  top: -43px;
+  right: 32px;
+  top: 47.2vh;
+/* margin-left: 24px; */
   font-size: 28px;
-  z-index: 990;
+  line-height: 18px;
+  opacity: 1;
+  padding: 0px;
+  cursor: pointer;
+  z-index: 10;
+  /* color: white; */
+  
+  mix-blend-mode: exclusion;  /* padding-top: 2px; */
 }
 
 
