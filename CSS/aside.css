@@ -3,11 +3,11 @@
 navigation, .nav_links {
   position: fixed;
     display: flex;
-    top: 4px;
+    top: 0px;
     width: 100%;
     left: 0%;
     right: 0%;
-    height: 64px;
+    height: 52px;
     font-family: 'NeueHaasGroteskDisplay45Light';
     font-weight: 200;
     font-style: normal;  
@@ -52,16 +52,16 @@ navigation, .nav_links {
 
   navigation button {
   position: fixed;
-  top: 12px;
-  right: 38px; 
+  top: 14px;
+  right: 24px; 
   z-index: 1;
   border-radius: 50px;
-  width: 120px;
-  height: 40px;
+  width: 100px;
+  height: 36px;
   font-size: 11px;
   letter-spacing: 0.5px;
   padding: 0px;
-  color: black;
+  color: #212121;
   background-color: white;
   
   /* mix-blend-mode: exclusion; */
@@ -71,15 +71,6 @@ navigation, .nav_links {
    
   }
 
-  .fi-rr-pen-clip {
-    font-size: 16px;
-    position: static;
-    
-    /* mix-blend-mode: exclusion; */
-  
-    cursor:pointer;
-    z-index: 990; 
-  }
 
 .nav {
   padding: 0px 0px;
@@ -122,10 +113,11 @@ navigation, .nav_links {
   left: 14.5px;
   top: 18px;
   font-size: 0.9rem;
-  color: rgb(70, 70, 70);
+  padding: 2px 2px;
+  /* color: rgb(70, 70, 70); */
 
   cursor:pointer;
-  z-index: 990; 
+  z-index: 1000; 
  
 }
 
@@ -219,6 +211,7 @@ navigation, .nav_links {
     bottom: 0%;
     z-index: 990;
     justify-content: space-evenly;
+    mix-blend-mode: exclusion; 
 
     /* margin: 0 auto; */
     /* width: 44px;
@@ -231,7 +224,7 @@ background-color: #9d9a9a23; */
   writing-mode: vertical-lr;
   transform: rotate(180deg);
   width: 32px;
-  mix-blend-mode: exclusion; 
+  color: white;
   /* transform-origin: 13px 0px; */
 
 }
@@ -319,7 +312,7 @@ padding-right: 1%;
 .overlay .closebtn {
   position: absolute;
   right: 20px;
-  top: -58px;
+  top: -57px;
 /* margin-left: 24px; */
   font-size: 24px;
   opacity: 1;

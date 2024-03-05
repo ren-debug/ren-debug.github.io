@@ -231,6 +231,15 @@ button a {
 
 }
 
+
+navigation button a {
+  text-decoration: none;
+  cursor: pointer;
+  color:rgb(29, 29, 29);
+
+}
+
+
 #sub-title.info {
 box-sizing: border-box;
   display: flex;

@@ -6,10 +6,12 @@ body {
     /* padding-top: 64px; */
    
 }
-
+/* 
 p {
     color: rgb(86, 86, 86);
-}
+} */
+
+
 
 
 button {
@@ -25,17 +27,13 @@ navigation {
        
   }
 
-  menu li {
-    /* mix-blend-mode: screen; */
 
-  }
 
-  .nav_links {
+  /* .nav_links {
     color: rgb(111, 111, 111);
-    /* mix-blend-mode: screen; */
-      /* backdrop-filter: blur(10px); */
+   
   
-    }
+    } */
 
 
   navigation button {
