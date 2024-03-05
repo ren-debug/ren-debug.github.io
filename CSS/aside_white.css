@@ -5,7 +5,7 @@ navigation, .nav_links {
       width: 100%;
       left: 0%;
       right: 0%;
-      height: 60px;
+      height: 48px;
       font-family: 'NeueHaasGroteskDisplay45Light';
       font-weight: 200;
       font-style: normal;  
@@ -28,14 +28,25 @@ navigation, .nav_links {
     }
 
 
-/* .fi-br-menu-burger {
-      color: rgb(70, 70, 70);
+.fi-br-menu-burger {
+  mix-blend-mode: exclusion;  /* padding-top: 2px; */
 
 
 }
 
+.menu li {
+  /* width: fit-content; */
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  width: 30px;
+  mix-blend-mode: exclusion; 
+  color: rgb(70, 70, 70);
 
-.fi-rr-house-chimney {
+  /* transform-origin: 13px 0px; */
+
+}
+
+/* .fi-rr-house-chimney {
   color: rgb(70, 70, 70);
 
 
@@ -44,7 +55,7 @@ navigation, .nav_links {
 
 .contact {
   /* transform: translate(0,100%) rotate(0deg); */
-  padding: 6% 0;
+  padding: 0% 0;
   text-align: center;
   margin: 0;
   text-decoration: none;
@@ -52,8 +63,8 @@ navigation, .nav_links {
   flex-direction: column-reverse;
   bottom: 0%;
   position: absolute;
-  right: 40px;
-  height: 50vh;
+  right: 24px;
+  height: 20vh;
   /* transform: translate(-50%, -50%); */
   /* width: calc(24vw + 1.2rem); */
   justify-content: space-evenly;
@@ -62,6 +73,7 @@ navigation, .nav_links {
 
 
 .contact i {
-  font-size: .9rem;
+  font-size: 0.9rem;
+  color: rgb(70, 70, 70);
 
 }

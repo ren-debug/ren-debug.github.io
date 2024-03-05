@@ -1,7 +1,7 @@
 * {
   /* text-shadow: 1px 1px 0 #000; */
   box-sizing: border-box;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 
 }
 
@@ -12,22 +12,46 @@ p {
   font-size: 12px;
   line-height: 24px;
   letter-spacing: 0.8px;
-  color: rgb(86, 86, 86);
+  color: rgb(70, 70, 70);
   float: right;
   margin-top: 32px;
 	width: 45%;
 }
 
 hr {
-  margin-bottom: 24px;
+  margin-bottom: 12px;
+  border: 0.5px solid  #9f9f9f77;
 }
 
 section {
-  margin-top: 60px;
-  padding-top: 44px;
+  margin-top: 40px;
+  padding-top: 40px;
 }
 
+.tooltip {
+  position: relative;
+  display: inline-block;
+  /* border-bottom: 1px dotted black; */
+}
 
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  color: rgb(70, 70, 70);
+  text-align: right;
+  /* border-radius: 6px; */
+  padding: 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 120%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
 
 
 #flip1, #flip2, #flip3, #flip4 {
@@ -68,8 +92,8 @@ section {
   /* Track */
   ::-webkit-scrollbar-track {
     box-sizing: border-box;
-    margin-top: 240px;
-    margin-bottom: 320px;
+    margin-top: 30vh;
+    margin-bottom: 40vh;
     background: linear-gradient(#a1a1a11b, #a1a1a11b);    
     border-radius: 100px;
    

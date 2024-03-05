@@ -90,7 +90,7 @@ navigation, .nav_links {
   height: 100vh;
   position: fixed;
   left: 0%;
-  margin-left: 44px;
+  margin-left: 46px;
   top: 0px;
   display: block;
   z-index: 990;
@@ -101,12 +101,11 @@ navigation, .nav_links {
 
 
 .fi-br-menu-burger {
-  position: fixed;
-  right: 38px;
-  top: 48vh;
+  position: absolute;
+  right: 24px;
+  top: 16px;
 /* margin-left: 24px; */
   font-size: 17px;
-  line-height: 18px;
   opacity: 1;
   padding: 0px;
   cursor: pointer;
@@ -118,13 +117,12 @@ navigation, .nav_links {
 }
 
 
-.fi-rr-house-chimney {
+.fi-tr-house-chimney {
   position: fixed;
-  left: 16px;
+  left: 14.5px;
   top: 18px;
-  font-size: 14px;
-  
-  mix-blend-mode: exclusion;
+  font-size: 0.9rem;
+  color: rgb(70, 70, 70);
 
   cursor:pointer;
   z-index: 990; 
@@ -181,12 +179,12 @@ navigation, .nav_links {
   } */
 
 
-.menu-wrapper .active {
+/* .menu-wrapper .active {
   color: rgb(70, 70, 70);
   font-weight: 500;
  
     
-}
+} */
 
 
 
@@ -204,8 +202,9 @@ navigation, .nav_links {
 
 .active {
     
-    transition: .5s ease-out;
-    opacity: .4;
+    transition: .3s ease-out;
+    opacity: .5;
+    text-decoration: underline;
     
 }
 
@@ -253,28 +252,25 @@ background-color: #9d9a9a23; */
     flex-direction: row-reverse;
     bottom: 0%;
     position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: calc(24vw + 1.2rem);
+    right: 0%;
+    /* transform: translate(-50%, -50%); */
+    /* width: calc(vw + 1rem); */
     justify-content: space-evenly;
     z-index: 0;
 }
 
 
-.contact i {
-    font-size: calc(0.5vw + 0.6rem);
 
-}
 
 
 .overlay {
   height: 0%;
   width: 100%;
   position: fixed;
-  z-index: 990;
+  z-index: 1000;
   top: 0;
   right: 0;
-  background-color: rgb(0,0,0);
+  background-color: #212121;
   overflow-y: hidden;
   transition: 0.5s;
 }
@@ -312,7 +308,7 @@ padding-right: 1%;
   line-height: calc(8vw + 3rem);
   letter-spacing: 1px;
   /* display: block; */
-  transition: 0.3s;
+  transition: 0.6s;
   color: white;
 }
 
@@ -322,11 +318,10 @@ padding-right: 1%;
 
 .overlay .closebtn {
   position: absolute;
-  right: 32px;
-  top: 47.2vh;
+  right: 20px;
+  top: -58px;
 /* margin-left: 24px; */
-  font-size: 28px;
-  line-height: 18px;
+  font-size: 24px;
   opacity: 1;
   padding: 0px;
   cursor: pointer;

@@ -4,13 +4,15 @@
 
 body {
 margin: 0px 0%;
-scroll-behavior: smooth;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 
 }
 
+* {
+  scroll-behavior: smooth;
 
+}
 
 nav.it {
     -webkit-transform:rotate(-90deg) translateX(-100%);
