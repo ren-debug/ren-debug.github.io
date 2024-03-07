@@ -1,0 +1,10 @@
+.intro p {
+    font-family: 'NeueHaasGroteskDisplay45Light';
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    color: rgb(70, 70, 70);
+    float: right;
+    margin-top: 32px;
+      width: 45%;
+  }

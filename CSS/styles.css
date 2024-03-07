@@ -4,15 +4,13 @@
 
 body {
 margin: 0px 0%;
+scroll-behavior: smooth;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 
 }
 
-* {
-  scroll-behavior: smooth;
 
-}
 
 nav.it {
     -webkit-transform:rotate(-90deg) translateX(-100%);
@@ -187,7 +185,6 @@ a:hover {
 .square {
     padding: 0px 0px 0px 0px;
     border: 0.5px solid #e6dada3f;
-    /* filter: drop-shadow(0 0 0.25rem rgb(129, 129, 129)); */
     outline: none;
     margin: 0px 6px 0px 0px;
     width: 30px;
@@ -219,25 +216,24 @@ a:hover {
   
  .tooltip .tooltiptext {
     visibility: hidden;
-    width: 120px;
     text-align: center;
-    border-radius: 6px;
-    padding: 0px 0;
+
     font-size: .6rem;
   
     /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    top: 100%;
-    left: 0%;
-    margin-left: 0px;
+ 
   }
 
   
   .tooltip:hover .tooltiptext {
     visibility: visible;
-    color: #000000;
+    color: #666666; 
+    width: 200px;
 
+   z-index: 1;
+    top: 0%;
+    left: 0%;
+    margin-left: 0px;
   }
 
 

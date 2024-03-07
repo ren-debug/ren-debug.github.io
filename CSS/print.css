@@ -6,9 +6,8 @@
 }
 
 
-p {
+.intro p {
   font-family: 'NeueHaasGroteskDisplay45Light';
-  /* font-style: normal;   */
   font-size: 12px;
   line-height: 24px;
   letter-spacing: 0.8px;
@@ -28,30 +27,7 @@ section {
   padding-top: 40px;
 }
 
-.tooltip {
-  position: relative;
-  display: inline-block;
-  /* border-bottom: 1px dotted black; */
-}
 
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  color: rgb(70, 70, 70);
-  text-align: right;
-  /* border-radius: 6px; */
-  padding: 0;
-  
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-  top: -5px;
-  left: 120%;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
 
 
 #flip1, #flip2, #flip3, #flip4 {

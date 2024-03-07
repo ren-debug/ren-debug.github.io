@@ -10,31 +10,23 @@
 }
 
 
-body {
-    /* color: #666666; */
+/* body {
     background-color: white;
 
-}
+} */
+
 
 
 .content {
   color: #666666;
 }
-navigation {
-width: 100%;
-    /* color: #666666; */
-    mix-blend-mode: exclusion;
-    /* background-color: transparent; */
-    /* background-color: rgba(15, 15, 15, 0.543); */
-    backdrop-filter: blur(10px);
 
-  }
 
 
   .websiteFrame {
     position: fixed;
-    z-index: 990;
-    background-color: white;
+    z-index: 1001;
+    /* background-color: white; */
     border-bottom: 0px;
   }
   
@@ -51,21 +43,21 @@ width: 100%;
     top: 0;
     bottom: 0;
     right: 0;
-    width: 2px;
+    width: 4px;
   }
   
   #websiteFrameBottom {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 2px;
+    height: 4px;
   }
   
   #websiteFrameLeft {
     top: 0;
     bottom: 0;
     left: 0;
-    width: 2px;
+    width: 4px;
   }
   
 
@@ -191,7 +183,7 @@ width: 100%;
     font-family: 'NeueHaasGroteskDisplay45Light';
     font-weight: 400;
     font-size: 12px;
-    line-height: 24px;
+    line-height: 14px;
 }
 
 
@@ -214,8 +206,9 @@ width: 100%;
 /* Section - Block */
 /**************************/
 #about .block {
-  background: white;
+  /* background: white; */
   height: 100vh;
+  color: white;
   
   /* padding: 60px; */
   width: 820px;
@@ -236,7 +229,6 @@ width: 100%;
   #skills .block {
     background: white;
     height: 100vh;
-    /* padding: 60px; */
     width: 820px;
     margin: 0 auto;
     text-align: justify;
@@ -307,7 +299,7 @@ width: 100%;
   background-position: bottom right;
 }
 
-/* #contact .parallax-one {
+#contact .parallax-one {
   padding-top: 244px;
   padding-bottom: 244px;
   overflow: hidden;
@@ -321,12 +313,10 @@ width: 100%;
   -webkit-background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom right;
-} */
+}
 
 .details {
-  /* background-color: rgba(0, 0, 0, 0.543);
-  backdrop-filter: blur(10px);
-  border-radius: 50px; */
+
   width: 280px;
   display: flex;
  margin: auto;
@@ -387,7 +377,7 @@ hr {
 }
 
 .axure {
-    width: 14px;
+    width: 12px;
     padding-left: 8.5px;
     padding-top: 8.5px;
     padding-bottom: 0;
@@ -395,17 +385,17 @@ hr {
 }
 
 .framer {
-    width: 14px;
-    padding-left: 9px;
-    padding-top: 8px;
+  width: 12px;
+  padding-left: 9px;
+  padding-top: 8px;
     padding-bottom: 0;
     margin: 0;
 }
 
 .marvel {
-    width: 21px;
-    padding-left: 6px;
-    padding-top: 9px;
+  width: 18px;
+  padding-left: 6.5px;
+  padding-top: 8.5px;
     padding-bottom: 0;
     margin: 0;
 }
@@ -413,7 +403,7 @@ hr {
 .pin {
     width: 21px;
     padding-left: 5px;
-    padding-top: 13px;
+    padding-top: 11px;
     padding-bottom: 0;
     margin: 0;
 }
@@ -425,38 +415,9 @@ hr {
     position: absolute;
 }
 
-.tooltip {
-    position: relative;
-    display: inline-block;
-    
-  }
-  
-  .tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    color: #767473;
-    text-align: center;
-    border-radius: 6px;
-    padding: 0px 0;
-    font-size: .6rem;
-  
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -60px;
-  }
-
-  
-  .tooltip:hover .tooltiptext:hover {
-    visibility: visible;
-    color: black;
-  }
-
+/* 
 
   .contact {
-    /* transform: translate(0,100%) rotate(0deg); */
     padding: 0% 0;
     text-align: center;
     margin: 0;
@@ -467,19 +428,25 @@ hr {
     position: absolute;
     right: 24px;
     height: 20vh;
-    /* transform: translate(-50%, -50%); */
-    /* width: calc(24vw + 1.2rem); */
+  
     justify-content: space-evenly;
-    z-index: 0;
+    z-index: 2000;
   }
   
   
   .contact i {
-    font-size: 0.9rem;
-    color: rgb(70, 70, 70);
-  
+    font-size: 1rem;
+    color: #666666;
   }
 
+  .contact .tooltiptext {
+    text-align: right;
+    bottom: 27%;
+    right: 50%;
+    margin-left: -148px;
+    
+  } */
+  
 /* .contact a {
     color: white;
     opacity: 1;
@@ -491,10 +458,9 @@ hr {
     right: 20px;
   } */
   
-  .menu-wrapper .square {
+  /* .menu-wrapper .square {
     padding: 0px 0px 0px 0px;
     border: 0.5px solid #e6dada3f;
-    /* filter: drop-shadow(0 0 0.25rem rgb(129, 129, 129)); */
     outline: none;
     margin: 4px;
     width: 28px;
@@ -505,9 +471,9 @@ hr {
     transition: transform .2s;
   
   
-  }
+  } */
   
-  
+/*   
   .contact .square i {
     position: absolute;
     z-index: 1;
@@ -519,7 +485,7 @@ hr {
   
   .fi-brands-linkedin {
     padding-left: 1px;
-  }
+  } */
 
 
 /* Media Queries */
@@ -537,7 +503,6 @@ hr {
   }
 
   #skills .block {
-    /* padding-bottom: 40px; */
     padding-left: 64px;
     width: 700px;
   }
@@ -572,9 +537,9 @@ hr {
     width: 440px;
     padding-right: 0;
   }
-  #about h2, #clients h2, #skills h2 {
+  /* #about h2, #clients h2, #skills h2 {
     font-size: 30px;
-  }
+  } */
 
   #about h2, #clients h2, #skills h2 {
     font-family: 'the_new_eleganceCnRg';
@@ -706,10 +671,10 @@ hr {
 #skills .square i {
   position: absolute;
   z-index: 1;
-  top: 6.5px;
+  top: 6px;
   left: 0%;
-  margin-left: 6.5px;
-  font-size: .8rem;
+  margin-left: 4px;
+  font-size: .6rem;
 }
 
 .axure {
