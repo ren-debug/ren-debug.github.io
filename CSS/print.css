@@ -5,6 +5,13 @@
 
 }
 
+.fi-br-menu-burger {
+  position: fixed;
+  right: 24px;
+  top: 16px;
+  z-index: 200;
+
+}
 
 .intro p {
   font-family: 'NeueHaasGroteskDisplay45Light';
@@ -17,10 +24,10 @@
 	width: 45%;
 }
 
-hr {
+/* hr {
   margin-bottom: 12px;
   border: 0.5px solid  #9f9f9f77;
-}
+} */
 
 section {
   margin-top: 40px;
@@ -90,7 +97,7 @@ section {
 
   button {
     background-color: transparent;
-    border: 0.5px solid rgb(120, 120, 120);
+    border: 1px solid rgb(176, 176, 176);
     float: left;
 
   }

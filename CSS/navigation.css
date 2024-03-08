@@ -1,0 +1,160 @@
+@import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-bold-rounded/css/uicons-bold-rounded.css');
+
+navigation {
+    position: fixed;
+    display: flex;
+    top: 0px;
+    left: 0px;
+    right: 0%;
+    height: 52px;
+
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    background-color: #ffffff02;
+    mix-blend-mode: exclusion;
+
+}
+
+
+
+
+.nav_links {
+    position: fixed;
+    display: flex;
+    top: 0px;
+    left: 0px;
+    right: 0%;
+    height: 52px;
+    font-family: 'NeueHaasGroteskDisplay45Light';
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    mix-blend-mode: exclusion;
+
+}
+
+.nav_links {
+    position: fixed;
+    display: flex;
+    top: 0px;
+    left: 0px;
+    right: 0%;
+    height: 52px;
+    font-family: 'NeueHaasGroteskDisplay45Light';
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    mix-blend-mode: exclusion;
+
+}
+
+
+navigation a {
+    text-decoration: none;
+
+}
+
+.active {
+    transition: .3s ease-out;
+    opacity: .5;
+    text-decoration: underline;
+
+}
+
+
+navigation .hvr-push {
+    display: block;
+    margin: auto;
+    margin-top: 0vh;
+
+}
+
+
+navigation a:hover,
+menu li a:hover {
+    text-decoration: underline;
+}
+
+navigation button {
+    position: fixed;
+    top: 14px;
+    right: 24px;
+    z-index: 2000;
+    border-radius: 50px;
+    width: 100px;
+    height: 36px;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    padding: 0px;
+    color: #212121;
+    background-color: white;
+    mix-blend-mode: exclusion;
+
+}
+
+
+.vl {
+    border-left: 0.5px solid #9f9f9fa7;
+    height: 100vh;
+    position: fixed;
+    left: 0%;
+    margin-left: 46px;
+    top: 0px;
+    display: block;
+    z-index: 990;
+}
+
+
+
+
+
+.fi-br-menu-burger {
+    position: fixed;
+    right: 24px;
+    top: 49%;
+    /* margin-left: 24px; */
+    font-size: 17px;
+    opacity: 1;
+    padding: 0px;
+    cursor: pointer;
+    /* z-index: 1; */
+    color: #666666;
+
+
+}
+
+
+.fi-tr-house-chimney {
+    position: fixed;
+    left: 14px;
+    top: 18px;
+    font-size: 0.9rem;
+    z-index: 1000;
+
+}
+
+
+
+
+/* Media Queries */
+/**************************/
+@media screen and (min-width: 960px) and (max-width: 1200px) {}
+
+
+@media screen and (max-width: 959px) and (min-width: 769px) {}
+
+
+@media screen and (max-width: 788px) {}
+
+
+@media screen and (max-width: 620px) {}
+
+
+@media screen and (max-width: 500px) {}
+
+
+@media screen and (max-width: 420px) {}

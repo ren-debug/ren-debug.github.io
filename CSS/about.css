@@ -57,7 +57,6 @@ button {
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
-
 navigation, .nav_links {
   position: fixed;
     display: flex;
