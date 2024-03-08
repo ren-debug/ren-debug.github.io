@@ -94,7 +94,7 @@ section {
 }
 
 #about .intro {
-  margin-top: 56vh;
+  margin-top: 60vh;
 }
 .intro {
 
@@ -158,6 +158,8 @@ padding-top: 0px;
 .intro {
 	margin: 40px 0 40px 0;
 }
+
+
 
 .intro h3 {
   font-family: 'the_new_eleganceitalic';
@@ -230,7 +232,7 @@ padding-top: 0px;
 #about .intro p {
   font-family: 'NeueHaasGroteskDisplay45Light';
   /* font-style: normal;   */
-  font-size: 12px;
+  font-size: 11.5px;
   line-height: 24px;
   letter-spacing: 0.8px;
   /* color: rgb(70, 70, 70); */
@@ -246,7 +248,7 @@ padding-top: 0px;
 .intro p {
   font-family: 'NeueHaasGroteskDisplay45Light';
   /* font-style: normal;   */
-  font-size: 12px;
+  font-size: 11.5px;
   line-height: 24px;
   letter-spacing: 0.8px;
   color: rgb(86, 86, 86);

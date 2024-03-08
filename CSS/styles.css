@@ -345,6 +345,8 @@ button.tablinks {
   
   .view {
     float: right;
+    font-size: 0.7rem;
+
     /* text-decoration-line: underline;
     text-underline-offset: 0.4em;
     text-decoration-thickness: 0.50px;

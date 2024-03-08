@@ -337,8 +337,9 @@
 /**************************/
 
 .opentab hr {
-    padding: 0px;
-    margin: 0px 0px;
+  margin-top: 6px;
+
+    margin-bottom: 6px;
     opacity: 1;
 }
 
@@ -354,7 +355,7 @@
 
 
 .opentab p {
-    padding-top: 0px;
+    padding-top: 6px;
     padding-bottom: 12px;
     margin: 0;
 }
