@@ -436,14 +436,16 @@ padding-right: 1%;
   
   }
 
-  /* .contact {
-    display: none;
-} */
-
-navigation, .nav_links {
-  height: 12px;
-}
-
+  navigation {
+    height: 60px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .nav_links {
+    height: 40px;
+    /* width: 260px; */
+  }
 
 
   navigation a {
@@ -490,17 +492,21 @@ display: none;
   
   }
 
-  navigation, .nav_links {
-  height: 36px;
-  width: 260px;
+  navigation {
+  height: 60px;
+  width: 100%;
   margin: auto;
+}
+
+.nav_links {
+  height: 5px;
+  /* width: 260px; */
 }
 
 
 
-
 .contact i {
-padding: 0 8px;
+padding: 0 6px;
 }
 
 
@@ -522,8 +528,8 @@ padding: 0 8px;
 
 .fi-br-menu-burger {
   position: fixed;
-  left: 24px;
-  top: 24px;
+  right: 0px;
+  top: 0px;
 
   opacity: 1;
   cursor: pointer;

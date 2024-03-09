@@ -46,28 +46,55 @@ navigation {
 
   }
 
-  .card, .card_1 {
-    /* width: 130px;
-    height: 195px; */
+
+  .zoom {
+    display: flex;
+    margin-top: 240px;
+  }
+  .card {
+    width: 30%;
+    /* height: 195px; */
     position: relative;
-    display: inline-block;
-   
+    /* display: inline; */
+    float: left;
     margin: 0px;
   }
+
+
+  .card_1 {
+    /* width: 130px;
+    height: 195px; */
+    width: 30%;
+
+    position: relative;
+    /* display: inline; */
+   float: right;
+   margin-left: 25%;
+    /* margin: 0px; */
+  }
+
+
+
   .card .img-top, .card_1 .img-top-1 {
     display: none;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 99;
+    background-color: transparent;
+
   }
   .card:hover .img-top {
     display: inline;
+    background-color: transparent;
+
   }
   
   
   .card_1:hover .img-top-1 {
     display: inline;
+    background-color: transparent;
+
   }
   
   
@@ -89,20 +116,21 @@ navigation {
    transition-property: -webkit-transform;
    -webkit-transform: scale(1.5); /* set zoom level */
   
-  
+   background-color: transparent;
+
    -webkit-transform-origin: center; /* set img position */
    z-index: 1000; 
   }
 
 
-#flip1, #flip2, #flip3, #flip4, #flip5, #flip6, #flip7 {
+#flip1, #flip2, #flip3, #flip4, #flip5, #flip6, #flip7, #flip8, #flip9 {
     margin-top: 32px;
     margin-bottom: 0px;
     cursor: pointer;
   
   }
   
-#panel1, #panel2, #panel3, #panel4, #panel5, #panel6, #panel7 {
+#panel1, #panel2, #panel3, #panel4, #panel5, #panel6, #panel7, #panel8, #panel9 {
     display: none;
     text-align: justify;
     margin-top: 60px;
@@ -112,6 +140,32 @@ navigation {
   
   }
 
+
+  .media_1 {
+    display: flex;
+    margin-top: 240px;
+  }
+  .media_left {
+    width: 30%;
+    /* height: 195px; */
+    position: relative;
+    /* display: inline; */
+    float: left;
+    margin: 0px;
+  }
+
+
+  .media_right {
+    /* width: 130px;
+    height: 195px; */
+    width: 50%;
+
+    position: relative;
+    /* display: inline; */
+   float: right;
+   margin-left: 25%;
+    /* margin: 0px; */
+  }
 
 
   .intro {
