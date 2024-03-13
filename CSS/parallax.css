@@ -55,6 +55,7 @@ navigation {
     width: 30%;
     /* height: 195px; */
     position: relative;
+    background-color: transparent;
     /* display: inline; */
     float: left;
     margin: 0px;
@@ -65,6 +66,7 @@ navigation {
     /* width: 130px;
     height: 195px; */
     width: 30%;
+    background-color: transparent;
 
     position: relative;
     /* display: inline; */
@@ -144,6 +146,7 @@ navigation {
   .media_1 {
     display: flex;
     margin-top: 240px;
+
   }
   .media_left {
     width: 30%;
@@ -152,6 +155,7 @@ navigation {
     /* display: inline; */
     float: left;
     margin: 0px;
+
   }
 
 
@@ -263,8 +267,8 @@ padding-top: 0px;
     margin-top: 44px;
     width: 100%;
 height: 100vh;
-    background-color: #121212;
-    background-attachment: fixed;
+background-image: url("/img/parallax_2.png");
+background-attachment: fixed;
     background-size: 100%;
     -moz-background-size: 100%;
     -webkit-background-size: cover;
