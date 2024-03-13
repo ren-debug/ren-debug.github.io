@@ -171,6 +171,15 @@ navigation {
     /* margin: 0px; */
   }
 
+  #pinzut .media_right {
+    width: 90%;
+    /* height: 195px; */
+    position: relative;
+    /* display: inline; */
+    float: right;
+   margin-left: 25%;
+
+  }
 
   .intro {
 
